@@ -39,7 +39,7 @@ const pieces = [
   { src: yellowSapphireHaloRing, name: "Yellow Sapphire Halo", desc: "Yellow Gold · Cushion Yellow Sapphire · Diamond Halo & Pavé" },
   { src: gemstoneBangles, name: "Gemstone Open Bangles", desc: "Sterling Silver · Tourmaline & Garnet · Bezel-Set Mixed Cuts" },
   { src: tourmalineBarNecklace, name: "Tourmaline Bar Link Necklace", desc: "White Gold · Emerald-Cut Tourmalines · Peach Morganite Stations" },
-  { src: tourmalineBarNecklace2, name: "Tourmaline & Garnet Station Necklace", desc: "White Gold · Rhodolite Garnet · Tsavorite · Mixed Fancy Cuts" },
+  
   { src: rubyDiamondStuds, name: "Ruby Lattice Dome Studs", desc: "White Gold · Rubies · Diamond Openwork Lattice" },
   { src: pinkTourmalineDropEarrings, name: "Pink Tourmaline Drop Earrings", desc: "White Gold · Oval Pink Tourmaline · Diamond Halo & Pavé" },
   { src: tsavoriteDropEarrings, name: "Tsavorite Sunburst Drops", desc: "Yellow Gold · Oval Tsavorite · Diamond Sunburst Halo" },
