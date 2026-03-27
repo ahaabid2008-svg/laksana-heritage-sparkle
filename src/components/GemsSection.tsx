@@ -13,13 +13,13 @@ const gems = [
   { src: fireGem, name: "Padparadscha Sapphire", desc: "A rare flame-like specimen" },
   { src: blueSapphires, name: "Ceylon Blue Sapphires", desc: "Vivid royal blue, unheated" },
   { src: pearSapphires, name: "Pear-Cut Sapphires", desc: "Hand-selected matching set" },
-  { src: blueSapphireLoose, name: "Blue Sapphire", desc: "Oval-cut Ceylon blue sapphire" },
+  { src: blueSapphireLoose, name: "Ceylon Blue Sapphire", desc: "Three generations of blue sapphire expertise" },
   { src: catsEyeGem, name: "Quartz Bull's Eye", desc: "Classic optical effect with bright center and colorful rings" },
-  { src: lapisGem, name: "Lapis Lazuli", desc: "Deep celestial blue with pyrite" },
-  { src: demantoidGem, name: "Demantoid Garnet", desc: "Brilliant green with horsetail inclusions" },
+  { src: lapisGem, name: "Hackmanite", desc: "Tenebrescent sodalite, color-changing under UV light" },
+  { src: demantoidGem, name: "Demantoid Garnet", desc: "Rare green garnet with signature horsetail inclusions" },
   { src: silkInclusion, name: "Sapphire Silk Inclusion", desc: "Microscopic rutile needle patterns" },
-  { src: jellyfishInclusion, name: "Jellyfish Inclusion", desc: "Natural formation in sapphire" },
-  { src: horsetailInclusion, name: "Horsetail Inclusion", desc: "Golden crystal inclusion in demantoid" },
+  { src: jellyfishInclusion, name: "Beryllium Treatment Detection", desc: "Advanced gemological testing on sapphire" },
+  { src: horsetailInclusion, name: "Horsetail Inclusion", desc: "Golden threads in authentic demantoid garnet" },
 ];
 
 const GemsSection = () => {
