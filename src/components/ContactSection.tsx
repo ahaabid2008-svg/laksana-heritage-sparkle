@@ -1,4 +1,4 @@
-import { MapPin, Phone, Clock } from "lucide-react";
+import { MapPin, Phone, Clock, Mail, Facebook, Instagram } from "lucide-react";
 
 const whatsappNumbers = [
   { display: "0777 900 170", number: "94777900170" },
@@ -59,6 +59,35 @@ const ContactSection = () => {
               & Walk-in Welcome
             </p>
           </div>
+        </div>
+
+        {/* Social & Email Row */}
+        <div className="mt-12 flex flex-wrap justify-center gap-6">
+          <a
+            href="mailto:info.laksana@gmail.com"
+            className="flex items-center gap-2 font-accent text-sm text-cream/50 hover:text-cream transition-colors duration-300"
+          >
+            <Mail className="w-4 h-4" />
+            info.laksana@gmail.com
+          </a>
+          <a
+            href="https://www.instagram.com/laksana._"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 font-accent text-sm text-cream/50 hover:text-cream transition-colors duration-300"
+          >
+            <Instagram className="w-4 h-4" />
+            @laksana._
+          </a>
+          <a
+            href="https://www.facebook.com/laksanajewellery"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 font-accent text-sm text-cream/50 hover:text-cream transition-colors duration-300"
+          >
+            <Facebook className="w-4 h-4" />
+            LAKSANA
+          </a>
         </div>
       </div>
     </section>
