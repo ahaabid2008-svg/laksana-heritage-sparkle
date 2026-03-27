@@ -11,7 +11,7 @@ const ContactSection = () => {
     <section id="contact" className="py-24 md:py-32 bg-background">
       <div className="max-w-5xl mx-auto px-6">
         <div className="text-center mb-16">
-          <p className="font-accent text-sm tracking-[0.4em] uppercase text-gold/60 mb-4">
+          <p className="font-accent text-sm tracking-[0.4em] uppercase text-cream/60 mb-4">
             Visit Us
           </p>
           <h2 className="font-display text-4xl md:text-5xl text-cream tracking-wide">
@@ -22,8 +22,8 @@ const ContactSection = () => {
 
         <div className="grid md:grid-cols-3 gap-8 md:gap-12">
           {/* Location */}
-          <div className="text-center space-y-4 p-8 border border-gold/10 hover:border-gold/30 transition-colors duration-500">
-            <MapPin className="w-6 h-6 text-gold mx-auto" />
+          <div className="text-center space-y-4 p-8 border border-cream/10 hover:border-cream/30 transition-colors duration-500">
+            <MapPin className="w-6 h-6 text-cream mx-auto" />
             <h3 className="font-display text-lg text-cream">Location</h3>
             <p className="font-accent text-cream/50 leading-relaxed">
               Galle Fort<br />
@@ -32,8 +32,8 @@ const ContactSection = () => {
           </div>
 
           {/* WhatsApp */}
-          <div className="text-center space-y-4 p-8 border border-gold/10 hover:border-gold/30 transition-colors duration-500">
-            <Phone className="w-6 h-6 text-gold mx-auto" />
+          <div className="text-center space-y-4 p-8 border border-cream/10 hover:border-cream/30 transition-colors duration-500">
+            <Phone className="w-6 h-6 text-cream mx-auto" />
             <h3 className="font-display text-lg text-cream">WhatsApp</h3>
             <div className="space-y-3">
               {whatsappNumbers.map((num) => (
@@ -42,7 +42,7 @@ const ContactSection = () => {
                   href={`https://wa.me/${num.number}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block font-accent text-cream/50 hover:text-gold transition-colors duration-300"
+                  className="block font-accent text-cream/50 hover:text-cream transition-colors duration-300"
                 >
                   {num.display}
                 </a>
@@ -51,8 +51,8 @@ const ContactSection = () => {
           </div>
 
           {/* Hours */}
-          <div className="text-center space-y-4 p-8 border border-gold/10 hover:border-gold/30 transition-colors duration-500">
-            <Clock className="w-6 h-6 text-gold mx-auto" />
+          <div className="text-center space-y-4 p-8 border border-cream/10 hover:border-cream/30 transition-colors duration-500">
+            <Clock className="w-6 h-6 text-cream mx-auto" />
             <h3 className="font-display text-lg text-cream">Hours</h3>
             <p className="font-accent text-cream/50 leading-relaxed">
               By Appointment<br />
