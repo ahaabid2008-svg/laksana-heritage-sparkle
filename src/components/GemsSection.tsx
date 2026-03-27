@@ -2,10 +2,12 @@ import fireGem from "@/assets/fire-gem.jpeg";
 import blueSapphires from "@/assets/blue-sapphires.jpeg";
 import lapisGem from "@/assets/lapis-gem.jpeg";
 import demantoidGem from "@/assets/demantoid-gem.jpeg";
+import pearSapphires from "@/assets/pear-sapphires.jpeg";
 
 const gems = [
   { src: fireGem, name: "Padparadscha Sapphire", desc: "A rare flame-like specimen" },
   { src: blueSapphires, name: "Ceylon Blue Sapphires", desc: "Vivid royal blue, unheated" },
+  { src: pearSapphires, name: "Pear-Cut Sapphires", desc: "Hand-selected matching set" },
   { src: lapisGem, name: "Lapis Lazuli", desc: "Deep celestial blue with pyrite" },
   { src: demantoidGem, name: "Demantoid Garnet", desc: "Brilliant green with horsetail inclusions" },
 ];
@@ -24,7 +26,7 @@ const GemsSection = () => {
           <div className="divider-gold w-24 mx-auto mt-6" />
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6">
           {gems.map((gem) => (
             <div key={gem.name} className="group relative overflow-hidden">
               <img
