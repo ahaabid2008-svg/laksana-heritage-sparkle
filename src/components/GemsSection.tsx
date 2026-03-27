@@ -3,7 +3,6 @@ import blueSapphires from "@/assets/blue-sapphires.jpeg";
 import lapisGem from "@/assets/lapis-gem.jpeg";
 import demantoidGem from "@/assets/demantoid-gem.jpeg";
 import pearSapphires from "@/assets/pear-sapphires.jpeg";
-import silkInclusion from "@/assets/silk-inclusion.jpeg";
 import jellyfishInclusion from "@/assets/jellyfish-inclusion.jpeg";
 import horsetailInclusion from "@/assets/horsetail-inclusion.jpeg";
 import blueSapphireLoose from "@/assets/blue-sapphire-loose.jpeg";
