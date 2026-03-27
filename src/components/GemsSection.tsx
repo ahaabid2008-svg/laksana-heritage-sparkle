@@ -14,7 +14,7 @@ const gems = [
   { src: blueSapphires, name: "Ceylon Blue Sapphires", desc: "Vivid royal blue, unheated" },
   { src: pearSapphires, name: "Pear-Cut Sapphires", desc: "Hand-selected matching set" },
   { src: blueSapphireLoose, name: "Blue Sapphire", desc: "Oval-cut Ceylon blue sapphire" },
-  { src: catsEyeGem, name: "Cat's Eye Chrysoberyl", desc: "Rare chatoyant cabochon" },
+  { src: catsEyeGem, name: "Quartz Bull's Eye", desc: "Classic optical effect with bright center and colorful rings" },
   { src: lapisGem, name: "Lapis Lazuli", desc: "Deep celestial blue with pyrite" },
   { src: demantoidGem, name: "Demantoid Garnet", desc: "Brilliant green with horsetail inclusions" },
   { src: silkInclusion, name: "Sapphire Silk Inclusion", desc: "Microscopic rutile needle patterns" },
