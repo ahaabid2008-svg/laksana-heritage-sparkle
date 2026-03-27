@@ -13,11 +13,13 @@ import pinkTourmalineRing from "@/assets/pink-tourmaline-ring.jpeg";
 import aquamarineHaloRing from "@/assets/aquamarine-halo-ring.jpeg";
 import aquamarineTrilogyRing from "@/assets/aquamarine-trilogy-ring.jpeg";
 import diamondLetterNecklace from "@/assets/diamond-letter-necklace.jpeg";
+import sapphireTrilogyRing from "@/assets/sapphire-trilogy-ring.jpeg";
 
 const pieces = [
   { src: sapphireRing, name: "Royal Sapphire Trilogy", desc: "Platinum · Blue Sapphire · Diamonds" },
   { src: emeraldRing, name: "Emerald Floral Cocktail", desc: "Yellow Gold · Tsavorite · Diamond Halo" },
   { src: blueSapphireRing, name: "Timeless, Tangled & One-Of-A-Kind", desc: "Rose Gold · 3ct Blue Sapphire · Round & Marquise Diamonds" },
+  { src: sapphireTrilogyRing, name: "Ceylon Sapphire Trilogy", desc: "Yellow Gold · Oval Blue Sapphire · Round Brilliant Diamonds" },
   { src: pinkTourmalineRing, name: "Pink Tourmaline Asscher Ring", desc: "Yellow Gold · Pink Tourmaline · Diamond Clusters" },
   { src: aquamarineHaloRing, name: "Aquamarine Cushion Halo", desc: "18kt White Gold · 7ct Aquamarine · Green Tourmalines" },
   { src: aquamarineTrilogyRing, name: "Aquamarine Trilogy Ring", desc: "18kt White Gold · Aquamarine · Green Tourmaline" },
