@@ -14,12 +14,22 @@ import aquamarineHaloRing from "@/assets/aquamarine-halo-ring.jpeg";
 import aquamarineTrilogyRing from "@/assets/aquamarine-trilogy-ring.jpeg";
 import diamondLetterNecklace from "@/assets/diamond-letter-necklace.jpeg";
 import sapphireTrilogyRing from "@/assets/sapphire-trilogy-ring.jpeg";
+import aquamarineMarquiseRing from "@/assets/aquamarine-marquise-ring.jpeg";
+import zultaniteSolitaireRing from "@/assets/zultanite-solitaire-ring.jpeg";
+import multiSapphireStackingRings from "@/assets/multi-sapphire-stacking-rings.jpeg";
+import sapphireStarburstRing from "@/assets/sapphire-starburst-ring.jpeg";
+import yellowSapphireHaloRing from "@/assets/yellow-sapphire-halo-ring.jpeg";
 
 const pieces = [
   { src: sapphireRing, name: "Royal Sapphire Trilogy", desc: "Platinum · Blue Sapphire · Diamonds" },
   { src: emeraldRing, name: "Emerald Floral Cocktail", desc: "Yellow Gold · Tsavorite · Diamond Halo" },
   { src: blueSapphireRing, name: "Timeless, Tangled & One-Of-A-Kind", desc: "Rose Gold · 3ct Blue Sapphire · Round & Marquise Diamonds" },
   { src: sapphireTrilogyRing, name: "Ceylon Sapphire Trilogy", desc: "Yellow Gold · Oval Blue Sapphire · Round Brilliant Diamonds" },
+  { src: aquamarineMarquiseRing, name: "Aquamarine Marquise Cocktail", desc: "Platinum · Marquise Aquamarine · Tapered Baguette Diamonds" },
+  { src: zultaniteSolitaireRing, name: "Zultanite Solitaire", desc: "Yellow Gold · Colour-Change Zultanite · Four-Prong Setting" },
+  { src: multiSapphireStackingRings, name: "Multi-Sapphire Stacking Set", desc: "Yellow Gold · Bezel-Set Sapphires · Mixed Fancy Cuts" },
+  { src: sapphireStarburstRing, name: "Sapphire Starburst Ring", desc: "White Gold · Oval Blue Sapphire · Diamond Sunburst Halo" },
+  { src: yellowSapphireHaloRing, name: "Yellow Sapphire Halo", desc: "Yellow Gold · Cushion Yellow Sapphire · Diamond Halo & Pavé" },
   { src: pinkTourmalineRing, name: "Pink Tourmaline Asscher Ring", desc: "Yellow Gold · Pink Tourmaline · Diamond Clusters" },
   { src: aquamarineHaloRing, name: "Aquamarine Cushion Halo", desc: "18kt White Gold · 7ct Aquamarine · Green Tourmalines" },
   { src: aquamarineTrilogyRing, name: "Aquamarine Trilogy Ring", desc: "18kt White Gold · Aquamarine · Green Tourmaline" },
