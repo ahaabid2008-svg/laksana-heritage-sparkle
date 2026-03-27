@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
-    <footer className="py-12 bg-charcoal border-t border-gold/10">
+    <footer className="py-12 bg-charcoal border-t border-cream/10">
       <div className="max-w-7xl mx-auto px-6 text-center">
-        <p className="font-display text-xl tracking-[0.3em] text-gold mb-4">
+        <p className="font-display text-xl tracking-[0.3em] text-cream mb-4">
           LAKSANA
         </p>
         <p className="font-accent text-sm text-cream/30">

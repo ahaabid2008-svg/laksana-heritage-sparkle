@@ -6,7 +6,7 @@ const GemologistSection = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-12 md:gap-20 items-center">
           <div className="order-2 md:order-1 space-y-6">
-            <p className="font-accent text-sm tracking-[0.4em] uppercase text-gold/60">
+            <p className="font-accent text-sm tracking-[0.4em] uppercase text-cream/60">
               Expert Eye
             </p>
             <h2 className="font-display text-4xl md:text-5xl text-cream tracking-wide">
@@ -20,8 +20,8 @@ const GemologistSection = () => {
               Each gemstone is examined for colour, clarity, cut and carat weight, ensuring only the finest specimens are selected for our bespoke collections. This dedication to quality is what sets LAKSANA apart.
             </p>
             <div className="flex items-center gap-3 pt-4">
-              <div className="w-12 h-px bg-gold/40" />
-              <p className="font-body text-xs tracking-[0.3em] uppercase text-gold/60">
+              <div className="w-12 h-px bg-cream/40" />
+              <p className="font-body text-xs tracking-[0.3em] uppercase text-cream/60">
                 GIA Certified · Third Generation
               </p>
             </div>
@@ -35,7 +35,7 @@ const GemologistSection = () => {
                 className="w-full aspect-[3/4] object-cover object-top group-hover:scale-105 transition-transform duration-700"
               />
             </div>
-            <div className="absolute inset-0 border border-gold/20 -translate-x-4 translate-y-4 -z-10" />
+            <div className="absolute inset-0 border border-cream/20 -translate-x-4 translate-y-4 -z-10" />
           </div>
         </div>
       </div>
