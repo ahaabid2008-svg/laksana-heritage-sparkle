@@ -17,7 +17,7 @@ import diamondLetterNecklace from "@/assets/diamond-letter-necklace.jpeg";
 const pieces = [
   { src: sapphireRing, name: "Royal Sapphire Trilogy", desc: "Platinum · Blue Sapphire · Diamonds" },
   { src: emeraldRing, name: "Emerald Floral Cocktail", desc: "Yellow Gold · Tsavorite · Diamond Halo" },
-  { src: blueSapphireRing, name: "Ceylon Sapphire Solitaire", desc: "White Gold · Blue Sapphire · Triple Band Diamonds" },
+  { src: blueSapphireRing, name: "Timeless, Tangled & One-Of-A-Kind", desc: "Rose Gold · 3ct Blue Sapphire · Round & Marquise Diamonds" },
   { src: pinkTourmalineRing, name: "Pink Tourmaline Asscher Ring", desc: "Yellow Gold · Pink Tourmaline · Diamond Clusters" },
   { src: aquamarineHaloRing, name: "Aquamarine Cushion Halo", desc: "18kt White Gold · 7ct Aquamarine · Green Tourmalines" },
   { src: aquamarineTrilogyRing, name: "Aquamarine Trilogy Ring", desc: "18kt White Gold · Aquamarine · Green Tourmaline" },
