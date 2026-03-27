@@ -9,14 +9,22 @@ import garnetRing from "@/assets/garnet-ring.jpeg";
 import morganiteRing from "@/assets/morganite-ring.jpeg";
 import sapphireEarrings from "@/assets/sapphire-earrings.jpeg";
 import blueSapphireRing from "@/assets/blue-sapphire-ring.jpeg";
+import pinkTourmalineRing from "@/assets/pink-tourmaline-ring.jpeg";
+import aquamarineHaloRing from "@/assets/aquamarine-halo-ring.jpeg";
+import aquamarineTrilogyRing from "@/assets/aquamarine-trilogy-ring.jpeg";
+import diamondLetterNecklace from "@/assets/diamond-letter-necklace.jpeg";
 
 const pieces = [
   { src: sapphireRing, name: "Royal Sapphire Trilogy", desc: "Platinum · Blue Sapphire · Diamonds" },
   { src: emeraldRing, name: "Emerald Floral Cocktail", desc: "Yellow Gold · Tsavorite · Diamond Halo" },
   { src: blueSapphireRing, name: "Ceylon Sapphire Solitaire", desc: "White Gold · Blue Sapphire · Triple Band Diamonds" },
+  { src: pinkTourmalineRing, name: "Pink Tourmaline Asscher Ring", desc: "Yellow Gold · Pink Tourmaline · Diamond Clusters" },
+  { src: aquamarineHaloRing, name: "Aquamarine Cushion Halo", desc: "Yellow Gold · Aquamarine · Pavé Diamond Halo" },
+  { src: aquamarineTrilogyRing, name: "Aquamarine Trilogy Ring", desc: "White Gold · Aquamarine · Green Tourmaline" },
   { src: garnetRing, name: "Hessonite Sunburst", desc: "White Gold · Hessonite Garnet · Double Diamond Halo" },
   { src: greenRing, name: "Mint Tourmaline Cocktail", desc: "White Gold · Green Tourmaline · Pavé Diamonds" },
   { src: morganiteRing, name: "Morganite Cathedral Ring", desc: "White Gold · Morganite · Diamond Setting" },
+  { src: diamondLetterNecklace, name: "Diamond Initial Necklace", desc: "White Gold · Diamond Letters · Station Chain" },
   { src: pinkSapphireHoops, name: "Pink Sapphire Hoop Earrings", desc: "Rose Gold · Pink Sapphires · Inside-Out Setting" },
   { src: sapphireEarrings, name: "Sapphire Halo Studs", desc: "White Gold · Blue Sapphires · Double Diamond Halo" },
   { src: tourmalineBangle, name: "Watermelon Tourmaline Bangle", desc: "Yellow Gold · Bi-colour Tourmaline · Diamond" },

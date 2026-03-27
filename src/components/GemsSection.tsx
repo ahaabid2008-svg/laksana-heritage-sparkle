@@ -3,13 +3,23 @@ import blueSapphires from "@/assets/blue-sapphires.jpeg";
 import lapisGem from "@/assets/lapis-gem.jpeg";
 import demantoidGem from "@/assets/demantoid-gem.jpeg";
 import pearSapphires from "@/assets/pear-sapphires.jpeg";
+import silkInclusion from "@/assets/silk-inclusion.jpeg";
+import jellyfishInclusion from "@/assets/jellyfish-inclusion.jpeg";
+import horsetailInclusion from "@/assets/horsetail-inclusion.jpeg";
+import blueSapphireLoose from "@/assets/blue-sapphire-loose.jpeg";
+import catsEyeGem from "@/assets/cats-eye-gem.jpeg";
 
 const gems = [
   { src: fireGem, name: "Padparadscha Sapphire", desc: "A rare flame-like specimen" },
   { src: blueSapphires, name: "Ceylon Blue Sapphires", desc: "Vivid royal blue, unheated" },
   { src: pearSapphires, name: "Pear-Cut Sapphires", desc: "Hand-selected matching set" },
+  { src: blueSapphireLoose, name: "Blue Sapphire", desc: "Oval-cut Ceylon blue sapphire" },
+  { src: catsEyeGem, name: "Cat's Eye Chrysoberyl", desc: "Rare chatoyant cabochon" },
   { src: lapisGem, name: "Lapis Lazuli", desc: "Deep celestial blue with pyrite" },
   { src: demantoidGem, name: "Demantoid Garnet", desc: "Brilliant green with horsetail inclusions" },
+  { src: silkInclusion, name: "Sapphire Silk Inclusion", desc: "Microscopic rutile needle patterns" },
+  { src: jellyfishInclusion, name: "Jellyfish Inclusion", desc: "Natural formation in sapphire" },
+  { src: horsetailInclusion, name: "Horsetail Inclusion", desc: "Golden crystal inclusion in demantoid" },
 ];
 
 const GemsSection = () => {
