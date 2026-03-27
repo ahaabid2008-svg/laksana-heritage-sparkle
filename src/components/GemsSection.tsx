@@ -3,8 +3,6 @@ import blueSapphires from "@/assets/blue-sapphires.jpeg";
 import lapisGem from "@/assets/lapis-gem.jpeg";
 import demantoidGem from "@/assets/demantoid-gem.jpeg";
 import pearSapphires from "@/assets/pear-sapphires.jpeg";
-import silkInclusion from "@/assets/silk-inclusion.jpeg";
-import jellyfishInclusion from "@/assets/jellyfish-inclusion.jpeg";
 import horsetailInclusion from "@/assets/horsetail-inclusion.jpeg";
 import blueSapphireLoose from "@/assets/blue-sapphire-loose.jpeg";
 import catsEyeGem from "@/assets/cats-eye-gem.jpeg";
@@ -17,8 +15,6 @@ const gems = [
   { src: catsEyeGem, name: "Quartz Bull's Eye", desc: "Classic optical effect with bright center and colorful rings" },
   { src: lapisGem, name: "Hackmanite", desc: "Tenebrescent sodalite, color-changing under UV light" },
   { src: demantoidGem, name: "Demantoid Garnet", desc: "Rare green garnet with signature horsetail inclusions" },
-  { src: silkInclusion, name: "Heated Yellow Sapphire Snowball", desc: "Snowball inclusion with heated fingerprint patterns" },
-  { src: jellyfishInclusion, name: "Blue Sapphire Mushroom Inclusion", desc: "Heated fingerprint inclusion resembling a mushroom, Madagascar origin" },
   { src: horsetailInclusion, name: "Horsetail Inclusion", desc: "Golden threads in authentic demantoid garnet" },
 ];
 
