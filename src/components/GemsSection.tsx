@@ -8,6 +8,11 @@ import blueSapphireLoose from "@/assets/blue-sapphire-loose.jpeg";
 import catsEyeGem from "@/assets/cats-eye-gem.jpeg";
 import pinkSapphireCushion from "@/assets/pink-sapphire-cushion.jpeg";
 import pinkSapphireOval from "@/assets/pink-sapphire-oval.jpeg";
+import blueSapphireCushion from "@/assets/blue-sapphire-cushion.jpeg";
+import purpleGarnet from "@/assets/purple-garnet.jpeg";
+import royalBlueSapphire from "@/assets/royal-blue-sapphire.jpeg";
+import blueSapphireOval from "@/assets/blue-sapphire-oval.jpeg";
+import lightBlueSapphire from "@/assets/light-blue-sapphire.jpeg";
 
 const gems = [
   { src: fireGem, name: "Padparadscha Sapphire", desc: "A rare flame-like specimen" },
@@ -19,6 +24,11 @@ const gems = [
   { src: demantoidGem, name: "Demantoid Garnet", desc: "Rare green garnet with signature horsetail inclusions" },
   { src: pinkSapphireCushion, name: "Pink Sapphire", desc: "Vivid cushion-cut, exceptional brilliance" },
   { src: pinkSapphireOval, name: "Pink Sapphire Oval", desc: "Intense pink hue, oval faceted" },
+  { src: blueSapphireCushion, name: "Blue Sapphire Cushion", desc: "Deep royal blue, cushion-cut Ceylon origin" },
+  { src: purpleGarnet, name: "Rhodolite Garnet", desc: "Vivid purple-pink, precision radiant cut" },
+  { src: royalBlueSapphire, name: "Royal Blue Sapphire", desc: "Saturated velvet blue, cushion-cut" },
+  { src: blueSapphireOval, name: "Blue Sapphire Oval", desc: "Intense cornflower blue, oval faceted" },
+  { src: lightBlueSapphire, name: "Ceylon Blue Sapphire", desc: "Light pastel blue, unheated oval" },
 ];
 
 const GemsSection = () => {
