@@ -30,6 +30,7 @@ const gems = [
   { src: royalBlueSapphire, name: "Royal Blue Sapphire", desc: "Saturated velvet blue, cushion-cut" },
   { src: blueSapphireOval, name: "Blue Sapphire Oval", desc: "Intense cornflower blue, oval faceted" },
   { src: lightBlueSapphire, name: "Ceylon Blue Sapphire", desc: "Light pastel blue, unheated oval" },
+  { src: sapphireHeartInclusion, name: "Heart-Shaped Fingerprint", desc: "Sri Lankan Blue Sapphire · Natural heart-shaped healing fingerprint" },
 ];
 
 const GemsSection = () => {
