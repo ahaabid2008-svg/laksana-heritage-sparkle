@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import HeritageSection from "@/components/HeritageSection";
 import GemsSection from "@/components/GemsSection";
 import JewellerySection from "@/components/JewellerySection";
+import VideosSection from "@/components/VideosSection";
 import GemologistSection from "@/components/GemologistSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
@@ -15,6 +16,7 @@ const Index = () => {
       <HeritageSection />
       <GemsSection />
       <JewellerySection />
+      <VideosSection />
       <GemologistSection />
       <ContactSection />
       <Footer />
