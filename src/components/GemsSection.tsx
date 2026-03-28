@@ -1,11 +1,8 @@
 import fireGem from "@/assets/fire-gem.jpeg";
 import blueSapphires from "@/assets/blue-sapphires.jpeg";
-import lapisGem from "@/assets/lapis-gem.jpeg";
-import demantoidGem from "@/assets/demantoid-gem.jpeg";
 import pearSapphires from "@/assets/pear-sapphires.jpeg";
 
 import blueSapphireLoose from "@/assets/blue-sapphire-loose.jpeg";
-import catsEyeGem from "@/assets/cats-eye-gem.jpeg";
 import pinkSapphireCushion from "@/assets/pink-sapphire-cushion.jpeg";
 import pinkSapphireOval from "@/assets/pink-sapphire-oval.jpeg";
 import blueSapphireCushion from "@/assets/blue-sapphire-cushion.jpeg";
@@ -20,9 +17,6 @@ const gems = [
   { src: blueSapphires, name: "Ceylon Blue Sapphires", desc: "Vivid royal blue, unheated" },
   { src: pearSapphires, name: "Pear-Cut Sapphires", desc: "Hand-selected matching set" },
   { src: blueSapphireLoose, name: "Ceylon Blue Sapphire", desc: "Three generations of blue sapphire expertise" },
-  { src: catsEyeGem, name: "Quartz Bull's Eye", desc: "Classic optical effect with bright center and colorful rings" },
-  { src: lapisGem, name: "Hackmanite", desc: "Tenebrescent sodalite, color-changing under UV light" },
-  { src: demantoidGem, name: "Demantoid Garnet", desc: "Rare green garnet with signature horsetail inclusions" },
   { src: pinkSapphireCushion, name: "Pink Sapphire", desc: "Vivid cushion-cut, exceptional brilliance" },
   { src: pinkSapphireOval, name: "Pink Sapphire Oval", desc: "Intense pink hue, oval faceted" },
   { src: blueSapphireCushion, name: "Blue Sapphire Cushion", desc: "Deep royal blue, cushion-cut Ceylon origin" },

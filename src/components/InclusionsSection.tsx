@@ -1,4 +1,7 @@
 import sapphireHeartInclusion from "@/assets/sapphire-heart-inclusion.jpeg";
+import catsEyeGem from "@/assets/cats-eye-gem.jpeg";
+import lapisGem from "@/assets/lapis-gem.jpeg";
+import demantoidGem from "@/assets/demantoid-gem.jpeg";
 
 const inclusions = [
   {
@@ -7,6 +10,27 @@ const inclusions = [
     desc: "Sri Lankan Blue Sapphire · Natural heart-shaped healing fingerprint",
     story:
       "Inside this Sri Lankan Blue Sapphire is a tiny golden heart-shaped fingerprint — a natural pattern that formed as the gem healed during heating. A stone signed by nature with love.",
+  },
+  {
+    src: catsEyeGem,
+    name: "Quartz Bull's Eye",
+    desc: "Classic optical effect with bright center and colorful rings",
+    story:
+      "This quartz specimen displays a mesmerizing bull's eye pattern — concentric rings of color radiating from a bright center, created by fibrous inclusions that interact with light.",
+  },
+  {
+    src: lapisGem,
+    name: "Hackmanite",
+    desc: "Tenebrescent sodalite, color-changing under UV light",
+    story:
+      "Hackmanite is a rare variety of sodalite that changes color when exposed to UV light — a phenomenon called tenebrescence. Its internal structure holds the secret to this reversible magic.",
+  },
+  {
+    src: demantoidGem,
+    name: "Demantoid Garnet",
+    desc: "Rare green garnet with signature horsetail inclusions",
+    story:
+      "The prized horsetail inclusions of demantoid garnet — radiating sprays of chrysotile fibers — are among the most celebrated inclusions in gemology, actually increasing the stone's value.",
   },
 ];
 
