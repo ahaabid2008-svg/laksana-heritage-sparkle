@@ -13,6 +13,7 @@ import purpleGarnet from "@/assets/purple-garnet.jpeg";
 import royalBlueSapphire from "@/assets/royal-blue-sapphire.jpeg";
 import blueSapphireOval from "@/assets/blue-sapphire-oval.jpeg";
 import lightBlueSapphire from "@/assets/light-blue-sapphire.jpeg";
+import sapphireHeartInclusion from "@/assets/sapphire-heart-inclusion.jpeg";
 
 const gems = [
   { src: fireGem, name: "Padparadscha Sapphire", desc: "A rare flame-like specimen" },
@@ -29,6 +30,7 @@ const gems = [
   { src: royalBlueSapphire, name: "Royal Blue Sapphire", desc: "Saturated velvet blue, cushion-cut" },
   { src: blueSapphireOval, name: "Blue Sapphire Oval", desc: "Intense cornflower blue, oval faceted" },
   { src: lightBlueSapphire, name: "Ceylon Blue Sapphire", desc: "Light pastel blue, unheated oval" },
+  { src: sapphireHeartInclusion, name: "Heart-Shaped Fingerprint", desc: "Sri Lankan Blue Sapphire · Natural heart-shaped healing fingerprint" },
 ];
 
 const GemsSection = () => {
