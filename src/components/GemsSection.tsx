@@ -13,7 +13,7 @@ import purpleGarnet from "@/assets/purple-garnet.jpeg";
 import royalBlueSapphire from "@/assets/royal-blue-sapphire.jpeg";
 import blueSapphireOval from "@/assets/blue-sapphire-oval.jpeg";
 import lightBlueSapphire from "@/assets/light-blue-sapphire.jpeg";
-import sapphireHeartInclusion from "@/assets/sapphire-heart-inclusion.jpeg";
+
 
 const gems = [
   { src: fireGem, name: "Padparadscha Sapphire", desc: "A rare flame-like specimen" },
