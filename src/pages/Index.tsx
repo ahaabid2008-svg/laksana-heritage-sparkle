@@ -16,6 +16,7 @@ const Index = () => {
       <HeritageSection />
       <GemsSection />
       <JewellerySection />
+      <VideosSection />
       <GemologistSection />
       <ContactSection />
       <Footer />
