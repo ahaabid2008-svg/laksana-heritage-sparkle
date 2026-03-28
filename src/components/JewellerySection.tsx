@@ -19,7 +19,7 @@ import zultaniteSolitaireRing from "@/assets/zultanite-solitaire-ring.jpeg";
 import multiSapphireStackingRings from "@/assets/multi-sapphire-stacking-rings.jpeg";
 import sapphireStarburstRing from "@/assets/sapphire-starburst-ring.jpeg";
 import yellowSapphireHaloRing from "@/assets/yellow-sapphire-halo-ring.jpeg";
-import gemstoneBangles from "@/assets/gemstone-bangles.jpeg";
+
 import tourmalineBarNecklace from "@/assets/tourmaline-bar-necklace.jpeg";
 import tourmalineBarNecklace2 from "@/assets/tourmaline-bar-necklace-2.jpeg";
 import rubyDiamondStuds from "@/assets/ruby-diamond-studs.jpeg";
