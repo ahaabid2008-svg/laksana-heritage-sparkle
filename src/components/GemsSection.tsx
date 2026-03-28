@@ -4,7 +4,6 @@ import pearSapphires from "@/assets/pear-sapphires.jpeg";
 
 import blueSapphireLoose from "@/assets/blue-sapphire-loose.jpeg";
 import pinkSapphireCushion from "@/assets/pink-sapphire-cushion.jpeg";
-import pinkSapphireCushion from "@/assets/pink-sapphire-cushion.jpeg";
 import pinkSapphireOval from "@/assets/pink-sapphire-oval.jpeg";
 import blueSapphireCushion from "@/assets/blue-sapphire-cushion.jpeg";
 import purpleGarnet from "@/assets/purple-garnet.jpeg";
