@@ -43,7 +43,7 @@ const pieces = [
   { src: blueSapphireRing, name: "Timeless, Tangled & One-Of-A-Kind", desc: "Rose Gold · 3ct Blue Sapphire · Round & Marquise Diamonds" },
   { src: sapphireTrilogyRing, name: "Ceylon Sapphire Trilogy", desc: "Yellow Gold · Oval Blue Sapphire · Round Brilliant Diamonds" },
   { src: aquamarineMarquiseRing, name: "Aquamarine Marquise Cocktail", desc: "Platinum · Marquise Aquamarine · Tapered Baguette Diamonds" },
-  { src: zultaniteSolitaireRing, name: "Zultanite Solitaire", desc: "Yellow Gold · Colour-Change Zultanite · Four-Prong Setting" },
+  { src: zultaniteSolitaireRing, name: "Tourmaline Solitaire", desc: "Yellow Gold · Tourmaline · Four-Prong Setting" },
   { src: multiSapphireStackingRings, name: "Multi-Sapphire Stacking Set", desc: "Yellow Gold · Bezel-Set Sapphires · Mixed Fancy Cuts" },
   { src: sapphireStarburstRing, name: "Sapphire Starburst Ring", desc: "White Gold · Oval Blue Sapphire · Diamond Sunburst Halo" },
   { src: yellowSapphireHaloRing, name: "Yellow Sapphire Halo", desc: "Yellow Gold · Cushion Yellow Sapphire · Diamond Halo & Pavé" },
