@@ -39,7 +39,7 @@ import pinkTourmalineLaceDropEarrings from "@/assets/pink-tourmaline-lace-drop-e
 
 const pieces = [
   { src: sapphireRing, name: "Royal Sapphire Trilogy", desc: "Platinum · Blue Sapphire · Diamonds" },
-  { src: emeraldRing, name: "Emerald Floral Cocktail", desc: "Yellow Gold · Tsavorite · Diamond Halo" },
+  { src: emeraldRing, name: "Tsavorite Floral Cocktail", desc: "Yellow Gold · Tsavorite · Diamond Halo" },
   { src: blueSapphireRing, name: "Timeless, Tangled & One-Of-A-Kind", desc: "Rose Gold · 3ct Blue Sapphire · Round & Marquise Diamonds" },
   { src: sapphireTrilogyRing, name: "Ceylon Sapphire Trilogy", desc: "Yellow Gold · Oval Blue Sapphire · Round Brilliant Diamonds" },
   { src: aquamarineMarquiseRing, name: "Aquamarine Marquise Cocktail", desc: "Platinum · Marquise Aquamarine · Tapered Baguette Diamonds" },
