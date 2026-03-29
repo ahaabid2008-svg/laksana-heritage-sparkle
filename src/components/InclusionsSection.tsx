@@ -48,27 +48,17 @@ const InclusionsSection = () => {
           <div className="divider-gold w-24 mx-auto mt-6" />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
           {inclusions.map((item) => (
-            <div
-              key={item.name}
-              className="group relative overflow-hidden rounded-sm bg-card"
-            >
+            <div key={item.name} className="group relative overflow-hidden">
               <img
                 src={item.src}
                 alt={item.name}
-                className="w-full aspect-square object-cover group-hover:scale-105 transition-transform duration-700"
+                className="w-full aspect-square object-cover group-hover:scale-110 transition-transform duration-700"
               />
-              <div className="p-5">
-                <h3 className="font-display text-lg text-foreground mb-1">
-                  {item.name}
-                </h3>
-                <p className="font-accent text-sm text-muted-foreground mb-3">
-                  {item.desc}
-                </p>
-                <p className="font-accent text-sm text-foreground/70 leading-relaxed">
-                  {item.story}
-                </p>
+              <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-4">
+                <h3 className="font-display text-base md:text-lg text-foreground">{item.name}</h3>
+                <p className="font-accent text-sm text-foreground/60">{item.desc}</p>
               </div>
             </div>
           ))}
