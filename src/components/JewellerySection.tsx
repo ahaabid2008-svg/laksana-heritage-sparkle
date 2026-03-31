@@ -84,7 +84,7 @@ const pieces = [
   { src: diamondLetterNecklace, name: "Diamond Initial Necklace", desc: "White Gold · Diamond Letters · Station Chain" },
   { src: pinkSapphireHoops, name: "Pink Sapphire Hoop Earrings", desc: "Rose Gold · Pink Sapphires · Inside-Out Setting" },
   { src: sapphireEarrings, name: "Sapphire Halo Studs", desc: "White Gold · Blue Sapphires · Double Diamond Halo" },
-  { src: tourmalineBangle, name: "Watermelon Tourmaline Bangle", desc: "Yellow Gold · Bi-colour Tourmaline · Diamond" },
+  
   { src: aquamarineEarrings, name: "Aquamarine Drop Earrings", desc: "Yellow Gold · Aquamarine · Diamonds" },
   { src: sapphireTopazAmethystRing, name: "Sapphire, Topaz & Amethyst Ring", desc: "Rose Gold · Blue Sapphires · Blue Topaz · Amethyst · Moonstones" },
   { src: garnetDiamondHaloRing, name: "Garnet Trillion Halo Ring", desc: "Rose Gold · Trillion Garnet · Diamond Halo & Pavé" },
@@ -97,6 +97,7 @@ const pieces = [
   { src: sapphireTsavoriteCuffBangle, name: "Sapphire & Tsavorite Cuff Bangle", desc: "Yellow Gold · Heart Yellow Sapphire · Oval Tsavorite" },
   { src: pinkSapphireAmethystCuffBangle, name: "Pink Sapphire & Purple Sapphire Cuff", desc: "Yellow Gold · Heart Pink Sapphire · Emerald-Cut Purple Sapphire" },
   { src: amethystSapphireCuffBangle, name: "Rose Garnet & Sapphire Cuff Bangle", desc: "Yellow Gold · Emerald-Cut Rose Garnet · Oval Blue Sapphire" },
+  { src: tourmalineBangle, name: "Watermelon Tourmaline Bangle", desc: "Yellow Gold · Bi-colour Tourmaline · Diamond" },
 ];
 
 const JewellerySection = () => {
