@@ -33,7 +33,7 @@ const gems = [
   { src: lightBlueSapphire, name: "Ceylon Blue Sapphire", desc: "Light pastel blue, unheated oval" },
   { src: royalBlueSapphire, name: "Royal Blue Sapphire", desc: "Saturated velvet blue, cushion-cut" },
   { src: blueSapphireOval, name: "Blue Sapphire Oval", desc: "Intense cornflower blue, oval faceted" },
-  { src: lightBlueSapphire, name: "Ceylon Blue Sapphire", desc: "Light pastel blue, unheated oval" },
+  { src: purpleGarnet, name: "Rhodolite Garnet", desc: "Vivid purple-pink, precision radiant cut" },
   { src: starSapphire, name: "Star Sapphire", desc: "Six-rayed asterism, cabochon-cut" },
   { src: blueSapphireAsscher, name: "Blue Sapphire Asscher", desc: "Clean unheated blue, precision asscher-cut" },
   { src: blueYellowSapphires, name: "Blue & Yellow Sapphires", desc: "Unheated Ceylon pair, asscher-cut" },
