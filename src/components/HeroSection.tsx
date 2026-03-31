@@ -17,9 +17,12 @@ const HeroSection = () => {
         <p className="font-accent text-lg md:text-xl tracking-[0.3em] uppercase text-cream/80 mb-6">
           Est. 1980 · Galle Fort, Sri Lanka
         </p>
-        <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-medium tracking-[0.08em] text-cream mb-8 leading-tight">
+        <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-medium tracking-[0.08em] text-cream mb-2 leading-tight">
           LAKSANA
         </h1>
+        <p className="font-accent text-sm md:text-base tracking-[0.3em] uppercase text-cream/60 mb-8">
+          Shopping Center
+        </p>
         <div className="divider-gold w-32 mx-auto mb-8" />
         <p className="font-accent text-xl md:text-2xl text-cream/70 tracking-wide italic max-w-2xl mx-auto">
           Three generations of exquisite gemstone artistry & high jewellery
