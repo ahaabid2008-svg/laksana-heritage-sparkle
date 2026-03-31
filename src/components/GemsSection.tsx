@@ -44,6 +44,7 @@ const gems = [
   { src: yellowSapphireOval1, name: "Yellow Sapphire Oval", desc: "Warm golden Ceylon, unheated oval" },
   { src: yellowSapphireOval2, name: "Yellow Sapphire Oval", desc: "Vivid canary yellow, precision oval-cut" },
   { src: yellowSapphireHeart, name: "Yellow Sapphire Heart", desc: "Radiant golden heart, Ceylon origin" },
+  { src: purpleSapphire, name: "Purple Sapphire", desc: "Vivid violet, oval-cut Ceylon origin" },
 ];
 
 const GemsSection = () => {
