@@ -20,7 +20,7 @@ import aquamarineCushion2 from "@/assets/aquamarine-cushion-2.jpeg";
 import yellowSapphireOval1 from "@/assets/yellow-sapphire-oval-1.jpeg";
 import yellowSapphireOval2 from "@/assets/yellow-sapphire-oval-2.jpeg";
 import yellowSapphireHeart from "@/assets/yellow-sapphire-heart.jpeg";
-
+import purpleSapphire from "@/assets/purple-sapphire.jpeg";
 
 const gems = [
   { src: fireGem, name: "Padparadscha Sapphire", desc: "A rare flame-like specimen" },
