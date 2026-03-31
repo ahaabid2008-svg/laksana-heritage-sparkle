@@ -37,6 +37,7 @@ import greenTourmalineDiamondHaloRingV2 from "@/assets/green-tourmaline-diamond-
 import tsavoriteStarburstDropEarringsV2 from "@/assets/tsavorite-starburst-drop-earrings-v2.jpeg";
 import pinkTourmalineLaceDropEarrings from "@/assets/pink-tourmaline-lace-drop-earrings.jpeg";
 import sapphireTopazAmethystRing from "@/assets/sapphire-topaz-amethyst-ring.jpeg";
+import garnetDiamondHaloRing from "@/assets/garnet-diamond-halo-ring.jpeg";
 
 const pieces = [
   { src: sapphireRing, name: "Royal Sapphire Trilogy", desc: "Platinum · Blue Sapphire · Diamonds" },
