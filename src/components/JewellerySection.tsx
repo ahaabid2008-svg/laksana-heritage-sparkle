@@ -109,7 +109,6 @@ const pieces = [
   { src: diamondPaveWideBand, name: "Diamond Pavé Wide Band", desc: "Rose Gold · Round Brilliant Diamonds · Five-Row Pavé" },
   { src: tricolorDiamondEternityBands, name: "Tri-Colour Diamond Eternity Bands", desc: "Rose, White & Yellow Gold · Round Brilliant Diamonds · Stacking Set" },
   { src: tricolorDiamondEternityRings, name: "Tri-Colour Diamond Eternity Rings", desc: "Rose, White & Yellow Gold · Diamond Eternity · Shared-Prong Set" },
-  { src: blueSapphireTennisBracelet, name: "Blue Sapphire Tennis Bracelet", desc: "White Gold · Round Blue Sapphires · Four-Prong Setting" },
   { src: greenTourmalineDropEarrings, name: "Green Tourmaline Drop Earrings", desc: "Yellow Gold · Emerald-Cut Green Tourmalines · Diamond Studs" },
   { src: tourmalinePearDropEarrings, name: "Tourmaline Pear Drop Earrings", desc: "White Gold · Pear Pink & Green Tourmalines · Diamond Halo" },
   { src: sapphireFloralClusterNecklace, name: "Sapphire Floral Cluster Necklace", desc: "White Gold · Round Blue Sapphires · Diamond Star Tips" },
