@@ -11,6 +11,8 @@ import royalBlueSapphire from "@/assets/royal-blue-sapphire.jpeg";
 import blueSapphireOval from "@/assets/blue-sapphire-oval.jpeg";
 import lightBlueSapphire from "@/assets/light-blue-sapphire.jpeg";
 import starSapphire from "@/assets/star-sapphire.jpeg";
+import blueYellowSapphires from "@/assets/blue-yellow-sapphires.jpeg";
+import blueSapphireAsscher from "@/assets/blue-sapphire-asscher.jpeg";
 
 
 const gems = [
@@ -26,6 +28,8 @@ const gems = [
   { src: blueSapphireOval, name: "Blue Sapphire Oval", desc: "Intense cornflower blue, oval faceted" },
   { src: lightBlueSapphire, name: "Ceylon Blue Sapphire", desc: "Light pastel blue, unheated oval" },
   { src: starSapphire, name: "Star Sapphire", desc: "Six-rayed asterism, cabochon-cut" },
+  { src: blueSapphireAsscher, name: "Blue Sapphire Asscher", desc: "Clean unheated blue, precision asscher-cut" },
+  { src: blueYellowSapphires, name: "Blue & Yellow Sapphires", desc: "Unheated Ceylon pair, asscher-cut" },
 ];
 
 const GemsSection = () => {
