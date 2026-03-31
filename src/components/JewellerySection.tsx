@@ -97,6 +97,7 @@ const pieces = [
   { src: sapphireTsavoriteCuffBangle, name: "Sapphire & Tsavorite Cuff Bangle", desc: "Yellow Gold · Heart Yellow Sapphire · Oval Tsavorite" },
   { src: pinkSapphireAmethystCuffBangle, name: "Pink Sapphire & Purple Sapphire Cuff", desc: "Yellow Gold · Heart Pink Sapphire · Emerald-Cut Purple Sapphire" },
   { src: amethystSapphireCuffBangle, name: "Rose Garnet & Sapphire Cuff Bangle", desc: "Yellow Gold · Emerald-Cut Rose Garnet · Oval Blue Sapphire" },
+  { src: tourmalineBangle, name: "Watermelon Tourmaline Bangle", desc: "Yellow Gold · Bi-colour Tourmaline · Diamond" },
 ];
 
 const JewellerySection = () => {
