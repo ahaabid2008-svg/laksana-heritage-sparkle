@@ -9,6 +9,11 @@ const videos = [
     title: "Aquamarine with Diamonds",
     desc: "Brilliant aquamarine complemented by sparkling diamond accents",
   },
+  {
+    src: "/videos/customise-ring.mov",
+    title: "Customise Ring",
+    desc: "A bespoke ring crafted to your unique vision",
+  },
 ];
 
 const VideosSection = () => {
