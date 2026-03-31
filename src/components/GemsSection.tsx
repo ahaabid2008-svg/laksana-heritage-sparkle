@@ -20,7 +20,7 @@ import aquamarineCushion2 from "@/assets/aquamarine-cushion-2.jpeg";
 import yellowSapphireOval1 from "@/assets/yellow-sapphire-oval-1.jpeg";
 import yellowSapphireOval2 from "@/assets/yellow-sapphire-oval-2.jpeg";
 import yellowSapphireHeart from "@/assets/yellow-sapphire-heart.jpeg";
-
+import purpleSapphire from "@/assets/purple-sapphire.jpeg";
 
 const gems = [
   { src: fireGem, name: "Padparadscha Sapphire", desc: "A rare flame-like specimen" },
@@ -44,6 +44,7 @@ const gems = [
   { src: yellowSapphireOval1, name: "Yellow Sapphire Oval", desc: "Warm golden Ceylon, unheated oval" },
   { src: yellowSapphireOval2, name: "Yellow Sapphire Oval", desc: "Vivid canary yellow, precision oval-cut" },
   { src: yellowSapphireHeart, name: "Yellow Sapphire Heart", desc: "Radiant golden heart, Ceylon origin" },
+  { src: purpleSapphire, name: "Purple Sapphire", desc: "Vivid violet, oval-cut Ceylon origin" },
 ];
 
 const GemsSection = () => {
