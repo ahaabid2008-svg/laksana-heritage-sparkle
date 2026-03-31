@@ -82,6 +82,7 @@ const pieces = [
   { src: greenTourmalineDiamondHaloRingV2, name: "Green Tourmaline Diamond Halo", desc: "White Gold · Oval Green Tourmaline · Asymmetric Diamond Halo" },
   { src: tsavoriteStarburstDropEarringsV2, name: "Tsavorite Starburst Drops", desc: "White Gold · Oval Tsavorites · Diamond Starburst Frames" },
   { src: pinkTourmalineLaceDropEarrings, name: "Pink Tourmaline Lace Drops", desc: "White Gold · Oval Pink Tourmalines · Diamond Lace Openwork" },
+  { src: greenTourmalineDropEarrings, name: "Green Tourmaline Drop Earrings", desc: "Yellow Gold · Emerald-Cut Green Tourmalines · Diamond Studs" },
   { src: pinkTourmalineRing, name: "Pink Tourmaline Asscher Ring", desc: "Yellow Gold · Pink Tourmaline · Diamond Clusters" },
   { src: aquamarineHaloRing, name: "Aquamarine Cushion Halo", desc: "18kt White Gold · 7ct Aquamarine · Green Tourmalines" },
   { src: aquamarineTrilogyRing, name: "Aquamarine Trilogy Ring", desc: "18kt White Gold · Aquamarine · Green Tourmaline" },
@@ -110,7 +111,7 @@ const pieces = [
   { src: diamondPaveWideBand, name: "Diamond Pavé Wide Band", desc: "Rose Gold · Round Brilliant Diamonds · Five-Row Pavé" },
   { src: tricolorDiamondEternityBands, name: "Tri-Colour Diamond Eternity Bands", desc: "Rose, White & Yellow Gold · Round Brilliant Diamonds · Stacking Set" },
   { src: tricolorDiamondEternityRings, name: "Tri-Colour Diamond Eternity Rings", desc: "Rose, White & Yellow Gold · Diamond Eternity · Shared-Prong Set" },
-  { src: greenTourmalineDropEarrings, name: "Green Tourmaline Drop Earrings", desc: "Yellow Gold · Emerald-Cut Green Tourmalines · Diamond Studs" },
+  
   
   { src: sapphireFloralClusterNecklace, name: "Sapphire Floral Cluster Necklace", desc: "White Gold · Round Blue Sapphires · Diamond Star Tips" },
   { src: multiSapphireFloralNecklace, name: "Multi-Sapphire Floral Necklace", desc: "White Gold · Blue, Yellow & Pink Sapphires · Diamond Floral Halos" },
