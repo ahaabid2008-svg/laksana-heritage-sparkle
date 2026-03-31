@@ -96,7 +96,7 @@ const pieces = [
   { src: zirconSpinelCuffBangle, name: "Tourmaline Cuff Bangle", desc: "Yellow Gold · Champagne Tourmaline · Pink Tourmaline · Bezel Set" },
   { src: sapphireTsavoriteCuffBangle, name: "Sapphire & Tsavorite Cuff Bangle", desc: "Yellow Gold · Heart Yellow Sapphire · Oval Tsavorite" },
   { src: pinkSapphireAmethystCuffBangle, name: "Pink Sapphire & Purple Sapphire Cuff", desc: "Yellow Gold · Heart Pink Sapphire · Emerald-Cut Purple Sapphire" },
-  { src: amethystSapphireCuffBangle, name: "Amethyst & Sapphire Cuff Bangle", desc: "Yellow Gold · Emerald-Cut Amethyst · Oval Blue Sapphire" },
+  { src: amethystSapphireCuffBangle, name: "Rose Garnet & Sapphire Cuff Bangle", desc: "Yellow Gold · Emerald-Cut Rose Garnet · Oval Blue Sapphire" },
 ];
 
 const JewellerySection = () => {
