@@ -25,7 +25,7 @@ const HeroSection = () => {
         </p>
         <div className="divider-gold w-32 mx-auto mb-8" />
         <p className="font-accent text-xl md:text-2xl text-cream/70 tracking-wide italic max-w-2xl mx-auto">
-          Three generations of exquisite gemstone artistry & high jewellery
+          Four generations of exquisite gemstone artistry & high jewellery
         </p>
         <a
           href="#heritage"
