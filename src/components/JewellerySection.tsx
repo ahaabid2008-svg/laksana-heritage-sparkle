@@ -93,7 +93,7 @@ const pieces = [
   { src: yellowSapphireBracelet, name: "Yellow Sapphire Tennis Bracelet", desc: "White Gold · Emerald-Cut Yellow Sapphires · Diamond Links" },
   { src: spinelCuffBangle, name: "Tourmaline Open Cuff Bangle", desc: "Yellow Gold · Kite & Emerald-Cut Pink Tourmalines · Bezel Set" },
   { src: sapphireDiamondCuffBangle, name: "Sapphire & Diamond Cuff Bangle", desc: "Yellow Gold · Cushion Blue Sapphire · Round Brilliant Diamond" },
-  { src: zirconSpinelCuffBangle, name: "Zircon & Spinel Cuff Bangle", desc: "Yellow Gold · Champagne Zircon · Pink Spinel · Bezel Set" },
+  { src: zirconSpinelCuffBangle, name: "Tourmaline Cuff Bangle", desc: "Yellow Gold · Champagne Tourmaline · Pink Tourmaline · Bezel Set" },
   { src: sapphireTsavoriteCuffBangle, name: "Sapphire & Tsavorite Cuff Bangle", desc: "Yellow Gold · Heart Yellow Sapphire · Oval Tsavorite" },
   { src: pinkSapphireAmethystCuffBangle, name: "Pink Sapphire & Amethyst Cuff", desc: "Yellow Gold · Heart Pink Sapphire · Emerald-Cut Amethyst" },
   { src: amethystSapphireCuffBangle, name: "Amethyst & Sapphire Cuff Bangle", desc: "Yellow Gold · Emerald-Cut Amethyst · Oval Blue Sapphire" },
