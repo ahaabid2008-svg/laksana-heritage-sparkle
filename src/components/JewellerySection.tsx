@@ -41,6 +41,12 @@ import garnetDiamondHaloRing from "@/assets/garnet-diamond-halo-ring.jpeg";
 import multiSapphireFloralNecklace from "@/assets/multi-sapphire-floral-necklace.jpeg";
 import pinkSapphireTennisBracelet from "@/assets/pink-sapphire-tennis-bracelet.jpeg";
 import yellowSapphireBracelet from "@/assets/yellow-sapphire-bracelet.jpeg";
+import spinelCuffBangle from "@/assets/spinel-cuff-bangle.jpeg";
+import sapphireDiamondCuffBangle from "@/assets/sapphire-diamond-cuff-bangle.jpeg";
+import zirconSpinelCuffBangle from "@/assets/zircon-spinel-cuff-bangle.jpeg";
+import sapphireTsavoriteCuffBangle from "@/assets/sapphire-tsavorite-cuff-bangle.jpeg";
+import pinkSapphireAmethystCuffBangle from "@/assets/pink-sapphire-amethyst-cuff-bangle.jpeg";
+import amethystSapphireCuffBangle from "@/assets/amethyst-sapphire-cuff-bangle.jpeg";
 
 const pieces = [
   { src: sapphireRing, name: "Royal Sapphire Trilogy", desc: "Platinum · Blue Sapphire · Diamonds" },
