@@ -13,6 +13,10 @@ import lightBlueSapphire from "@/assets/light-blue-sapphire.jpeg";
 import starSapphire from "@/assets/star-sapphire.jpeg";
 import blueYellowSapphires from "@/assets/blue-yellow-sapphires.jpeg";
 import blueSapphireAsscher from "@/assets/blue-sapphire-asscher.jpeg";
+import aquamarineEmeraldCut from "@/assets/aquamarine-emerald-cut.jpeg";
+import aquamarineCushion1 from "@/assets/aquamarine-cushion-1.jpeg";
+import aquamarineOval from "@/assets/aquamarine-oval.jpeg";
+import aquamarineCushion2 from "@/assets/aquamarine-cushion-2.jpeg";
 
 
 const gems = [
@@ -30,6 +34,10 @@ const gems = [
   { src: starSapphire, name: "Star Sapphire", desc: "Six-rayed asterism, cabochon-cut" },
   { src: blueSapphireAsscher, name: "Blue Sapphire Asscher", desc: "Clean unheated blue, precision asscher-cut" },
   { src: blueYellowSapphires, name: "Blue & Yellow Sapphires", desc: "Unheated Ceylon pair, asscher-cut" },
+  { src: aquamarineEmeraldCut, name: "Aquamarine Emerald Cut", desc: "Ice-blue Brazilian aquamarine, step-cut" },
+  { src: aquamarineCushion1, name: "Aquamarine Cushion", desc: "Deep teal-blue, cushion-cut brilliance" },
+  { src: aquamarineOval, name: "Aquamarine Oval", desc: "Vivid sky-blue, precision oval faceted" },
+  { src: aquamarineCushion2, name: "Aquamarine Cushion", desc: "Saturated ocean-blue, cushion-cut" },
 ];
 
 const GemsSection = () => {
