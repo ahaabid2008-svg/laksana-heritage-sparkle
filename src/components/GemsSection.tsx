@@ -41,6 +41,9 @@ const gems = [
   { src: aquamarineCushion1, name: "Aquamarine Cushion", desc: "Deep teal-blue, cushion-cut brilliance" },
   { src: aquamarineOval, name: "Aquamarine Oval", desc: "Vivid sky-blue, precision oval faceted" },
   { src: aquamarineCushion2, name: "Aquamarine Cushion", desc: "Saturated ocean-blue, cushion-cut" },
+  { src: yellowSapphireOval1, name: "Yellow Sapphire Oval", desc: "Warm golden Ceylon, unheated oval" },
+  { src: yellowSapphireOval2, name: "Yellow Sapphire Oval", desc: "Vivid canary yellow, precision oval-cut" },
+  { src: yellowSapphireHeart, name: "Yellow Sapphire Heart", desc: "Radiant golden heart, Ceylon origin" },
 ];
 
 const GemsSection = () => {

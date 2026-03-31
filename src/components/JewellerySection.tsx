@@ -40,6 +40,7 @@ import sapphireTopazAmethystRing from "@/assets/sapphire-topaz-amethyst-ring.jpe
 import garnetDiamondHaloRing from "@/assets/garnet-diamond-halo-ring.jpeg";
 import multiSapphireFloralNecklace from "@/assets/multi-sapphire-floral-necklace.jpeg";
 import pinkSapphireTennisBracelet from "@/assets/pink-sapphire-tennis-bracelet.jpeg";
+import yellowSapphireBracelet from "@/assets/yellow-sapphire-bracelet.jpeg";
 
 const pieces = [
   { src: sapphireRing, name: "Royal Sapphire Trilogy", desc: "Platinum · Blue Sapphire · Diamonds" },
