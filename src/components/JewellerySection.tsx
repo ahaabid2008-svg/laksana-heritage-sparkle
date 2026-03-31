@@ -38,6 +38,8 @@ import tsavoriteStarburstDropEarringsV2 from "@/assets/tsavorite-starburst-drop-
 import pinkTourmalineLaceDropEarrings from "@/assets/pink-tourmaline-lace-drop-earrings.jpeg";
 import sapphireTopazAmethystRing from "@/assets/sapphire-topaz-amethyst-ring.jpeg";
 import garnetDiamondHaloRing from "@/assets/garnet-diamond-halo-ring.jpeg";
+import multiSapphireFloralNecklace from "@/assets/multi-sapphire-floral-necklace.jpeg";
+import pinkSapphireTennisBracelet from "@/assets/pink-sapphire-tennis-bracelet.jpeg";
 
 const pieces = [
   { src: sapphireRing, name: "Royal Sapphire Trilogy", desc: "Platinum · Blue Sapphire · Diamonds" },
@@ -79,6 +81,8 @@ const pieces = [
   { src: aquamarineEarrings, name: "Aquamarine Drop Earrings", desc: "Yellow Gold · Aquamarine · Diamonds" },
   { src: sapphireTopazAmethystRing, name: "Sapphire, Topaz & Amethyst Ring", desc: "Rose Gold · Blue Sapphires · Blue Topaz · Amethyst · Moonstones" },
   { src: garnetDiamondHaloRing, name: "Garnet Trillion Halo Ring", desc: "Rose Gold · Trillion Garnet · Diamond Halo & Pavé" },
+  { src: multiSapphireFloralNecklace, name: "Multi-Sapphire Floral Necklace", desc: "White Gold · Blue, Yellow & Pink Sapphires · Diamond Floral Halos" },
+  { src: pinkSapphireTennisBracelet, name: "Pink Sapphire Tennis Bracelet", desc: "White Gold · Oval Pink Sapphires · Diamond Spacers" },
 ];
 
 const JewellerySection = () => {
