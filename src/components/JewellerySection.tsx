@@ -82,6 +82,7 @@ const pieces = [
   { src: greenTourmalineDiamondHaloRingV2, name: "Green Tourmaline Diamond Halo", desc: "White Gold · Oval Green Tourmaline · Asymmetric Diamond Halo" },
   { src: tsavoriteStarburstDropEarringsV2, name: "Tsavorite Starburst Drops", desc: "White Gold · Oval Tsavorites · Diamond Starburst Frames" },
   { src: pinkTourmalineLaceDropEarrings, name: "Pink Tourmaline Lace Drops", desc: "White Gold · Oval Pink Tourmalines · Diamond Lace Openwork" },
+  { src: greenTourmalineDropEarrings, name: "Green Tourmaline Drop Earrings", desc: "Yellow Gold · Emerald-Cut Green Tourmalines · Diamond Studs" },
   { src: pinkTourmalineRing, name: "Pink Tourmaline Asscher Ring", desc: "Yellow Gold · Pink Tourmaline · Diamond Clusters" },
   { src: aquamarineHaloRing, name: "Aquamarine Cushion Halo", desc: "18kt White Gold · 7ct Aquamarine · Green Tourmalines" },
   { src: aquamarineTrilogyRing, name: "Aquamarine Trilogy Ring", desc: "18kt White Gold · Aquamarine · Green Tourmaline" },
