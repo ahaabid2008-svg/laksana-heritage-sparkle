@@ -32,7 +32,7 @@ const HeritageSection = () => {
               <span className="text-cream italic">Four Generations</span>
             </h3>
             <p className="font-accent text-lg text-cream/60 leading-relaxed">
-              LAKSANA is a distinguished private jeweller based in Galle Fort, Sri Lanka, with a legacy spanning three generations. Established in 1980, it was the first jewelry shop in Galle Fort opened by a resident of the historic city.
+              LAKSANA is a distinguished private jeweller based in Galle Fort, Sri Lanka, with a legacy spanning four generations. Established in 1980, it was the first jewelry shop in Galle Fort opened by a resident of the historic city.
             </p>
             <p className="font-accent text-lg text-cream/60 leading-relaxed">
               Specialising in coloured gemstones, LAKSANA has built a reputation for creating exceptional high jewellery, blending Sri Lanka's rich gemstone heritage with timeless craftsmanship.
