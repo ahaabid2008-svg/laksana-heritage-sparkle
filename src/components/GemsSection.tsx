@@ -27,7 +27,7 @@ const gems = [
   { src: blueSapphires, name: "Ceylon Blue Sapphires", desc: "Vivid royal blue, unheated" },
   { src: pearSapphires, name: "Pear-Cut Sapphires", desc: "Hand-selected matching set" },
   { src: blueSapphireLoose, name: "Ceylon Blue Sapphire", desc: "Three generations of blue sapphire expertise" },
-  { src: pinkSapphireCushion, name: "Pink Sapphire", desc: "Vivid cushion-cut, exceptional brilliance" },
+  { src: blueYellowSapphires, name: "Blue & Yellow Sapphires", desc: "Unheated Ceylon pair, asscher-cut" },
   { src: starSapphire, name: "Star Sapphire", desc: "Six-rayed asterism, cabochon-cut" },
   { src: blueSapphireCushion, name: "Blue Sapphire Cushion", desc: "Deep royal blue, cushion-cut Ceylon origin" },
   { src: lightBlueSapphire, name: "Ceylon Blue Sapphire", desc: "Light pastel blue, unheated oval" },
