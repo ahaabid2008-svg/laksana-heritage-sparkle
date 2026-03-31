@@ -41,6 +41,12 @@ import garnetDiamondHaloRing from "@/assets/garnet-diamond-halo-ring.jpeg";
 import multiSapphireFloralNecklace from "@/assets/multi-sapphire-floral-necklace.jpeg";
 import pinkSapphireTennisBracelet from "@/assets/pink-sapphire-tennis-bracelet.jpeg";
 import yellowSapphireBracelet from "@/assets/yellow-sapphire-bracelet.jpeg";
+import spinelCuffBangle from "@/assets/spinel-cuff-bangle.jpeg";
+import sapphireDiamondCuffBangle from "@/assets/sapphire-diamond-cuff-bangle.jpeg";
+import zirconSpinelCuffBangle from "@/assets/zircon-spinel-cuff-bangle.jpeg";
+import sapphireTsavoriteCuffBangle from "@/assets/sapphire-tsavorite-cuff-bangle.jpeg";
+import pinkSapphireAmethystCuffBangle from "@/assets/pink-sapphire-amethyst-cuff-bangle.jpeg";
+import amethystSapphireCuffBangle from "@/assets/amethyst-sapphire-cuff-bangle.jpeg";
 
 const pieces = [
   { src: sapphireRing, name: "Royal Sapphire Trilogy", desc: "Platinum · Blue Sapphire · Diamonds" },
@@ -85,6 +91,12 @@ const pieces = [
   { src: multiSapphireFloralNecklace, name: "Multi-Sapphire Floral Necklace", desc: "White Gold · Blue, Yellow & Pink Sapphires · Diamond Floral Halos" },
   { src: pinkSapphireTennisBracelet, name: "Pink Sapphire Tennis Bracelet", desc: "White Gold · Oval Pink Sapphires · Diamond Spacers" },
   { src: yellowSapphireBracelet, name: "Yellow Sapphire Tennis Bracelet", desc: "White Gold · Emerald-Cut Yellow Sapphires · Diamond Links" },
+  { src: spinelCuffBangle, name: "Spinel Open Cuff Bangle", desc: "Yellow Gold · Kite & Emerald-Cut Pink Spinels · Bezel Set" },
+  { src: sapphireDiamondCuffBangle, name: "Sapphire & Diamond Cuff Bangle", desc: "Yellow Gold · Cushion Blue Sapphire · Round Brilliant Diamond" },
+  { src: zirconSpinelCuffBangle, name: "Zircon & Spinel Cuff Bangle", desc: "Yellow Gold · Champagne Zircon · Pink Spinel · Bezel Set" },
+  { src: sapphireTsavoriteCuffBangle, name: "Sapphire & Tsavorite Cuff Bangle", desc: "Yellow Gold · Heart Yellow Sapphire · Oval Tsavorite" },
+  { src: pinkSapphireAmethystCuffBangle, name: "Pink Sapphire & Amethyst Cuff", desc: "Yellow Gold · Heart Pink Sapphire · Emerald-Cut Amethyst" },
+  { src: amethystSapphireCuffBangle, name: "Amethyst & Sapphire Cuff Bangle", desc: "Yellow Gold · Emerald-Cut Amethyst · Oval Blue Sapphire" },
 ];
 
 const JewellerySection = () => {
