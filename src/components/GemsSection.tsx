@@ -10,6 +10,7 @@ import purpleGarnet from "@/assets/purple-garnet.jpeg";
 import royalBlueSapphire from "@/assets/royal-blue-sapphire.jpeg";
 import blueSapphireOval from "@/assets/blue-sapphire-oval.jpeg";
 import lightBlueSapphire from "@/assets/light-blue-sapphire.jpeg";
+import starSapphire from "@/assets/star-sapphire.jpeg";
 
 
 const gems = [
