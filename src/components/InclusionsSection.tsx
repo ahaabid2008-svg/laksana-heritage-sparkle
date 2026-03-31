@@ -2,6 +2,7 @@ import sapphireHeartInclusion from "@/assets/sapphire-heart-inclusion.jpeg";
 import catsEyeGem from "@/assets/cats-eye-gem.jpeg";
 import lapisGem from "@/assets/lapis-gem.jpeg";
 import demantoidGem from "@/assets/demantoid-gem.jpeg";
+import sapphireSpiderweb from "@/assets/sapphire-spiderweb-1.jpeg";
 
 const inclusions = [
   {
@@ -31,6 +32,13 @@ const inclusions = [
     desc: "Rare green garnet with signature horsetail inclusions",
     story:
       "The prized horsetail inclusions of demantoid garnet — radiating sprays of chrysotile fibers — are among the most celebrated inclusions in gemology, actually increasing the stone's value.",
+  },
+  {
+    src: sapphireSpiderweb,
+    name: "Spiderweb in a Sapphire",
+    desc: "Unheated Blue Sapphire · Natural iron stain inclusions",
+    story:
+      "At first glance, it almost looks like a tiny spider web frozen in time inside this Unheated Blue Sapphire. Those vivid orange streaks are actually natural iron stains that slowly seeped into the stone during its growth, weaving their way through the crystal like glowing threads. Paired with the soft, swirling fingerprint inclusions, it creates this incredible little world within the gem — completely natural, completely unique, and honestly hard to stop staring at.",
   },
 ];
 
