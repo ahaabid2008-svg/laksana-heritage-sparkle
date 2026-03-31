@@ -29,10 +29,10 @@ const HeritageSection = () => {
           <div className="space-y-6">
             <h3 className="font-display text-2xl md:text-3xl text-cream leading-relaxed">
               A Legacy Spanning{" "}
-              <span className="text-cream italic">Three Generations</span>
+              <span className="text-cream italic">Four Generations</span>
             </h3>
             <p className="font-accent text-lg text-cream/60 leading-relaxed">
-              LAKSANA is a distinguished private jeweller based in Galle Fort, Sri Lanka, with a legacy spanning three generations. Established in 1980, it was the first jewelry shop in Galle Fort opened by a resident of the historic city.
+              LAKSANA is a distinguished private jeweller based in Galle Fort, Sri Lanka, with a legacy spanning four generations. Established in 1980, it was the first jewelry shop in Galle Fort opened by a resident of the historic city.
             </p>
             <p className="font-accent text-lg text-cream/60 leading-relaxed">
               Specialising in coloured gemstones, LAKSANA has built a reputation for creating exceptional high jewellery, blending Sri Lanka's rich gemstone heritage with timeless craftsmanship.
@@ -46,11 +46,11 @@ const HeritageSection = () => {
                 <p className="font-body text-xs tracking-[0.2em] uppercase text-cream/40 mt-1">Established</p>
               </div>
               <div>
-                <p className="font-display text-3xl text-cream">3</p>
+                <p className="font-display text-3xl text-cream">4</p>
                 <p className="font-body text-xs tracking-[0.2em] uppercase text-cream/40 mt-1">Generations</p>
               </div>
               <div>
-                <p className="font-display text-3xl text-cream">44+</p>
+                <p className="font-display text-3xl text-cream">46+</p>
                 <p className="font-body text-xs tracking-[0.2em] uppercase text-cream/40 mt-1">Years</p>
               </div>
             </div>
