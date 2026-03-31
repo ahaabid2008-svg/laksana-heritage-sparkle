@@ -17,6 +17,9 @@ import aquamarineEmeraldCut from "@/assets/aquamarine-emerald-cut.jpeg";
 import aquamarineCushion1 from "@/assets/aquamarine-cushion-1.jpeg";
 import aquamarineOval from "@/assets/aquamarine-oval.jpeg";
 import aquamarineCushion2 from "@/assets/aquamarine-cushion-2.jpeg";
+import yellowSapphireOval1 from "@/assets/yellow-sapphire-oval-1.jpeg";
+import yellowSapphireOval2 from "@/assets/yellow-sapphire-oval-2.jpeg";
+import yellowSapphireHeart from "@/assets/yellow-sapphire-heart.jpeg";
 
 
 const gems = [
