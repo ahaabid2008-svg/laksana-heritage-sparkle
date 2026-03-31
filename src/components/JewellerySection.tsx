@@ -95,7 +95,7 @@ const pieces = [
   { src: aquamarineEarrings, name: "Aquamarine Drop Earrings", desc: "Yellow Gold · Aquamarine · Diamonds" },
   { src: sapphireTopazAmethystRing, name: "Sapphire, Topaz & Amethyst Ring", desc: "Rose Gold · Blue Sapphires · Blue Topaz · Amethyst · Moonstones" },
   { src: garnetDiamondHaloRing, name: "Garnet Trillion Halo Ring", desc: "Rose Gold · Trillion Garnet · Diamond Halo & Pavé" },
-  { src: multiSapphireFloralNecklace, name: "Multi-Sapphire Floral Necklace", desc: "White Gold · Blue, Yellow & Pink Sapphires · Diamond Floral Halos" },
+  
   { src: pinkSapphireTennisBracelet, name: "Pink Sapphire Tennis Bracelet", desc: "White Gold · Oval Pink Sapphires · Diamond Spacers" },
   { src: yellowSapphireBracelet, name: "Yellow Sapphire Tennis Bracelet", desc: "White Gold · Emerald-Cut Yellow Sapphires · Diamond Links" },
   { src: blueSapphireTennisBracelet, name: "Blue Sapphire Tennis Bracelet", desc: "White Gold · Round Blue Sapphires · Four-Prong Setting" },
@@ -112,6 +112,7 @@ const pieces = [
   { src: greenTourmalineDropEarrings, name: "Green Tourmaline Drop Earrings", desc: "Yellow Gold · Emerald-Cut Green Tourmalines · Diamond Studs" },
   { src: tourmalinePearDropEarrings, name: "Tourmaline Pear Drop Earrings", desc: "White Gold · Pear Pink & Green Tourmalines · Diamond Halo" },
   { src: sapphireFloralClusterNecklace, name: "Sapphire Floral Cluster Necklace", desc: "White Gold · Round Blue Sapphires · Diamond Star Tips" },
+  { src: multiSapphireFloralNecklace, name: "Multi-Sapphire Floral Necklace", desc: "White Gold · Blue, Yellow & Pink Sapphires · Diamond Floral Halos" },
 ];
 
 const JewellerySection = () => {
