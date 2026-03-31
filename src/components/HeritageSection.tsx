@@ -50,7 +50,7 @@ const HeritageSection = () => {
                 <p className="font-body text-xs tracking-[0.2em] uppercase text-cream/40 mt-1">Generations</p>
               </div>
               <div>
-                <p className="font-display text-3xl text-cream">44+</p>
+                <p className="font-display text-3xl text-cream">46+</p>
                 <p className="font-body text-xs tracking-[0.2em] uppercase text-cream/40 mt-1">Years</p>
               </div>
             </div>
