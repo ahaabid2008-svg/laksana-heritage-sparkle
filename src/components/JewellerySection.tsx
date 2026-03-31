@@ -76,6 +76,7 @@ const pieces = [
   { src: sapphireEarrings, name: "Sapphire Halo Studs", desc: "White Gold · Blue Sapphires · Double Diamond Halo" },
   { src: tourmalineBangle, name: "Watermelon Tourmaline Bangle", desc: "Yellow Gold · Bi-colour Tourmaline · Diamond" },
   { src: aquamarineEarrings, name: "Aquamarine Drop Earrings", desc: "Yellow Gold · Aquamarine · Diamonds" },
+  { src: sapphireTopazAmethystRing, name: "Sapphire, Topaz & Amethyst Ring", desc: "Rose Gold · Blue Sapphires · Blue Topaz · Amethyst · Moonstones" },
 ];
 
 const JewellerySection = () => {
