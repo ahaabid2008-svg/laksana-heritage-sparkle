@@ -13,6 +13,10 @@ import lightBlueSapphire from "@/assets/light-blue-sapphire.jpeg";
 import starSapphire from "@/assets/star-sapphire.jpeg";
 import blueYellowSapphires from "@/assets/blue-yellow-sapphires.jpeg";
 import blueSapphireAsscher from "@/assets/blue-sapphire-asscher.jpeg";
+import aquamarineEmeraldCut from "@/assets/aquamarine-emerald-cut.jpeg";
+import aquamarineCushion1 from "@/assets/aquamarine-cushion-1.jpeg";
+import aquamarineOval from "@/assets/aquamarine-oval.jpeg";
+import aquamarineCushion2 from "@/assets/aquamarine-cushion-2.jpeg";
 
 
 const gems = [
