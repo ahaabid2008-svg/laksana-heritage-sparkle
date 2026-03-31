@@ -2,6 +2,7 @@ import sapphireHeartInclusion from "@/assets/sapphire-heart-inclusion.jpeg";
 import catsEyeGem from "@/assets/cats-eye-gem.jpeg";
 import lapisGem from "@/assets/lapis-gem.jpeg";
 import demantoidGem from "@/assets/demantoid-gem.jpeg";
+import sapphireSpiderweb from "@/assets/sapphire-spiderweb-1.jpeg";
 
 const inclusions = [
   {
