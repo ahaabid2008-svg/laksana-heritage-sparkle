@@ -4,6 +4,11 @@ const videos = [
     title: "Gemstone in Motion",
     desc: "Watch the light dance through this exquisite specimen",
   },
+  {
+    src: "/videos/aquamarine-diamonds.mov",
+    title: "Aquamarine with Diamonds",
+    desc: "Brilliant aquamarine complemented by sparkling diamond accents",
+  },
 ];
 
 const VideosSection = () => {
