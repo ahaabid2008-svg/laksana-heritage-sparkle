@@ -10,7 +10,13 @@ const socialLinks = [
 const Footer = () => {
   return (
     <footer className="py-12 bg-charcoal border-t border-cream/10">
-      <div className="max-w-7xl mx-auto px-6 text-center">
+      <div className="max-w-7xl mx-auto px-6">
+        <div className="border border-cream/20 rounded-sm p-6 mb-10 text-center">
+          <p className="font-accent text-sm md:text-base text-cream/70 leading-relaxed tracking-wide">
+            Kindly contact us directly for any specific size or color requirements for each stone.
+          </p>
+        </div>
+        <div className="text-center">
         <p className="font-display text-xl tracking-[0.3em] text-cream mb-4">
           LAKSANA
         </p>
