@@ -22,13 +22,22 @@ const Navbar = () => {
         {/* Desktop */}
         <ul className="hidden md:flex items-center gap-8">
           {navItems.map((item) => (
-            <li key={item.href}>
-              <a
-                href={item.href}
-                className="font-body text-sm tracking-[0.15em] uppercase text-cream/70 hover:text-cream transition-colors duration-300"
-              >
-                {item.label}
-              </a>
+            <li key={item.label}>
+              {item.href.startsWith("/") ? (
+                <Link
+                  to={item.href}
+                  className="font-body text-sm tracking-[0.15em] uppercase text-cream/70 hover:text-cream transition-colors duration-300"
+                >
+                  {item.label}
+                </Link>
+              ) : (
+                <a
+                  href={item.href}
+                  className="font-body text-sm tracking-[0.15em] uppercase text-cream/70 hover:text-cream transition-colors duration-300"
+                >
+                  {item.label}
+                </a>
+              )}
             </li>
           ))}
         </ul>
