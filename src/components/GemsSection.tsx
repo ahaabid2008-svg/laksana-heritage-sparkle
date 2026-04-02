@@ -1,35 +1,6 @@
-import fireGem from "@/assets/fire-gem.jpeg";
-import blueSapphires from "@/assets/blue-sapphires.jpeg";
-import pearSapphires from "@/assets/pear-sapphires.jpeg";
-
-import blueSapphireLoose from "@/assets/blue-sapphire-loose.jpeg";
-import pinkSapphireCushion from "@/assets/pink-sapphire-cushion.jpeg";
-import pinkSapphireOval from "@/assets/pink-sapphire-oval.jpeg";
-import blueSapphireCushion from "@/assets/blue-sapphire-cushion.jpeg";
-import purpleGarnet from "@/assets/purple-garnet.jpeg";
-import royalBlueSapphire from "@/assets/royal-blue-sapphire.jpeg";
-import blueSapphireOval from "@/assets/blue-sapphire-oval.jpeg";
-import lightBlueSapphire from "@/assets/light-blue-sapphire.jpeg";
-import starSapphire from "@/assets/star-sapphire.jpeg";
-import blueYellowSapphires from "@/assets/blue-yellow-sapphires.jpeg";
-
-import aquamarineEmeraldCut from "@/assets/aquamarine-emerald-cut.jpeg";
-import aquamarineCushion1 from "@/assets/aquamarine-cushion-1.jpeg";
-import aquamarineOval from "@/assets/aquamarine-oval.jpeg";
-import aquamarineCushion2 from "@/assets/aquamarine-cushion-2.jpeg";
-
-import yellowSapphireOval1 from "@/assets/yellow-sapphire-oval-1.jpeg";
-import yellowSapphireOval2 from "@/assets/yellow-sapphire-oval-2.jpeg";
-import yellowSapphireHeart from "@/assets/yellow-sapphire-heart.jpeg";
-import purpleSapphire from "@/assets/purple-sapphire.jpeg";
-
-import greenTourmalineRadiant from "@/assets/green-tourmaline-radiant.jpeg";
-import tealSapphireHeart from "@/assets/teal-sapphire-heart.jpeg";
-import royalBlueSapphireCushion from "@/assets/royal-blue-sapphire-cushion.jpeg";
-import redSpinelOval from "@/assets/red-spinel-oval.jpeg";
-import pinkTourmalineOval from "@/assets/pink-tourmaline-oval.jpeg";
-import hessoniteGarnetPair from "@/assets/hessonite-garnet-pair.jpeg";
-import redSpinelCushion from "@/assets/red-spinel-cushion.jpeg";
+import sapphireOvalPair from "@/assets/sapphire-oval-pair.jpeg";
+import sapphireCushionDeep from "@/assets/sapphire-cushion-deep.jpeg";
+import sapphireRoundVivid from "@/assets/sapphire-round-vivid.jpeg";
 
 type GemItem = {
   src: string;
@@ -42,7 +13,16 @@ type GemCategory = {
   gems: GemItem[];
 };
 
-const gemCategories: GemCategory[] = [];
+const gemCategories: GemCategory[] = [
+  {
+    category: "Sapphires",
+    gems: [
+      { src: sapphireOvalPair, name: "Royal Blue Sapphire Pair", desc: "Vivid oval-cut, matched Ceylon pair" },
+      { src: sapphireCushionDeep, name: "Blue Sapphire Cushion", desc: "Deep royal blue, cushion-cut Ceylon" },
+      { src: sapphireRoundVivid, name: "Blue Sapphire Round", desc: "Intense cornflower blue, round brilliant-cut" },
+    ],
+  },
+];
 
 const GemsSection = () => {
   return (
