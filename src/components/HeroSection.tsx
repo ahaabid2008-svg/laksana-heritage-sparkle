@@ -14,9 +14,12 @@ const HeroSection = () => {
       </div>
 
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
-        <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-medium tracking-[0.08em] text-cream mb-2 leading-tight">
+        <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-medium tracking-[0.08em] text-cream mb-3 leading-tight">
           LAKSANA
         </h1>
+        <p className="font-accent text-base md:text-lg tracking-[0.35em] text-cream/70">
+          Since 1980
+        </p>
         <a
           href="#heritage"
           className="inline-block mt-12 px-8 py-3 border border-cream/40 text-cream text-sm tracking-[0.2em] uppercase font-body hover:bg-cream/10 transition-all duration-500"
