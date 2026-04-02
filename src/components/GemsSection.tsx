@@ -42,71 +42,7 @@ type GemCategory = {
   gems: GemItem[];
 };
 
-const gemCategories: GemCategory[] = [
-  {
-    category: "Blue Sapphires",
-    gems: [
-      { src: blueSapphires, name: "Ceylon Blue Sapphires", desc: "Vivid royal blue, unheated" },
-      { src: blueSapphireLoose, name: "Ceylon Blue Sapphire", desc: "Three generations of blue sapphire expertise" },
-      { src: pearSapphires, name: "Pear-Cut Sapphires", desc: "Hand-selected matching set" },
-      { src: blueSapphireCushion, name: "Blue Sapphire Cushion", desc: "Deep royal blue, cushion-cut Ceylon origin" },
-      { src: lightBlueSapphire, name: "Ceylon Blue Sapphire", desc: "Light pastel blue, unheated oval" },
-      { src: royalBlueSapphire, name: "Royal Blue Sapphire", desc: "Saturated velvet blue, cushion-cut" },
-      { src: blueSapphireOval, name: "Blue Sapphire Oval", desc: "Intense cornflower blue, oval faceted" },
-      { src: starSapphire, name: "Star Sapphire", desc: "Six-rayed asterism, cabochon-cut" },
-      { src: blueYellowSapphires, name: "Blue & Yellow Sapphires", desc: "Unheated Ceylon pair, asscher-cut" },
-      { src: tealSapphireHeart, name: "Teal Sapphire Heart", desc: "Bi-colour blue-green, heart-cut Ceylon" },
-      { src: royalBlueSapphireCushion, name: "Royal Blue Sapphire", desc: "Intense vivid blue, cushion-cut" },
-    ],
-  },
-  {
-    category: "Pink Sapphires",
-    gems: [
-      { src: fireGem, name: "Padparadscha Sapphire", desc: "A rare flame-like specimen" },
-      { src: pinkSapphireOval, name: "Pink Sapphire Oval", desc: "Intense pink hue, oval faceted" },
-      { src: pinkSapphireCushion, name: "Pink Sapphire", desc: "Vivid cushion-cut, exceptional brilliance" },
-      { src: purpleSapphire, name: "Purple Sapphire", desc: "Vivid violet, oval-cut Ceylon origin" },
-    ],
-  },
-  {
-    category: "Yellow Sapphires",
-    gems: [
-      { src: yellowSapphireOval2, name: "Yellow Sapphire Oval", desc: "Vivid canary yellow, precision oval-cut" },
-      { src: yellowSapphireHeart, name: "Yellow Sapphire Heart", desc: "Radiant golden heart, Ceylon origin" },
-      { src: yellowSapphireOval1, name: "Yellow Sapphire Oval", desc: "Warm golden Ceylon, unheated oval" },
-    ],
-  },
-  {
-    category: "Tourmalines",
-    gems: [
-      { src: greenTourmalineRadiant, name: "Green Tourmaline", desc: "Deep olive-green, precision radiant-cut" },
-      { src: pinkTourmalineOval, name: "Pink Tourmaline", desc: "Vivid magenta-pink, oval faceted" },
-    ],
-  },
-  {
-    category: "Aquamarines",
-    gems: [
-      { src: aquamarineEmeraldCut, name: "Aquamarine Emerald Cut", desc: "Ice-blue Brazilian aquamarine, step-cut" },
-      { src: aquamarineCushion1, name: "Aquamarine Cushion", desc: "Deep teal-blue, cushion-cut brilliance" },
-      { src: aquamarineOval, name: "Aquamarine Oval", desc: "Vivid sky-blue, precision oval faceted" },
-      { src: aquamarineCushion2, name: "Aquamarine Cushion", desc: "Saturated ocean-blue, cushion-cut" },
-    ],
-  },
-  {
-    category: "Spinels",
-    gems: [
-      { src: redSpinelOval, name: "Red Spinel", desc: "Pigeon-blood red, oval-cut" },
-      { src: redSpinelCushion, name: "Red Spinel Cushion", desc: "Vivid crimson, cushion-cut" },
-    ],
-  },
-  {
-    category: "Garnets",
-    gems: [
-      { src: purpleGarnet, name: "Rhodolite Garnet", desc: "Vivid purple-pink, precision radiant cut" },
-      { src: hessoniteGarnetPair, name: "Hessonite Garnet Pair", desc: "Matched cinnamon-orange, oval-cut" },
-    ],
-  },
-];
+const gemCategories: GemCategory[] = [];
 
 const GemsSection = () => {
   return (
@@ -117,7 +53,7 @@ const GemsSection = () => {
             Nature's Masterpieces
           </p>
           <h2 className="font-display text-4xl md:text-5xl text-cream tracking-wide">
-            Rare Gemstones
+            GEMSTONES
           </h2>
           <div className="divider-gold w-24 mx-auto mt-6" />
         </div>
