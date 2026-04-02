@@ -7,6 +7,10 @@ import yellowSapphireHeartNew from "@/assets/yellow-sapphire-heart-new.jpeg";
 import pinkSapphirePear from "@/assets/pink-sapphire-pear.jpeg";
 import pinkSapphireCushion from "@/assets/pink-sapphire-cushion.jpeg";
 import tealSapphireHeart from "@/assets/teal-sapphire-heart.jpeg";
+import aquamarineEmeraldDeep from "@/assets/aquamarine-emerald-deep.jpeg";
+import aquamarineEmeraldLight from "@/assets/aquamarine-emerald-light.jpeg";
+import aquamarineCoffin from "@/assets/aquamarine-coffin.jpeg";
+import aquamarinePear from "@/assets/aquamarine-pear.jpeg";
 
 type GemItem = {
   src: string;
@@ -36,7 +40,12 @@ const gemCategories: GemCategory[] = [
   },
   {
     category: "Aquamarine",
-    gems: [],
+    gems: [
+      { src: aquamarineEmeraldDeep, name: "Aquamarine Emerald-Cut", desc: "Deep ocean blue, precision emerald-cut" },
+      { src: aquamarineEmeraldLight, name: "Aquamarine Emerald-Cut", desc: "Sky blue, classic emerald-cut" },
+      { src: aquamarineCoffin, name: "Aquamarine Coffin-Cut", desc: "Icy blue, unique coffin-cut" },
+      { src: aquamarinePear, name: "Aquamarine Pear", desc: "Vivid Swiss blue, pear brilliant-cut" },
+    ],
   },
   {
     category: "Tourmaline",
