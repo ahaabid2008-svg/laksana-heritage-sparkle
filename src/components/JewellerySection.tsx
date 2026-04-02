@@ -172,7 +172,7 @@ const JewellerySection = () => {
 
         <div className="space-y-16">
           {jewelleryCategories.map((category) => (
-            <div key={category.category}>
+            <div key={category.category} id={`jewellery-${category.category.toLowerCase()}`}>
               <h3 className="font-display text-2xl md:text-3xl text-gray-900 tracking-wide mb-6 text-center">
                 {category.category}
               </h3>
