@@ -1,9 +1,9 @@
 import { MapPin, Phone, Clock, Mail, Facebook, Instagram } from "lucide-react";
 
 const whatsappNumbers = [
-  { display: "0777 900 170", number: "94777900170" },
-  { display: "0777 900 118", number: "94777900118" },
-  { display: "0777 900 119", number: "94777900119" },
+  { display: "074 190 0974", number: "94741900974" },
+  { display: "077 790 0170", number: "94777900170" },
+  { display: "076 790 0974", number: "94767900974" },
 ];
 
 const ContactSection = () => {
