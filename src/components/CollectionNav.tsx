@@ -17,10 +17,10 @@ const categories = [
     href: "#jewellery",
     subcategories: [
       { label: "Rings", href: "#jewellery-rings" },
-      { label: "Necklaces", href: "#jewellery-necklaces" },
       { label: "Earrings", href: "#jewellery-earrings" },
       { label: "Bracelets", href: "#jewellery-bracelets" },
       { label: "Bangles", href: "#jewellery-bangles" },
+      { label: "Necklaces", href: "#jewellery-necklaces" },
     ],
   },
   { label: "Bespoke Gallery", href: "#bespoke-gallery" },
