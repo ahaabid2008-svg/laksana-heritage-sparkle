@@ -190,12 +190,45 @@ const Navbar = () => {
                       <ul className="pl-4 mt-3 flex flex-col gap-3">
                         {collectionSubItems.map((sub) => (
                           <li key={sub.label}>
-                            <button
-                              onClick={() => handleCollectionSubClick(sub.href)}
-                              className="font-body text-xs tracking-[0.15em] uppercase text-cream/50 hover:text-cream transition-colors"
-                            >
-                              {sub.label}
-                            </button>
+                            {sub.children ? (
+                              <div>
+                                <div className="flex items-center justify-between">
+                                  <button
+                                    onClick={() => handleCollectionSubClick(sub.href)}
+                                    className="font-body text-xs tracking-[0.15em] uppercase text-cream/50 hover:text-cream transition-colors"
+                                  >
+                                    {sub.label}
+                                  </button>
+                                  <button
+                                    onClick={() => setExpandedSub(expandedSub === sub.label ? null : sub.label)}
+                                    className="p-1 text-cream/40 hover:text-cream transition-colors"
+                                  >
+                                    {expandedSub === sub.label ? <ChevronDown size={14} /> : <ChevronRight size={14} />}
+                                  </button>
+                                </div>
+                                {expandedSub === sub.label && (
+                                  <ul className="pl-4 mt-2 flex flex-col gap-2">
+                                    {sub.children.map((child) => (
+                                      <li key={child.label}>
+                                        <button
+                                          onClick={() => handleCollectionSubClick(child.href)}
+                                          className="font-body text-xs tracking-[0.1em] text-cream/40 hover:text-cream transition-colors"
+                                        >
+                                          {child.label}
+                                        </button>
+                                      </li>
+                                    ))}
+                                  </ul>
+                                )}
+                              </div>
+                            ) : (
+                              <button
+                                onClick={() => handleCollectionSubClick(sub.href)}
+                                className="font-body text-xs tracking-[0.15em] uppercase text-cream/50 hover:text-cream transition-colors"
+                              >
+                                {sub.label}
+                              </button>
+                            )}
                           </li>
                         ))}
                       </ul>
