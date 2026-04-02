@@ -6,7 +6,6 @@ const navItems = [
   { label: "Heritage", href: "#heritage", page: "/" },
   { label: "Collection", href: "/collection", page: "/collection" },
   { label: "Inclusions", href: "/inclusions", page: "/inclusions" },
-  { label: "Our Gemologist", href: "#gemologist", page: "/" },
   { label: "Contact", href: "#contact", page: "/" },
 ];
 
