@@ -97,7 +97,7 @@ const GemsSection = () => {
 
         <div className="space-y-16">
           {gemCategories.map((category) => (
-            <div key={category.category}>
+            <div key={category.category} id={`gems-${category.category.toLowerCase()}`}>
               <h3 className="font-display text-2xl md:text-3xl text-cream tracking-wide mb-6 text-center">
                 {category.category}
               </h3>
