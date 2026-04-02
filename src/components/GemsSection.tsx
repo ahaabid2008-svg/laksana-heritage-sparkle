@@ -23,6 +23,14 @@ import yellowSapphireOval2 from "@/assets/yellow-sapphire-oval-2.jpeg";
 import yellowSapphireHeart from "@/assets/yellow-sapphire-heart.jpeg";
 import purpleSapphire from "@/assets/purple-sapphire.jpeg";
 
+import greenTourmalineRadiant from "@/assets/green-tourmaline-radiant.jpeg";
+import tealSapphireHeart from "@/assets/teal-sapphire-heart.jpeg";
+import royalBlueSapphireCushion from "@/assets/royal-blue-sapphire-cushion.jpeg";
+import redSpinelOval from "@/assets/red-spinel-oval.jpeg";
+import pinkTourmalineOval from "@/assets/pink-tourmaline-oval.jpeg";
+import hessoniteGarnetPair from "@/assets/hessonite-garnet-pair.jpeg";
+import redSpinelCushion from "@/assets/red-spinel-cushion.jpeg";
+
 const gems = [
   { src: fireGem, name: "Padparadscha Sapphire", desc: "A rare flame-like specimen" },
   { src: blueSapphires, name: "Ceylon Blue Sapphires", desc: "Vivid royal blue, unheated" },
