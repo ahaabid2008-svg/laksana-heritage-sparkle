@@ -40,7 +40,12 @@ const gemCategories: GemCategory[] = [
   },
   {
     category: "Aquamarine",
-    gems: [],
+    gems: [
+      { src: aquamarineEmeraldDeep, name: "Aquamarine Emerald-Cut", desc: "Deep ocean blue, precision emerald-cut" },
+      { src: aquamarineEmeraldLight, name: "Aquamarine Emerald-Cut", desc: "Sky blue, classic emerald-cut" },
+      { src: aquamarineCoffin, name: "Aquamarine Coffin-Cut", desc: "Icy blue, unique coffin-cut" },
+      { src: aquamarinePear, name: "Aquamarine Pear", desc: "Vivid Swiss blue, pear brilliant-cut" },
+    ],
   },
   {
     category: "Tourmaline",
