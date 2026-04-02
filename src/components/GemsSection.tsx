@@ -11,6 +11,13 @@ import aquamarineEmeraldDeep from "@/assets/aquamarine-emerald-deep.jpeg";
 import aquamarineEmeraldLight from "@/assets/aquamarine-emerald-light.jpeg";
 import aquamarineCoffin from "@/assets/aquamarine-coffin.jpeg";
 import aquamarinePear from "@/assets/aquamarine-pear.jpeg";
+import garnetEmeraldVivid from "@/assets/garnet-emerald-vivid.jpeg";
+import garnetEmeraldDeep from "@/assets/garnet-emerald-deep.jpeg";
+import garnetOval from "@/assets/garnet-oval.jpeg";
+import garnetOvalSmall from "@/assets/garnet-oval-small.jpeg";
+import garnetHeart from "@/assets/garnet-heart.jpeg";
+import garnetHeartPear from "@/assets/garnet-heart-pear.jpeg";
+import garnetPearPair from "@/assets/garnet-pear-pair.jpeg";
 
 type GemItem = {
   src: string;
@@ -53,7 +60,15 @@ const gemCategories: GemCategory[] = [
   },
   {
     category: "Garnet",
-    gems: [],
+    gems: [
+      { src: garnetEmeraldVivid, name: "Green Garnet Emerald-Cut", desc: "Green garnet, vivid emerald-cut" },
+      { src: garnetEmeraldDeep, name: "Green Garnet Emerald-Cut", desc: "Green garnet, deep emerald-cut" },
+      { src: garnetOval, name: "Green Garnet Oval", desc: "Green garnet, brilliant oval-cut" },
+      { src: garnetOvalSmall, name: "Green Garnet Oval", desc: "Green garnet, precision oval-cut" },
+      { src: garnetHeart, name: "Green Garnet Heart", desc: "Green garnet, heart brilliant-cut" },
+      { src: garnetHeartPear, name: "Green Garnet Heart", desc: "Green garnet, heart pear-cut" },
+      { src: garnetPearPair, name: "Green Garnet Pear Pair", desc: "Green garnet, matched pear pair" },
+    ],
   },
 ];
 
