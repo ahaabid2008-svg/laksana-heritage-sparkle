@@ -10,8 +10,26 @@ const navItems = [
 ];
 
 const collectionSubItems = [
-  { label: "Gems", href: "/collection#gems" },
-  { label: "Jewellery", href: "/collection#jewellery" },
+  {
+    label: "Gems",
+    href: "/collection#gems",
+    children: [
+      { label: "Sapphires", href: "/collection#gems-sapphires" },
+      { label: "Aquamarine", href: "/collection#gems-aquamarine" },
+      { label: "Tourmaline", href: "/collection#gems-tourmaline" },
+      { label: "Garnet", href: "/collection#gems-garnet" },
+    ],
+  },
+  {
+    label: "Jewellery",
+    href: "/collection#jewellery",
+    children: [
+      { label: "Rings", href: "/collection#jewellery-rings" },
+      { label: "Earrings", href: "/collection#jewellery-earrings" },
+      { label: "Bracelets", href: "/collection#jewellery-bracelets" },
+      { label: "Bangles", href: "/collection#jewellery-bangles" },
+    ],
+  },
   { label: "Bespoke Gallery", href: "/collection#bespoke-gallery" },
 ];
 
