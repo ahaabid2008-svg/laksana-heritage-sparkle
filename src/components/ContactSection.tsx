@@ -25,10 +25,15 @@ const ContactSection = () => {
           <div className="text-center space-y-4 p-8 border border-cream/10 hover:border-cream/30 transition-colors duration-500">
             <MapPin className="w-6 h-6 text-cream mx-auto" />
             <h3 className="font-display text-lg text-cream">Location</h3>
-            <p className="font-accent text-cream/50 leading-relaxed">
+            <a
+              href="https://maps.app.goo.gl/deM1sDEcGMU9gBZ5A?g_st=ic"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-accent text-cream/50 leading-relaxed hover:text-cream transition-colors duration-300"
+            >
               Galle Fort<br />
               Galle, Sri Lanka
-            </p>
+            </a>
           </div>
 
           {/* WhatsApp */}
