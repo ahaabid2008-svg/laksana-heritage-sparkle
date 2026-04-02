@@ -55,6 +55,14 @@ const gems = [
   { src: yellowSapphireHeart, name: "Yellow Sapphire Heart", desc: "Radiant golden heart, Ceylon origin" },
   { src: yellowSapphireOval1, name: "Yellow Sapphire Oval", desc: "Warm golden Ceylon, unheated oval" },
   { src: purpleSapphire, name: "Purple Sapphire", desc: "Vivid violet, oval-cut Ceylon origin" },
+  
+  { src: tealSapphireHeart, name: "Teal Sapphire Heart", desc: "Bi-colour blue-green, heart-cut Ceylon" },
+  { src: royalBlueSapphireCushion, name: "Royal Blue Sapphire", desc: "Intense vivid blue, cushion-cut" },
+  { src: greenTourmalineRadiant, name: "Green Tourmaline", desc: "Deep olive-green, precision radiant-cut" },
+  { src: pinkTourmalineOval, name: "Pink Tourmaline", desc: "Vivid magenta-pink, oval faceted" },
+  { src: redSpinelOval, name: "Red Spinel", desc: "Pigeon-blood red, oval-cut" },
+  { src: redSpinelCushion, name: "Red Spinel Cushion", desc: "Vivid crimson, cushion-cut" },
+  { src: hessoniteGarnetPair, name: "Hessonite Garnet Pair", desc: "Matched cinnamon-orange, oval-cut" },
 ];
 
 const GemsSection = () => {

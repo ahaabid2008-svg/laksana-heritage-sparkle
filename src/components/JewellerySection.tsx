@@ -57,6 +57,7 @@ import blueSapphireTennisBracelet from "@/assets/blue-sapphire-tennis-bracelet.j
 import greenTourmalineDropEarrings from "@/assets/green-tourmaline-drop-earrings.jpeg";
 import tourmalinePearDropEarrings from "@/assets/tourmaline-pear-drop-earrings.jpeg";
 import sapphireFloralClusterNecklace from "@/assets/sapphire-floral-cluster-necklace.jpeg";
+import tourmalineSignetRing from "@/assets/tourmaline-signet-ring.jpeg";
 
 const pieces = [
   { src: sapphireRing, name: "Royal Sapphire Trilogy", desc: "Platinum · Blue Sapphire · Diamonds" },
