@@ -18,6 +18,10 @@ import garnetOvalSmall from "@/assets/garnet-oval-small.jpeg";
 import garnetHeart from "@/assets/garnet-heart.jpeg";
 import garnetHeartPear from "@/assets/garnet-heart-pear.jpeg";
 import garnetPearPair from "@/assets/garnet-pear-pair.jpeg";
+import tourmalineRadiantPurple from "@/assets/tourmaline-radiant-purple.jpeg";
+import tourmalineOvalPink from "@/assets/tourmaline-oval-pink.jpeg";
+import tourmalineBicolourEmerald from "@/assets/tourmaline-bicolour-emerald.jpeg";
+import tourmalineGreenEmerald from "@/assets/tourmaline-green-emerald.jpeg";
 
 type GemItem = {
   src: string;
@@ -56,7 +60,12 @@ const gemCategories: GemCategory[] = [
   },
   {
     category: "Tourmaline",
-    gems: [],
+    gems: [
+      { src: tourmalineRadiantPurple, name: "Tourmaline Radiant", desc: "Tourmaline, vivid purple radiant-cut" },
+      { src: tourmalineOvalPink, name: "Tourmaline Oval", desc: "Tourmaline, deep pink oval-cut" },
+      { src: tourmalineBicolourEmerald, name: "Tourmaline Bi-Colour", desc: "Tourmaline, bi-colour emerald-cut" },
+      { src: tourmalineGreenEmerald, name: "Tourmaline Emerald-Cut", desc: "Tourmaline, green emerald-cut" },
+    ],
   },
   {
     category: "Garnet",
