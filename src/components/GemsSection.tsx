@@ -60,7 +60,15 @@ const gemCategories: GemCategory[] = [
   },
   {
     category: "Garnet",
-    gems: [],
+    gems: [
+      { src: garnetEmeraldVivid, name: "Green Garnet Emerald-Cut", desc: "Green garnet, vivid emerald-cut" },
+      { src: garnetEmeraldDeep, name: "Green Garnet Emerald-Cut", desc: "Green garnet, deep emerald-cut" },
+      { src: garnetOval, name: "Green Garnet Oval", desc: "Green garnet, brilliant oval-cut" },
+      { src: garnetOvalSmall, name: "Green Garnet Oval", desc: "Green garnet, precision oval-cut" },
+      { src: garnetHeart, name: "Green Garnet Heart", desc: "Green garnet, heart brilliant-cut" },
+      { src: garnetHeartPear, name: "Green Garnet Heart", desc: "Green garnet, heart pear-cut" },
+      { src: garnetPearPair, name: "Green Garnet Pear Pair", desc: "Green garnet, matched pear pair" },
+    ],
   },
 ];
 
