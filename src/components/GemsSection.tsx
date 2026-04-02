@@ -34,6 +34,18 @@ const gemCategories: GemCategory[] = [
       { src: tealSapphireHeart, name: "Teal Sapphire Heart", desc: "Bi-colour teal green, heart-cut Ceylon" },
     ],
   },
+  {
+    category: "Aquamarine",
+    gems: [],
+  },
+  {
+    category: "Tourmaline",
+    gems: [],
+  },
+  {
+    category: "Garnet",
+    gems: [],
+  },
 ];
 
 const GemsSection = () => {
