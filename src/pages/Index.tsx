@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import HeritageSection from "@/components/HeritageSection";
-import GemsSection from "@/components/GemsSection";
+
 import InclusionsSection from "@/components/InclusionsSection";
 import JewellerySection from "@/components/JewellerySection";
 import VideosSection from "@/components/VideosSection";
