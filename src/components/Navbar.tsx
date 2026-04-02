@@ -57,14 +57,24 @@ const Navbar = () => {
         <div className="md:hidden bg-background/95 backdrop-blur-md border-t border-cream/10 px-6 py-6">
           <ul className="flex flex-col gap-5">
             {navItems.map((item) => (
-              <li key={item.href}>
-                <a
-                  href={item.href}
-                  onClick={() => setOpen(false)}
-                  className="font-body text-sm tracking-[0.15em] uppercase text-cream/70 hover:text-cream transition-colors"
-                >
-                  {item.label}
-                </a>
+              <li key={item.label}>
+                {item.href.startsWith("/") ? (
+                  <Link
+                    to={item.href}
+                    onClick={() => setOpen(false)}
+                    className="font-body text-sm tracking-[0.15em] uppercase text-cream/70 hover:text-cream transition-colors"
+                  >
+                    {item.label}
+                  </Link>
+                ) : (
+                  <a
+                    href={item.href}
+                    onClick={() => setOpen(false)}
+                    className="font-body text-sm tracking-[0.15em] uppercase text-cream/70 hover:text-cream transition-colors"
+                  >
+                    {item.label}
+                  </a>
+                )}
               </li>
             ))}
           </ul>
