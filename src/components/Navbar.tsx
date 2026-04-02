@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, ChevronDown, ChevronRight } from "lucide-react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
 const navItems = [
@@ -9,24 +9,47 @@ const navItems = [
   { label: "Contact", href: "#contact", page: "/" },
 ];
 
+const collectionSubItems = [
+  { label: "Gems", href: "/collection#gems" },
+  { label: "Jewellery", href: "/collection#jewellery" },
+  { label: "Bespoke Gallery", href: "/collection#bespoke-gallery" },
+];
+
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const [collectionOpen, setCollectionOpen] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
 
   const handleAnchorClick = (href: string, page: string) => {
-    const anchor = href; // e.g. "#heritage"
+    const anchor = href;
     if (location.pathname === page) {
-      // Same page, just scroll
       const el = document.querySelector(anchor);
       if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
     } else {
-      // Navigate to home page, then scroll after load
       navigate(page);
       setTimeout(() => {
         const el = document.querySelector(anchor);
         if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
       }, 300);
+    }
+  };
+
+  const handleCollectionSubClick = (href: string) => {
+    const [path, hash] = href.split("#");
+    setOpen(false);
+    setCollectionOpen(false);
+    if (location.pathname === path && hash) {
+      const el = document.querySelector(`#${hash}`);
+      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+    } else {
+      navigate(path);
+      if (hash) {
+        setTimeout(() => {
+          const el = document.querySelector(`#${hash}`);
+          if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+        }, 300);
+      }
     }
   };
 
@@ -40,8 +63,32 @@ const Navbar = () => {
         {/* Desktop */}
         <ul className="hidden md:flex items-center gap-8">
           {navItems.map((item) => (
-            <li key={item.label}>
-              {item.href.startsWith("/") ? (
+            <li key={item.label} className="relative group">
+              {item.label === "Collection" ? (
+                <div className="relative">
+                  <Link
+                    to={item.href}
+                    className="font-body text-sm tracking-[0.15em] uppercase text-cream/70 hover:text-cream transition-colors duration-300 inline-flex items-center gap-1"
+                  >
+                    {item.label}
+                    <ChevronDown size={14} className="text-cream/50 group-hover:text-cream transition-colors" />
+                  </Link>
+                  <div className="absolute top-full left-0 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                    <ul className="bg-background/95 backdrop-blur-md border border-cream/10 rounded-sm py-2 min-w-[160px]">
+                      {collectionSubItems.map((sub) => (
+                        <li key={sub.label}>
+                          <button
+                            onClick={() => handleCollectionSubClick(sub.href)}
+                            className="w-full text-left px-4 py-2 font-body text-sm tracking-[0.1em] text-cream/60 hover:text-cream hover:bg-cream/5 transition-colors"
+                          >
+                            {sub.label}
+                          </button>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              ) : item.href.startsWith("/") ? (
                 <Link
                   to={item.href}
                   className="font-body text-sm tracking-[0.15em] uppercase text-cream/70 hover:text-cream transition-colors duration-300"
@@ -76,7 +123,39 @@ const Navbar = () => {
           <ul className="flex flex-col gap-5">
             {navItems.map((item) => (
               <li key={item.label}>
-                {item.href.startsWith("/") ? (
+                {item.label === "Collection" ? (
+                  <div>
+                    <div className="flex items-center justify-between">
+                      <Link
+                        to={item.href}
+                        onClick={() => setOpen(false)}
+                        className="font-body text-sm tracking-[0.15em] uppercase text-cream/70 hover:text-cream transition-colors"
+                      >
+                        {item.label}
+                      </Link>
+                      <button
+                        onClick={() => setCollectionOpen(!collectionOpen)}
+                        className="p-1 text-cream/50 hover:text-cream transition-colors"
+                      >
+                        {collectionOpen ? <ChevronDown size={18} /> : <ChevronRight size={18} />}
+                      </button>
+                    </div>
+                    {collectionOpen && (
+                      <ul className="pl-4 mt-3 flex flex-col gap-3">
+                        {collectionSubItems.map((sub) => (
+                          <li key={sub.label}>
+                            <button
+                              onClick={() => handleCollectionSubClick(sub.href)}
+                              className="font-body text-xs tracking-[0.15em] uppercase text-cream/50 hover:text-cream transition-colors"
+                            >
+                              {sub.label}
+                            </button>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                ) : item.href.startsWith("/") ? (
                   <Link
                     to={item.href}
                     onClick={() => setOpen(false)}
