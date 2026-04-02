@@ -4,6 +4,9 @@ import sapphireRoundVivid from "@/assets/sapphire-round-vivid.jpeg";
 import yellowSapphireOvalLight from "@/assets/yellow-sapphire-oval-light.jpeg";
 import yellowSapphireOvalVivid from "@/assets/yellow-sapphire-oval-vivid.jpeg";
 import yellowSapphireHeartNew from "@/assets/yellow-sapphire-heart-new.jpeg";
+import pinkSapphirePear from "@/assets/pink-sapphire-pear.jpeg";
+import pinkSapphireCushion from "@/assets/pink-sapphire-cushion.jpeg";
+import tealSapphireHeart from "@/assets/teal-sapphire-heart.jpeg";
 
 type GemItem = {
   src: string;
