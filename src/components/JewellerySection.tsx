@@ -161,11 +161,8 @@ const JewellerySection = () => {
     <section id="jewellery" className="py-24 md:py-32 bg-white">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <p className="font-accent text-sm tracking-[0.4em] uppercase text-gray-400 mb-4">
-            Bespoke Creations
-          </p>
           <h2 className="font-display text-4xl md:text-5xl text-gray-900 tracking-wide">
-            High Jewellery
+            Fine Jewellery
           </h2>
           <div className="divider-gold w-24 mx-auto mt-6" />
         </div>
