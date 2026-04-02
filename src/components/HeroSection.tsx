@@ -20,6 +20,9 @@ const HeroSection = () => {
         <p className="font-accent text-base md:text-lg tracking-[0.35em] text-cream/70">
           Since 1980
         </p>
+        <p className="font-accent text-sm md:text-base tracking-[0.3em] uppercase text-cream/60 mt-4">
+          Galle Fort, Sri Lanka
+        </p>
         <a
           href="#heritage"
           className="inline-block mt-12 px-8 py-3 border border-cream/40 text-cream text-sm tracking-[0.2em] uppercase font-body hover:bg-cream/10 transition-all duration-500"
