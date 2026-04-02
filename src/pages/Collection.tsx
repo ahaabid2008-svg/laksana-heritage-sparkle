@@ -2,7 +2,6 @@ import Navbar from "@/components/Navbar";
 import CollectionNav from "@/components/CollectionNav";
 import GemsSection from "@/components/GemsSection";
 import JewellerySection from "@/components/JewellerySection";
-import InclusionsSection from "@/components/InclusionsSection";
 import Footer from "@/components/Footer";
 
 const Collection = () => {
@@ -13,7 +12,6 @@ const Collection = () => {
         <CollectionNav />
         <GemsSection />
         <JewellerySection />
-        <InclusionsSection />
       </div>
       <Footer />
     </main>
