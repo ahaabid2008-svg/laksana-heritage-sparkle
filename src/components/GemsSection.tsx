@@ -1,6 +1,9 @@
 import sapphireOvalPair from "@/assets/sapphire-oval-pair.jpeg";
 import sapphireCushionDeep from "@/assets/sapphire-cushion-deep.jpeg";
 import sapphireRoundVivid from "@/assets/sapphire-round-vivid.jpeg";
+import yellowSapphireOvalLight from "@/assets/yellow-sapphire-oval-light.jpeg";
+import yellowSapphireOvalVivid from "@/assets/yellow-sapphire-oval-vivid.jpeg";
+import yellowSapphireHeartNew from "@/assets/yellow-sapphire-heart-new.jpeg";
 
 type GemItem = {
   src: string;
@@ -20,6 +23,9 @@ const gemCategories: GemCategory[] = [
       { src: sapphireOvalPair, name: "Royal Blue Sapphire Pair", desc: "Vivid oval-cut, matched Ceylon pair" },
       { src: sapphireCushionDeep, name: "Blue Sapphire Cushion", desc: "Deep royal blue, cushion-cut Ceylon" },
       { src: sapphireRoundVivid, name: "Blue Sapphire Round", desc: "Intense cornflower blue, round brilliant-cut" },
+      { src: yellowSapphireOvalLight, name: "Yellow Sapphire Oval", desc: "Light golden Ceylon, unheated oval-cut" },
+      { src: yellowSapphireOvalVivid, name: "Yellow Sapphire Oval", desc: "Vivid canary yellow, precision oval-cut" },
+      { src: yellowSapphireHeartNew, name: "Yellow Sapphire Heart", desc: "Radiant golden heart, Ceylon origin" },
     ],
   },
 ];
