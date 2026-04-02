@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 const navItems = [
   { label: "Heritage", href: "#heritage", page: "/" },
@@ -12,6 +12,24 @@ const navItems = [
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  const handleAnchorClick = (href: string, page: string) => {
+    const anchor = href; // e.g. "#heritage"
+    if (location.pathname === page) {
+      // Same page, just scroll
+      const el = document.querySelector(anchor);
+      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+    } else {
+      // Navigate to home page, then scroll after load
+      navigate(page);
+      setTimeout(() => {
+        const el = document.querySelector(anchor);
+        if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 300);
+    }
+  };
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-cream/20">
@@ -32,12 +50,12 @@ const Navbar = () => {
                   {item.label}
                 </Link>
               ) : (
-                <a
-                  href={item.href}
+                <button
+                  onClick={() => handleAnchorClick(item.href, item.page)}
                   className="font-body text-sm tracking-[0.15em] uppercase text-cream/70 hover:text-cream transition-colors duration-300"
                 >
                   {item.label}
-                </a>
+                </button>
               )}
             </li>
           ))}
@@ -68,13 +86,15 @@ const Navbar = () => {
                     {item.label}
                   </Link>
                 ) : (
-                  <a
-                    href={item.href}
-                    onClick={() => setOpen(false)}
+                  <button
+                    onClick={() => {
+                      setOpen(false);
+                      handleAnchorClick(item.href, item.page);
+                    }}
                     className="font-body text-sm tracking-[0.15em] uppercase text-cream/70 hover:text-cream transition-colors"
                   >
                     {item.label}
-                  </a>
+                  </button>
                 )}
               </li>
             ))}
