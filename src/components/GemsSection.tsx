@@ -11,6 +11,13 @@ import aquamarineEmeraldDeep from "@/assets/aquamarine-emerald-deep.jpeg";
 import aquamarineEmeraldLight from "@/assets/aquamarine-emerald-light.jpeg";
 import aquamarineCoffin from "@/assets/aquamarine-coffin.jpeg";
 import aquamarinePear from "@/assets/aquamarine-pear.jpeg";
+import garnetEmeraldVivid from "@/assets/garnet-emerald-vivid.jpeg";
+import garnetEmeraldDeep from "@/assets/garnet-emerald-deep.jpeg";
+import garnetOval from "@/assets/garnet-oval.jpeg";
+import garnetOvalSmall from "@/assets/garnet-oval-small.jpeg";
+import garnetHeart from "@/assets/garnet-heart.jpeg";
+import garnetHeartPear from "@/assets/garnet-heart-pear.jpeg";
+import garnetPearPair from "@/assets/garnet-pear-pair.jpeg";
 
 type GemItem = {
   src: string;
