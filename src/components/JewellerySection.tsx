@@ -48,6 +48,9 @@ import sapphireTsavoriteCuffBangle from "@/assets/sapphire-tsavorite-cuff-bangle
 import pinkSapphireAmethystCuffBangle from "@/assets/pink-sapphire-amethyst-cuff-bangle.jpeg";
 import amethystSapphireCuffBangle from "@/assets/amethyst-sapphire-cuff-bangle.jpeg";
 import diamondPaveWideBand from "@/assets/diamond-pave-wide-band.jpeg";
+import whiteSapphireRing from "@/assets/white-sapphire-ring.jpeg";
+import tourmalineRing from "@/assets/tourmaline-ring.jpeg";
+import pinkSapphireRingJewel from "@/assets/pink-sapphire-ring.jpeg";
 import tricolorDiamondEternityBands from "@/assets/tricolor-diamond-eternity-bands.jpeg";
 import tricolorDiamondEternityRings from "@/assets/tricolor-diamond-eternity-rings.jpeg";
 import blueSapphireTennisBracelet from "@/assets/blue-sapphire-tennis-bracelet.jpeg";
@@ -89,6 +92,9 @@ const pieces = [
   { src: garnetRing, name: "Hessonite Sunburst", desc: "White Gold · Hessonite Garnet · Double Diamond Halo" },
   { src: greenRing, name: "Green Sapphire Custom Ring", desc: "Sterling Silver · 3ct Green Sapphire · Pear White Sapphires" },
   { src: morganiteRing, name: "Morganite Cathedral Ring", desc: "White Gold · Morganite · Diamond Setting" },
+  { src: whiteSapphireRing, name: "White Sapphire Halo Ring", desc: "White Gold · Oval White Sapphire · Diamond Sunburst Halo" },
+  { src: tourmalineRing, name: "Tourmaline Five-Stone Ring", desc: "Yellow Gold · Emerald-Cut Green Tourmalines · Mixed Gems" },
+  { src: pinkSapphireRingJewel, name: "Pink Sapphire Scroll Ring", desc: "Yellow & White Gold · Cushion Pink Sapphire · Filigree Setting" },
   
   { src: pinkSapphireHoops, name: "Pink Sapphire Hoop Earrings", desc: "Rose Gold · Pink Sapphires · Inside-Out Setting" },
   { src: sapphireEarrings, name: "Sapphire Halo Studs", desc: "White Gold · Blue Sapphires · Double Diamond Halo" },
