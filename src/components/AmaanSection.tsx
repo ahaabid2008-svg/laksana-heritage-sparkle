@@ -27,6 +27,13 @@ const AmaanSection = () => {
         </div>
 
         <div className="max-w-4xl mx-auto text-center space-y-8">
+          <p className="font-accent text-sm tracking-[0.4em] uppercase text-cream/60">
+            Expert Eye
+          </p>
+          <h2 className="font-display text-4xl md:text-5xl text-cream tracking-wide">
+            Our Gemologist
+          </h2>
+          <div className="divider-gold w-24 mx-auto mt-2 mb-4" />
           <p className="font-accent text-lg md:text-xl text-cream/60 leading-relaxed italic">
             "As the fourth generation of LAKSANA, I, Amaan Hussain, am deeply proud to carry forward this legacy. Having recently graduated from the Gemological Institute of America (GIA), I bring not only a lifetime of family tradition but also the highest standards of gemological education to our work. Our mission remains unchanged — to craft jewelry of exceptional quality, each piece a story of beauty, heritage, and artistry, while continuing to welcome clients to our home in Galle Fort, where history and craftsmanship meet."
           </p>
