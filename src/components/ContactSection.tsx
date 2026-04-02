@@ -1,9 +1,9 @@
 import { MapPin, Phone, Clock, Mail, Facebook, Instagram } from "lucide-react";
 
 const whatsappNumbers = [
-  { display: "0777 900 170", number: "94777900170" },
-  { display: "0777 900 118", number: "94777900118" },
-  { display: "0777 900 119", number: "94777900119" },
+  { display: "074 190 0974", number: "94741900974" },
+  { display: "077 790 0170", number: "94777900170" },
+  { display: "076 790 0974", number: "94767900974" },
 ];
 
 const ContactSection = () => {
@@ -25,10 +25,15 @@ const ContactSection = () => {
           <div className="text-center space-y-4 p-8 border border-cream/10 hover:border-cream/30 transition-colors duration-500">
             <MapPin className="w-6 h-6 text-cream mx-auto" />
             <h3 className="font-display text-lg text-cream">Location</h3>
-            <p className="font-accent text-cream/50 leading-relaxed">
+            <a
+              href="https://maps.app.goo.gl/deM1sDEcGMU9gBZ5A?g_st=ic"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-accent text-cream/50 leading-relaxed hover:text-cream transition-colors duration-300"
+            >
               Galle Fort<br />
               Galle, Sri Lanka
-            </p>
+            </a>
           </div>
 
           {/* WhatsApp */}
