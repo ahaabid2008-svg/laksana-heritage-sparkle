@@ -2,7 +2,13 @@ import { useState } from "react";
 import { ChevronDown, ChevronRight } from "lucide-react";
 
 const categories = [
-  { label: "Gems", href: "#gems" },
+  {
+    label: "Gems",
+    href: "#gems",
+    subcategories: [
+      { label: "Sapphires", href: "#gems-sapphires" },
+    ],
+  },
   {
     label: "Jewellery",
     href: "#jewellery",
