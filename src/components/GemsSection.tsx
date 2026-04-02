@@ -34,6 +34,18 @@ const gemCategories: GemCategory[] = [
       { src: tealSapphireHeart, name: "Teal Sapphire Heart", desc: "Bi-colour teal green, heart-cut Ceylon" },
     ],
   },
+  {
+    category: "Aquamarine",
+    gems: [],
+  },
+  {
+    category: "Tourmaline",
+    gems: [],
+  },
+  {
+    category: "Garnet",
+    gems: [],
+  },
 ];
 
 const GemsSection = () => {
@@ -56,6 +68,9 @@ const GemsSection = () => {
               <h3 className="font-display text-2xl md:text-3xl text-cream tracking-wide mb-6 text-center">
                 {category.category}
               </h3>
+              {category.gems.length === 0 ? (
+                <p className="font-accent text-sm text-cream/40 italic col-span-full text-center">Coming soon</p>
+              ) : (
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6">
                 {category.gems.map((gem, index) => (
                   <div key={`${gem.name}-${index}`} className="group relative overflow-hidden">
@@ -71,6 +86,7 @@ const GemsSection = () => {
                   </div>
                 ))}
               </div>
+              )}
             </div>
           ))}
         </div>
