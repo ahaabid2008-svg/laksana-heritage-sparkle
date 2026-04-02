@@ -22,7 +22,6 @@ const categories = [
       { label: "Bangles", href: "#jewellery-bangles" },
     ],
   },
-  { label: "Inclusions", href: "#inclusions" },
   { label: "Bespoke Gallery", href: "#bespoke-gallery" },
 ];
 
