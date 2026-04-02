@@ -25,6 +25,7 @@ const collectionSubItems = [
     href: "/collection#jewellery",
     children: [
       { label: "Rings", href: "/collection#jewellery-rings" },
+      { label: "Necklaces", href: "/collection#jewellery-necklaces" },
       { label: "Earrings", href: "/collection#jewellery-earrings" },
       { label: "Bracelets", href: "/collection#jewellery-bracelets" },
       { label: "Bangles", href: "/collection#jewellery-bangles" },
