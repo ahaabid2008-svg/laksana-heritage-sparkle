@@ -96,6 +96,7 @@ const pieces = [
   { src: whiteSapphireRing, name: "White Sapphire Halo Ring", desc: "White Gold · Oval White Sapphire · Diamond Sunburst Halo" },
   { src: tourmalineRing, name: "Tourmaline Five-Stone Ring", desc: "Yellow Gold · Emerald-Cut Green Tourmalines · Mixed Gems" },
   { src: pinkSapphireRingJewel, name: "Pink Sapphire Scroll Ring", desc: "Yellow & White Gold · Cushion Pink Sapphire · Filigree Setting" },
+  { src: tourmalineSignetRing, name: "Tourmaline Signet Ring", desc: "Yellow Gold · Emerald-Cut Tourmaline · Brushed Finish" },
   
   { src: pinkSapphireHoops, name: "Pink Sapphire Hoop Earrings", desc: "Rose Gold · Pink Sapphires · Inside-Out Setting" },
   { src: sapphireEarrings, name: "Sapphire Halo Studs", desc: "White Gold · Blue Sapphires · Double Diamond Halo" },
