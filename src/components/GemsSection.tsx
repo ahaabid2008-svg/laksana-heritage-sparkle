@@ -117,7 +117,7 @@ const GemsSection = () => {
             Nature's Masterpieces
           </p>
           <h2 className="font-display text-4xl md:text-5xl text-cream tracking-wide">
-            Rare Gemstones
+            GEMSTONES
           </h2>
           <div className="divider-gold w-24 mx-auto mt-6" />
         </div>
