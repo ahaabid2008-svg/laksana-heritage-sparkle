@@ -11,6 +11,7 @@ const categories = [
       { label: "Earrings", href: "#jewellery-earrings" },
       { label: "Bracelets", href: "#jewellery-bracelets" },
       { label: "Bangles", href: "#jewellery-bangles" },
+      { label: "Bespoke Gallery", href: "#jewellery-bespoke-gallery" },
     ],
   },
 ];
