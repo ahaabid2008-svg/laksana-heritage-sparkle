@@ -94,15 +94,41 @@ const Navbar = () => {
                     <ChevronDown size={14} className="text-cream/50 group-hover:text-cream transition-colors" />
                   </Link>
                   <div className="absolute top-full left-0 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
-                    <ul className="bg-background/95 backdrop-blur-md border border-cream/10 rounded-sm py-2 min-w-[160px]">
+                    <ul className="bg-background/95 backdrop-blur-md border border-cream/10 rounded-sm py-2 min-w-[180px]">
                       {collectionSubItems.map((sub) => (
                         <li key={sub.label}>
-                          <button
-                            onClick={() => handleCollectionSubClick(sub.href)}
-                            className="w-full text-left px-4 py-2 font-body text-sm tracking-[0.1em] text-cream/60 hover:text-cream hover:bg-cream/5 transition-colors"
-                          >
-                            {sub.label}
-                          </button>
+                          {sub.children ? (
+                            <div>
+                              <button
+                                onClick={() => setDesktopExpandedSub(desktopExpandedSub === sub.label ? null : sub.label)}
+                                className="w-full flex items-center justify-between px-4 py-2 font-body text-sm tracking-[0.1em] text-cream/60 hover:text-cream hover:bg-cream/5 transition-colors"
+                              >
+                                <span>{sub.label}</span>
+                                {desktopExpandedSub === sub.label ? <ChevronDown size={12} /> : <ChevronRight size={12} />}
+                              </button>
+                              {desktopExpandedSub === sub.label && (
+                                <ul className="py-1">
+                                  {sub.children.map((child) => (
+                                    <li key={child.label}>
+                                      <button
+                                        onClick={() => handleCollectionSubClick(child.href)}
+                                        className="w-full text-left pl-8 pr-4 py-1.5 font-body text-xs tracking-[0.1em] text-cream/50 hover:text-cream hover:bg-cream/5 transition-colors"
+                                      >
+                                        {child.label}
+                                      </button>
+                                    </li>
+                                  ))}
+                                </ul>
+                              )}
+                            </div>
+                          ) : (
+                            <button
+                              onClick={() => handleCollectionSubClick(sub.href)}
+                              className="w-full text-left px-4 py-2 font-body text-sm tracking-[0.1em] text-cream/60 hover:text-cream hover:bg-cream/5 transition-colors"
+                            >
+                              {sub.label}
+                            </button>
+                          )}
                         </li>
                       ))}
                     </ul>
