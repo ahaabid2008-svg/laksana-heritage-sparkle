@@ -48,6 +48,9 @@ import sapphireTsavoriteCuffBangle from "@/assets/sapphire-tsavorite-cuff-bangle
 import pinkSapphireAmethystCuffBangle from "@/assets/pink-sapphire-amethyst-cuff-bangle.jpeg";
 import amethystSapphireCuffBangle from "@/assets/amethyst-sapphire-cuff-bangle.jpeg";
 import diamondPaveWideBand from "@/assets/diamond-pave-wide-band.jpeg";
+import whiteSapphireRing from "@/assets/white-sapphire-ring.jpeg";
+import tourmalineRing from "@/assets/tourmaline-ring.jpeg";
+import pinkSapphireRingJewel from "@/assets/pink-sapphire-ring.jpeg";
 import tricolorDiamondEternityBands from "@/assets/tricolor-diamond-eternity-bands.jpeg";
 import tricolorDiamondEternityRings from "@/assets/tricolor-diamond-eternity-rings.jpeg";
 import blueSapphireTennisBracelet from "@/assets/blue-sapphire-tennis-bracelet.jpeg";
