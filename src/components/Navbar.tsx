@@ -10,14 +10,34 @@ const navItems = [
 ];
 
 const collectionSubItems = [
-  { label: "Gems", href: "/collection#gems" },
-  { label: "Jewellery", href: "/collection#jewellery" },
+  {
+    label: "Gems",
+    href: "/collection#gems",
+    children: [
+      { label: "Sapphires", href: "/collection#gems-sapphires" },
+      { label: "Aquamarine", href: "/collection#gems-aquamarine" },
+      { label: "Tourmaline", href: "/collection#gems-tourmaline" },
+      { label: "Garnet", href: "/collection#gems-garnet" },
+    ],
+  },
+  {
+    label: "Jewellery",
+    href: "/collection#jewellery",
+    children: [
+      { label: "Rings", href: "/collection#jewellery-rings" },
+      { label: "Earrings", href: "/collection#jewellery-earrings" },
+      { label: "Bracelets", href: "/collection#jewellery-bracelets" },
+      { label: "Bangles", href: "/collection#jewellery-bangles" },
+    ],
+  },
   { label: "Bespoke Gallery", href: "/collection#bespoke-gallery" },
 ];
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [collectionOpen, setCollectionOpen] = useState(false);
+  const [expandedSub, setExpandedSub] = useState<string | null>(null);
+  const [desktopExpandedSub, setDesktopExpandedSub] = useState<string | null>(null);
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -74,15 +94,41 @@ const Navbar = () => {
                     <ChevronDown size={14} className="text-cream/50 group-hover:text-cream transition-colors" />
                   </Link>
                   <div className="absolute top-full left-0 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
-                    <ul className="bg-background/95 backdrop-blur-md border border-cream/10 rounded-sm py-2 min-w-[160px]">
+                    <ul className="bg-background/95 backdrop-blur-md border border-cream/10 rounded-sm py-2 min-w-[180px]">
                       {collectionSubItems.map((sub) => (
                         <li key={sub.label}>
-                          <button
-                            onClick={() => handleCollectionSubClick(sub.href)}
-                            className="w-full text-left px-4 py-2 font-body text-sm tracking-[0.1em] text-cream/60 hover:text-cream hover:bg-cream/5 transition-colors"
-                          >
-                            {sub.label}
-                          </button>
+                          {sub.children ? (
+                            <div>
+                              <button
+                                onClick={() => setDesktopExpandedSub(desktopExpandedSub === sub.label ? null : sub.label)}
+                                className="w-full flex items-center justify-between px-4 py-2 font-body text-sm tracking-[0.1em] text-cream/60 hover:text-cream hover:bg-cream/5 transition-colors"
+                              >
+                                <span>{sub.label}</span>
+                                {desktopExpandedSub === sub.label ? <ChevronDown size={12} /> : <ChevronRight size={12} />}
+                              </button>
+                              {desktopExpandedSub === sub.label && (
+                                <ul className="py-1">
+                                  {sub.children.map((child) => (
+                                    <li key={child.label}>
+                                      <button
+                                        onClick={() => handleCollectionSubClick(child.href)}
+                                        className="w-full text-left pl-8 pr-4 py-1.5 font-body text-xs tracking-[0.1em] text-cream/50 hover:text-cream hover:bg-cream/5 transition-colors"
+                                      >
+                                        {child.label}
+                                      </button>
+                                    </li>
+                                  ))}
+                                </ul>
+                              )}
+                            </div>
+                          ) : (
+                            <button
+                              onClick={() => handleCollectionSubClick(sub.href)}
+                              className="w-full text-left px-4 py-2 font-body text-sm tracking-[0.1em] text-cream/60 hover:text-cream hover:bg-cream/5 transition-colors"
+                            >
+                              {sub.label}
+                            </button>
+                          )}
                         </li>
                       ))}
                     </ul>
@@ -144,12 +190,45 @@ const Navbar = () => {
                       <ul className="pl-4 mt-3 flex flex-col gap-3">
                         {collectionSubItems.map((sub) => (
                           <li key={sub.label}>
-                            <button
-                              onClick={() => handleCollectionSubClick(sub.href)}
-                              className="font-body text-xs tracking-[0.15em] uppercase text-cream/50 hover:text-cream transition-colors"
-                            >
-                              {sub.label}
-                            </button>
+                            {sub.children ? (
+                              <div>
+                                <div className="flex items-center justify-between">
+                                  <button
+                                    onClick={() => handleCollectionSubClick(sub.href)}
+                                    className="font-body text-xs tracking-[0.15em] uppercase text-cream/50 hover:text-cream transition-colors"
+                                  >
+                                    {sub.label}
+                                  </button>
+                                  <button
+                                    onClick={() => setExpandedSub(expandedSub === sub.label ? null : sub.label)}
+                                    className="p-1 text-cream/40 hover:text-cream transition-colors"
+                                  >
+                                    {expandedSub === sub.label ? <ChevronDown size={14} /> : <ChevronRight size={14} />}
+                                  </button>
+                                </div>
+                                {expandedSub === sub.label && (
+                                  <ul className="pl-4 mt-2 flex flex-col gap-2">
+                                    {sub.children.map((child) => (
+                                      <li key={child.label}>
+                                        <button
+                                          onClick={() => handleCollectionSubClick(child.href)}
+                                          className="font-body text-xs tracking-[0.1em] text-cream/40 hover:text-cream transition-colors"
+                                        >
+                                          {child.label}
+                                        </button>
+                                      </li>
+                                    ))}
+                                  </ul>
+                                )}
+                              </div>
+                            ) : (
+                              <button
+                                onClick={() => handleCollectionSubClick(sub.href)}
+                                className="font-body text-xs tracking-[0.15em] uppercase text-cream/50 hover:text-cream transition-colors"
+                              >
+                                {sub.label}
+                              </button>
+                            )}
                           </li>
                         ))}
                       </ul>
