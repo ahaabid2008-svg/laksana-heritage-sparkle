@@ -25,7 +25,7 @@ const HeroSection = () => {
         </p>
         <a
           href="#heritage"
-          className="inline-block mt-12 px-8 py-3 border border-cream/40 text-cream text-sm tracking-[0.2em] uppercase font-body hover:bg-cream/10 transition-all duration-500"
+          className="inline-block mt-16 px-8 py-3 border border-cream/40 text-cream text-sm tracking-[0.2em] uppercase font-body hover:bg-cream/10 transition-all duration-500"
         >
           Discover Our Legacy
         </a>
