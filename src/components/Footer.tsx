@@ -43,6 +43,7 @@ const Footer = () => {
         <p className="font-body text-xs text-cream/20 tracking-wide">
           © {new Date().getFullYear()} LAKSANA. All rights reserved.
         </p>
+        </div>
       </div>
     </footer>
   );
