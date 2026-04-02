@@ -7,6 +7,9 @@ const categories = [
     href: "#gems",
     subcategories: [
       { label: "Sapphires", href: "#gems-sapphires" },
+      { label: "Aquamarine", href: "#gems-aquamarine" },
+      { label: "Tourmaline", href: "#gems-tourmaline" },
+      { label: "Garnet", href: "#gems-garnet" },
     ],
   },
   {
