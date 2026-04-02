@@ -24,12 +24,12 @@ import yellowSapphireHeart from "@/assets/yellow-sapphire-heart.jpeg";
 import purpleSapphire from "@/assets/purple-sapphire.jpeg";
 
 const gems = [
-  { src: fireGem, name: "Padparadscha Sapphire", desc: "A rare flame-like specimen" },
+  { src: starSapphire, name: "Star Sapphire", desc: "Six-rayed asterism, cabochon-cut" },
   { src: blueSapphires, name: "Ceylon Blue Sapphires", desc: "Vivid royal blue, unheated" },
   { src: pearSapphires, name: "Pear-Cut Sapphires", desc: "Hand-selected matching set" },
   { src: blueSapphireLoose, name: "Ceylon Blue Sapphire", desc: "Three generations of blue sapphire expertise" },
   { src: blueYellowSapphires, name: "Blue & Yellow Sapphires", desc: "Unheated Ceylon pair, asscher-cut" },
-  { src: starSapphire, name: "Star Sapphire", desc: "Six-rayed asterism, cabochon-cut" },
+  { src: fireGem, name: "Padparadscha Sapphire", desc: "A rare flame-like specimen" },
   { src: blueSapphireCushion, name: "Blue Sapphire Cushion", desc: "Deep royal blue, cushion-cut Ceylon origin" },
   { src: lightBlueSapphire, name: "Ceylon Blue Sapphire", desc: "Light pastel blue, unheated oval" },
   { src: royalBlueSapphire, name: "Royal Blue Sapphire", desc: "Saturated velvet blue, cushion-cut" },
