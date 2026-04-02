@@ -12,7 +12,6 @@ import blueSapphireRing from "@/assets/blue-sapphire-ring.jpeg";
 import pinkTourmalineRing from "@/assets/pink-tourmaline-ring.jpeg";
 import aquamarineHaloRing from "@/assets/aquamarine-halo-ring.jpeg";
 import aquamarineTrilogyRing from "@/assets/aquamarine-trilogy-ring.jpeg";
-import diamondLetterNecklace from "@/assets/diamond-letter-necklace.jpeg";
 import sapphireTrilogyRing from "@/assets/sapphire-trilogy-ring.jpeg";
 import aquamarineMarquiseRing from "@/assets/aquamarine-marquise-ring.jpeg";
 import zultaniteSolitaireRing from "@/assets/zultanite-solitaire-ring.jpeg";
@@ -58,71 +57,103 @@ import greenTourmalineDropEarrings from "@/assets/green-tourmaline-drop-earrings
 import tourmalinePearDropEarrings from "@/assets/tourmaline-pear-drop-earrings.jpeg";
 import sapphireFloralClusterNecklace from "@/assets/sapphire-floral-cluster-necklace.jpeg";
 import tourmalineSignetRing from "@/assets/tourmaline-signet-ring.jpeg";
+import diamondLetterNecklace from "@/assets/diamond-letter-necklace.jpeg";
 
-const pieces = [
-  { src: sapphireRing, name: "Royal Sapphire Trilogy", desc: "Platinum · Blue Sapphire · Diamonds" },
-  { src: emeraldRing, name: "Tsavorite Floral Cocktail", desc: "Yellow Gold · Tsavorite · Diamond Halo" },
-  { src: blueSapphireRing, name: "Timeless, Tangled & One-Of-A-Kind", desc: "Rose Gold · 3ct Blue Sapphire · Round & Marquise Diamonds" },
-  { src: sapphireTrilogyRing, name: "Ceylon Sapphire Trilogy", desc: "Yellow Gold · Oval Blue Sapphire · Round Brilliant Diamonds" },
-  { src: aquamarineMarquiseRing, name: "Aquamarine Marquise Cocktail", desc: "Platinum · Marquise Aquamarine · Tapered Baguette Diamonds" },
-  { src: zultaniteSolitaireRing, name: "Tourmaline Solitaire", desc: "Yellow Gold · Tourmaline · Four-Prong Setting" },
-  { src: multiSapphireStackingRings, name: "Multi-Sapphire Stacking Set", desc: "Yellow Gold · Bezel-Set Sapphires · Mixed Fancy Cuts" },
-  { src: sapphireStarburstRing, name: "Sapphire Starburst Ring", desc: "White Gold · Oval Blue Sapphire · Diamond Sunburst Halo" },
-  { src: yellowSapphireHaloRing, name: "Yellow Sapphire Halo", desc: "Yellow Gold · Cushion Yellow Sapphire · Diamond Halo & Pavé" },
-  
-  { src: tourmalineBarNecklace, name: "Tourmaline Bar Link Necklace", desc: "White Gold · Emerald-Cut Tourmalines · Peach Morganite Stations" },
-  { src: tourmalineBarNecklace2, name: "Tourmaline & Garnet Station Necklace", desc: "White Gold · Rhodolite Garnet · Tsavorite · Mixed Fancy Cuts" },
-  { src: rubyDiamondStuds, name: "Ruby Lattice Dome Studs", desc: "White Gold · Rubies · Diamond Openwork Lattice" },
-  { src: pinkTourmalineDropEarrings, name: "Pink Tourmaline Drop Earrings", desc: "White Gold · Oval Pink Tourmaline · Diamond Halo & Pavé" },
-  { src: tsavoriteDropEarrings, name: "Tsavorite Sunburst Drops", desc: "Yellow Gold · Oval Tsavorite · Diamond Sunburst Halo" },
-  { src: diamondChandelierEarrings, name: "Diamond Chandelier Earrings", desc: "White Gold · Round Brilliant Diamonds · Milgrain Openwork" },
-  { src: sapphireDoubleHaloStudsV2, name: "Sapphire Fantasy Earrings", desc: "Yellow Gold · Blue Sapphires · Yellow Sapphires" },
-  { src: sapphirePaveBandRingV2, name: "Dream in Blue", desc: "White Gold · Royal Blue Sapphire · Diamonds" },
-  { src: sapphireFloralBypassRingV2, name: "Sapphire Floral Cluster Ring", desc: "White Gold · Calibrated Blue Sapphires · Diamond Floral Settings" },
-  { src: aquamarineDiamondEternityRingV2, name: "Aquamarine & White Sapphire Eternity", desc: "Yellow Gold · White Sapphires · Pale Aquamarines" },
-  { src: laksanaTsavoriteSapphireBandsV2, name: "Tsavorite & Sapphire Eternity Bands", desc: "White Gold · Calibré Tsavorites & Sapphires · Shared-Prong Set" },
-  { src: rhodoliteHaloCocktailRingV2, name: "Rhodolite Halo Cocktail Ring", desc: "White Gold · Emerald-Cut Rhodolite · Diamond Halo" },
-  { src: pinkTourmalineSunburstEarringsV2, name: "Pink Tourmaline Sunburst Earrings", desc: "Yellow Gold · Oval Pink Tourmalines · Baguette Diamond Rays" },
-  { src: greenTourmalineDiamondHaloRingV2, name: "Green Tourmaline Diamond Halo", desc: "White Gold · Oval Green Tourmaline · Asymmetric Diamond Halo" },
-  { src: tsavoriteStarburstDropEarringsV2, name: "Tsavorite Starburst Drops", desc: "White Gold · Oval Tsavorites · Diamond Starburst Frames" },
-  { src: pinkTourmalineLaceDropEarrings, name: "Pink Tourmaline Lace Drops", desc: "White Gold · Oval Pink Tourmalines · Diamond Lace Openwork" },
-  { src: greenTourmalineDropEarrings, name: "Green Tourmaline Drop Earrings", desc: "Yellow Gold · Emerald-Cut Green Tourmalines · Diamond Studs" },
-  { src: pinkTourmalineRing, name: "Pink Tourmaline Asscher Ring", desc: "Yellow Gold · Pink Tourmaline · Diamond Clusters" },
-  { src: aquamarineHaloRing, name: "Aquamarine Cushion Halo", desc: "18kt White Gold · 7ct Aquamarine · Green Tourmalines" },
-  { src: aquamarineTrilogyRing, name: "Aquamarine Trilogy Ring", desc: "18kt White Gold · Aquamarine · Green Tourmaline" },
-  { src: garnetRing, name: "Hessonite Sunburst", desc: "White Gold · Hessonite Garnet · Double Diamond Halo" },
-  { src: greenRing, name: "Green Sapphire Custom Ring", desc: "Sterling Silver · 3ct Green Sapphire · Pear White Sapphires" },
-  { src: morganiteRing, name: "Morganite Cathedral Ring", desc: "White Gold · Morganite · Diamond Setting" },
-  { src: whiteSapphireRing, name: "White Sapphire Halo Ring", desc: "White Gold · Oval White Sapphire · Diamond Sunburst Halo" },
-  { src: tourmalineRing, name: "Tourmaline Five-Stone Ring", desc: "Yellow Gold · Emerald-Cut Green Tourmalines · Mixed Gems" },
-  { src: pinkSapphireRingJewel, name: "Pink Sapphire Scroll Ring", desc: "Yellow & White Gold · Cushion Pink Sapphire · Filigree Setting" },
-  { src: tourmalineSignetRing, name: "Tourmaline Signet Ring", desc: "Yellow Gold · Emerald-Cut Tourmaline · Brushed Finish" },
-  
-  { src: pinkSapphireHoops, name: "Pink Sapphire Hoop Earrings", desc: "Rose Gold · Pink Sapphires · Inside-Out Setting" },
-  { src: sapphireEarrings, name: "Sapphire Halo Studs", desc: "White Gold · Blue Sapphires · Double Diamond Halo" },
-  
-  { src: aquamarineEarrings, name: "Aquamarine Drop Earrings", desc: "Yellow Gold · Aquamarine · Diamonds" },
-  { src: tourmalinePearDropEarrings, name: "Tourmaline Pear Drop Earrings", desc: "White Gold · Pear Pink & Green Tourmalines · Diamond Halo" },
-  { src: sapphireTopazAmethystRing, name: "Sapphire, Topaz & Amethyst Ring", desc: "Rose Gold · Blue Sapphires · Blue Topaz · Amethyst · Moonstones" },
-  { src: garnetDiamondHaloRing, name: "Garnet Trillion Halo Ring", desc: "Rose Gold · Trillion Garnet · Diamond Halo & Pavé" },
-  
-  { src: pinkSapphireTennisBracelet, name: "Pink Sapphire Tennis Bracelet", desc: "White Gold · Oval Pink Sapphires · Diamond Spacers" },
-  { src: yellowSapphireBracelet, name: "Yellow Sapphire Tennis Bracelet", desc: "White Gold · Emerald-Cut Yellow Sapphires · Diamond Links" },
-  { src: blueSapphireTennisBracelet, name: "Blue Sapphire Tennis Bracelet", desc: "White Gold · Round Blue Sapphires · Four-Prong Setting" },
-  { src: spinelCuffBangle, name: "Tourmaline Open Cuff Bangle", desc: "Yellow Gold · Kite & Emerald-Cut Pink Tourmalines · Bezel Set" },
-  { src: sapphireDiamondCuffBangle, name: "Sapphire & Diamond Cuff Bangle", desc: "Yellow Gold · Cushion Blue Sapphire · Round Brilliant Diamond" },
-  { src: zirconSpinelCuffBangle, name: "Tourmaline Cuff Bangle", desc: "Yellow Gold · Champagne Tourmaline · Pink Tourmaline · Bezel Set" },
-  { src: sapphireTsavoriteCuffBangle, name: "Sapphire & Tsavorite Cuff Bangle", desc: "Yellow Gold · Heart Yellow Sapphire · Oval Tsavorite" },
-  { src: pinkSapphireAmethystCuffBangle, name: "Pink Sapphire & Purple Sapphire Cuff", desc: "Yellow Gold · Heart Pink Sapphire · Emerald-Cut Purple Sapphire" },
-  { src: amethystSapphireCuffBangle, name: "Rose Garnet & Sapphire Cuff Bangle", desc: "Yellow Gold · Emerald-Cut Rose Garnet · Oval Blue Sapphire" },
-  { src: tourmalineBangle, name: "Watermelon Tourmaline Bangle", desc: "Yellow Gold · Bi-colour Tourmaline · Diamond" },
-  { src: diamondPaveWideBand, name: "Diamond Pavé Wide Band", desc: "Rose Gold · Round Brilliant Diamonds · Five-Row Pavé" },
-  { src: tricolorDiamondEternityBands, name: "Tri-Colour Diamond Eternity Bands", desc: "Rose, White & Yellow Gold · Round Brilliant Diamonds · Stacking Set" },
-  { src: tricolorDiamondEternityRings, name: "Tri-Colour Diamond Eternity Rings", desc: "Rose, White & Yellow Gold · Diamond Eternity · Shared-Prong Set" },
-  
-  
-  { src: sapphireFloralClusterNecklace, name: "Sapphire Floral Cluster Necklace", desc: "White Gold · Round Blue Sapphires · Diamond Star Tips" },
-  { src: multiSapphireFloralNecklace, name: "Multi-Sapphire Floral Necklace", desc: "White Gold · Blue, Yellow & Pink Sapphires · Diamond Floral Halos" },
+type PieceItem = {
+  src: string;
+  name: string;
+  desc: string;
+};
+
+type JewelleryCategory = {
+  category: string;
+  pieces: PieceItem[];
+};
+
+const jewelleryCategories: JewelleryCategory[] = [
+  {
+    category: "Rings",
+    pieces: [
+      { src: sapphireRing, name: "Royal Sapphire Trilogy", desc: "Platinum · Blue Sapphire · Diamonds" },
+      { src: emeraldRing, name: "Tsavorite Floral Cocktail", desc: "Yellow Gold · Tsavorite · Diamond Halo" },
+      { src: blueSapphireRing, name: "Timeless, Tangled & One-Of-A-Kind", desc: "Rose Gold · 3ct Blue Sapphire · Round & Marquise Diamonds" },
+      { src: sapphireTrilogyRing, name: "Ceylon Sapphire Trilogy", desc: "Yellow Gold · Oval Blue Sapphire · Round Brilliant Diamonds" },
+      { src: aquamarineMarquiseRing, name: "Aquamarine Marquise Cocktail", desc: "Platinum · Marquise Aquamarine · Tapered Baguette Diamonds" },
+      { src: zultaniteSolitaireRing, name: "Tourmaline Solitaire", desc: "Yellow Gold · Tourmaline · Four-Prong Setting" },
+      { src: multiSapphireStackingRings, name: "Multi-Sapphire Stacking Set", desc: "Yellow Gold · Bezel-Set Sapphires · Mixed Fancy Cuts" },
+      { src: sapphireStarburstRing, name: "Sapphire Starburst Ring", desc: "White Gold · Oval Blue Sapphire · Diamond Sunburst Halo" },
+      { src: yellowSapphireHaloRing, name: "Yellow Sapphire Halo", desc: "Yellow Gold · Cushion Yellow Sapphire · Diamond Halo & Pavé" },
+      { src: sapphirePaveBandRingV2, name: "Dream in Blue", desc: "White Gold · Royal Blue Sapphire · Diamonds" },
+      { src: sapphireFloralBypassRingV2, name: "Sapphire Floral Cluster Ring", desc: "White Gold · Calibrated Blue Sapphires · Diamond Floral Settings" },
+      { src: aquamarineDiamondEternityRingV2, name: "Aquamarine & White Sapphire Eternity", desc: "Yellow Gold · White Sapphires · Pale Aquamarines" },
+      { src: laksanaTsavoriteSapphireBandsV2, name: "Tsavorite & Sapphire Eternity Bands", desc: "White Gold · Calibré Tsavorites & Sapphires · Shared-Prong Set" },
+      { src: rhodoliteHaloCocktailRingV2, name: "Rhodolite Halo Cocktail Ring", desc: "White Gold · Emerald-Cut Rhodolite · Diamond Halo" },
+      { src: greenTourmalineDiamondHaloRingV2, name: "Green Tourmaline Diamond Halo", desc: "White Gold · Oval Green Tourmaline · Asymmetric Diamond Halo" },
+      { src: pinkTourmalineRing, name: "Pink Tourmaline Asscher Ring", desc: "Yellow Gold · Pink Tourmaline · Diamond Clusters" },
+      { src: aquamarineHaloRing, name: "Aquamarine Cushion Halo", desc: "18kt White Gold · 7ct Aquamarine · Green Tourmalines" },
+      { src: aquamarineTrilogyRing, name: "Aquamarine Trilogy Ring", desc: "18kt White Gold · Aquamarine · Green Tourmaline" },
+      { src: garnetRing, name: "Hessonite Sunburst", desc: "White Gold · Hessonite Garnet · Double Diamond Halo" },
+      { src: greenRing, name: "Green Sapphire Custom Ring", desc: "Sterling Silver · 3ct Green Sapphire · Pear White Sapphires" },
+      { src: morganiteRing, name: "Morganite Cathedral Ring", desc: "White Gold · Morganite · Diamond Setting" },
+      { src: whiteSapphireRing, name: "White Sapphire Halo Ring", desc: "White Gold · Oval White Sapphire · Diamond Sunburst Halo" },
+      { src: tourmalineRing, name: "Tourmaline Five-Stone Ring", desc: "Yellow Gold · Emerald-Cut Green Tourmalines · Mixed Gems" },
+      { src: pinkSapphireRingJewel, name: "Pink Sapphire Scroll Ring", desc: "Yellow & White Gold · Cushion Pink Sapphire · Filigree Setting" },
+      { src: tourmalineSignetRing, name: "Tourmaline Signet Ring", desc: "Yellow Gold · Emerald-Cut Tourmaline · Brushed Finish" },
+      { src: sapphireTopazAmethystRing, name: "Sapphire, Topaz & Amethyst Ring", desc: "Rose Gold · Blue Sapphires · Blue Topaz · Amethyst · Moonstones" },
+      { src: garnetDiamondHaloRing, name: "Garnet Trillion Halo Ring", desc: "Rose Gold · Trillion Garnet · Diamond Halo & Pavé" },
+      { src: diamondPaveWideBand, name: "Diamond Pavé Wide Band", desc: "Rose Gold · Round Brilliant Diamonds · Five-Row Pavé" },
+      { src: tricolorDiamondEternityBands, name: "Tri-Colour Diamond Eternity Bands", desc: "Rose, White & Yellow Gold · Round Brilliant Diamonds · Stacking Set" },
+      { src: tricolorDiamondEternityRings, name: "Tri-Colour Diamond Eternity Rings", desc: "Rose, White & Yellow Gold · Diamond Eternity · Shared-Prong Set" },
+    ],
+  },
+  {
+    category: "Earrings",
+    pieces: [
+      { src: rubyDiamondStuds, name: "Ruby Lattice Dome Studs", desc: "White Gold · Rubies · Diamond Openwork Lattice" },
+      { src: pinkTourmalineDropEarrings, name: "Pink Tourmaline Drop Earrings", desc: "White Gold · Oval Pink Tourmaline · Diamond Halo & Pavé" },
+      { src: tsavoriteDropEarrings, name: "Tsavorite Sunburst Drops", desc: "Yellow Gold · Oval Tsavorite · Diamond Sunburst Halo" },
+      { src: diamondChandelierEarrings, name: "Diamond Chandelier Earrings", desc: "White Gold · Round Brilliant Diamonds · Milgrain Openwork" },
+      { src: sapphireDoubleHaloStudsV2, name: "Sapphire Fantasy Earrings", desc: "Yellow Gold · Blue Sapphires · Yellow Sapphires" },
+      { src: pinkTourmalineSunburstEarringsV2, name: "Pink Tourmaline Sunburst Earrings", desc: "Yellow Gold · Oval Pink Tourmalines · Baguette Diamond Rays" },
+      { src: tsavoriteStarburstDropEarringsV2, name: "Tsavorite Starburst Drops", desc: "White Gold · Oval Tsavorites · Diamond Starburst Frames" },
+      { src: pinkTourmalineLaceDropEarrings, name: "Pink Tourmaline Lace Drops", desc: "White Gold · Oval Pink Tourmalines · Diamond Lace Openwork" },
+      { src: greenTourmalineDropEarrings, name: "Green Tourmaline Drop Earrings", desc: "Yellow Gold · Emerald-Cut Green Tourmalines · Diamond Studs" },
+      { src: pinkSapphireHoops, name: "Pink Sapphire Hoop Earrings", desc: "Rose Gold · Pink Sapphires · Inside-Out Setting" },
+      { src: sapphireEarrings, name: "Sapphire Halo Studs", desc: "White Gold · Blue Sapphires · Double Diamond Halo" },
+      { src: aquamarineEarrings, name: "Aquamarine Drop Earrings", desc: "Yellow Gold · Aquamarine · Diamonds" },
+      { src: tourmalinePearDropEarrings, name: "Tourmaline Pear Drop Earrings", desc: "White Gold · Pear Pink & Green Tourmalines · Diamond Halo" },
+    ],
+  },
+  {
+    category: "Bracelets",
+    pieces: [
+      { src: pinkSapphireTennisBracelet, name: "Pink Sapphire Tennis Bracelet", desc: "White Gold · Oval Pink Sapphires · Diamond Spacers" },
+      { src: yellowSapphireBracelet, name: "Yellow Sapphire Tennis Bracelet", desc: "White Gold · Emerald-Cut Yellow Sapphires · Diamond Links" },
+      { src: blueSapphireTennisBracelet, name: "Blue Sapphire Tennis Bracelet", desc: "White Gold · Round Blue Sapphires · Four-Prong Setting" },
+    ],
+  },
+  {
+    category: "Bangles",
+    pieces: [
+      { src: spinelCuffBangle, name: "Tourmaline Open Cuff Bangle", desc: "Yellow Gold · Kite & Emerald-Cut Pink Tourmalines · Bezel Set" },
+      { src: sapphireDiamondCuffBangle, name: "Sapphire & Diamond Cuff Bangle", desc: "Yellow Gold · Cushion Blue Sapphire · Round Brilliant Diamond" },
+      { src: zirconSpinelCuffBangle, name: "Tourmaline Cuff Bangle", desc: "Yellow Gold · Champagne Tourmaline · Pink Tourmaline · Bezel Set" },
+      { src: sapphireTsavoriteCuffBangle, name: "Sapphire & Tsavorite Cuff Bangle", desc: "Yellow Gold · Heart Yellow Sapphire · Oval Tsavorite" },
+      { src: pinkSapphireAmethystCuffBangle, name: "Pink Sapphire & Purple Sapphire Cuff", desc: "Yellow Gold · Heart Pink Sapphire · Emerald-Cut Purple Sapphire" },
+      { src: amethystSapphireCuffBangle, name: "Rose Garnet & Sapphire Cuff Bangle", desc: "Yellow Gold · Emerald-Cut Rose Garnet · Oval Blue Sapphire" },
+      { src: tourmalineBangle, name: "Watermelon Tourmaline Bangle", desc: "Yellow Gold · Bi-colour Tourmaline · Diamond" },
+    ],
+  },
+  {
+    category: "Necklaces",
+    pieces: [
+      { src: tourmalineBarNecklace, name: "Tourmaline Bar Link Necklace", desc: "White Gold · Emerald-Cut Tourmalines · Peach Morganite Stations" },
+      { src: tourmalineBarNecklace2, name: "Tourmaline & Garnet Station Necklace", desc: "White Gold · Rhodolite Garnet · Tsavorite · Mixed Fancy Cuts" },
+      { src: sapphireFloralClusterNecklace, name: "Sapphire Floral Cluster Necklace", desc: "White Gold · Round Blue Sapphires · Diamond Star Tips" },
+      { src: multiSapphireFloralNecklace, name: "Multi-Sapphire Floral Necklace", desc: "White Gold · Blue, Yellow & Pink Sapphires · Diamond Floral Halos" },
+      { src: diamondLetterNecklace, name: "Diamond Letter Necklace", desc: "White Gold · Round Brilliant Diamonds · Custom Letter Pendant" },
+    ],
+  },
 ];
 
 const JewellerySection = () => {
@@ -139,17 +170,26 @@ const JewellerySection = () => {
           <div className="divider-gold w-24 mx-auto mt-6" />
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {pieces.map((piece) => (
-            <div key={piece.name} className="group relative overflow-hidden bg-white rounded-sm shadow-md">
-              <img
-                src={piece.src}
-                alt={piece.name}
-                className="w-full aspect-square object-cover group-hover:scale-105 transition-transform duration-700"
-              />
-              <div className="p-5 border-t border-gray-100">
-                <h3 className="font-display text-lg text-gray-900 mb-1">{piece.name}</h3>
-                <p className="font-accent text-sm text-gray-500 tracking-wide">{piece.desc}</p>
+        <div className="space-y-16">
+          {jewelleryCategories.map((category) => (
+            <div key={category.category}>
+              <h3 className="font-display text-2xl md:text-3xl text-gray-900 tracking-wide mb-6 text-center">
+                {category.category}
+              </h3>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {category.pieces.map((piece, index) => (
+                  <div key={`${piece.name}-${index}`} className="group relative overflow-hidden bg-white rounded-sm shadow-md">
+                    <img
+                      src={piece.src}
+                      alt={piece.name}
+                      className="w-full aspect-square object-cover group-hover:scale-105 transition-transform duration-700"
+                    />
+                    <div className="p-5 border-t border-gray-100">
+                      <h3 className="font-display text-lg text-gray-900 mb-1">{piece.name}</h3>
+                      <p className="font-accent text-sm text-gray-500 tracking-wide">{piece.desc}</p>
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
           ))}
