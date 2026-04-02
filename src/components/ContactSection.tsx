@@ -59,10 +59,17 @@ const ContactSection = () => {
           <div className="text-center space-y-4 p-8 border border-cream/10 hover:border-cream/30 transition-colors duration-500">
             <Clock className="w-6 h-6 text-cream mx-auto" />
             <h3 className="font-display text-lg text-cream">Hours</h3>
-            <p className="font-accent text-cream/50 leading-relaxed">
-              By Appointment<br />
-              & Walk-in Welcome
-            </p>
+            <div className="font-accent text-cream/50 text-sm leading-relaxed space-y-1">
+              <div className="flex justify-between gap-4"><span>Thursday</span><span>9 AM – 7 PM</span></div>
+              <div className="flex justify-between gap-4"><span>Friday</span><span>9 AM – Midday</span></div>
+              <div className="flex justify-between gap-4"><span>(Good Friday)</span><span>1:30 – 7 PM</span></div>
+              <p className="text-cream/40 italic pt-1">Hours might differ</p>
+              <div className="flex justify-between gap-4"><span>Saturday</span><span>9 AM – 7 PM</span></div>
+              <div className="flex justify-between gap-4"><span>Sunday</span><span>9 AM – 7 PM</span></div>
+              <div className="flex justify-between gap-4"><span>Monday</span><span>9 AM – 7 PM</span></div>
+              <div className="flex justify-between gap-4"><span>Tuesday</span><span>9 AM – 7 PM</span></div>
+              <div className="flex justify-between gap-4"><span>Wednesday</span><span>9 AM – 7 PM</span></div>
+            </div>
           </div>
         </div>
 
