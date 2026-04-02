@@ -7,6 +7,10 @@ import yellowSapphireHeartNew from "@/assets/yellow-sapphire-heart-new.jpeg";
 import pinkSapphirePear from "@/assets/pink-sapphire-pear.jpeg";
 import pinkSapphireCushion from "@/assets/pink-sapphire-cushion.jpeg";
 import tealSapphireHeart from "@/assets/teal-sapphire-heart.jpeg";
+import aquamarineEmeraldDeep from "@/assets/aquamarine-emerald-deep.jpeg";
+import aquamarineEmeraldLight from "@/assets/aquamarine-emerald-light.jpeg";
+import aquamarineCoffin from "@/assets/aquamarine-coffin.jpeg";
+import aquamarinePear from "@/assets/aquamarine-pear.jpeg";
 
 type GemItem = {
   src: string;
