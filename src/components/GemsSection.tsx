@@ -86,6 +86,7 @@ const GemsSection = () => {
                   </div>
                 ))}
               </div>
+              )}
             </div>
           ))}
         </div>
