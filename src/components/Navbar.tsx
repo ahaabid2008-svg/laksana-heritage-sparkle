@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { Link, useLocation } from "react-router-dom";
 
 const navItems = [
-  { label: "Heritage", href: "#heritage" },
-  { label: "Gems", href: "#gems" },
-  { label: "Jewellery", href: "#jewellery" },
-  { label: "Our Gemologist", href: "#gemologist" },
-  { label: "Contact", href: "#contact" },
+  { label: "Heritage", href: "#heritage", page: "/" },
+  { label: "Collection", href: "/collection", page: "/collection" },
+  { label: "Our Gemologist", href: "#gemologist", page: "/" },
+  { label: "Contact", href: "#contact", page: "/" },
 ];
 
 const Navbar = () => {
