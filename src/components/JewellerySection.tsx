@@ -172,6 +172,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: aquamarineEarrings, name: "Aquamarine Drop Earrings", desc: "Yellow Gold · Aquamarine · Diamonds" },
           { src: tourmalinePearDropEarrings, name: "Tourmaline Pear Drop Earrings", desc: "White Gold · Pear Pink & Green Tourmalines · Diamond Halo" },
           { src: sapphireCircleDropEarrings, name: "Sapphire Circle Drop Earrings", desc: "CUSTOM MADE · White Gold · 3ct Blue Sapphires · Diamond Circle Frames" },
+          { src: multiGemLatticeHoops, name: "Multi-Gem Lattice Hoops", desc: "CUSTOM MADE · Yellow Gold · Sapphires · Rubies · Aquamarines · Cabochon Setting" },
         ],
       },
       {
