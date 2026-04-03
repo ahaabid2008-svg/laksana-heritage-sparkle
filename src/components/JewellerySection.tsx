@@ -226,7 +226,7 @@ const SwipeableImage = ({ images, alt }: { images: string[]; alt: string }) => {
           <button
             key={i}
             onClick={() => setCurrent(i)}
-            className={`w-2 h-2 rounded-full transition-colors ${i === current ? "bg-white" : "bg-white/40"}`}
+            className={`w-2 h-2 rounded-full transition-colors ${i === current ? "bg-black" : "bg-black/30"}`}
           />
         ))}
       </div>
