@@ -4,6 +4,8 @@ import alexandriteRingGreen from "@/assets/alexandrite-ring-green.jpeg";
 import alexandriteRingPink from "@/assets/alexandrite-ring-pink.jpeg";
 import whiteSapphireCocktail1 from "@/assets/white-sapphire-cocktail-1.jpeg";
 import whiteSapphireCocktail2 from "@/assets/white-sapphire-cocktail-2.jpeg";
+import rubyCocktail1 from "@/assets/ruby-cocktail-1.jpeg";
+import rubyCocktail2 from "@/assets/ruby-cocktail-2.jpeg";
 import aquamarineEarrings from "@/assets/aquamarine-earrings.jpeg";
 import aquamarineRing from "@/assets/aquamarine-ring.jpeg";
 import sapphireRing from "@/assets/sapphire-ring.jpeg";
@@ -120,6 +122,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: tricolorDiamondEternityRings, name: "Tri-Colour Diamond Eternity Rings", desc: "Rose, White & Yellow Gold · Diamond Eternity · Shared-Prong Set" },
           { src: [alexandriteRingGreen, alexandriteRingPink], name: "Alexandrite Sunburst Cocktail Ring", desc: "CUSTOM MADE · White Gold · 5ct Colour-Change Alexandrite · Diamond Starburst Halo" },
           { src: [whiteSapphireCocktail1, whiteSapphireCocktail2], name: "White Sapphire Cocktail Ring", desc: "CUSTOM MADE · White Gold · 19ct White Sapphire · Princess-Cut Diamonds" },
+          { src: [rubyCocktail1, rubyCocktail2], name: "Unheated Ruby Cocktail Ring", desc: "CUSTOM MADE · White Gold · 4ct Unheated Ruby · Baguette & Round Diamonds" },
         ],
       },
       {
