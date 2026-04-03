@@ -60,7 +60,7 @@ import tourmalineSignetRing from "@/assets/tourmaline-signet-ring.jpeg";
 import diamondLetterNecklace from "@/assets/diamond-letter-necklace.jpeg";
 
 type PieceItem = {
-  src: string;
+  src: string | string[];
   name: string;
   desc: string;
 };
