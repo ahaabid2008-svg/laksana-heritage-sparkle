@@ -80,6 +80,9 @@ import blueSapphireDomeRing2 from "@/assets/blue-sapphire-dome-ring-2.jpeg";
 import diamondClusterGoldRing from "@/assets/diamond-cluster-gold-ring.jpeg";
 import whiteSapphireEmeraldRing from "@/assets/white-sapphire-emerald-ring.jpeg";
 import triSapphireHammeredRing from "@/assets/tri-sapphire-hammered-ring.jpeg";
+import orangeSapphireHaloRing1 from "@/assets/orange-sapphire-halo-ring-1.jpeg";
+import orangeSapphireHaloRing2 from "@/assets/orange-sapphire-halo-ring-2.jpeg";
+import multiGemLatticeHoops from "@/assets/multi-gem-lattice-hoops.jpeg";
 
 type PieceItem = {
   src: string | string[];
@@ -149,6 +152,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: diamondClusterGoldRing, name: "Diamond Cluster Ring", desc: "CUSTOM MADE · Yellow Gold · Diamond Floral Cluster · Pavé Band" },
           { src: whiteSapphireEmeraldRing, name: "White Sapphire & Emerald Ring", desc: "CUSTOM MADE · Yellow Gold · 2ct White Sapphire · Two Emeralds · Diamonds" },
           { src: triSapphireHammeredRing, name: "Tri-Sapphire Hammered Band", desc: "CUSTOM MADE · Yellow Gold · Blue Sapphire · Green Sapphire · Pink Sapphire · Hammered Finish" },
+          { src: [orangeSapphireHaloRing1, orangeSapphireHaloRing2], name: "Orange Sapphire Halo Ring", desc: "CUSTOM MADE · White Gold · 12ct Orange Sapphire · Dazzling Diamonds" },
         ],
       },
       {
@@ -168,6 +172,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: aquamarineEarrings, name: "Aquamarine Drop Earrings", desc: "Yellow Gold · Aquamarine · Diamonds" },
           { src: tourmalinePearDropEarrings, name: "Tourmaline Pear Drop Earrings", desc: "White Gold · Pear Pink & Green Tourmalines · Diamond Halo" },
           { src: sapphireCircleDropEarrings, name: "Sapphire Circle Drop Earrings", desc: "CUSTOM MADE · White Gold · 3ct Blue Sapphires · Diamond Circle Frames" },
+          { src: multiGemLatticeHoops, name: "Multi-Gem Lattice Hoops", desc: "CUSTOM MADE · Yellow Gold · Sapphires · Rubies · Aquamarines · Cabochon Setting" },
         ],
       },
       {
