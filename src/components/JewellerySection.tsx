@@ -13,6 +13,7 @@ import starSapphireRing from "@/assets/star-sapphire-ring.jpeg";
 import greenSapphireArtDecoRing from "@/assets/green-sapphire-art-deco-ring.jpeg";
 import kunzitePinkSapphireRing from "@/assets/kunzite-pink-sapphire-ring.jpeg";
 import greenSapphireByzantineRing from "@/assets/green-sapphire-byzantine-ring.jpeg";
+import sapphireCircleDropEarrings from "@/assets/sapphire-circle-drop-earrings.jpeg";
 import aquamarineEarrings from "@/assets/aquamarine-earrings.jpeg";
 import aquamarineRing from "@/assets/aquamarine-ring.jpeg";
 import sapphireRing from "@/assets/sapphire-ring.jpeg";
