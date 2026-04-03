@@ -175,6 +175,22 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: greenRing, name: "Green Sapphire Custom Ring", desc: "Sterling Silver · 3ct Green Sapphire · Pear White Sapphires" },
         ],
       },
+      {
+        category: "Earrings",
+        pieces: [],
+      },
+      {
+        category: "Bracelets",
+        pieces: [],
+      },
+      {
+        category: "Bangles",
+        pieces: [],
+      },
+      {
+        category: "Necklaces",
+        pieces: [],
+      },
     ],
   },
 ];
