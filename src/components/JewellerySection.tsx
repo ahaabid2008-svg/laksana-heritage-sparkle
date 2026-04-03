@@ -83,6 +83,11 @@ import triSapphireHammeredRing from "@/assets/tri-sapphire-hammered-ring.jpeg";
 import orangeSapphireHaloRing1 from "@/assets/orange-sapphire-halo-ring-1.jpeg";
 import orangeSapphireHaloRing2 from "@/assets/orange-sapphire-halo-ring-2.jpeg";
 import multiGemLatticeHoops from "@/assets/multi-gem-lattice-hoops.jpeg";
+import tsavoriteDiamondRing1 from "@/assets/tsavorite-diamond-ring-1.jpeg";
+import tsavoriteDiamondRing2 from "@/assets/tsavorite-diamond-ring-2.jpeg";
+import goldenYellowSapphireRing from "@/assets/golden-yellow-sapphire-ring.jpeg";
+import tanzaniteDiamondRing from "@/assets/tanzanite-diamond-ring.jpeg";
+import blueSapphireDiamondRing from "@/assets/blue-sapphire-diamond-ring.jpeg";
 
 type PieceItem = {
   src: string | string[];
