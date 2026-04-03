@@ -145,7 +145,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: greenSapphireByzantineRing, name: "Green Sapphire Byzantine Band", desc: "CUSTOM MADE · Yellow Gold · 2ct Green Sapphire · Hot Pink Sapphires · Rope Detail" },
           { src: greenSapphireWhiteSapphireRing, name: "Green Sapphire Byzantine Ring", desc: "CUSTOM MADE · White Gold · 3ct Green Sapphire · Two White Sapphires · Rope Detail" },
           { src: tealSapphireLoveRing, name: "Teal Sapphire 'Love' Ring", desc: "CUSTOM MADE · Yellow Gold · Teal Sapphires · Green Sapphires · Script Band" },
-          { src: blueSapphireDomeRing, name: "Blue Sapphire Dome Ring", desc: "CUSTOM MADE · White Gold · 7ct Blue Sapphire · Diamond Filigree Setting" },
+          { src: [blueSapphireDomeRing, blueSapphireDomeRing2], name: "Blue Sapphire Dome Ring", desc: "CUSTOM MADE · White Gold · 7ct Blue Sapphire · Diamond Filigree Setting" },
           { src: diamondClusterGoldRing, name: "Diamond Cluster Ring", desc: "CUSTOM MADE · Yellow Gold · Diamond Floral Cluster · Pavé Band" },
           { src: whiteSapphireEmeraldRing, name: "White Sapphire & Emerald Ring", desc: "CUSTOM MADE · Yellow Gold · 2ct White Sapphire · Two Emeralds · Diamonds" },
           { src: triSapphireHammeredRing, name: "Tri-Sapphire Hammered Band", desc: "CUSTOM MADE · Yellow Gold · Blue Sapphire · Green Sapphire · Pink Sapphire · Hammered Finish" },
