@@ -187,7 +187,10 @@ const jewelleryByMetal: JewelleryMetal[] = [
       },
       {
         category: "Necklaces",
-        pieces: [],
+        pieces: [
+          { src: tourmalineBarNecklace, name: "Tourmaline Bar Link Necklace", desc: "Sterling Silver · Emerald-Cut Tourmalines · Peach Morganite Stations" },
+          { src: tourmalineBarNecklace2, name: "Tourmaline & Garnet Station Necklace", desc: "Sterling Silver · Rhodolite Garnet · Tsavorite · Mixed Fancy Cuts" },
+        ],
       },
     ],
   },
