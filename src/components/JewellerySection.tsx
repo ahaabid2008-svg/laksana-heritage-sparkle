@@ -227,11 +227,15 @@ const JewellerySection = () => {
                       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {category.pieces.map((piece, index) => (
                           <div key={`${piece.name}-${index}`} className="group relative overflow-hidden bg-white rounded-sm shadow-md">
-                            <img
-                              src={piece.src}
-                              alt={piece.name}
-                              className="w-full aspect-square object-cover group-hover:scale-105 transition-transform duration-700"
-                            />
+                            {Array.isArray(piece.src) ? (
+                              <SwipeableImage images={piece.src} alt={piece.name} />
+                            ) : (
+                              <img
+                                src={piece.src}
+                                alt={piece.name}
+                                className="w-full aspect-square object-cover group-hover:scale-105 transition-transform duration-700"
+                              />
+                            )}
                             <div className="p-5 border-t border-gray-100">
                               <h3 className="font-display text-lg text-gray-900 mb-1">{piece.name}</h3>
                               <p className="font-accent text-sm text-gray-500 tracking-wide">{piece.desc}</p>
