@@ -138,7 +138,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: tourmalineRing, name: "Tourmaline Five-Stone Ring", desc: "Yellow Gold · Emerald-Cut Green Tourmalines · Mixed Gems" },
           { src: pinkSapphireRingJewel, name: "Pink Sapphire Scroll Ring", desc: "Yellow & White Gold · Cushion Pink Sapphire · Filigree Setting" },
           { src: tourmalineSignetRing, name: "Tourmaline Signet Ring", desc: "Yellow Gold · Emerald-Cut Tourmaline · Brushed Finish" },
-          { src: sapphireTopazAmethystRing, name: "Sapphire, Topaz & Amethyst Ring", desc: "Rose Gold · Blue Sapphires · Blue Topaz · Amethyst · Moonstones" },
+          { src: sapphireTopazAmethystRing, name: "Sapphire, Topaz & Amethyst Ring", desc: "CUSTOM MADE · Rose Gold · Blue Sapphires · Blue Topaz · Amethyst · Moonstones" },
           { src: garnetDiamondHaloRing, name: "Garnet Trillion Halo Ring", desc: "Rose Gold · Trillion Garnet · Diamond Halo & Pavé" },
           { src: diamondPaveWideBand, name: "Diamond Pavé Wide Band", desc: "Rose Gold · Round Brilliant Diamonds · Five-Row Pavé" },
           { src: tricolorDiamondEternityBands, name: "Tri-Colour Diamond Eternity Bands", desc: "Rose, White & Yellow Gold · Round Brilliant Diamonds · Stacking Set" },
