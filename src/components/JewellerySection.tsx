@@ -116,6 +116,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: diamondPaveWideBand, name: "Diamond Pavé Wide Band", desc: "Rose Gold · Round Brilliant Diamonds · Five-Row Pavé" },
           { src: tricolorDiamondEternityBands, name: "Tri-Colour Diamond Eternity Bands", desc: "Rose, White & Yellow Gold · Round Brilliant Diamonds · Stacking Set" },
           { src: tricolorDiamondEternityRings, name: "Tri-Colour Diamond Eternity Rings", desc: "Rose, White & Yellow Gold · Diamond Eternity · Shared-Prong Set" },
+          { src: [alexandriteRingGreen, alexandriteRingPink], name: "Alexandrite Sunburst Cocktail Ring", desc: "White Gold · 5ct Colour-Change Alexandrite · Diamond Starburst Halo" },
         ],
       },
       {
