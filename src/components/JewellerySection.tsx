@@ -107,7 +107,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: pinkTourmalineRing, name: "Pink Tourmaline Asscher Ring", desc: "Yellow Gold · Pink Tourmaline · Diamond Clusters" },
           { src: aquamarineHaloRing, name: "Aquamarine Cushion Halo", desc: "18kt White Gold · 7ct Aquamarine · Green Tourmalines" },
           { src: aquamarineTrilogyRing, name: "Aquamarine Trilogy Ring", desc: "18kt White Gold · Aquamarine · Green Tourmaline" },
-          { src: garnetRing, name: "Hessonite Sunburst", desc: "White Gold · Hessonite Garnet · Double Diamond Halo" },
+          
           { src: morganiteRing, name: "Morganite Cathedral Ring", desc: "White Gold · Morganite · Diamond Setting" },
           { src: whiteSapphireRing, name: "White Sapphire Halo Ring", desc: "White Gold · Oval White Sapphire · Diamond Sunburst Halo" },
           { src: tourmalineRing, name: "Tourmaline Five-Stone Ring", desc: "Yellow Gold · Emerald-Cut Green Tourmalines · Mixed Gems" },
