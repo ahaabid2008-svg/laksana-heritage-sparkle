@@ -88,6 +88,15 @@ import tsavoriteDiamondRing2 from "@/assets/tsavorite-diamond-ring-2.jpeg";
 import goldenYellowSapphireRing from "@/assets/golden-yellow-sapphire-ring.jpeg";
 import tanzaniteDiamondRing from "@/assets/tanzanite-diamond-ring.jpeg";
 import blueSapphireDiamondRing from "@/assets/blue-sapphire-diamond-ring.jpeg";
+import tanzaniteDiamondEarrings1 from "@/assets/tanzanite-diamond-earrings-1.jpeg";
+import tsavoriteDiamondEarrings from "@/assets/tsavorite-diamond-earrings.jpeg";
+import blueSapphireDiamondEarrings from "@/assets/blue-sapphire-diamond-earrings.jpeg";
+import tanzaniteDiamondEarrings2 from "@/assets/tanzanite-diamond-earrings-2.jpeg";
+import tourmalineEarrings1 from "@/assets/tourmaline-earrings-1.jpeg";
+import tourmalineEarrings2 from "@/assets/tourmaline-earrings-2.jpeg";
+import tourmalineEarrings3 from "@/assets/tourmaline-earrings-3.jpeg";
+import tourmalineEarrings4 from "@/assets/tourmaline-earrings-4.jpeg";
+import spinelEarrings from "@/assets/spinel-earrings.jpeg";
 
 type PieceItem = {
   src: string | string[];
@@ -182,6 +191,15 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: tourmalinePearDropEarrings, name: "Tourmaline Pear Drop Earrings", desc: "White Gold · Pear Pink & Green Tourmalines · Diamond Halo" },
           { src: sapphireCircleDropEarrings, name: "Sapphire Circle Drop Earrings", desc: "CUSTOM MADE · White Gold · 3ct Blue Sapphires · Diamond Circle Frames" },
           { src: multiGemLatticeHoops, name: "Multi-Gem Lattice Hoops", desc: "CUSTOM MADE · Yellow Gold · Sapphires · Rubies · Aquamarines · Cabochon Setting" },
+          { src: tanzaniteDiamondEarrings1, name: "Tanzanite Diamond Drop Earrings", desc: "CUSTOM MADE · White Gold · Tanzanites · Dazzling Diamonds" },
+          { src: tsavoriteDiamondEarrings, name: "Tsavorite Diamond Drop Earrings", desc: "CUSTOM MADE · White Gold · Tsavorites · Dazzling Diamonds" },
+          { src: blueSapphireDiamondEarrings, name: "Blue Sapphire Diamond Earrings", desc: "CUSTOM MADE · White Gold · Blue Sapphires · Dazzling Diamonds" },
+          { src: tanzaniteDiamondEarrings2, name: "Tanzanite Sunburst Earrings", desc: "CUSTOM MADE · Yellow Gold · Tanzanites · Dazzling Diamonds" },
+          { src: tourmalineEarrings1, name: "Tourmaline Heart Drop Earrings", desc: "CUSTOM MADE · Yellow Gold · Heart-Cut Tourmalines · Mixed Gems" },
+          { src: tourmalineEarrings2, name: "Tourmaline Cascade Earrings", desc: "CUSTOM MADE · Yellow Gold · Multi-Colour Tourmalines · Drop Setting" },
+          { src: tourmalineEarrings3, name: "Tourmaline Trio Drop Earrings", desc: "CUSTOM MADE · Yellow Gold · Emerald-Cut Tourmalines · Mixed Colours" },
+          { src: tourmalineEarrings4, name: "Tourmaline Bar Drop Earrings", desc: "CUSTOM MADE · Yellow Gold · Emerald-Cut Tourmalines · Tri-Colour" },
+          { src: spinelEarrings, name: "Spinel Heart Drop Earrings", desc: "CUSTOM MADE · Yellow Gold · Heart & Cushion Spinels · Mixed Colours" },
         ],
       },
       {
