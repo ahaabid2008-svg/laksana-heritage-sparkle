@@ -153,7 +153,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
       {
         category: "Earrings",
         pieces: [
-          { src: rubyDiamondStuds, name: "Ruby Lattice Dome Studs", desc: "White Gold · Rubies · Diamond Openwork Lattice" },
+          { src: rubyDiamondStuds, name: "Ruby Lattice Dome Studs", desc: "CUSTOM MADE · White Gold · Rubies · Diamond Openwork Lattice" },
           { src: pinkTourmalineDropEarrings, name: "Pink Tourmaline Drop Earrings", desc: "White Gold · Oval Pink Tourmaline · Diamond Halo & Pavé" },
           { src: tsavoriteDropEarrings, name: "Tsavorite Sunburst Drops", desc: "Yellow Gold · Oval Tsavorite · Diamond Sunburst Halo" },
           { src: diamondChandelierEarrings, name: "Diamond Chandelier Earrings", desc: "White Gold · Round Brilliant Diamonds · Milgrain Openwork" },
