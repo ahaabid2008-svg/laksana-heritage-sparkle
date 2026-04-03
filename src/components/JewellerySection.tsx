@@ -158,7 +158,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: tsavoriteDropEarrings, name: "Tsavorite Sunburst Drops", desc: "Yellow Gold · Oval Tsavorite · Diamond Sunburst Halo" },
           { src: diamondChandelierEarrings, name: "Diamond Chandelier Earrings", desc: "White Gold · Round Brilliant Diamonds · Milgrain Openwork" },
           { src: sapphireDoubleHaloStudsV2, name: "Sapphire Fantasy Earrings", desc: "Yellow Gold · Blue Sapphires · Yellow Sapphires" },
-          { src: pinkTourmalineSunburstEarringsV2, name: "Pink Tourmaline Sunburst Earrings", desc: "Yellow Gold · Oval Pink Tourmalines · Baguette Diamond Rays" },
+          { src: pinkTourmalineSunburstEarringsV2, name: "Pink Sapphire Sunburst Earrings", desc: "Yellow Gold · Oval Pink Sapphires · Baguette Diamond Rays" },
           { src: tsavoriteStarburstDropEarringsV2, name: "Tsavorite Starburst Drops", desc: "White Gold · Oval Tsavorites · Diamond Starburst Frames" },
           { src: pinkTourmalineLaceDropEarrings, name: "Pink Tourmaline Lace Drops", desc: "White Gold · Oval Pink Tourmalines · Diamond Lace Openwork" },
           { src: greenTourmalineDropEarrings, name: "Green Tourmaline Drop Earrings", desc: "Yellow Gold · Emerald-Cut Green Tourmalines · Diamond Studs" },
