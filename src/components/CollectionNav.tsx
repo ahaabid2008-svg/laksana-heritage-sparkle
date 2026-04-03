@@ -38,6 +38,10 @@ const categories: NavItem[] = [
         href: "#jewellery-sterling-silver",
         subcategories: [
           { label: "Rings", href: "#jewellery-sterling-silver-rings" },
+          { label: "Earrings", href: "#jewellery-sterling-silver-earrings" },
+          { label: "Bracelets", href: "#jewellery-sterling-silver-bracelets" },
+          { label: "Bangles", href: "#jewellery-sterling-silver-bangles" },
+          { label: "Necklaces", href: "#jewellery-sterling-silver-necklaces" },
         ],
       },
     ],
