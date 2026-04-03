@@ -73,6 +73,12 @@ import tourmalinePearDropEarrings from "@/assets/tourmaline-pear-drop-earrings.j
 import sapphireFloralClusterNecklace from "@/assets/sapphire-floral-cluster-necklace.jpeg";
 import tourmalineSignetRing from "@/assets/tourmaline-signet-ring.jpeg";
 import diamondLetterNecklace from "@/assets/diamond-letter-necklace.jpeg";
+import greenSapphireWhiteSapphireRing from "@/assets/green-sapphire-white-sapphire-ring.jpeg";
+import tealSapphireLoveRing from "@/assets/teal-sapphire-love-ring.jpeg";
+import blueSapphireDomeRing from "@/assets/blue-sapphire-dome-ring.jpeg";
+import diamondClusterGoldRing from "@/assets/diamond-cluster-gold-ring.jpeg";
+import whiteSapphireEmeraldRing from "@/assets/white-sapphire-emerald-ring.jpeg";
+import triSapphireHammeredRing from "@/assets/tri-sapphire-hammered-ring.jpeg";
 
 type PieceItem = {
   src: string | string[];
@@ -136,6 +142,12 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: greenSapphireArtDecoRing, name: "Green Sapphire Art Deco Ring", desc: "CUSTOM MADE · Yellow Gold · Cushion Green Sapphire · Baguette & Round Diamonds" },
           { src: kunzitePinkSapphireRing, name: "Kunzite & Pink Sapphire Ring", desc: "CUSTOM MADE · White Gold · Oval Kunzite Cabochon · Pink Sapphire Accents" },
           { src: greenSapphireByzantineRing, name: "Green Sapphire Byzantine Band", desc: "CUSTOM MADE · Yellow Gold · 2ct Green Sapphire · Hot Pink Sapphires · Rope Detail" },
+          { src: greenSapphireWhiteSapphireRing, name: "Green Sapphire Byzantine Ring", desc: "CUSTOM MADE · White Gold · 3ct Green Sapphire · Two White Sapphires · Rope Detail" },
+          { src: tealSapphireLoveRing, name: "Teal Sapphire 'Love' Ring", desc: "CUSTOM MADE · Yellow Gold · Teal Sapphires · Green Sapphires · Script Band" },
+          { src: blueSapphireDomeRing, name: "Blue Sapphire Dome Ring", desc: "CUSTOM MADE · White Gold · 7ct Blue Sapphire · Diamond Filigree Setting" },
+          { src: diamondClusterGoldRing, name: "Diamond Cluster Ring", desc: "CUSTOM MADE · Yellow Gold · Diamond Floral Cluster · Pavé Band" },
+          { src: whiteSapphireEmeraldRing, name: "White Sapphire & Emerald Ring", desc: "CUSTOM MADE · Yellow Gold · 2ct White Sapphire · Two Emeralds · Diamonds" },
+          { src: triSapphireHammeredRing, name: "Tri-Sapphire Hammered Band", desc: "CUSTOM MADE · Yellow Gold · Blue Sapphire · Green Sapphire · Pink Sapphire · Hammered Finish" },
         ],
       },
       {
