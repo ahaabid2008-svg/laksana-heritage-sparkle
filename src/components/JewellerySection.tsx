@@ -357,7 +357,14 @@ const JewellerySection = () => {
                             )}
                             <div className="p-5 border-t border-gray-100">
                               <h3 className="font-display text-lg text-gray-900 mb-1">{piece.name}</h3>
-                              <p className="font-accent text-sm text-gray-500 tracking-wide">{piece.desc}</p>
+                              {piece.desc.startsWith("CUSTOM MADE") ? (
+                                <>
+                                  <p className="font-accent text-sm text-gray-500 tracking-wide font-semibold">CUSTOM MADE</p>
+                                  <p className="font-accent text-sm text-gray-500 tracking-wide">{piece.desc.replace("CUSTOM MADE · ", "")}</p>
+                                </>
+                              ) : (
+                                <p className="font-accent text-sm text-gray-500 tracking-wide">{piece.desc}</p>
+                              )}
                             </div>
                           </div>
                         ))}
