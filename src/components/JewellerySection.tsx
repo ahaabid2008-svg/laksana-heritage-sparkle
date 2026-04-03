@@ -132,7 +132,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
       {
         category: "Rings",
         pieces: [
-          { src: sapphireRing, name: "Royal Sapphire Trilogy", desc: "Platinum · Blue Sapphire · Diamonds" },
+          { src: sapphireRing, name: "Royal Sapphire Trilogy - 6 Carat", desc: "Platinum · Blue Sapphire · Diamonds" },
           { src: emeraldRing, name: "Tsavorite Floral Cocktail", desc: "CUSTOM MADE · Yellow Gold · 4ct Tsavorite · Diamond Halo" },
           { src: blueSapphireRing, name: "Timeless, Tangled & One-Of-A-Kind", desc: "Rose Gold · 3ct Blue Sapphire · Round & Marquise Diamonds" },
           { src: sapphireTrilogyRing, name: "Ceylon Sapphire Trilogy", desc: "Yellow Gold · Oval Blue Sapphire · Round Brilliant Diamonds" },
