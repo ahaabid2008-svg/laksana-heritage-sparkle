@@ -218,6 +218,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: pinkTourmalinePinkSapphireEarrings, name: "Pink Tourmaline & Pink Sapphire Earrings", desc: "Gold · Pink Tourmaline · Calibrated Pink Sapphires" },
           { src: multiColourSapphireEarrings, name: "Multi-Colour Sapphire Drop Earrings", desc: "Gold · Multi-Colour Sapphires · Chain Drop" },
           { src: yellowSapphireDiamondEarrings, name: "Yellow Sapphire Diamond Earrings", desc: "Gold · Pale Yellow Sapphires · Diamonds" },
+        ],
       },
       {
         category: "Bracelets",
