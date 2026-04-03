@@ -10,6 +10,9 @@ import pinkBlueSapphireCuff from "@/assets/pink-blue-sapphire-cuff.jpeg";
 import tourmalineTsavoriteCuff from "@/assets/tourmaline-tsavorite-cuff.jpeg";
 import spessartineGarnetRing from "@/assets/spessartine-garnet-ring.jpeg";
 import starSapphireRing from "@/assets/star-sapphire-ring.jpeg";
+import greenSapphireArtDecoRing from "@/assets/green-sapphire-art-deco-ring.jpeg";
+import kunzitePinkSapphireRing from "@/assets/kunzite-pink-sapphire-ring.jpeg";
+import greenSapphireByzantineRing from "@/assets/green-sapphire-byzantine-ring.jpeg";
 import aquamarineEarrings from "@/assets/aquamarine-earrings.jpeg";
 import aquamarineRing from "@/assets/aquamarine-ring.jpeg";
 import sapphireRing from "@/assets/sapphire-ring.jpeg";
@@ -129,6 +132,9 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: [rubyCocktail1, rubyCocktail2], name: "Unheated Ruby Cocktail Ring", desc: "CUSTOM MADE · White Gold · 4ct Unheated Ruby · Baguette & Round Diamonds" },
           { src: spessartineGarnetRing, name: "Spessartine Garnet Cocktail Ring", desc: "CUSTOM MADE · White Gold · 9ct Spessartine Garnet · Double Diamond Halo" },
           { src: starSapphireRing, name: "Star Sapphire Cabochon Ring", desc: "CUSTOM MADE · Yellow Gold · 10ct Star Sapphire · Beaded Bezel Setting" },
+          { src: greenSapphireArtDecoRing, name: "Green Sapphire Art Deco Ring", desc: "CUSTOM MADE · Yellow Gold · Cushion Green Sapphire · Baguette & Round Diamonds" },
+          { src: kunzitePinkSapphireRing, name: "Kunzite & Pink Sapphire Ring", desc: "CUSTOM MADE · White Gold · Oval Kunzite Cabochon · Pink Sapphire Accents" },
+          { src: greenSapphireByzantineRing, name: "Green Sapphire Byzantine Band", desc: "CUSTOM MADE · Yellow Gold · 2ct Green Sapphire · Hot Pink Sapphires · Rope Detail" },
         ],
       },
       {
