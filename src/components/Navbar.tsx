@@ -51,7 +51,9 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [collectionOpen, setCollectionOpen] = useState(false);
   const [expandedSub, setExpandedSub] = useState<string | null>(null);
+  const [expandedSubChild, setExpandedSubChild] = useState<string | null>(null);
   const [desktopExpandedSub, setDesktopExpandedSub] = useState<string | null>(null);
+  const [desktopExpandedSubChild, setDesktopExpandedSubChild] = useState<string | null>(null);
   const location = useLocation();
   const navigate = useNavigate();
 
