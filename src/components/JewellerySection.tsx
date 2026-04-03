@@ -76,6 +76,7 @@ import diamondLetterNecklace from "@/assets/diamond-letter-necklace.jpeg";
 import greenSapphireWhiteSapphireRing from "@/assets/green-sapphire-white-sapphire-ring.jpeg";
 import tealSapphireLoveRing from "@/assets/teal-sapphire-love-ring.jpeg";
 import blueSapphireDomeRing from "@/assets/blue-sapphire-dome-ring.jpeg";
+import blueSapphireDomeRing2 from "@/assets/blue-sapphire-dome-ring-2.jpeg";
 import diamondClusterGoldRing from "@/assets/diamond-cluster-gold-ring.jpeg";
 import whiteSapphireEmeraldRing from "@/assets/white-sapphire-emerald-ring.jpeg";
 import triSapphireHammeredRing from "@/assets/tri-sapphire-hammered-ring.jpeg";
