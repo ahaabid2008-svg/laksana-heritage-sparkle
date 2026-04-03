@@ -218,6 +218,7 @@ const JewellerySection = () => {
                     <h4 className="font-display text-2xl md:text-3xl text-gray-900 tracking-wide mb-6 text-center">
                       {category.category}
                     </h4>
+                    {category.pieces.length > 0 ? (
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                       {category.pieces.map((piece, index) => (
                         <div key={`${piece.name}-${index}`} className="group relative overflow-hidden bg-white rounded-sm shadow-md">
