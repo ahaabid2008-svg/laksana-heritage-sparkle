@@ -97,6 +97,15 @@ import tourmalineEarrings2 from "@/assets/tourmaline-earrings-2.jpeg";
 import tourmalineEarrings3 from "@/assets/tourmaline-earrings-3.jpeg";
 import tourmalineEarrings4 from "@/assets/tourmaline-earrings-4.jpeg";
 import spinelEarrings from "@/assets/spinel-earrings.jpeg";
+import blueSapphireDiamondStuds from "@/assets/blue-sapphire-diamond-studs.jpeg";
+import blueSapphireDiamondStuds2 from "@/assets/blue-sapphire-diamond-studs-2.jpeg";
+import tourmalineDiamondDropEarrings from "@/assets/tourmaline-diamond-drop-earrings.jpeg";
+import berylStoneEarrings from "@/assets/beryl-stone-earrings.jpeg";
+import whiteSapphireEarringsImg from "@/assets/white-sapphire-earrings.jpeg";
+import peridotYellowSapphireEarrings from "@/assets/peridot-yellow-sapphire-earrings.jpeg";
+import pinkTourmalinePinkSapphireEarrings from "@/assets/pink-tourmaline-sapphire-earrings.jpeg";
+import multiColourSapphireEarrings from "@/assets/multi-colour-sapphire-earrings.jpeg";
+import yellowSapphireDiamondEarrings from "@/assets/yellow-sapphire-diamond-earrings.jpeg";
 
 type PieceItem = {
   src: string | string[];
@@ -200,6 +209,15 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: tourmalineEarrings3, name: "Tourmaline Trio Drop Earrings", desc: "Yellow Gold · Emerald-Cut Tourmalines · Mixed Colours" },
           { src: tourmalineEarrings4, name: "Tourmaline Bar Drop Earrings", desc: "Yellow Gold · Emerald-Cut Tourmalines · Tri-Colour" },
           { src: spinelEarrings, name: "Spinel Heart Drop Earrings", desc: "Yellow Gold · Heart & Cushion Spinels · Mixed Colours" },
+          { src: blueSapphireDiamondStuds, name: "Blue Sapphire Diamond Studs", desc: "Gold · Blue Sapphires · Diamonds" },
+          { src: blueSapphireDiamondStuds2, name: "Blue Sapphire Diamond Earrings", desc: "Gold · Blue Sapphires · Diamonds" },
+          { src: tourmalineDiamondDropEarrings, name: "Tourmaline Diamond Drop Earrings", desc: "Gold · Tourmalines · Diamonds" },
+          { src: berylStoneEarrings, name: "16ct Beryl Drop Earrings", desc: "Gold · 16ct Beryl Stones · Diamond Studs" },
+          { src: whiteSapphireEarringsImg, name: "White Sapphire Cluster Earrings", desc: "Gold · White Sapphires · Rose Tones" },
+          { src: peridotYellowSapphireEarrings, name: "Peridot & Yellow Sapphire Earrings", desc: "Gold · Peridot Pair · Yellow Sapphire Surround" },
+          { src: pinkTourmalinePinkSapphireEarrings, name: "Pink Tourmaline & Pink Sapphire Earrings", desc: "Gold · Pink Tourmaline · Calibrated Pink Sapphires" },
+          { src: multiColourSapphireEarrings, name: "Multi-Colour Sapphire Drop Earrings", desc: "Gold · Multi-Colour Sapphires · Chain Drop" },
+          { src: yellowSapphireDiamondEarrings, name: "Yellow Sapphire Diamond Earrings", desc: "Gold · Pale Yellow Sapphires · Diamonds" },
         ],
       },
       {
