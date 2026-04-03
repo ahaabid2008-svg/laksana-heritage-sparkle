@@ -4,6 +4,8 @@ import alexandriteRingGreen from "@/assets/alexandrite-ring-green.jpeg";
 import alexandriteRingPink from "@/assets/alexandrite-ring-pink.jpeg";
 import whiteSapphireCocktail1 from "@/assets/white-sapphire-cocktail-1.jpeg";
 import whiteSapphireCocktail2 from "@/assets/white-sapphire-cocktail-2.jpeg";
+import rubyCocktail1 from "@/assets/ruby-cocktail-1.jpeg";
+import rubyCocktail2 from "@/assets/ruby-cocktail-2.jpeg";
 import aquamarineEarrings from "@/assets/aquamarine-earrings.jpeg";
 import aquamarineRing from "@/assets/aquamarine-ring.jpeg";
 import sapphireRing from "@/assets/sapphire-ring.jpeg";
