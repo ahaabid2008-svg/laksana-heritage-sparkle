@@ -152,6 +152,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: diamondClusterGoldRing, name: "Diamond Cluster Ring", desc: "CUSTOM MADE · Yellow Gold · Diamond Floral Cluster · Pavé Band" },
           { src: whiteSapphireEmeraldRing, name: "White Sapphire & Emerald Ring", desc: "CUSTOM MADE · Yellow Gold · 2ct White Sapphire · Two Emeralds · Diamonds" },
           { src: triSapphireHammeredRing, name: "Tri-Sapphire Hammered Band", desc: "CUSTOM MADE · Yellow Gold · Blue Sapphire · Green Sapphire · Pink Sapphire · Hammered Finish" },
+          { src: [orangeSapphireHaloRing1, orangeSapphireHaloRing2], name: "Orange Sapphire Halo Ring", desc: "CUSTOM MADE · White Gold · 12ct Orange Sapphire · Dazzling Diamonds" },
         ],
       },
       {
