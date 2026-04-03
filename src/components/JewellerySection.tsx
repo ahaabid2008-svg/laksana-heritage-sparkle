@@ -158,6 +158,10 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: whiteSapphireEmeraldRing, name: "White Sapphire & Emerald Ring", desc: "CUSTOM MADE · Yellow Gold · 2ct White Sapphire · Two Emeralds · Diamonds" },
           { src: triSapphireHammeredRing, name: "Tri-Sapphire Hammered Band", desc: "CUSTOM MADE · Yellow Gold · Blue Sapphire · Green Sapphire · Pink Sapphire · Hammered Finish" },
           { src: [orangeSapphireHaloRing1, orangeSapphireHaloRing2], name: "Orange Sapphire Halo Ring", desc: "CUSTOM MADE · White Gold · 12ct Orange Sapphire · Dazzling Diamonds" },
+          { src: [tsavoriteDiamondRing1, tsavoriteDiamondRing2], name: "Tsavorite Diamond Ring", desc: "CUSTOM MADE · White Gold · 8.07ct Tsavorite · Dazzling Diamonds" },
+          { src: goldenYellowSapphireRing, name: "Golden Yellow Sapphire Ring", desc: "CUSTOM MADE · Yellow Gold · 8ct Golden Yellow Sapphire · Dazzling Diamonds" },
+          { src: tanzaniteDiamondRing, name: "Tanzanite Diamond Ring", desc: "CUSTOM MADE · Yellow Gold · Tanzanite · Dazzling Diamonds" },
+          { src: blueSapphireDiamondRing, name: "Blue Sapphire Diamond Ring", desc: "CUSTOM MADE · White Gold · 3ct Oval Blue Sapphire · Dazzling Diamonds" },
         ],
       },
       {
