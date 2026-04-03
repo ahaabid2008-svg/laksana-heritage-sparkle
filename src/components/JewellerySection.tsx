@@ -114,7 +114,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: zultaniteSolitaireRing, name: "Tourmaline Solitaire", desc: "Yellow Gold · Tourmaline · Four-Prong Setting" },
           { src: multiSapphireStackingRings, name: "Multi-Sapphire Stacking Set", desc: "Yellow Gold · Bezel-Set Sapphires · Mixed Fancy Cuts" },
           { src: sapphireStarburstRing, name: "Sapphire Starburst Ring", desc: "White Gold · Oval Blue Sapphire · Diamond Sunburst Halo" },
-          { src: yellowSapphireHaloRing, name: "Yellow Sapphire Halo", desc: "Yellow Gold · Cushion Yellow Sapphire · Diamond Halo & Pavé" },
+          { src: yellowSapphireHaloRing, name: "Yellow Sapphire Halo", desc: "CUSTOM MADE · Yellow Gold · 4.5ct Vivid Yellow Sapphire · Dazzling Diamonds" },
           { src: sapphirePaveBandRingV2, name: "Dream in Blue", desc: "White Gold · Royal Blue Sapphire · Diamonds" },
           { src: sapphireFloralBypassRingV2, name: "Sapphire Floral Cluster Ring", desc: "White Gold · Calibrated Blue Sapphires · Diamond Floral Settings" },
           { src: aquamarineDiamondEternityRingV2, name: "Aquamarine & White Sapphire Eternity", desc: "CUSTOM MADE · Yellow Gold · White Sapphires · Pale Aquamarines" },
