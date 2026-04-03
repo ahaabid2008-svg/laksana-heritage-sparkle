@@ -156,8 +156,6 @@ const jewelleryByMetal: JewelleryMetal[] = [
       {
         category: "Necklaces",
         pieces: [
-          { src: tourmalineBarNecklace, name: "Tourmaline Bar Link Necklace", desc: "White Gold · Emerald-Cut Tourmalines · Peach Morganite Stations" },
-          { src: tourmalineBarNecklace2, name: "Tourmaline & Garnet Station Necklace", desc: "White Gold · Rhodolite Garnet · Tsavorite · Mixed Fancy Cuts" },
           { src: sapphireFloralClusterNecklace, name: "Sapphire Floral Cluster Necklace", desc: "White Gold · Round Blue Sapphires · Diamond Star Tips" },
           { src: multiSapphireFloralNecklace, name: "Multi-Sapphire Floral Necklace", desc: "White Gold · Blue, Yellow & Pink Sapphires · Diamond Floral Halos" },
           { src: diamondLetterNecklace, name: "Diamond Letter Necklace", desc: "White Gold · Round Brilliant Diamonds · Custom Letter Pendant" },
