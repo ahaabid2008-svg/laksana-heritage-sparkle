@@ -1,7 +1,13 @@
 import { useState } from "react";
 import { ChevronDown, ChevronRight } from "lucide-react";
 
-const categories = [
+type NavItem = {
+  label: string;
+  href: string;
+  subcategories?: NavItem[];
+};
+
+const categories: NavItem[] = [
   {
     label: "Gems",
     href: "#gems",
@@ -16,11 +22,24 @@ const categories = [
     label: "Jewellery",
     href: "#jewellery",
     subcategories: [
-      { label: "Rings", href: "#jewellery-rings" },
-      { label: "Earrings", href: "#jewellery-earrings" },
-      { label: "Bracelets", href: "#jewellery-bracelets" },
-      { label: "Bangles", href: "#jewellery-bangles" },
-      { label: "Necklaces", href: "#jewellery-necklaces" },
+      {
+        label: "Gold",
+        href: "#jewellery-gold",
+        subcategories: [
+          { label: "Rings", href: "#jewellery-gold-rings" },
+          { label: "Earrings", href: "#jewellery-gold-earrings" },
+          { label: "Bracelets", href: "#jewellery-gold-bracelets" },
+          { label: "Bangles", href: "#jewellery-gold-bangles" },
+          { label: "Necklaces", href: "#jewellery-gold-necklaces" },
+        ],
+      },
+      {
+        label: "Sterling Silver",
+        href: "#jewellery-sterling-silver",
+        subcategories: [
+          { label: "Rings", href: "#jewellery-sterling-silver-rings" },
+        ],
+      },
     ],
   },
   { label: "Bespoke Gallery", href: "#bespoke-gallery" },
@@ -28,6 +47,7 @@ const categories = [
 
 const CollectionNav = () => {
   const [expandedCategory, setExpandedCategory] = useState<string | null>(null);
+  const [expandedSub, setExpandedSub] = useState<string | null>(null);
 
   const scrollTo = (href: string) => {
     const el = document.querySelector(href);
@@ -69,12 +89,45 @@ const CollectionNav = () => {
                 <ul className="pl-6 pb-2 space-y-1">
                   {cat.subcategories.map((sub) => (
                     <li key={sub.label}>
-                      <button
-                        onClick={() => scrollTo(sub.href)}
-                        className="w-full text-left py-2 px-2 font-accent text-sm tracking-[0.15em] text-cream/50 hover:text-cream transition-colors duration-300"
-                      >
-                        {sub.label}
-                      </button>
+                      {sub.subcategories ? (
+                        <div>
+                          <button
+                            onClick={() => {
+                              setExpandedSub(expandedSub === sub.label ? null : sub.label);
+                              scrollTo(sub.href);
+                            }}
+                            className="w-full flex items-center justify-between py-2 px-2 font-accent text-sm tracking-[0.15em] text-cream/50 hover:text-cream transition-colors duration-300"
+                          >
+                            <span>{sub.label}</span>
+                            {expandedSub === sub.label ? (
+                              <ChevronDown size={14} className="text-cream/40" />
+                            ) : (
+                              <ChevronRight size={14} className="text-cream/40" />
+                            )}
+                          </button>
+                          {expandedSub === sub.label && (
+                            <ul className="pl-6 pb-1 space-y-1">
+                              {sub.subcategories.map((child) => (
+                                <li key={child.label}>
+                                  <button
+                                    onClick={() => scrollTo(child.href)}
+                                    className="w-full text-left py-1.5 px-2 font-accent text-xs tracking-[0.15em] text-cream/40 hover:text-cream transition-colors duration-300"
+                                  >
+                                    {child.label}
+                                  </button>
+                                </li>
+                              ))}
+                            </ul>
+                          )}
+                        </div>
+                      ) : (
+                        <button
+                          onClick={() => scrollTo(sub.href)}
+                          className="w-full text-left py-2 px-2 font-accent text-sm tracking-[0.15em] text-cream/50 hover:text-cream transition-colors duration-300"
+                        >
+                          {sub.label}
+                        </button>
+                      )}
                     </li>
                   ))}
                 </ul>

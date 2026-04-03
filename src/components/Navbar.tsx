@@ -24,11 +24,24 @@ const collectionSubItems = [
     label: "Jewellery",
     href: "/collection#jewellery",
     children: [
-      { label: "Rings", href: "/collection#jewellery-rings" },
-      { label: "Earrings", href: "/collection#jewellery-earrings" },
-      { label: "Bracelets", href: "/collection#jewellery-bracelets" },
-      { label: "Bangles", href: "/collection#jewellery-bangles" },
-      { label: "Necklaces", href: "/collection#jewellery-necklaces" },
+      {
+        label: "Gold",
+        href: "/collection#jewellery-gold",
+        children: [
+          { label: "Rings", href: "/collection#jewellery-gold-rings" },
+          { label: "Earrings", href: "/collection#jewellery-gold-earrings" },
+          { label: "Bracelets", href: "/collection#jewellery-gold-bracelets" },
+          { label: "Bangles", href: "/collection#jewellery-gold-bangles" },
+          { label: "Necklaces", href: "/collection#jewellery-gold-necklaces" },
+        ],
+      },
+      {
+        label: "Sterling Silver",
+        href: "/collection#jewellery-sterling-silver",
+        children: [
+          { label: "Rings", href: "/collection#jewellery-sterling-silver-rings" },
+        ],
+      },
     ],
   },
   { label: "Bespoke Gallery", href: "/collection#bespoke-gallery" },
@@ -38,7 +51,9 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [collectionOpen, setCollectionOpen] = useState(false);
   const [expandedSub, setExpandedSub] = useState<string | null>(null);
+  const [expandedSubChild, setExpandedSubChild] = useState<string | null>(null);
   const [desktopExpandedSub, setDesktopExpandedSub] = useState<string | null>(null);
+  const [desktopExpandedSubChild, setDesktopExpandedSubChild] = useState<string | null>(null);
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -111,12 +126,38 @@ const Navbar = () => {
                                 <ul className="py-1">
                                   {sub.children.map((child) => (
                                     <li key={child.label}>
-                                      <button
-                                        onClick={() => handleCollectionSubClick(child.href)}
-                                        className="w-full text-left pl-8 pr-4 py-1.5 font-body text-xs tracking-[0.1em] text-cream/50 hover:text-cream hover:bg-cream/5 transition-colors"
-                                      >
-                                        {child.label}
-                                      </button>
+                                      {child.children ? (
+                                        <div>
+                                          <button
+                                            onClick={() => setDesktopExpandedSubChild(desktopExpandedSubChild === child.label ? null : child.label)}
+                                            className="w-full flex items-center justify-between pl-8 pr-4 py-1.5 font-body text-xs tracking-[0.1em] text-cream/50 hover:text-cream hover:bg-cream/5 transition-colors"
+                                          >
+                                            <span>{child.label}</span>
+                                            {desktopExpandedSubChild === child.label ? <ChevronDown size={10} /> : <ChevronRight size={10} />}
+                                          </button>
+                                          {desktopExpandedSubChild === child.label && (
+                                            <ul className="py-1">
+                                              {child.children.map((grandchild) => (
+                                                <li key={grandchild.label}>
+                                                  <button
+                                                    onClick={() => handleCollectionSubClick(grandchild.href)}
+                                                    className="w-full text-left pl-12 pr-4 py-1.5 font-body text-xs tracking-[0.1em] text-cream/40 hover:text-cream hover:bg-cream/5 transition-colors"
+                                                  >
+                                                    {grandchild.label}
+                                                  </button>
+                                                </li>
+                                              ))}
+                                            </ul>
+                                          )}
+                                        </div>
+                                      ) : (
+                                        <button
+                                          onClick={() => handleCollectionSubClick(child.href)}
+                                          className="w-full text-left pl-8 pr-4 py-1.5 font-body text-xs tracking-[0.1em] text-cream/50 hover:text-cream hover:bg-cream/5 transition-colors"
+                                        >
+                                          {child.label}
+                                        </button>
+                                      )}
                                     </li>
                                   ))}
                                 </ul>
@@ -211,12 +252,45 @@ const Navbar = () => {
                                   <ul className="pl-4 mt-2 flex flex-col gap-2">
                                     {sub.children.map((child) => (
                                       <li key={child.label}>
-                                        <button
-                                          onClick={() => handleCollectionSubClick(child.href)}
-                                          className="font-body text-xs tracking-[0.1em] text-cream/40 hover:text-cream transition-colors"
-                                        >
-                                          {child.label}
-                                        </button>
+                                        {child.children ? (
+                                          <div>
+                                            <div className="flex items-center justify-between">
+                                              <button
+                                                onClick={() => handleCollectionSubClick(child.href)}
+                                                className="font-body text-xs tracking-[0.1em] text-cream/40 hover:text-cream transition-colors"
+                                              >
+                                                {child.label}
+                                              </button>
+                                              <button
+                                                onClick={() => setExpandedSubChild(expandedSubChild === child.label ? null : child.label)}
+                                                className="p-1 text-cream/30 hover:text-cream transition-colors"
+                                              >
+                                                {expandedSubChild === child.label ? <ChevronDown size={12} /> : <ChevronRight size={12} />}
+                                              </button>
+                                            </div>
+                                            {expandedSubChild === child.label && (
+                                              <ul className="pl-4 mt-1 flex flex-col gap-1">
+                                                {child.children.map((grandchild) => (
+                                                  <li key={grandchild.label}>
+                                                    <button
+                                                      onClick={() => handleCollectionSubClick(grandchild.href)}
+                                                      className="font-body text-xs tracking-[0.1em] text-cream/30 hover:text-cream transition-colors"
+                                                    >
+                                                      {grandchild.label}
+                                                    </button>
+                                                  </li>
+                                                ))}
+                                              </ul>
+                                            )}
+                                          </div>
+                                        ) : (
+                                          <button
+                                            onClick={() => handleCollectionSubClick(child.href)}
+                                            className="font-body text-xs tracking-[0.1em] text-cream/40 hover:text-cream transition-colors"
+                                          >
+                                            {child.label}
+                                          </button>
+                                        )}
                                       </li>
                                     ))}
                                   </ul>
