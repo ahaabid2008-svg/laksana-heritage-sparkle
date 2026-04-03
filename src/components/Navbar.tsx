@@ -24,11 +24,24 @@ const collectionSubItems = [
     label: "Jewellery",
     href: "/collection#jewellery",
     children: [
-      { label: "Rings", href: "/collection#jewellery-rings" },
-      { label: "Earrings", href: "/collection#jewellery-earrings" },
-      { label: "Bracelets", href: "/collection#jewellery-bracelets" },
-      { label: "Bangles", href: "/collection#jewellery-bangles" },
-      { label: "Necklaces", href: "/collection#jewellery-necklaces" },
+      {
+        label: "Gold",
+        href: "/collection#jewellery-gold",
+        children: [
+          { label: "Rings", href: "/collection#jewellery-gold-rings" },
+          { label: "Earrings", href: "/collection#jewellery-gold-earrings" },
+          { label: "Bracelets", href: "/collection#jewellery-gold-bracelets" },
+          { label: "Bangles", href: "/collection#jewellery-gold-bangles" },
+          { label: "Necklaces", href: "/collection#jewellery-gold-necklaces" },
+        ],
+      },
+      {
+        label: "Sterling Silver",
+        href: "/collection#jewellery-sterling-silver",
+        children: [
+          { label: "Rings", href: "/collection#jewellery-sterling-silver-rings" },
+        ],
+      },
     ],
   },
   { label: "Bespoke Gallery", href: "/collection#bespoke-gallery" },

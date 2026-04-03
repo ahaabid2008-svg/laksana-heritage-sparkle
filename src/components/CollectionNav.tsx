@@ -16,11 +16,24 @@ const categories = [
     label: "Jewellery",
     href: "#jewellery",
     subcategories: [
-      { label: "Rings", href: "#jewellery-rings" },
-      { label: "Earrings", href: "#jewellery-earrings" },
-      { label: "Bracelets", href: "#jewellery-bracelets" },
-      { label: "Bangles", href: "#jewellery-bangles" },
-      { label: "Necklaces", href: "#jewellery-necklaces" },
+      {
+        label: "Gold",
+        href: "#jewellery-gold",
+        subcategories: [
+          { label: "Rings", href: "#jewellery-gold-rings" },
+          { label: "Earrings", href: "#jewellery-gold-earrings" },
+          { label: "Bracelets", href: "#jewellery-gold-bracelets" },
+          { label: "Bangles", href: "#jewellery-gold-bangles" },
+          { label: "Necklaces", href: "#jewellery-gold-necklaces" },
+        ],
+      },
+      {
+        label: "Sterling Silver",
+        href: "#jewellery-sterling-silver",
+        subcategories: [
+          { label: "Rings", href: "#jewellery-sterling-silver-rings" },
+        ],
+      },
     ],
   },
   { label: "Bespoke Gallery", href: "#bespoke-gallery" },
