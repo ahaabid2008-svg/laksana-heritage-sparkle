@@ -200,6 +200,40 @@ const jewelleryByMetal: JewelleryMetal[] = [
   },
 ];
 
+const SwipeableImage = ({ images, alt }: { images: string[]; alt: string }) => {
+  const [current, setCurrent] = useState(0);
+  const [touchStart, setTouchStart] = useState<number | null>(null);
+
+  const handleTouchStart = (e: React.TouchEvent) => setTouchStart(e.touches[0].clientX);
+  const handleTouchEnd = (e: React.TouchEvent) => {
+    if (touchStart === null) return;
+    const diff = touchStart - e.changedTouches[0].clientX;
+    if (Math.abs(diff) > 50) {
+      setCurrent((prev) => (diff > 0 ? Math.min(prev + 1, images.length - 1) : Math.max(prev - 1, 0)));
+    }
+    setTouchStart(null);
+  };
+
+  return (
+    <div className="relative overflow-hidden" onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd}>
+      <img
+        src={images[current]}
+        alt={`${alt} - view ${current + 1}`}
+        className="w-full aspect-square object-cover transition-transform duration-700"
+      />
+      <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-1.5">
+        {images.map((_, i) => (
+          <button
+            key={i}
+            onClick={() => setCurrent(i)}
+            className={`w-2 h-2 rounded-full transition-colors ${i === current ? "bg-white" : "bg-white/40"}`}
+          />
+        ))}
+      </div>
+    </div>
+  );
+};
+
 const JewellerySection = () => {
   return (
     <section id="jewellery" className="py-24 md:py-32 bg-white">
