@@ -127,6 +127,8 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: [alexandriteRingGreen, alexandriteRingPink], name: "Alexandrite Sunburst Cocktail Ring", desc: "CUSTOM MADE · White Gold · 5ct Colour-Change Alexandrite · Diamond Starburst Halo" },
           { src: [whiteSapphireCocktail1, whiteSapphireCocktail2], name: "White Sapphire Cocktail Ring", desc: "CUSTOM MADE · White Gold · 19ct White Sapphire · Princess-Cut Diamonds" },
           { src: [rubyCocktail1, rubyCocktail2], name: "Unheated Ruby Cocktail Ring", desc: "CUSTOM MADE · White Gold · 4ct Unheated Ruby · Baguette & Round Diamonds" },
+          { src: spessartineGarnetRing, name: "Spessartine Garnet Cocktail Ring", desc: "CUSTOM MADE · White Gold · 9ct Spessartine Garnet · Double Diamond Halo" },
+          { src: starSapphireRing, name: "Star Sapphire Cabochon Ring", desc: "CUSTOM MADE · Yellow Gold · 10ct Star Sapphire · Beaded Bezel Setting" },
         ],
       },
       {
