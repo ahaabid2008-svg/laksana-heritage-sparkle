@@ -8,6 +8,8 @@ import rubyCocktail1 from "@/assets/ruby-cocktail-1.jpeg";
 import rubyCocktail2 from "@/assets/ruby-cocktail-2.jpeg";
 import pinkBlueSapphireCuff from "@/assets/pink-blue-sapphire-cuff.jpeg";
 import tourmalineTsavoriteCuff from "@/assets/tourmaline-tsavorite-cuff.jpeg";
+import spessartineGarnetRing from "@/assets/spessartine-garnet-ring.jpeg";
+import starSapphireRing from "@/assets/star-sapphire-ring.jpeg";
 import aquamarineEarrings from "@/assets/aquamarine-earrings.jpeg";
 import aquamarineRing from "@/assets/aquamarine-ring.jpeg";
 import sapphireRing from "@/assets/sapphire-ring.jpeg";
@@ -94,7 +96,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
         category: "Rings",
         pieces: [
           { src: sapphireRing, name: "Royal Sapphire Trilogy", desc: "Platinum · Blue Sapphire · Diamonds" },
-          { src: emeraldRing, name: "Tsavorite Floral Cocktail", desc: "Yellow Gold · Tsavorite · Diamond Halo" },
+          { src: emeraldRing, name: "Tsavorite Floral Cocktail", desc: "CUSTOM MADE · Yellow Gold · 4ct Tsavorite · Diamond Halo" },
           { src: blueSapphireRing, name: "Timeless, Tangled & One-Of-A-Kind", desc: "Rose Gold · 3ct Blue Sapphire · Round & Marquise Diamonds" },
           { src: sapphireTrilogyRing, name: "Ceylon Sapphire Trilogy", desc: "Yellow Gold · Oval Blue Sapphire · Round Brilliant Diamonds" },
           { src: aquamarineMarquiseRing, name: "Aquamarine Marquise Cocktail", desc: "Platinum · Marquise Aquamarine · Tapered Baguette Diamonds" },
@@ -125,6 +127,8 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: [alexandriteRingGreen, alexandriteRingPink], name: "Alexandrite Sunburst Cocktail Ring", desc: "CUSTOM MADE · White Gold · 5ct Colour-Change Alexandrite · Diamond Starburst Halo" },
           { src: [whiteSapphireCocktail1, whiteSapphireCocktail2], name: "White Sapphire Cocktail Ring", desc: "CUSTOM MADE · White Gold · 19ct White Sapphire · Princess-Cut Diamonds" },
           { src: [rubyCocktail1, rubyCocktail2], name: "Unheated Ruby Cocktail Ring", desc: "CUSTOM MADE · White Gold · 4ct Unheated Ruby · Baguette & Round Diamonds" },
+          { src: spessartineGarnetRing, name: "Spessartine Garnet Cocktail Ring", desc: "CUSTOM MADE · White Gold · 9ct Spessartine Garnet · Double Diamond Halo" },
+          { src: starSapphireRing, name: "Star Sapphire Cabochon Ring", desc: "CUSTOM MADE · Yellow Gold · 10ct Star Sapphire · Beaded Bezel Setting" },
         ],
       },
       {
