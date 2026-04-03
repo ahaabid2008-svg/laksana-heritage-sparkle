@@ -13,6 +13,7 @@ import starSapphireRing from "@/assets/star-sapphire-ring.jpeg";
 import greenSapphireArtDecoRing from "@/assets/green-sapphire-art-deco-ring.jpeg";
 import kunzitePinkSapphireRing from "@/assets/kunzite-pink-sapphire-ring.jpeg";
 import greenSapphireByzantineRing from "@/assets/green-sapphire-byzantine-ring.jpeg";
+import sapphireCircleDropEarrings from "@/assets/sapphire-circle-drop-earrings.jpeg";
 import aquamarineEarrings from "@/assets/aquamarine-earrings.jpeg";
 import aquamarineRing from "@/assets/aquamarine-ring.jpeg";
 import sapphireRing from "@/assets/sapphire-ring.jpeg";
@@ -153,6 +154,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: sapphireEarrings, name: "Sapphire Halo Studs", desc: "White Gold · Blue Sapphires · Double Diamond Halo" },
           { src: aquamarineEarrings, name: "Aquamarine Drop Earrings", desc: "Yellow Gold · Aquamarine · Diamonds" },
           { src: tourmalinePearDropEarrings, name: "Tourmaline Pear Drop Earrings", desc: "White Gold · Pear Pink & Green Tourmalines · Diamond Halo" },
+          { src: sapphireCircleDropEarrings, name: "Sapphire Circle Drop Earrings", desc: "CUSTOM MADE · White Gold · 3ct Blue Sapphires · Diamond Circle Frames" },
         ],
       },
       {
