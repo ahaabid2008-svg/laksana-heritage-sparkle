@@ -40,6 +40,10 @@ const collectionSubItems = [
         href: "/collection#jewellery-sterling-silver",
         children: [
           { label: "Rings", href: "/collection#jewellery-sterling-silver-rings" },
+          { label: "Earrings", href: "/collection#jewellery-sterling-silver-earrings" },
+          { label: "Bracelets", href: "/collection#jewellery-sterling-silver-bracelets" },
+          { label: "Bangles", href: "/collection#jewellery-sterling-silver-bangles" },
+          { label: "Necklaces", href: "/collection#jewellery-sterling-silver-necklaces" },
         ],
       },
     ],
