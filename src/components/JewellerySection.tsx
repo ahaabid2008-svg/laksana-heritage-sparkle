@@ -97,6 +97,15 @@ import tourmalineEarrings2 from "@/assets/tourmaline-earrings-2.jpeg";
 import tourmalineEarrings3 from "@/assets/tourmaline-earrings-3.jpeg";
 import tourmalineEarrings4 from "@/assets/tourmaline-earrings-4.jpeg";
 import spinelEarrings from "@/assets/spinel-earrings.jpeg";
+import blueSapphireDiamondStuds from "@/assets/blue-sapphire-diamond-studs.jpeg";
+import blueSapphireDiamondStuds2 from "@/assets/blue-sapphire-diamond-studs-2.jpeg";
+import tourmalineDiamondDropEarrings from "@/assets/tourmaline-diamond-drop-earrings.jpeg";
+import berylStoneEarrings from "@/assets/beryl-stone-earrings.jpeg";
+import whiteSapphireEarringsImg from "@/assets/white-sapphire-earrings.jpeg";
+import peridotYellowSapphireEarrings from "@/assets/peridot-yellow-sapphire-earrings.jpeg";
+import pinkTourmalinePinkSapphireEarrings from "@/assets/pink-tourmaline-sapphire-earrings.jpeg";
+import multiColourSapphireEarrings from "@/assets/multi-colour-sapphire-earrings.jpeg";
+import yellowSapphireDiamondEarrings from "@/assets/yellow-sapphire-diamond-earrings.jpeg";
 
 type PieceItem = {
   src: string | string[];
