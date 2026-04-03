@@ -223,31 +223,31 @@ const jewelleryByMetal: JewelleryMetal[] = [
       {
         category: "Bracelets",
         pieces: [
-          { src: pinkSapphireTennisBracelet, name: "Pink Sapphires", desc: "White Gold · Oval Pink Sapphires · Diamond Spacers" },
-          { src: yellowSapphireBracelet, name: "Yellow Sapphires", desc: "White Gold · Emerald-Cut Yellow Sapphires · Diamond Links" },
-          { src: blueSapphireTennisBracelet, name: "Blue Sapphires", desc: "White Gold · Round Blue Sapphires · Four-Prong Setting" },
+          { src: pinkSapphireTennisBracelet, name: "Pink Sapphires", desc: "White Gold · Diamond Spacers" },
+          { src: yellowSapphireBracelet, name: "Yellow Sapphires", desc: "White Gold · Diamond Links" },
+          { src: blueSapphireTennisBracelet, name: "Blue Sapphires", desc: "White Gold · Four-Prong Setting" },
         ],
       },
       {
         category: "Bangles",
         pieces: [
-          { src: spinelCuffBangle, name: "Pink Tourmalines", desc: "Yellow Gold · Kite & Emerald-Cut Pink Tourmalines · Bezel Set" },
-          { src: sapphireDiamondCuffBangle, name: "Sapphire & Diamond", desc: "Yellow Gold · Cushion Blue Sapphire · Round Brilliant Diamond" },
-          { src: zirconSpinelCuffBangle, name: "Champagne & Pink Tourmaline", desc: "Yellow Gold · Champagne Tourmaline · Pink Tourmaline · Bezel Set" },
-          { src: sapphireTsavoriteCuffBangle, name: "Yellow Sapphire & Tsavorite", desc: "Yellow Gold · Heart Yellow Sapphire · Oval Tsavorite" },
-          { src: pinkSapphireAmethystCuffBangle, name: "Pink & Purple Sapphire", desc: "Yellow Gold · Heart Pink Sapphire · Emerald-Cut Purple Sapphire" },
-          { src: amethystSapphireCuffBangle, name: "Rose Garnet & Sapphire", desc: "Yellow Gold · Emerald-Cut Rose Garnet · Oval Blue Sapphire" },
-          { src: tourmalineBangle, name: "Watermelon Tourmaline", desc: "Yellow Gold · Bi-colour Tourmaline · Diamond" },
-          { src: pinkBlueSapphireCuff, name: "Pink & Blue Sapphire", desc: "CUSTOM MADE · Yellow Gold · Oval Pink Sapphire · Oval Blue Sapphire · Bezel Set" },
-          { src: tourmalineTsavoriteCuff, name: "Green Tourmaline & Tsavorite", desc: "CUSTOM MADE · Yellow Gold · Emerald-Cut Green Tourmaline · Oval Tsavorites · Bezel Set" },
+          { src: spinelCuffBangle, name: "Pink Tourmalines", desc: "Yellow Gold · Bezel Set" },
+          { src: sapphireDiamondCuffBangle, name: "Sapphire & Diamond", desc: "Yellow Gold" },
+          { src: zirconSpinelCuffBangle, name: "Champagne & Pink Tourmaline", desc: "Yellow Gold · Bezel Set" },
+          { src: sapphireTsavoriteCuffBangle, name: "Yellow Sapphire & Tsavorite", desc: "Yellow Gold" },
+          { src: pinkSapphireAmethystCuffBangle, name: "Pink & Purple Sapphire", desc: "Yellow Gold" },
+          { src: amethystSapphireCuffBangle, name: "Rose Garnet & Sapphire", desc: "Yellow Gold" },
+          { src: tourmalineBangle, name: "Watermelon Tourmaline", desc: "Yellow Gold · Diamond" },
+          { src: pinkBlueSapphireCuff, name: "Pink & Blue Sapphire", desc: "CUSTOM MADE · Yellow Gold · Bezel Set" },
+          { src: tourmalineTsavoriteCuff, name: "Green Tourmaline & Tsavorite", desc: "CUSTOM MADE · Yellow Gold · Bezel Set" },
         ],
       },
       {
         category: "Necklaces",
         pieces: [
-          { src: sapphireFloralClusterNecklace, name: "Blue Sapphires", desc: "White Gold · Round Blue Sapphires · Diamond Star Tips" },
-          { src: multiSapphireFloralNecklace, name: "Multi-Sapphires", desc: "White Gold · Blue, Yellow & Pink Sapphires · Diamond Floral Halos" },
-          { src: diamondLetterNecklace, name: "Diamonds", desc: "White Gold · Round Brilliant Diamonds · Custom Letter Pendant" },
+          { src: sapphireFloralClusterNecklace, name: "Blue Sapphires", desc: "White Gold · Diamond Star Tips" },
+          { src: multiSapphireFloralNecklace, name: "Multi-Sapphires", desc: "White Gold · Diamond Floral Halos" },
+          { src: diamondLetterNecklace, name: "Diamonds", desc: "White Gold · Custom Letter Pendant" },
         ],
       },
     ],
@@ -259,7 +259,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
       {
         category: "Rings",
         pieces: [
-          { src: greenRing, name: "Green Sapphire - 3 Carat", desc: "Sterling Silver · 3ct Green Sapphire · Pear White Sapphires" },
+          { src: greenRing, name: "Green Sapphire - 3 Carat", desc: "Sterling Silver · Pear White Sapphires" },
         ],
       },
       {
@@ -277,8 +277,8 @@ const jewelleryByMetal: JewelleryMetal[] = [
       {
         category: "Necklaces",
         pieces: [
-          { src: tourmalineBarNecklace, name: "Tourmalines & Morganite", desc: "Sterling Silver · Emerald-Cut Tourmalines · Peach Morganite Stations" },
-          { src: tourmalineBarNecklace2, name: "Rhodolite Garnet & Tsavorite", desc: "Sterling Silver · Rhodolite Garnet · Tsavorite · Mixed Fancy Cuts" },
+          { src: tourmalineBarNecklace, name: "Tourmalines & Morganite", desc: "Sterling Silver" },
+          { src: tourmalineBarNecklace2, name: "Rhodolite Garnet & Tsavorite", desc: "Sterling Silver · Mixed Fancy Cuts" },
         ],
       },
     ],
