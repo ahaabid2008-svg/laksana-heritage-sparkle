@@ -132,6 +132,9 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: [rubyCocktail1, rubyCocktail2], name: "Unheated Ruby Cocktail Ring", desc: "CUSTOM MADE · White Gold · 4ct Unheated Ruby · Baguette & Round Diamonds" },
           { src: spessartineGarnetRing, name: "Spessartine Garnet Cocktail Ring", desc: "CUSTOM MADE · White Gold · 9ct Spessartine Garnet · Double Diamond Halo" },
           { src: starSapphireRing, name: "Star Sapphire Cabochon Ring", desc: "CUSTOM MADE · Yellow Gold · 10ct Star Sapphire · Beaded Bezel Setting" },
+          { src: greenSapphireArtDecoRing, name: "Green Sapphire Art Deco Ring", desc: "CUSTOM MADE · Yellow Gold · Cushion Green Sapphire · Baguette & Round Diamonds" },
+          { src: kunzitePinkSapphireRing, name: "Kunzite & Pink Sapphire Ring", desc: "CUSTOM MADE · White Gold · Oval Kunzite Cabochon · Pink Sapphire Accents" },
+          { src: greenSapphireByzantineRing, name: "Green Sapphire Byzantine Band", desc: "CUSTOM MADE · Yellow Gold · 2ct Green Sapphire · Hot Pink Sapphires · Rope Detail" },
         ],
       },
       {
