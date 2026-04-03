@@ -73,6 +73,12 @@ import tourmalinePearDropEarrings from "@/assets/tourmaline-pear-drop-earrings.j
 import sapphireFloralClusterNecklace from "@/assets/sapphire-floral-cluster-necklace.jpeg";
 import tourmalineSignetRing from "@/assets/tourmaline-signet-ring.jpeg";
 import diamondLetterNecklace from "@/assets/diamond-letter-necklace.jpeg";
+import greenSapphireWhiteSapphireRing from "@/assets/green-sapphire-white-sapphire-ring.jpeg";
+import tealSapphireLoveRing from "@/assets/teal-sapphire-love-ring.jpeg";
+import blueSapphireDomeRing from "@/assets/blue-sapphire-dome-ring.jpeg";
+import diamondClusterGoldRing from "@/assets/diamond-cluster-gold-ring.jpeg";
+import whiteSapphireEmeraldRing from "@/assets/white-sapphire-emerald-ring.jpeg";
+import triSapphireHammeredRing from "@/assets/tri-sapphire-hammered-ring.jpeg";
 
 type PieceItem = {
   src: string | string[];
