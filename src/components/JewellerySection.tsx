@@ -8,6 +8,8 @@ import rubyCocktail1 from "@/assets/ruby-cocktail-1.jpeg";
 import rubyCocktail2 from "@/assets/ruby-cocktail-2.jpeg";
 import pinkBlueSapphireCuff from "@/assets/pink-blue-sapphire-cuff.jpeg";
 import tourmalineTsavoriteCuff from "@/assets/tourmaline-tsavorite-cuff.jpeg";
+import spessartineGarnetRing from "@/assets/spessartine-garnet-ring.jpeg";
+import starSapphireRing from "@/assets/star-sapphire-ring.jpeg";
 import aquamarineEarrings from "@/assets/aquamarine-earrings.jpeg";
 import aquamarineRing from "@/assets/aquamarine-ring.jpeg";
 import sapphireRing from "@/assets/sapphire-ring.jpeg";
