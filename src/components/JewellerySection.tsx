@@ -76,6 +76,7 @@ import diamondLetterNecklace from "@/assets/diamond-letter-necklace.jpeg";
 import greenSapphireWhiteSapphireRing from "@/assets/green-sapphire-white-sapphire-ring.jpeg";
 import tealSapphireLoveRing from "@/assets/teal-sapphire-love-ring.jpeg";
 import blueSapphireDomeRing from "@/assets/blue-sapphire-dome-ring.jpeg";
+import blueSapphireDomeRing2 from "@/assets/blue-sapphire-dome-ring-2.jpeg";
 import diamondClusterGoldRing from "@/assets/diamond-cluster-gold-ring.jpeg";
 import whiteSapphireEmeraldRing from "@/assets/white-sapphire-emerald-ring.jpeg";
 import triSapphireHammeredRing from "@/assets/tri-sapphire-hammered-ring.jpeg";
@@ -144,7 +145,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: greenSapphireByzantineRing, name: "Green Sapphire Byzantine Band", desc: "CUSTOM MADE · Yellow Gold · 2ct Green Sapphire · Hot Pink Sapphires · Rope Detail" },
           { src: greenSapphireWhiteSapphireRing, name: "Green Sapphire Byzantine Ring", desc: "CUSTOM MADE · White Gold · 3ct Green Sapphire · Two White Sapphires · Rope Detail" },
           { src: tealSapphireLoveRing, name: "Teal Sapphire 'Love' Ring", desc: "CUSTOM MADE · Yellow Gold · Teal Sapphires · Green Sapphires · Script Band" },
-          { src: blueSapphireDomeRing, name: "Blue Sapphire Dome Ring", desc: "CUSTOM MADE · White Gold · 7ct Blue Sapphire · Diamond Filigree Setting" },
+          { src: [blueSapphireDomeRing, blueSapphireDomeRing2], name: "Blue Sapphire Dome Ring", desc: "CUSTOM MADE · White Gold · 7ct Blue Sapphire · Diamond Filigree Setting" },
           { src: diamondClusterGoldRing, name: "Diamond Cluster Ring", desc: "CUSTOM MADE · Yellow Gold · Diamond Floral Cluster · Pavé Band" },
           { src: whiteSapphireEmeraldRing, name: "White Sapphire & Emerald Ring", desc: "CUSTOM MADE · Yellow Gold · 2ct White Sapphire · Two Emeralds · Diamonds" },
           { src: triSapphireHammeredRing, name: "Tri-Sapphire Hammered Band", desc: "CUSTOM MADE · Yellow Gold · Blue Sapphire · Green Sapphire · Pink Sapphire · Hammered Finish" },
