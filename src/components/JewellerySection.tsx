@@ -88,6 +88,15 @@ import tsavoriteDiamondRing2 from "@/assets/tsavorite-diamond-ring-2.jpeg";
 import goldenYellowSapphireRing from "@/assets/golden-yellow-sapphire-ring.jpeg";
 import tanzaniteDiamondRing from "@/assets/tanzanite-diamond-ring.jpeg";
 import blueSapphireDiamondRing from "@/assets/blue-sapphire-diamond-ring.jpeg";
+import tanzaniteDiamondEarrings1 from "@/assets/tanzanite-diamond-earrings-1.jpeg";
+import tsavoriteDiamondEarrings from "@/assets/tsavorite-diamond-earrings.jpeg";
+import blueSapphireDiamondEarrings from "@/assets/blue-sapphire-diamond-earrings.jpeg";
+import tanzaniteDiamondEarrings2 from "@/assets/tanzanite-diamond-earrings-2.jpeg";
+import tourmalineEarrings1 from "@/assets/tourmaline-earrings-1.jpeg";
+import tourmalineEarrings2 from "@/assets/tourmaline-earrings-2.jpeg";
+import tourmalineEarrings3 from "@/assets/tourmaline-earrings-3.jpeg";
+import tourmalineEarrings4 from "@/assets/tourmaline-earrings-4.jpeg";
+import spinelEarrings from "@/assets/spinel-earrings.jpeg";
 
 type PieceItem = {
   src: string | string[];
