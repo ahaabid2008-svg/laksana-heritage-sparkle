@@ -154,7 +154,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: morganiteRing, name: "Morganite", desc: "White Gold · Diamond Setting" },
           
           { src: tourmalineRing, name: "Green Tourmalines", desc: "Yellow Gold · Mixed Gems" },
-          { src: pinkSapphireRingJewel, name: "Pink Sapphire", desc: "Yellow & White Gold · Filigree Setting" },
+          
           { src: tourmalineSignetRing, name: "Tourmaline", desc: "Yellow Gold · Brushed Finish" },
           { src: sapphireTopazAmethystRing, name: "Sapphire, Topaz & Amethyst", desc: "CUSTOM MADE · Rose Gold · Moonstones" },
           { src: garnetDiamondHaloRing, name: "Garnet", desc: "Rose Gold · Diamond Halo & Pavé" },
