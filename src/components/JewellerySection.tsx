@@ -132,7 +132,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
       {
         category: "Rings",
         pieces: [
-          { src: sapphireRing, name: "Royal Blue Sapphire - 6 Carat", desc: "Platinum · Diamonds" },
+          { src: sapphireRing, name: "Royal Blue Sapphire - 6 Carat", desc: "White Gold · Diamonds" },
           { src: emeraldRing, name: "Tsavorite - 4 Carat", desc: "CUSTOM MADE · Yellow Gold · Diamond Halo" },
           { src: blueSapphireRing, name: "Blue Sapphire - 3 Carat", desc: "Rose Gold · Round & Marquise Diamonds" },
           { src: sapphireTrilogyRing, name: "Ceylon Sapphire", desc: "Yellow Gold · Diamonds" },
