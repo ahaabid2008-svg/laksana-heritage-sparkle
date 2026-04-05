@@ -149,7 +149,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: greenTourmalineDiamondHaloRingV2, name: "Green Tourmaline", desc: "White Gold · Asymmetric Diamond Halo" },
           { src: pinkTourmalineRing, name: "Pink Tourmaline", desc: "Yellow Gold · Diamond Clusters" },
           { src: aquamarineHaloRing, name: "Aquamarine - 7 Carat", desc: "White Gold · Green Tourmalines" },
-          { src: aquamarineTrilogyRing, name: "Aquamarine & Green Tourmaline", desc: "White Gold" },
+          
           
           { src: morganiteRing, name: "Morganite", desc: "White Gold · Diamond Setting" },
           
