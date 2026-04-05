@@ -189,7 +189,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: pinkTourmalineDropEarrings, name: "Pink Tourmaline", desc: "White Gold · Diamond Halo & Pavé" },
           { src: tsavoriteDropEarrings, name: "Tsavorite", desc: "Yellow Gold · Diamond Sunburst Halo" },
           { src: diamondChandelierEarrings, name: "Diamonds", desc: "White Gold · Milgrain Openwork" },
-          { src: sapphireDoubleHaloStudsV2, name: "Blue & Yellow Sapphires", desc: "Yellow Gold" },
+          { src: sapphireDoubleHaloStudsV2, name: "Blue Sapphire & Diamonds", desc: "Yellow Gold" },
           { src: pinkTourmalineSunburstEarringsV2, name: "Pink Sapphires", desc: "Yellow Gold · Baguette Diamond Rays" },
           { src: tsavoriteStarburstDropEarringsV2, name: "Tsavorites", desc: "White Gold · Diamond Starburst Frames" },
           { src: pinkTourmalineLaceDropEarrings, name: "Pink Tourmalines", desc: "White Gold · Diamond Lace Openwork" },
