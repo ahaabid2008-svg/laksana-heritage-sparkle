@@ -139,7 +139,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: aquamarineMarquiseRing, name: "Aquamarine", desc: "White Gold · Tapered Baguette Diamonds" },
           { src: zultaniteSolitaireRing, name: "Tourmaline", desc: "Yellow Gold · Four-Prong Setting" },
           { src: multiSapphireStackingRings, name: "Multi-Sapphire", desc: "Yellow Gold · Bezel-Set · Mixed Fancy Cuts" },
-          { src: sapphireStarburstRing, name: "Blue Sapphire", desc: "White Gold · Diamond Sunburst Halo" },
+          
           { src: yellowSapphireHaloRing, name: "Yellow Sapphire - 4.5 Carat", desc: "CUSTOM MADE · Yellow Gold · Dazzling Diamonds" },
           { src: sapphirePaveBandRingV2, name: "Royal Blue Sapphire", desc: "White Gold · Diamonds" },
           { src: sapphireFloralBypassRingV2, name: "Blue Sapphires", desc: "White Gold · Diamond Floral Settings" },
@@ -152,9 +152,9 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: aquamarineTrilogyRing, name: "Aquamarine & Green Tourmaline", desc: "White Gold" },
           
           { src: morganiteRing, name: "Morganite", desc: "White Gold · Diamond Setting" },
-          { src: whiteSapphireRing, name: "White Sapphire", desc: "White Gold · Diamond Sunburst Halo" },
+          
           { src: tourmalineRing, name: "Green Tourmalines", desc: "Yellow Gold · Mixed Gems" },
-          { src: pinkSapphireRingJewel, name: "Pink Sapphire", desc: "Yellow & White Gold · Filigree Setting" },
+          
           { src: tourmalineSignetRing, name: "Tourmaline", desc: "Yellow Gold · Brushed Finish" },
           { src: sapphireTopazAmethystRing, name: "Sapphire, Topaz & Amethyst", desc: "CUSTOM MADE · Rose Gold · Moonstones" },
           { src: garnetDiamondHaloRing, name: "Garnet", desc: "Rose Gold · Diamond Halo & Pavé" },
