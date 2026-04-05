@@ -139,7 +139,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: aquamarineMarquiseRing, name: "Aquamarine", desc: "White Gold · Tapered Baguette Diamonds" },
           { src: zultaniteSolitaireRing, name: "Tourmaline", desc: "Yellow Gold · Four-Prong Setting" },
           { src: multiSapphireStackingRings, name: "Multi-Sapphire", desc: "Yellow Gold · Bezel-Set · Mixed Fancy Cuts" },
-          { src: sapphireStarburstRing, name: "Blue Sapphire", desc: "White Gold · Diamond Sunburst Halo" },
+          
           { src: yellowSapphireHaloRing, name: "Yellow Sapphire - 4.5 Carat", desc: "CUSTOM MADE · Yellow Gold · Dazzling Diamonds" },
           { src: sapphirePaveBandRingV2, name: "Royal Blue Sapphire", desc: "White Gold · Diamonds" },
           { src: sapphireFloralBypassRingV2, name: "Blue Sapphires", desc: "White Gold · Diamond Floral Settings" },
