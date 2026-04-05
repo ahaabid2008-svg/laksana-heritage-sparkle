@@ -259,7 +259,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
       {
         category: "Rings",
         pieces: [
-          { src: greenRing, name: "Green Sapphire - 3 Carat", desc: "Sterling Silver · Pear White Sapphires" },
+          
         ],
       },
       {
