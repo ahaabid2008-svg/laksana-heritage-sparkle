@@ -136,7 +136,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: emeraldRing, name: "Tsavorite - 4 Carat", desc: "CUSTOM MADE · Yellow Gold · Diamond Halo" },
           { src: blueSapphireRing, name: "Blue Sapphire - 3 Carat", desc: "Rose Gold · Round & Marquise Diamonds" },
           { src: sapphireTrilogyRing, name: "Ceylon Sapphire", desc: "Yellow Gold · Diamonds" },
-          { src: aquamarineMarquiseRing, name: "Aquamarine", desc: "Platinum · Tapered Baguette Diamonds" },
+          { src: aquamarineMarquiseRing, name: "Aquamarine", desc: "White Gold · Tapered Baguette Diamonds" },
           { src: zultaniteSolitaireRing, name: "Tourmaline", desc: "Yellow Gold · Four-Prong Setting" },
           { src: multiSapphireStackingRings, name: "Multi-Sapphire", desc: "Yellow Gold · Bezel-Set · Mixed Fancy Cuts" },
           { src: sapphireStarburstRing, name: "Blue Sapphire", desc: "White Gold · Diamond Sunburst Halo" },
