@@ -266,7 +266,15 @@ const jewelleryByMetal: JewelleryMetal[] = [
       {
         category: "Rings",
         pieces: [
-          
+          { src: citrineSilverRing, name: "Citrine", desc: "Sterling Silver · Bezel Set" },
+          { src: peridotSilverRing, name: "Peridot", desc: "Sterling Silver · Square Band" },
+          { src: blueSapphireSilverRing, name: "Blue Sapphire", desc: "Sterling Silver · Pavé Dome" },
+          { src: aquamarineSilverRing, name: "Aquamarine", desc: "Sterling Silver · Emerald Cut" },
+          { src: pinkSapphireWhiteSapphireSilverRing, name: "Pink Sapphire & White Sapphire", desc: "Sterling Silver · Open Band" },
+          { src: pinkTourmalineSilverRing, name: "Pink Tourmaline", desc: "Sterling Silver · Hammered Band" },
+          { src: pinkTourmalineSilverRing2, name: "Pink Tourmaline", desc: "Sterling Silver · Hammered Band" },
+          { src: pinkSapphireGreenSapphireSilverRing, name: "Pink Sapphire & Green Sapphire", desc: "Sterling Silver · Wide Band" },
+          { src: citrineSilverRing2, name: "Citrine", desc: "Sterling Silver · Hammered Disc" },
         ],
       },
       {
