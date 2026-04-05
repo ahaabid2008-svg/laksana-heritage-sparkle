@@ -106,6 +106,15 @@ import peridotYellowSapphireEarrings from "@/assets/peridot-yellow-sapphire-earr
 import pinkTourmalinePinkSapphireEarrings from "@/assets/pink-tourmaline-sapphire-earrings.jpeg";
 import multiColourSapphireEarrings from "@/assets/multi-colour-sapphire-earrings.jpeg";
 import yellowSapphireDiamondEarrings from "@/assets/yellow-sapphire-diamond-earrings.jpeg";
+import citrineSilverRing from "@/assets/citrine-silver-ring.jpeg";
+import peridotSilverRing from "@/assets/peridot-silver-ring.jpeg";
+import blueSapphireSilverRing from "@/assets/blue-sapphire-silver-ring.jpeg";
+import aquamarineSilverRing from "@/assets/aquamarine-silver-ring.jpeg";
+import pinkSapphireWhiteSapphireSilverRing from "@/assets/pink-sapphire-white-sapphire-silver-ring.jpeg";
+import pinkTourmalineSilverRing from "@/assets/pink-tourmaline-silver-ring.jpeg";
+import pinkTourmalineSilverRing2 from "@/assets/pink-tourmaline-silver-ring-2.jpeg";
+import pinkSapphireGreenSapphireSilverRing from "@/assets/pink-sapphire-green-sapphire-silver-ring.jpeg";
+import citrineSilverRing2 from "@/assets/citrine-silver-ring-2.jpeg";
 
 type PieceItem = {
   src: string | string[];
@@ -149,17 +158,6 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: greenTourmalineDiamondHaloRingV2, name: "Green Tourmaline - 19.47 Carat", desc: "White Gold · Asymmetric Diamond Halo" },
           { src: pinkTourmalineRing, name: "Pink Tourmaline", desc: "Yellow Gold · Diamond Clusters" },
           { src: aquamarineHaloRing, name: "Aquamarine - 7 Carat", desc: "White Gold · Green Tourmalines" },
-import citrineSilverRing from "@/assets/citrine-silver-ring.jpeg";
-import peridotSilverRing from "@/assets/peridot-silver-ring.jpeg";
-import blueSapphireSilverRing from "@/assets/blue-sapphire-silver-ring.jpeg";
-import aquamarineSilverRing from "@/assets/aquamarine-silver-ring.jpeg";
-import pinkSapphireWhiteSapphireSilverRing from "@/assets/pink-sapphire-white-sapphire-silver-ring.jpeg";
-import pinkTourmalineSilverRing from "@/assets/pink-tourmaline-silver-ring.jpeg";
-import pinkTourmalineSilverRing2 from "@/assets/pink-tourmaline-silver-ring-2.jpeg";
-import pinkSapphireGreenSapphireSilverRing from "@/assets/pink-sapphire-green-sapphire-silver-ring.jpeg";
-import citrineSilverRing2 from "@/assets/citrine-silver-ring-2.jpeg";
-
-
           { src: morganiteRing, name: "Morganite", desc: "White Gold · Diamond Setting" },
           
           
