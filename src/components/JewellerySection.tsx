@@ -146,7 +146,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: aquamarineDiamondEternityRingV2, name: "Aquamarine & White Sapphire", desc: "CUSTOM MADE · Yellow Gold" },
           { src: laksanaTsavoriteSapphireBandsV2, name: "Tsavorite & Sapphire", desc: "White Gold · Shared-Prong Set" },
           { src: rhodoliteHaloCocktailRingV2, name: "Rhodolite", desc: "White Gold · Diamond Halo" },
-          { src: greenTourmalineDiamondHaloRingV2, name: "Green Tourmaline", desc: "White Gold · Asymmetric Diamond Halo" },
+          { src: greenTourmalineDiamondHaloRingV2, name: "Green Tourmaline - 19.47 Carat", desc: "White Gold · Asymmetric Diamond Halo" },
           { src: pinkTourmalineRing, name: "Pink Tourmaline", desc: "Yellow Gold · Diamond Clusters" },
           { src: aquamarineHaloRing, name: "Aquamarine - 7 Carat", desc: "White Gold · Green Tourmalines" },
           
