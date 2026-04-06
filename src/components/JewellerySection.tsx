@@ -125,6 +125,7 @@ import tourmalineSilverRing3 from "@/assets/tourmaline-silver-ring-3.jpeg";
 import tourmalineSilverRing4a from "@/assets/tourmaline-silver-ring-4a.jpeg";
 import tourmalineSilverRing4b from "@/assets/tourmaline-silver-ring-4b.jpeg";
 import yellowSapphireSilverRing from "@/assets/yellow-sapphire-silver-ring.jpeg";
+import aquamarineSilverRing2 from "@/assets/aquamarine-silver-ring-2.jpeg";
 
 type PieceItem = {
   src: string | string[];
