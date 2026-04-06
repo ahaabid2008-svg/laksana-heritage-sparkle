@@ -115,6 +115,16 @@ import pinkTourmalineSilverRing from "@/assets/pink-tourmaline-silver-ring.jpeg"
 import pinkTourmalineSilverRing2 from "@/assets/pink-tourmaline-silver-ring-2.jpeg";
 import pinkSapphireGreenSapphireSilverRing from "@/assets/pink-sapphire-green-sapphire-silver-ring.jpeg";
 import citrineSilverRing2 from "@/assets/citrine-silver-ring-2.jpeg";
+import tourmalineSilverRing1 from "@/assets/tourmaline-silver-ring-1.jpeg";
+import pinkSapphireWhiteSapphireSilverRing2 from "@/assets/pink-sapphire-white-sapphire-silver-ring-2.jpeg";
+import tourmalineSilverRing2 from "@/assets/tourmaline-silver-ring-2.jpeg";
+import pinkTourmalineSilverRing3 from "@/assets/pink-tourmaline-silver-ring-3.jpeg";
+import greenTourmalineSilverRing from "@/assets/green-tourmaline-silver-ring.jpeg";
+import blueSapphireSilverRing2 from "@/assets/blue-sapphire-silver-ring-2.jpeg";
+import tourmalineSilverRing3 from "@/assets/tourmaline-silver-ring-3.jpeg";
+import tourmalineSilverRing4a from "@/assets/tourmaline-silver-ring-4a.jpeg";
+import tourmalineSilverRing4b from "@/assets/tourmaline-silver-ring-4b.jpeg";
+import yellowSapphireSilverRing from "@/assets/yellow-sapphire-silver-ring.jpeg";
 
 type PieceItem = {
   src: string | string[];
@@ -275,6 +285,15 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: pinkTourmalineSilverRing2, name: "Pink Tourmaline", desc: "Sterling Silver · Hammered Band" },
           { src: pinkSapphireGreenSapphireSilverRing, name: "Pink Sapphire & Green Sapphire", desc: "Sterling Silver · Wide Band" },
           { src: citrineSilverRing2, name: "Citrine", desc: "Sterling Silver · Hammered Disc" },
+          { src: tourmalineSilverRing1, name: "Tourmaline", desc: "Sterling Silver · Five-Stone Band" },
+          { src: pinkSapphireWhiteSapphireSilverRing2, name: "Pink Sapphire & White Sapphire", desc: "Sterling Silver · Heart Setting" },
+          { src: tourmalineSilverRing2, name: "Tourmaline", desc: "Sterling Silver · Solitaire" },
+          { src: pinkTourmalineSilverRing3, name: "Pink Tourmaline", desc: "Sterling Silver · Toi et Moi" },
+          { src: greenTourmalineSilverRing, name: "Green Tourmaline", desc: "Sterling Silver · Double Bezel" },
+          { src: blueSapphireSilverRing2, name: "Blue Sapphire", desc: "Sterling Silver · Oval Bezel" },
+          { src: tourmalineSilverRing3, name: "Tourmaline", desc: "Sterling Silver · Solitaire" },
+          { src: [tourmalineSilverRing4a, tourmalineSilverRing4b], name: "Tourmaline", desc: "Sterling Silver · Three-Stone Band" },
+          { src: yellowSapphireSilverRing, name: "Yellow Sapphire", desc: "Sterling Silver · Pear Bezel" },
         ],
       },
       {
