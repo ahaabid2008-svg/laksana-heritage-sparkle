@@ -295,6 +295,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: tourmalineSilverRing3, name: "Tourmaline", desc: "Sterling Silver · Solitaire" },
           { src: [tourmalineSilverRing4a, tourmalineSilverRing4b], name: "Tourmaline", desc: "Sterling Silver · Three-Stone Band" },
           { src: yellowSapphireSilverRing, name: "Yellow Sapphire", desc: "Sterling Silver · Pear Bezel" },
+          { src: aquamarineSilverRing2, name: "Aquamarine", desc: "Sterling Silver · Oval Solitaire" },
         ],
       },
       {
