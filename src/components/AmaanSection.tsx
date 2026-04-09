@@ -1,5 +1,6 @@
 import amaanMicroscope from "@/assets/amaan-microscope.jpeg";
 import amaanGemstone from "@/assets/amaan-gemstone.jpeg";
+import giaCertificate from "@/assets/gia-certificate.jpeg";
 
 const AmaanSection = () => {
   return (
