@@ -1,5 +1,6 @@
 import amaanMicroscope from "@/assets/amaan-microscope.jpeg";
 import amaanGemstone from "@/assets/amaan-gemstone.jpeg";
+import giaCertificate from "@/assets/gia-certificate.jpeg";
 
 const AmaanSection = () => {
   return (
@@ -30,6 +31,16 @@ const AmaanSection = () => {
                 className="w-full aspect-[4/5] object-cover group-hover:scale-105 transition-transform duration-700"
               />
             </div>
+          </div>
+        </div>
+
+        <div className="max-w-3xl mx-auto mb-12">
+          <div className="overflow-hidden rounded-sm border border-cream/10">
+            <img
+              src={giaCertificate}
+              alt="GIA Graduate Gemologist diploma awarded to Amaan Hussain"
+              className="w-full object-contain"
+            />
           </div>
         </div>
 
