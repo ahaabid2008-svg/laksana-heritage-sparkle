@@ -34,6 +34,16 @@ const AmaanSection = () => {
           </div>
         </div>
 
+        <div className="max-w-3xl mx-auto mb-12">
+          <div className="overflow-hidden rounded-sm border border-cream/10">
+            <img
+              src={giaCertificate}
+              alt="GIA Graduate Gemologist diploma awarded to Amaan Hussain"
+              className="w-full object-contain"
+            />
+          </div>
+        </div>
+
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <p className="font-accent text-lg md:text-xl text-cream/60 leading-relaxed italic">
             "As the fourth generation of LAKSANA, I, Amaan Hussain, am deeply proud to carry forward this legacy. Having recently graduated from the Gemological Institute of America (GIA), I bring not only a lifetime of family tradition but also the highest standards of gemological education to our work. Our mission remains unchanged — to craft jewelry of exceptional quality, each piece a story of beauty, heritage, and artistry, while continuing to welcome clients to our home in Galle Fort, where history and craftsmanship meet."
