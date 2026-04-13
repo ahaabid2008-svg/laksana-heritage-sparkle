@@ -170,19 +170,8 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: pinkTourmalineRing, name: "Pink Tourmaline", desc: "Yellow Gold · Diamond Clusters" },
           { src: aquamarineHaloRing, name: "Aquamarine - 7 Carat", desc: "White Gold · Green Tourmalines" },
           { src: morganiteRing, name: "Morganite", desc: "White Gold · Diamond Setting" },
-import tourmalineSilverBangle1 from "@/assets/tourmaline-silver-bangle-1.jpeg";
-import tourmalineSilverBangle2 from "@/assets/tourmaline-silver-bangle-2.jpeg";
-import tourmalineSilverBangle3 from "@/assets/tourmaline-silver-bangle-3.jpeg";
-import tourmalineSilverBangle4 from "@/assets/tourmaline-silver-bangle-4.jpeg";
-import tourmalineSilverBangle5 from "@/assets/tourmaline-silver-bangle-5.jpeg";
-import tourmalineSilverBangle6 from "@/assets/tourmaline-silver-bangle-6.jpeg";
-import tourmalineSilverBangle7 from "@/assets/tourmaline-silver-bangle-7.jpeg";
-import tourmalineSilverBangle8 from "@/assets/tourmaline-silver-bangle-8.jpeg";
-import tourmalineSilverBangle9 from "@/assets/tourmaline-silver-bangle-9.jpeg";
-import tourmalineSilverBangle10 from "@/assets/tourmaline-silver-bangle-10.jpeg";
 
 
-          
           
           { src: sapphireTopazAmethystRing, name: "Sapphire, Topaz & Amethyst", desc: "CUSTOM MADE · Rose Gold · Moonstones" },
           { src: garnetDiamondHaloRing, name: "Garnet", desc: "Rose Gold · Diamond Halo & Pavé" },
