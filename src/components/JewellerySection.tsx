@@ -170,8 +170,18 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: pinkTourmalineRing, name: "Pink Tourmaline", desc: "Yellow Gold · Diamond Clusters" },
           { src: aquamarineHaloRing, name: "Aquamarine - 7 Carat", desc: "White Gold · Green Tourmalines" },
           { src: morganiteRing, name: "Morganite", desc: "White Gold · Diamond Setting" },
-          
-          
+import tourmalineSilverBangle1 from "@/assets/tourmaline-silver-bangle-1.jpeg";
+import tourmalineSilverBangle2 from "@/assets/tourmaline-silver-bangle-2.jpeg";
+import tourmalineSilverBangle3 from "@/assets/tourmaline-silver-bangle-3.jpeg";
+import tourmalineSilverBangle4 from "@/assets/tourmaline-silver-bangle-4.jpeg";
+import tourmalineSilverBangle5 from "@/assets/tourmaline-silver-bangle-5.jpeg";
+import tourmalineSilverBangle6 from "@/assets/tourmaline-silver-bangle-6.jpeg";
+import tourmalineSilverBangle7 from "@/assets/tourmaline-silver-bangle-7.jpeg";
+import tourmalineSilverBangle8 from "@/assets/tourmaline-silver-bangle-8.jpeg";
+import tourmalineSilverBangle9 from "@/assets/tourmaline-silver-bangle-9.jpeg";
+import tourmalineSilverBangle10 from "@/assets/tourmaline-silver-bangle-10.jpeg";
+
+
           
           
           { src: sapphireTopazAmethystRing, name: "Sapphire, Topaz & Amethyst", desc: "CUSTOM MADE · Rose Gold · Moonstones" },
@@ -308,7 +318,18 @@ const jewelleryByMetal: JewelleryMetal[] = [
       },
       {
         category: "Bangles",
-        pieces: [],
+        pieces: [
+          { src: tourmalineSilverBangle1, name: "Tourmaline", desc: "Sterling Silver · Peridot & Pink Tourmaline Open Cuff" },
+          { src: tourmalineSilverBangle2, name: "Tourmaline", desc: "Sterling Silver · Pink Tourmaline & Peridot Open Cuff" },
+          { src: tourmalineSilverBangle3, name: "Tourmaline", desc: "Sterling Silver · Pink & Green Cushion Cuff" },
+          { src: tourmalineSilverBangle4, name: "Tourmaline", desc: "Sterling Silver · Green & Pink Emerald-Cut Cuff" },
+          { src: tourmalineSilverBangle5, name: "Tourmaline", desc: "Sterling Silver · Rhodolite & Peridot Open Cuff" },
+          { src: tourmalineSilverBangle6, name: "Tourmaline", desc: "Sterling Silver · Pink Tourmaline & Green Tourmaline Cuff" },
+          { src: tourmalineSilverBangle7, name: "Tourmaline", desc: "Sterling Silver · Smoky Quartz & Morganite Cuff" },
+          { src: tourmalineSilverBangle8, name: "Tourmaline", desc: "Sterling Silver · Pink & Green Pear Cuff" },
+          { src: tourmalineSilverBangle9, name: "Tourmaline", desc: "Sterling Silver · Citrine & Peridot Open Cuff" },
+          { src: tourmalineSilverBangle10, name: "Tourmaline", desc: "Sterling Silver · Pink Sapphire & Peridot Cuff" },
+        ],
       },
       {
         category: "Necklaces",
