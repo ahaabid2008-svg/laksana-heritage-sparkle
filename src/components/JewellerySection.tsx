@@ -126,6 +126,16 @@ import tourmalineSilverRing4a from "@/assets/tourmaline-silver-ring-4a.jpeg";
 import tourmalineSilverRing4b from "@/assets/tourmaline-silver-ring-4b.jpeg";
 import yellowSapphireSilverRing from "@/assets/yellow-sapphire-silver-ring.jpeg";
 import aquamarineSilverRing2 from "@/assets/aquamarine-silver-ring-2.jpeg";
+import tourmalineSilverBangle1 from "@/assets/tourmaline-silver-bangle-1.jpeg";
+import tourmalineSilverBangle2 from "@/assets/tourmaline-silver-bangle-2.jpeg";
+import tourmalineSilverBangle3 from "@/assets/tourmaline-silver-bangle-3.jpeg";
+import tourmalineSilverBangle4 from "@/assets/tourmaline-silver-bangle-4.jpeg";
+import tourmalineSilverBangle5 from "@/assets/tourmaline-silver-bangle-5.jpeg";
+import tourmalineSilverBangle6 from "@/assets/tourmaline-silver-bangle-6.jpeg";
+import tourmalineSilverBangle7 from "@/assets/tourmaline-silver-bangle-7.jpeg";
+import tourmalineSilverBangle8 from "@/assets/tourmaline-silver-bangle-8.jpeg";
+import tourmalineSilverBangle9 from "@/assets/tourmaline-silver-bangle-9.jpeg";
+import tourmalineSilverBangle10 from "@/assets/tourmaline-silver-bangle-10.jpeg";
 
 type PieceItem = {
   src: string | string[];
