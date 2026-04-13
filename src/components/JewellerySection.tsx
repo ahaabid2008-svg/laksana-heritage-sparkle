@@ -136,6 +136,7 @@ import tourmalineSilverBangle7 from "@/assets/tourmaline-silver-bangle-7.jpeg";
 import tourmalineSilverBangle8 from "@/assets/tourmaline-silver-bangle-8.jpeg";
 import tourmalineSilverBangle9 from "@/assets/tourmaline-silver-bangle-9.jpeg";
 import tourmalineSilverBangle10 from "@/assets/tourmaline-silver-bangle-10.jpeg";
+import tourmalineSilverBangle11 from "@/assets/tourmaline-silver-bangle-11.jpeg";
 
 type PieceItem = {
   src: string | string[];
@@ -328,6 +329,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: tourmalineSilverBangle8, name: "Tourmaline", desc: "Sterling Silver · Pink & Green Pear Cuff" },
           { src: tourmalineSilverBangle9, name: "Tourmaline", desc: "Sterling Silver · Citrine & Peridot Open Cuff" },
           { src: tourmalineSilverBangle10, name: "Tourmaline", desc: "Sterling Silver · Pink Sapphire & Peridot Cuff" },
+          { src: tourmalineSilverBangle11, name: "Tourmaline", desc: "Sterling Silver · Citrine & Green Tourmaline Cuff" },
         ],
       },
       {
