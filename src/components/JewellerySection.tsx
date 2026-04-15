@@ -137,6 +137,13 @@ import tourmalineSilverBangle8 from "@/assets/tourmaline-silver-bangle-8.jpeg";
 import tourmalineSilverBangle9 from "@/assets/tourmaline-silver-bangle-9.jpeg";
 import tourmalineSilverBangle10 from "@/assets/tourmaline-silver-bangle-10.jpeg";
 import tourmalineSilverBangle11 from "@/assets/tourmaline-silver-bangle-11.jpeg";
+import silverEarringAmethystPeridot from "@/assets/silver-earring-amethyst-peridot.jpeg";
+import silverEarringTourmaline1 from "@/assets/silver-earring-tourmaline-1.jpeg";
+import silverEarringTourmaline2 from "@/assets/silver-earring-tourmaline-2.jpeg";
+import silverEarringGarnetBluetopaz from "@/assets/silver-earring-garnet-bluetopaz.jpeg";
+import silverEarringGarnetTopaz from "@/assets/silver-earring-garnet-topaz.jpeg";
+import silverEarringPeridotTopaz from "@/assets/silver-earring-peridot-topaz.jpeg";
+import silverEarringWhitesapphireTourmaline from "@/assets/silver-earring-whitesapphire-tourmaline.jpeg";
 
 type PieceItem = {
   src: string | string[];
@@ -310,7 +317,15 @@ const jewelleryByMetal: JewelleryMetal[] = [
       },
       {
         category: "Earrings",
-        pieces: [],
+        pieces: [
+          { src: silverEarringAmethystPeridot, name: "Amethyst & Peridot", desc: "Sterling Silver · Cushion Cut Drop" },
+          { src: silverEarringTourmaline1, name: "Tourmaline", desc: "Sterling Silver · Emerald & Pear Drop" },
+          { src: silverEarringTourmaline2, name: "Tourmaline", desc: "Sterling Silver · Mixed Cut Drop" },
+          { src: silverEarringGarnetBluetopaz, name: "Garnet & Blue Topaz", desc: "Sterling Silver · Heart & Pear Drop" },
+          { src: silverEarringGarnetTopaz, name: "Garnet & Topaz", desc: "Sterling Silver · Round & Marquise Drop" },
+          { src: silverEarringPeridotTopaz, name: "Peridot & Topaz", desc: "Sterling Silver · Pear Drop" },
+          { src: silverEarringWhitesapphireTourmaline, name: "White Sapphire & Tourmaline", desc: "Sterling Silver · Baguette & Cushion Drop" },
+        ],
       },
       {
         category: "Bracelets",
