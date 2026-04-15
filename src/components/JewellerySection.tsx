@@ -335,7 +335,14 @@ const jewelleryByMetal: JewelleryMetal[] = [
       },
       {
         category: "Bracelets",
-        pieces: [],
+        pieces: [
+          { src: tourmalineSilverBangle12, name: "Tourmaline", desc: "Sterling Silver · Rhodolite & Peridot Cuff" },
+          { src: tourmalineSilverBangle13, name: "Tourmaline", desc: "Sterling Silver · Multi-Gemstone Cuff" },
+          { src: tourmalineSilverBangle14, name: "Tourmaline", desc: "Sterling Silver · Pink Tourmaline & Morganite Cuff" },
+          { src: tourmalineSilverBangle15, name: "Tourmaline", desc: "Sterling Silver · Pink & Green Multi-Cut Cuff" },
+          { src: tourmalineSilverBangle16, name: "Tourmaline", desc: "Sterling Silver · Mixed Gemstone Open Cuff" },
+          { src: sapphireSilverBangle1, name: "Sapphire", desc: "Sterling Silver · Multi-Sapphire Open Cuff" },
+        ],
       },
       {
         category: "Bangles",
@@ -351,12 +358,6 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: tourmalineSilverBangle9, name: "Tourmaline", desc: "Sterling Silver · Citrine & Peridot Open Cuff" },
           { src: tourmalineSilverBangle10, name: "Tourmaline", desc: "Sterling Silver · Pink Sapphire & Peridot Cuff" },
           { src: tourmalineSilverBangle11, name: "Tourmaline", desc: "Sterling Silver · Citrine & Green Tourmaline Cuff" },
-          { src: tourmalineSilverBangle12, name: "Tourmaline", desc: "Sterling Silver · Rhodolite & Peridot Cuff" },
-          { src: tourmalineSilverBangle13, name: "Tourmaline", desc: "Sterling Silver · Multi-Gemstone Cuff" },
-          { src: tourmalineSilverBangle14, name: "Tourmaline", desc: "Sterling Silver · Pink Tourmaline & Morganite Cuff" },
-          { src: tourmalineSilverBangle15, name: "Tourmaline", desc: "Sterling Silver · Pink & Green Multi-Cut Cuff" },
-          { src: tourmalineSilverBangle16, name: "Tourmaline", desc: "Sterling Silver · Mixed Gemstone Open Cuff" },
-          { src: sapphireSilverBangle1, name: "Sapphire", desc: "Sterling Silver · Multi-Sapphire Open Cuff" },
         ],
       },
       {
