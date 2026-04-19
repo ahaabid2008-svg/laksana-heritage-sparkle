@@ -1,4 +1,4 @@
-import byzantineRing from "@/assets/byzantine-ring.jpeg";
+import laksanaStorefront from "@/assets/laksana-storefront.jpeg";
 
 const HeritageSection = () => {
   return (
@@ -18,8 +18,8 @@ const HeritageSection = () => {
           <div className="relative group">
             <div className="overflow-hidden">
               <img
-                src={byzantineRing}
-                alt="Handcrafted Byzantine-style gold ring by LAKSANA"
+                src={laksanaStorefront}
+                alt="LAKSANA jewellery storefront in Galle Fort, Sri Lanka at dusk"
                 className="w-full aspect-[4/5] object-cover group-hover:scale-105 transition-transform duration-700"
               />
             </div>
