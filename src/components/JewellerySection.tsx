@@ -147,6 +147,10 @@ import silverTourmalineNecklace3 from "@/assets/silver-tourmaline-necklace-3.jpe
 import silverDiamondInitialsNecklace from "@/assets/silver-diamond-initials-necklace.jpeg";
 import goldSapphireInitialNecklace from "@/assets/gold-sapphire-initial-necklace.jpeg";
 import goldTourmalinePendantNecklace from "@/assets/gold-tourmaline-pendant-necklace.jpeg";
+import silverTourmalineRingToi1 from "@/assets/silver-tourmaline-ring-toi-1.jpeg";
+import silverTourmalineRingToi2 from "@/assets/silver-tourmaline-ring-toi-2.jpeg";
+import silverTourmalineRingToi3 from "@/assets/silver-tourmaline-ring-toi-3.jpeg";
+import silverTourmalineRingToi4 from "@/assets/silver-tourmaline-ring-toi-4.jpeg";
 import silverEarringAmethystPeridot from "@/assets/silver-earring-amethyst-peridot.jpeg";
 import silverEarringTourmaline1 from "@/assets/silver-earring-tourmaline-1.jpeg";
 import silverEarringTourmaline2 from "@/assets/silver-earring-tourmaline-2.jpeg";
@@ -324,6 +328,10 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: [tourmalineSilverRing4a, tourmalineSilverRing4b], name: "Tourmaline", desc: "Sterling Silver · Three-Stone Band" },
           { src: yellowSapphireSilverRing, name: "Yellow Sapphire", desc: "Sterling Silver · Pear Bezel" },
           { src: aquamarineSilverRing2, name: "Aquamarine", desc: "Sterling Silver · Oval Solitaire" },
+          { src: silverTourmalineRingToi1, name: "Tourmaline", desc: "Sterling Silver · Two-Stone Bypass · Oval Cuts" },
+          { src: silverTourmalineRingToi2, name: "Tourmaline", desc: "Sterling Silver · Two-Stone Bypass · Emerald & Cushion Cuts" },
+          { src: silverTourmalineRingToi3, name: "Tourmaline", desc: "Sterling Silver · Two-Stone Bypass · Round Cuts" },
+          { src: silverTourmalineRingToi4, name: "Tourmaline", desc: "Sterling Silver · Two-Stone Bypass · Pear & Oval Cuts" },
         ],
       },
       {
