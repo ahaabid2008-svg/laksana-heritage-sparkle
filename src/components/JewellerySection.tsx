@@ -298,6 +298,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: multiSapphireFloralNecklace, name: "Multi-Sapphires", desc: "White Gold · Diamond Floral Halos" },
           { src: goldSapphireInitialNecklace, name: "Multi-Colour Sapphires", desc: "Yellow Gold · Initial Pendant · Mixed Cuts" },
           { src: goldTourmalinePendantNecklace, name: "Green Tourmaline", desc: "Yellow Gold · Diamond Accents · Open Frame Pendant" },
+          { src: silverDiamondInitialsNecklace, name: "Diamond", desc: "Yellow Gold · Initials Charm Necklace" },
         ],
       },
     ],
@@ -363,7 +364,6 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: silverTourmalineNecklace1, name: "Tourmaline", desc: "Sterling Silver · Multi-Colour Station Necklace" },
           { src: silverTourmalineNecklace2, name: "Tourmaline", desc: "Sterling Silver · Pink & Green Station Necklace" },
           { src: silverTourmalineNecklace3, name: "Tourmaline", desc: "Sterling Silver · Mixed-Cut Station Necklace" },
-          { src: silverDiamondInitialsNecklace, name: "Diamond", desc: "Sterling Silver · Initials Charm Necklace" },
         ],
       },
       {
