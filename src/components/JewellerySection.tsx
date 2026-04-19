@@ -288,7 +288,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
         pieces: [
           { src: sapphireFloralClusterNecklace, name: "Blue Sapphires", desc: "White Gold · Diamond Star Tips" },
           { src: multiSapphireFloralNecklace, name: "Multi-Sapphires", desc: "White Gold · Diamond Floral Halos" },
-          { src: diamondLetterNecklace, name: "Diamonds", desc: "White Gold · Custom Letter Pendant" },
+          
         ],
       },
     ],
