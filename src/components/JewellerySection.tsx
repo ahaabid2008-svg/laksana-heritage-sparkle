@@ -72,7 +72,7 @@ import greenTourmalineDropEarrings from "@/assets/green-tourmaline-drop-earrings
 import tourmalinePearDropEarrings from "@/assets/tourmaline-pear-drop-earrings.jpeg";
 import sapphireFloralClusterNecklace from "@/assets/sapphire-floral-cluster-necklace.jpeg";
 import tourmalineSignetRing from "@/assets/tourmaline-signet-ring.jpeg";
-import diamondLetterNecklace from "@/assets/diamond-letter-necklace.jpeg";
+
 import greenSapphireWhiteSapphireRing from "@/assets/green-sapphire-white-sapphire-ring.jpeg";
 import tealSapphireLoveRing from "@/assets/teal-sapphire-love-ring.jpeg";
 import blueSapphireDomeRing from "@/assets/blue-sapphire-dome-ring.jpeg";
