@@ -141,6 +141,12 @@ import tourmalineSilverBangle14 from "@/assets/tourmaline-silver-bangle-14.jpeg"
 import tourmalineSilverBangle15 from "@/assets/tourmaline-silver-bangle-15.jpeg";
 import tourmalineSilverBangle16 from "@/assets/tourmaline-silver-bangle-16.jpeg";
 import sapphireSilverBangle1 from "@/assets/sapphire-silver-bangle-1.jpeg";
+import silverTourmalineNecklace1 from "@/assets/silver-tourmaline-necklace-1.jpeg";
+import silverTourmalineNecklace2 from "@/assets/silver-tourmaline-necklace-2.jpeg";
+import silverTourmalineNecklace3 from "@/assets/silver-tourmaline-necklace-3.jpeg";
+import silverDiamondInitialsNecklace from "@/assets/silver-diamond-initials-necklace.jpeg";
+import goldSapphireInitialNecklace from "@/assets/gold-sapphire-initial-necklace.jpeg";
+import goldTourmalinePendantNecklace from "@/assets/gold-tourmaline-pendant-necklace.jpeg";
 import silverEarringAmethystPeridot from "@/assets/silver-earring-amethyst-peridot.jpeg";
 import silverEarringTourmaline1 from "@/assets/silver-earring-tourmaline-1.jpeg";
 import silverEarringTourmaline2 from "@/assets/silver-earring-tourmaline-2.jpeg";
@@ -286,7 +292,8 @@ const jewelleryByMetal: JewelleryMetal[] = [
         pieces: [
           { src: sapphireFloralClusterNecklace, name: "Blue Sapphires", desc: "White Gold · Diamond Star Tips" },
           { src: multiSapphireFloralNecklace, name: "Multi-Sapphires", desc: "White Gold · Diamond Floral Halos" },
-          
+          { src: goldSapphireInitialNecklace, name: "Multi-Colour Sapphires", desc: "Yellow Gold · Initial Pendant · Mixed Cuts" },
+          { src: goldTourmalinePendantNecklace, name: "Green Tourmaline", desc: "Yellow Gold · Diamond Accents · Open Frame Pendant" },
         ],
       },
     ],
@@ -340,6 +347,15 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: tourmalineSilverBangle15, name: "Tourmaline", desc: "Sterling Silver · Pink & Green Multi-Cut Cuff" },
           { src: tourmalineSilverBangle16, name: "Tourmaline", desc: "Sterling Silver · Mixed Gemstone Open Cuff" },
           { src: sapphireSilverBangle1, name: "Sapphire", desc: "Sterling Silver · Multi-Sapphire Open Cuff" },
+        ],
+      },
+      {
+        category: "Necklaces",
+        pieces: [
+          { src: silverTourmalineNecklace1, name: "Tourmaline", desc: "Sterling Silver · Multi-Colour Station Necklace" },
+          { src: silverTourmalineNecklace2, name: "Tourmaline", desc: "Sterling Silver · Pink & Green Station Necklace" },
+          { src: silverTourmalineNecklace3, name: "Tourmaline", desc: "Sterling Silver · Mixed-Cut Station Necklace" },
+          { src: silverDiamondInitialsNecklace, name: "Diamond", desc: "Sterling Silver · Initials Charm Necklace" },
         ],
       },
       {
