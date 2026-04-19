@@ -34,8 +34,6 @@ import multiSapphireStackingRings from "@/assets/multi-sapphire-stacking-rings.j
 import sapphireStarburstRing from "@/assets/sapphire-starburst-ring.jpeg";
 import yellowSapphireHaloRing from "@/assets/yellow-sapphire-halo-ring.jpeg";
 
-import tourmalineBarNecklace from "@/assets/tourmaline-bar-necklace.jpeg";
-import tourmalineBarNecklace2 from "@/assets/tourmaline-bar-necklace-2.jpeg";
 import rubyDiamondStuds from "@/assets/ruby-diamond-studs.jpeg";
 import pinkTourmalineDropEarrings from "@/assets/pink-tourmaline-drop-earrings.jpeg";
 import tsavoriteDropEarrings from "@/assets/tsavorite-drop-earrings.jpeg";
@@ -358,13 +356,6 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: tourmalineSilverBangle9, name: "Tourmaline", desc: "Sterling Silver · Citrine & Peridot Open Cuff" },
           { src: tourmalineSilverBangle10, name: "Tourmaline", desc: "Sterling Silver · Pink Sapphire & Peridot Cuff" },
           { src: tourmalineSilverBangle11, name: "Tourmaline", desc: "Sterling Silver · Citrine & Green Tourmaline Cuff" },
-        ],
-      },
-      {
-        category: "Necklaces",
-        pieces: [
-          { src: tourmalineBarNecklace, name: "Tourmalines & Morganite", desc: "Sterling Silver" },
-          { src: tourmalineBarNecklace2, name: "Rhodolite Garnet & Tsavorite", desc: "Sterling Silver · Mixed Fancy Cuts" },
         ],
       },
     ],
