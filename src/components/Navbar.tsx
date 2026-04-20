@@ -6,6 +6,7 @@ const navItems = [
   { label: "Heritage", href: "#heritage", page: "/" },
   { label: "Collection", href: "/collection", page: "/collection" },
   { label: "Inclusions", href: "/inclusions", page: "/inclusions" },
+  { label: "Bespoke Gallery", href: "#bespoke-gallery", page: "/" },
   { label: "Contact", href: "#contact", page: "/" },
 ];
 
