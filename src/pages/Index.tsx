@@ -12,6 +12,7 @@ const Index = () => {
       <HeroSection />
       <HeritageSection />
       <AmaanSection />
+      <BespokeGallery />
       <ContactSection />
       <Footer />
     </main>
