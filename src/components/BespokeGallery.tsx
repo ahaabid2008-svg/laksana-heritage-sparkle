@@ -1,12 +1,3 @@
-BespokeGallery.tsx
-import sapphireEternityRing from "@/assets/sapphire-eternity-ring.jpeg";
+const BespokeGallery = () => null;
 
-
-
-
-{
-  image: sapphireEternityRing,
-  title: "Sapphire Eternity Ring",
-  category: "Yellow Gold",
-  description: "Elegant yellow gold eternity ring featuring sapphires.",
-}
+export default BespokeGallery;
