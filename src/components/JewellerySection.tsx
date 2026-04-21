@@ -334,7 +334,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: silverTourmalineRingToi2, name: "Tourmaline", desc: "Sterling Silver · Two-Stone Bypass · Emerald & Cushion Cuts" },
           { src: silverTourmalineRingToi3, name: "Tourmaline", desc: "Sterling Silver · Two-Stone Bypass · Round Cuts" },
           { src: silverTourmalineRingToi4, name: "Tourmaline", desc: "Sterling Silver · Two-Stone Bypass · Pear & Oval Cuts" },
-          { src: silverMixedGemBypassRing, name: "Tourmaline", desc: "Sterling Silver · Two-Stone Bypass · Cushion & Pear Cuts" },
+          { src: silverMixedGemBypassRing, name: "Mixed Gemstones", desc: "Sterling Silver · Two-Stone Bypass · Cushion & Pear Cuts" },
         ],
       },
       {
