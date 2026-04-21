@@ -122,6 +122,7 @@ import blueSapphireSilverRing2 from "@/assets/blue-sapphire-silver-ring-2.jpeg";
 import tourmalineSilverRing3 from "@/assets/tourmaline-silver-ring-3.jpeg";
 import tourmalineSilverRing4a from "@/assets/tourmaline-silver-ring-4a.jpeg";
 import tourmalineSilverRing4b from "@/assets/tourmaline-silver-ring-4b.jpeg";
+import silverMixedGemBypassRing from "@/assets/silver-mixed-gem-bypass-ring.jpeg";
 import yellowSapphireSilverRing from "@/assets/yellow-sapphire-silver-ring.jpeg";
 import aquamarineSilverRing2 from "@/assets/aquamarine-silver-ring-2.jpeg";
 import tourmalineSilverBangle1 from "@/assets/tourmaline-silver-bangle-1.jpeg";
@@ -334,6 +335,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: silverTourmalineRingToi3, name: "Tourmaline", desc: "Sterling Silver · Two-Stone Bypass · Round Cuts" },
           { src: silverTourmalineRingToi4, name: "Tourmaline", desc: "Sterling Silver · Two-Stone Bypass · Pear & Oval Cuts" },
           { src: tourmalineSilverRingNew, name: "Tourmaline", desc: "Sterling Silver · Two-Stone Bypass" },
+          { src: silverMixedGemBypassRing, name: "Mixed Gemstones", desc: "Sterling Silver · Two-Stone Bypass · Cushion & Pear Cuts" },
         ],
       },
       {
