@@ -158,7 +158,7 @@ import silverEarringGarnetBluetopaz from "@/assets/silver-earring-garnet-bluetop
 import silverEarringGarnetTopaz from "@/assets/silver-earring-garnet-topaz.jpeg";
 import silverEarringPeridotTopaz from "@/assets/silver-earring-peridot-topaz.jpeg";
 import silverEarringWhitesapphireTourmaline from "@/assets/silver-earring-whitesapphire-tourmaline.jpeg";
-
+import tourmalineSilverRingNew from "@/assets/tourmaline-silver-ring-new.jpg";
 type PieceItem = {
   src: string | string[];
   name: string;
@@ -333,7 +333,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: silverTourmalineRingToi2, name: "Tourmaline", desc: "Sterling Silver · Two-Stone Bypass · Emerald & Cushion Cuts" },
           { src: silverTourmalineRingToi3, name: "Tourmaline", desc: "Sterling Silver · Two-Stone Bypass · Round Cuts" },
           { src: silverTourmalineRingToi4, name: "Tourmaline", desc: "Sterling Silver · Two-Stone Bypass · Pear & Oval Cuts" },
-          
+          { src: tourmalineSilverRingNew, name: "Tourmaline", desc: "Sterling Silver · Two-Stone Bypass" },
         ],
       },
       {
