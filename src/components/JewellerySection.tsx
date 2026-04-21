@@ -158,7 +158,7 @@ import silverEarringGarnetBluetopaz from "@/assets/silver-earring-garnet-bluetop
 import silverEarringGarnetTopaz from "@/assets/silver-earring-garnet-topaz.jpeg";
 import silverEarringPeridotTopaz from "@/assets/silver-earring-peridot-topaz.jpeg";
 import silverEarringWhitesapphireTourmaline from "@/assets/silver-earring-whitesapphire-tourmaline.jpeg";
-import tourmalineSilverRingNew from "@/assets/tourmaline-silver-ring-new.jpg";
+import tourmalineSilverRingNew from "@/assets/tourmaline-silver-ring-new.jpeg";
 type PieceItem = {
   src: string | string[];
   name: string;
