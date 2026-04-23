@@ -160,6 +160,28 @@ import silverEarringGarnetTopaz from "@/assets/silver-earring-garnet-topaz.jpeg"
 import silverEarringPeridotTopaz from "@/assets/silver-earring-peridot-topaz.jpeg";
 import silverEarringWhitesapphireTourmaline from "@/assets/silver-earring-whitesapphire-tourmaline.jpeg";
 
+//new uplaod 2026/04/23
+
+import yellowSapphireBraceletNew from "@/assets/yellow-sapphire-bracelet-new.jpeg";
+import diamondBraceletNew from "@/assets/diamond-bracelet-new.jpeg";
+import spinelWithDiamondsBracelet from "@/assets/spinel-with-diamonds-bracelet.jpeg";
+import blueSapphireBraceletNew from "@/assets/blue-sapphire-bracelet-new.jpeg";
+import rubyBraceletWithDiamonds from "@/assets/ruby-bracelet-with-diamonds.jpeg";
+import multiColourSapphireBracelet from "@/assets/multi-colour-sapphire-bracelet.jpeg";
+import blueSapphireWithDiamondsBracelet from "@/assets/blue-sapphire-with-diamonds-bracelet.jpeg";
+
+import blueSapphireWithDiamondsNecklace1 from "@/assets/blue-sapphire-with-diamonds-necklace-1.jpeg";
+import blueSapphireWithDiamondsNecklace2 from "@/assets/blue-sapphire-with-diamonds-necklace-2.jpeg";
+import sapphireAndChrysoberylNecklace from "@/assets/sapphire-and-chrysoberyl-necklace.jpeg";
+import blueSapphirePinkSapphireDiamondsNecklace from "@/assets/blue-sapphire-pink-sapphire-diamonds-necklace.jpeg";
+import diamondNecklace1 from "@/assets/diamond-necklace-1.jpeg";
+import pinkSapphireWithDiamondsNecklace from "@/assets/pink-sapphire-with-diamonds-necklace.jpeg";
+import blueSapphireWithDiamondsNecklace3 from "@/assets/blue-sapphire-with-diamonds-necklace-3.jpeg";
+import emeraldWithDiamondsNecklace from "@/assets/emerald-with-diamonds-necklace.jpeg";
+import tourmalineWithDiamondsNecklace from "@/assets/tourmaline-with-diamonds-necklace.jpeg";
+import rubyWithDiamondsNecklace from "@/assets/ruby-with-diamonds-necklace.jpeg";
+import diamondsNecklace from "@/assets/diamonds-necklace.jpeg";
+
 type PieceItem = {
   src: string | string[];
   name: string;
