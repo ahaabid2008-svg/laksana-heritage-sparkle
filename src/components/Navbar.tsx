@@ -6,7 +6,6 @@ const navItems = [
   { label: "Heritage", href: "#heritage", page: "/" },
   { label: "Collection", href: "/collection", page: "/collection" },
   { label: "Inclusions", href: "/inclusions", page: "/inclusions" },
-  { label: "Bespoke Gallery", href: "#bespoke-gallery", page: "/" },
   { label: "Contact", href: "#contact", page: "/" },
 ];
 
@@ -49,7 +48,6 @@ const collectionSubItems = [
       },
     ],
   },
-  { label: "Bespoke Gallery", href: "/collection#bespoke-gallery" },
 ];
 
 const Navbar = () => {
