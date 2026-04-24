@@ -4,7 +4,6 @@ import HeritageSection from "@/components/HeritageSection";
 import AmaanSection from "@/components/AmaanSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
-import BespokeGallery from "@/components/BespokeGallery";
 const Index = () => {
   return (
     <main>
@@ -12,7 +11,6 @@ const Index = () => {
       <HeroSection />
       <HeritageSection />
       <AmaanSection />
-      <BespokeGallery />
       <ContactSection />
       <Footer />
     </main>
