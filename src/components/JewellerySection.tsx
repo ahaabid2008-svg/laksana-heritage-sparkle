@@ -182,6 +182,13 @@ import tourmalineWithDiamondsNecklace from "@/assets/tourmaline-with-diamonds-ne
 import rubyWithDiamondsNecklace from "@/assets/ruby-with-diamonds-necklace.jpeg";
 import diamondsNecklace from "@/assets/diamonds-necklace.jpeg";
 
+import blueSapphireSilverNecklace1 from "@/assets/blue-sapphire-silver-necklace-1.jpeg";
+import yellowSapphireSilverNecklace from "@/assets/yellow-sapphire-silver-necklace.jpeg";
+import peridotSilverNecklace from "@/assets/peridot-silver-necklace.jpeg";
+import pinkSapphireSilverNecklace from "@/assets/pink-sapphire-silver-necklace.jpeg";
+import aquamarineSilverNecklace from "@/assets/aquamarine-silver-necklace-heart.jpeg";
+import blueSapphireSilverNecklace2 from "@/assets/blue-sapphire-silver-necklace-2.jpeg";
+
 type PieceItem = {
   src: string | string[];
   name: string;
@@ -406,6 +413,12 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: silverTourmalineNecklace1, name: "Tourmaline", desc: "Sterling Silver · Multi-Colour Station Necklace" },
           { src: silverTourmalineNecklace2, name: "Tourmaline", desc: "Sterling Silver · Pink & Green Station Necklace" },
           { src: silverTourmalineNecklace3, name: "Tourmaline", desc: "Sterling Silver · Mixed-Cut Station Necklace" },
+          { src: blueSapphireSilverNecklace1, name: "Blue Sapphire", desc: "Sterling Silver · Mixed-Cut Necklace" },
+          { src: yellowSapphireSilverNecklace, name: "Yellow Sapphire", desc: "Sterling Silver · Round Bezel Pendant" },
+          { src: peridotSilverNecklace, name: "Peridot", desc: "Sterling Silver · Pear Bezel Pendant" },
+          { src: pinkSapphireSilverNecklace, name: "Pink Sapphire", desc: "Sterling Silver · Heart Necklace" },
+          { src: aquamarineSilverNecklace, name: "Aquamarine", desc: "Sterling Silver · Heart Bezel Pendant" },
+          { src: blueSapphireSilverNecklace2, name: "Blue Sapphire", desc: "Sterling Silver · Trillion Necklace" },
         ],
       },
       {
