@@ -1,13 +1,14 @@
 import Navbar from "@/components/Navbar";
+import CollectionNav from "@/components/CollectionNav";
+import GemsSection from "@/components/GemsSection";
 import Footer from "@/components/Footer";
 
 const Collection = () => {
   return (
     <>
       <Navbar />
-      <div className="pt-32 min-h-screen bg-white text-black flex items-center justify-center">
-        Collection temporary test
-      </div>
+      <CollectionNav />
+      <GemsSection />
       <Footer />
     </>
   );
