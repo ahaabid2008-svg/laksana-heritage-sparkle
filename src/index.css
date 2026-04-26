@@ -6,12 +6,11 @@
 
 @layer base {
   :root {
-    :root {
-  --background: 0 0% 4%;
-  --foreground: 40 20% 90%;
-  --card: 0 0% 8%;
-  --card-foreground: 40 20% 90%;
+    --background: 0 0% 4%;
+    --foreground: 40 20% 90%;
 
+    --card: 0 0% 8%;
+    --card-foreground: 40 20% 90%;
 
     --popover: 0 0% 8%;
     --popover-foreground: 40 20% 90%;
@@ -34,7 +33,6 @@
     --border: 40 15% 20%;
     --input: 40 15% 20%;
     --ring: 43 72% 55%;
-
     --radius: 0.25rem;
 
     --gold: 43 72% 55%;
@@ -60,9 +58,7 @@
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
-}
 
-@layer base {
   * {
     @apply border-border;
   }
@@ -72,7 +68,12 @@
     font-family: var(--font-body);
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: var(--font-display);
   }
 }
@@ -81,51 +82,80 @@
   .font-display {
     font-family: var(--font-display);
   }
+
   .font-body {
     font-family: var(--font-body);
   }
+
   .font-accent {
     font-family: var(--font-accent);
   }
+
   .text-gold {
     color: hsl(var(--gold));
   }
+
   .text-gold-light {
     color: hsl(var(--gold-light));
   }
+
   .text-cream {
     color: hsl(var(--cream));
   }
+
   .bg-charcoal {
     background-color: hsl(var(--charcoal));
   }
+
   .bg-deep-black {
     background-color: hsl(var(--deep-black));
   }
+
   .border-gold {
     border-color: hsl(var(--gold));
   }
+
   .border-gold\/20 {
     border-color: hsl(var(--gold) / 0.2);
   }
+
   .shadow-gold {
     box-shadow: var(--shadow-gold);
   }
+
   .shadow-luxury {
     box-shadow: var(--shadow-luxury);
   }
+
   .gradient-gold {
-    background: linear-gradient(135deg, hsl(var(--gold-dark)), hsl(var(--gold)), hsl(var(--gold-light)));
+    background: linear-gradient(
+      135deg,
+      hsl(var(--gold-dark)),
+      hsl(var(--gold)),
+      hsl(var(--gold-light))
+    );
   }
+
   .gradient-gold-text {
-    background: linear-gradient(135deg, hsl(var(--gold-dark)), hsl(var(--gold)), hsl(var(--gold-light)));
+    background: linear-gradient(
+      135deg,
+      hsl(var(--gold-dark)),
+      hsl(var(--gold)),
+      hsl(var(--gold-light))
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
+
   .divider-gold {
     height: 1px;
-    background: linear-gradient(90deg, transparent, hsl(var(--gold) / 0.5), transparent);
+    background: linear-gradient(
+      90deg,
+      transparent,
+      hsl(var(--gold) / 0.5),
+      transparent
+    );
   }
 }
 
