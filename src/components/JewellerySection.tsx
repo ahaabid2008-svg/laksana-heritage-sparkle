@@ -194,8 +194,8 @@ import topazGarnetSilverEarring from "@/assets/topaz-garnet-silver-earring.jpeg"
 import peridotCitrineSilverEarring from "@/assets/peridot-citrine-silver-earring.jpeg";
 import garnetPeridotSilverEarring from "@/assets/garnet-peridot-silver-earring.jpeg";
 import garnetAmethystTopazSilverEarring from "@/assets/garnet-amethyst-topaz-silver-earring.jpeg";
-import tourmalineSilverEarring1 from "@/assets/tourmaline-silver-earring-5.jpeg";
-import tourmalineSilverEarring2 from "@/assets/tourmaline-silver-earring-6.jpeg";
+import tourmalineSilverEarring5 from "@/assets/tourmaline-silver-earring-5.jpeg";
+import tourmalineSilverEarring6 from "@/assets/tourmaline-silver-earring-6.jpeg";
 import sapphireSilverEarring from "@/assets/sapphire-silver-earring.jpeg";
 
 type PieceItem = {
