@@ -189,6 +189,15 @@ import pinkSapphireSilverNecklace from "@/assets/pink-sapphire-silver-necklace.j
 import aquamarineSilverNecklace from "@/assets/aquamarine-silver-necklace-heart.jpeg";
 import blueSapphireSilverNecklace2 from "@/assets/blue-sapphire-silver-necklace-2.jpeg";
 
+import amethystWhiteTopazSilverEarring from "@/assets/amethyst-white-topaz-silver-earring.jpeg";
+import topazGarnetSilverEarring from "@/assets/topaz-garnet-silver-earring.jpeg";
+import peridotCitrineSilverEarring from "@/assets/peridot-citrine-silver-earring.jpeg";
+import garnetPeridotSilverEarring from "@/assets/garnet-peridot-silver-earring.jpeg";
+import garnetAmethystTopazSilverEarring from "@/assets/garnet-amethyst-topaz-silver-earring.jpeg";
+import tourmalineSilverEarring1 from "@/assets/tourmaline-silver-earring-5.jpeg";
+import tourmalineSilverEarring2 from "@/assets/tourmaline-silver-earring-6.jpeg";
+import sapphireSilverEarring from "@/assets/sapphire-silver-earring.jpeg";
+
 type PieceItem = {
   src: string | string[];
   name: string;
@@ -385,17 +394,47 @@ const jewelleryByMetal: JewelleryMetal[] = [
         ],
       },
       {
-        category: "Earrings",
-        pieces: [
-          { src: silverEarringAmethystPeridot, name: "Amethyst & Peridot", desc: "Sterling Silver · Cushion Cut Drop" },
-          { src: silverEarringTourmaline1, name: "Tourmaline", desc: "Sterling Silver · Emerald & Pear Drop" },
-          { src: silverEarringTourmaline2, name: "Tourmaline", desc: "Sterling Silver · Mixed Cut Drop" },
-          { src: silverEarringGarnetBluetopaz, name: "Garnet & Blue Topaz", desc: "Sterling Silver · Heart & Pear Drop" },
-          { src: silverEarringGarnetTopaz, name: "Garnet & Topaz", desc: "Sterling Silver · Round & Marquise Drop" },
-          { src: silverEarringPeridotTopaz, name: "Peridot & Topaz", desc: "Sterling Silver · Pear Drop" },
-          { src: silverEarringWhitesapphireTourmaline, name: "White Sapphire & Tourmaline", desc: "Sterling Silver · Baguette & Cushion Drop" },
-        ],
-      },
+  category: "Earrings",
+  pieces: [
+    { src: silverEarringAmethystPeridot, name: "Amethyst & Peridot", desc: "Sterling Silver · Cushion Cut Drop" },
+    { src: silverEarringTourmaline1, name: "Tourmaline", desc: "Sterling Silver · Emerald & Pear Drop" },
+    { src: silverEarringTourmaline2, name: "Tourmaline", desc: "Sterling Silver · Mixed Cut Drop" },
+    { src: silverEarringGarnetBlueTopaz, name: "Garnet & Blue Topaz", desc: "Sterling Silver · Heart & Pear Drop" },
+    { src: silverEarringGarnetTopaz, name: "Garnet & Topaz", desc: "Sterling Silver · Round & Marquise Drop" },
+    { src: silverEarringPeridotTopaz, name: "Peridot & Topaz", desc: "Sterling Silver · Pear Drop" },
+    { src: silverEarringWhiteSapphireTourmaline, name: "White Sapphire & Tourmaline", desc: "Sterling Silver · Baguette & Cushion Drop" },
+
+    { src: amethystWhiteTopazSilverEarring, name: "Amethyst & White Topaz", desc: "Sterling Silver · Oval Drop Earring" },
+    { src: topazGarnetSilverEarring, name: "Topaz & Garnet", desc: "Sterling Silver · Emerald Cut Drop Earring" },
+    { src: peridotCitrineSilverEarring, name: "Peridot & Citrine", desc: "Sterling Silver · Oval & Princess Cut Drop Earring" },
+    { src: garnetPeridotSilverEarring, name: "Garnet & Peridot", desc: "Sterling Silver · Square & Oval Drop Earring" },
+    { src: garnetAmethystTopazSilverEarring, name: "Garnet, Amethyst & Topaz", desc: "Sterling Silver · Three Stone Drop Earring" },
+    { src: tourmalineSilverEarring1, name: "Tourmaline", desc: "Sterling Silver · Two Stone Drop Earring" },
+    { src: tourmalineSilverEarring2, name: "Tourmaline", desc: "Sterling Silver · Emerald Cut Drop Earring" },
+    { src: sapphireSilverEarring, name: "Sapphire", desc: "Sterling Silver · Multi-Stone Stud Earring" },
+  ],
+},
+      {
+  category: "Earrings",
+  pieces: [
+    { src: silverEarringAmethystPeridot, name: "Amethyst & Peridot", desc: "Sterling Silver · Cushion Cut Drop" },
+    { src: silverEarringTourmaline1, name: "Tourmaline", desc: "Sterling Silver · Emerald & Pear Drop" },
+    { src: silverEarringTourmaline2, name: "Tourmaline", desc: "Sterling Silver · Mixed Cut Drop" },
+    { src: silverEarringGarnetBlueTopaz, name: "Garnet & Blue Topaz", desc: "Sterling Silver · Heart & Pear Drop" },
+    { src: silverEarringGarnetTopaz, name: "Garnet & Topaz", desc: "Sterling Silver · Round & Marquise Drop" },
+    { src: silverEarringPeridotTopaz, name: "Peridot & Topaz", desc: "Sterling Silver · Pear Drop" },
+    { src: silverEarringWhiteSapphireTourmaline, name: "White Sapphire & Tourmaline", desc: "Sterling Silver · Baguette & Cushion Drop" },
+
+    { src: amethystWhiteTopazSilverEarring, name: "Amethyst & White Topaz", desc: "Sterling Silver · Oval Drop Earring" },
+    { src: topazGarnetSilverEarring, name: "Topaz & Garnet", desc: "Sterling Silver · Emerald Cut Drop Earring" },
+    { src: peridotCitrineSilverEarring, name: "Peridot & Citrine", desc: "Sterling Silver · Oval & Princess Cut Drop Earring" },
+    { src: garnetPeridotSilverEarring, name: "Garnet & Peridot", desc: "Sterling Silver · Square & Oval Drop Earring" },
+    { src: garnetAmethystTopazSilverEarring, name: "Garnet, Amethyst & Topaz", desc: "Sterling Silver · Three Stone Drop Earring" },
+    { src: tourmalineSilverEarring1, name: "Tourmaline", desc: "Sterling Silver · Two Stone Drop Earring" },
+    { src: tourmalineSilverEarring2, name: "Tourmaline", desc: "Sterling Silver · Emerald Cut Drop Earring" },
+    { src: sapphireSilverEarring, name: "Sapphire", desc: "Sterling Silver · Multi-Stone Stud Earring" },
+  ],
+},
       {
         category: "Bracelets",
         pieces: [
