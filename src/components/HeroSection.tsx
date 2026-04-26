@@ -8,9 +8,9 @@ const HeroSection = () => {
         <img
           src={sapphireRing}
           alt="Exquisite sapphire ring by LAKSANA"
-          className="w-full h-full object-cover opacity-75 scale-110"
+         className="w-full h-full object-cover opacity-40 scale-110"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/10 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background" />
       </div>
 
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
