@@ -414,7 +414,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
     { src: sapphireSilverEarring, name: "Sapphire", desc: "Sterling Silver · Multi-Stone Stud Earring" },
   ],
 },
-      {
+  {
   category: "Earrings",
   pieces: [
     { src: silverEarringAmethystPeridot, name: "Amethyst & Peridot", desc: "Sterling Silver · Cushion Cut Drop" },
@@ -425,15 +425,8 @@ const jewelleryByMetal: JewelleryMetal[] = [
     { src: silverEarringPeridotTopaz, name: "Peridot & Topaz", desc: "Sterling Silver · Pear Drop" },
     { src: silverEarringWhiteSapphireTourmaline, name: "White Sapphire & Tourmaline", desc: "Sterling Silver · Baguette & Cushion Drop" },
 
-    { src: amethystWhiteTopazSilverEarring, name: "Amethyst & White Topaz", desc: "Sterling Silver · Oval Drop Earring" },
-    { src: topazGarnetSilverEarring, name: "Topaz & Garnet", desc: "Sterling Silver · Emerald Cut Drop Earring" },
-    { src: peridotCitrineSilverEarring, name: "Peridot & Citrine", desc: "Sterling Silver · Oval & Princess Cut Drop Earring" },
-    { src: garnetPeridotSilverEarring, name: "Garnet & Peridot", desc: "Sterling Silver · Square & Oval Drop Earring" },
-    { src: garnetAmethystTopazSilverEarring, name: "Garnet, Amethyst & Topaz", desc: "Sterling Silver · Three Stone Drop Earring" },
-    
-    { src: sapphireSilverEarring, name: "Sapphire", desc: "Sterling Silver · Multi-Stone Stud Earring" },
-  ],
-},
+   ],
+  },
       {
         category: "Bracelets",
         pieces: [
