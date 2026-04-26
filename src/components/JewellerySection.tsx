@@ -461,28 +461,43 @@ const SwipeableImage = ({ images, alt }: { images: string[]; alt: string }) => {
   const [touchStart, setTouchStart] = useState<number | null>(null);
 
   const handleTouchStart = (e: React.TouchEvent) => setTouchStart(e.touches[0].clientX);
+
   const handleTouchEnd = (e: React.TouchEvent) => {
     if (touchStart === null) return;
+
     const diff = touchStart - e.changedTouches[0].clientX;
+
     if (Math.abs(diff) > 50) {
-      setCurrent((prev) => (diff > 0 ? Math.min(prev + 1, images.length - 1) : Math.max(prev - 1, 0)));
+      setCurrent((prev) =>
+        diff > 0
+          ? Math.min(prev + 1, images.length - 1)
+          : Math.max(prev - 1, 0)
+      );
     }
+
     setTouchStart(null);
   };
 
   return (
-    <div className="relative overflow-hidden" onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd}>
+    <div
+      className="relative overflow-hidden"
+      onTouchStart={handleTouchStart}
+      onTouchEnd={handleTouchEnd}
+    >
       <img
         src={images[current]}
         alt={`${alt} - view ${current + 1}`}
         className="w-full aspect-square object-cover transition-transform duration-700"
       />
-      <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-1.5">
+
+      <div className="absolute bottom-2 left-1/2 -translate-x-1/2 flex gap-1.5">
         {images.map((_, i) => (
           <button
             key={i}
             onClick={() => setCurrent(i)}
-            className={`w-2 h-2 rounded-full transition-colors ${i === current ? "bg-black" : "bg-black/30"}`}
+            className={`w-2 h-2 rounded-full transition-colors ${
+              i === current ? "bg-black" : "bg-black/30"
+            }`}
           />
         ))}
       </div>
@@ -492,31 +507,39 @@ const SwipeableImage = ({ images, alt }: { images: string[]; alt: string }) => {
 
 const JewellerySection = () => {
   return (
-    <section id="jewellery" className="py-24 md:py-32 bg-white">
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="text-center mb-16">
-          <h2 className="font-display text-4xl md:text-5xl text-gray-900 tracking-wide">
+    <section id="jewellery" className="py-16 md:py-24 bg-white">
+      <div className="max-w-7xl mx-auto px-4 md:px-6">
+        <div className="text-center mb-12 md:mb-16">
+          <h2 className="font-display text-3xl md:text-5xl text-gray-900 tracking-wide">
             Fine Jewellery
           </h2>
-          <div className="divider-gold w-24 mx-auto mt-6" />
+          <div className="divider-gold w-24 mx-auto mt-4 md:mt-6" />
         </div>
 
-        <div className="space-y-20">
+        <div className="space-y-16 md:space-y-20">
           {jewelleryByMetal.map((metalGroup) => (
             <div key={metalGroup.metal} id={metalGroup.id}>
-              <h3 className="font-display text-3xl md:text-4xl text-gray-900 tracking-wide mb-10 text-center">
+              <h3 className="font-display text-2xl md:text-4xl text-gray-900 tracking-wide mb-8 md:mb-10 text-center">
                 {metalGroup.metal}
               </h3>
-              <div className="space-y-16">
+
+              <div className="space-y-12 md:space-y-16">
                 {metalGroup.categories.map((category) => (
-                  <div key={category.category} id={`${metalGroup.id}-${category.category.toLowerCase()}`}>
-                    <h4 className="font-display text-2xl md:text-3xl text-gray-900 tracking-wide mb-6 text-center">
+                  <div
+                    key={category.category}
+                    id={`${metalGroup.id}-${category.category.toLowerCase()}`}
+                  >
+                    <h4 className="font-display text-xl md:text-3xl text-gray-900 tracking-wide mb-5 md:mb-6 text-center">
                       {category.category}
                     </h4>
+
                     {category.pieces.length > 0 ? (
-                      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                      <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
                         {category.pieces.map((piece, index) => (
-                          <div key={`${piece.name}-${index}`} className="group relative overflow-hidden bg-white rounded-sm shadow-md">
+                          <div
+                            key={`${piece.name}-${index}`}
+                            className="group relative overflow-hidden bg-white rounded-sm shadow-sm border border-gray-100"
+                          >
                             {Array.isArray(piece.src) ? (
                               <SwipeableImage images={piece.src} alt={piece.name} />
                             ) : (
@@ -526,15 +549,25 @@ const JewellerySection = () => {
                                 className="w-full aspect-square object-cover group-hover:scale-105 transition-transform duration-700"
                               />
                             )}
-                            <div className="p-5 border-t border-gray-100">
-                              <h3 className="font-display text-lg text-gray-900 mb-1">{piece.name}</h3>
+
+                            <div className="p-3 md:p-5 border-t border-gray-100">
+                              <h3 className="font-display text-sm md:text-lg leading-snug text-gray-900 mb-1 md:mb-2">
+                                {piece.name}
+                              </h3>
+
                               {piece.desc.startsWith("CUSTOM MADE") ? (
                                 <>
-                                  <p className="font-accent text-sm text-gray-500 tracking-wide font-semibold">CUSTOM MADE</p>
-                                  <p className="font-accent text-sm text-gray-500 tracking-wide">{piece.desc.replace("CUSTOM MADE · ", "")}</p>
+                                  <p className="font-accent text-[10px] md:text-sm text-gray-500 tracking-wide font-semibold">
+                                    CUSTOM MADE
+                                  </p>
+                                  <p className="font-accent text-[10px] md:text-sm text-gray-500 tracking-wide leading-snug">
+                                    {piece.desc.replace("CUSTOM MADE · ", "")}
+                                  </p>
                                 </>
                               ) : (
-                                <p className="font-accent text-sm text-gray-500 tracking-wide">{piece.desc}</p>
+                                <p className="font-accent text-[10px] md:text-sm text-gray-500 tracking-wide leading-snug">
+                                  {piece.desc}
+                                </p>
                               )}
                             </div>
                           </div>
