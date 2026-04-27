@@ -1,15 +1,26 @@
 import sapphireRing from "@/assets/sapphire-ring.jpeg";
+import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background image */}
       <div className="absolute inset-0">
-        <img
-          src={sapphireRing}
-          alt="Exquisite sapphire ring by LAKSANA"
-         className="w-full h-full object-cover opacity-40 scale-110"
-        />
+        <motion.img
+  src={sapphireRing}
+  alt="Exquisite sapphire ring by LAKSANA"
+  className="w-full h-full object-cover opacity-40 scale-110"
+  initial={{ scale: 1.08 }}
+  animate={{
+    y: [0, -10, 0],
+    scale: [1.08, 1.1, 1.08],
+  }}
+  transition={{
+    duration: 8,
+    repeat: Infinity,
+    ease: "easeInOut",
+  }}
+/>
         <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background" />
       </div>
 

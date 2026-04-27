@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { motion, type Variants } from "framer-motion";
+import { AnimatePresence, motion, type Variants } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import bespokeYellowGoldTourmalineBangle from "@/assets/bespoke-yellow-gold-tourmaline-bangle.jpeg";
@@ -37,12 +37,13 @@ const cardContainer: Variants = {
   visible: {
     transition: {
       staggerChildren: 0.08,
+      delayChildren: 0.05,
     },
   },
 };
 
 const cardVariant: Variants = {
-  hidden: { opacity: 0, y: 24, scale: 0.98 },
+  hidden: { opacity: 0, y: 26, scale: 0.985 },
   visible: {
     opacity: 1,
     y: 0,
@@ -70,14 +71,28 @@ const BespokeGallery = () => {
             whileInView="visible"
             viewport={{ once: true, amount: 0.08 }}
           >
+            <p className="font-accent text-sm tracking-[0.4em] uppercase text-gray-400 mb-4">
+              Custom Creations
+            </p>
+
             <h1 className="font-display text-4xl md:text-6xl text-gray-900 tracking-wide">
               Bespoke Gallery
             </h1>
-            <div className="divider-gold w-24 mx-auto mt-5 mb-8" />
+
+            <motion.div
+              className="divider-gold w-24 mx-auto mt-5 mb-8"
+              initial={{ scaleX: 0, opacity: 0 }}
+              whileInView={{ scaleX: 1, opacity: 1 }}
+              viewport={{ once: true, amount: 0.08 }}
+              transition={{ duration: 0.85, ease: luxeEase }}
+              style={{ transformOrigin: "center" }}
+            />
+
             <p className="font-accent text-lg md:text-2xl text-gray-700 leading-relaxed">
               A curated showcase of custom-made jewellery, created to celebrate
               individuality, craftsmanship, and exceptional gemstones.
             </p>
+
             <p className="mt-5 text-sm md:text-base text-gray-500 leading-relaxed">
               Each bespoke piece is thoughtfully designed to bring together
               personal style, fine materials, and timeless elegance. This gallery
@@ -96,22 +111,23 @@ const BespokeGallery = () => {
               <motion.div
                 key={`${item.name}-${index}`}
                 variants={cardVariant}
-                className="group bg-white border border-gray-100 shadow-sm overflow-hidden"
+                whileHover={{ y: -8 }}
+                transition={{ duration: 0.45, ease: "easeOut" }}
+                className="group luxury-card gem-glow-green bg-white border border-gray-100 shadow-sm overflow-hidden"
               >
                 <button
                   type="button"
                   onClick={() => setSelectedImage(item.src)}
                   className="block w-full text-left"
                 >
-                  <div className="relative overflow-hidden">
-                    <motion.img
+                  <div className="luxury-image-wrap">
+                    <img
                       src={item.src}
                       alt={item.name}
-                      className="w-full aspect-square object-cover"
-                      whileHover={{ scale: 1.04 }}
-                      transition={{ duration: 0.6, ease: "easeOut" }}
+                      loading="lazy"
+                      className="bespoke-float w-full aspect-square object-cover group-hover:scale-105 transition-transform duration-700"
                     />
-                    <span className="pointer-events-none absolute inset-0 shimmer-gold" />
+                    <span className="luxe-light-sweep" />
                   </div>
                 </button>
 
@@ -129,27 +145,40 @@ const BespokeGallery = () => {
         </div>
       </section>
 
-      {selectedImage && (
-        <div
-          className="fixed inset-0 z-[100] bg-black/80 flex items-center justify-center p-4"
-          onClick={() => setSelectedImage(null)}
-        >
-          <div className="relative max-w-4xl w-full">
-            <button
-              type="button"
-              onClick={() => setSelectedImage(null)}
-              className="absolute -top-12 right-0 text-white text-sm md:text-base tracking-wide"
+      <AnimatePresence>
+        {selectedImage && (
+          <motion.div
+            className="fixed inset-0 z-[100] bg-black/80 flex items-center justify-center p-4"
+            onClick={() => setSelectedImage(null)}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+          >
+            <motion.div
+              className="relative max-w-4xl w-full"
+              onClick={(e) => e.stopPropagation()}
+              initial={{ opacity: 0, y: 24, scale: 0.96 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              exit={{ opacity: 0, y: 24, scale: 0.96 }}
+              transition={{ duration: 0.45, ease: luxeEase }}
             >
-              Close
-            </button>
-            <img
-              src={selectedImage}
-              alt="Bespoke preview"
-              className="w-full max-h-[85vh] object-contain bg-white"
-            />
-          </div>
-        </div>
-      )}
+              <button
+                type="button"
+                onClick={() => setSelectedImage(null)}
+                className="absolute -top-12 right-0 text-white text-sm md:text-base tracking-wide"
+              >
+                Close
+              </button>
+
+              <img
+                src={selectedImage}
+                alt="Bespoke preview"
+                className="w-full max-h-[85vh] object-contain bg-white"
+              />
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       <Footer />
     </>

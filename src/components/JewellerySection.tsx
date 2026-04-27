@@ -476,11 +476,100 @@ const jewelleryByMetal: JewelleryMetal[] = [
   },
 ];
 
+const luxeEase = [0.22, 1, 0.36, 1] as const;
+
+const getGemGlowClass = (text: string) => {
+  const value = text.toLowerCase();
+
+  if (
+    value.includes("blue") ||
+    value.includes("sapphire") ||
+    value.includes("aquamarine") ||
+    value.includes("tanzanite")
+  ) {
+    return "gem-glow-blue";
+  }
+
+  if (
+    value.includes("green") ||
+    value.includes("emerald") ||
+    value.includes("peridot") ||
+    value.includes("tourmaline") ||
+    value.includes("tsavorite")
+  ) {
+    return "gem-glow-green";
+  }
+
+  if (
+    value.includes("ruby") ||
+    value.includes("garnet") ||
+    value.includes("spinel") ||
+    value.includes("rhodolite")
+  ) {
+    return "gem-glow-red";
+  }
+
+  if (
+    value.includes("amethyst") ||
+    value.includes("kunzite") ||
+    value.includes("purple")
+  ) {
+    return "gem-glow-purple";
+  }
+
+  if (
+    value.includes("yellow") ||
+    value.includes("gold") ||
+    value.includes("citrine")
+  ) {
+    return "gem-glow-gold";
+  }
+
+  return "gem-glow-neutral";
+};
+
+const sectionVariant: Variants = {
+  hidden: { opacity: 0, y: 24 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.7,
+      ease: luxeEase,
+    },
+  },
+};
+
+const container: Variants = {
+  hidden: {},
+  visible: {
+    transition: {
+      staggerChildren: 0.07,
+      delayChildren: 0.04,
+    },
+  },
+};
+
+const item: Variants = {
+  hidden: { opacity: 0, y: 26, scale: 0.985 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    scale: 1,
+    transition: {
+      duration: 0.6,
+      ease: luxeEase,
+    },
+  },
+};
+
 const SwipeableImage = ({ images, alt }: { images: string[]; alt: string }) => {
   const [current, setCurrent] = useState(0);
   const [touchStart, setTouchStart] = useState<number | null>(null);
 
-  const handleTouchStart = (e: React.TouchEvent) => setTouchStart(e.touches[0].clientX);
+  const handleTouchStart = (e: React.TouchEvent) => {
+    setTouchStart(e.touches[0].clientX);
+  };
 
   const handleTouchEnd = (e: React.TouchEvent) => {
     if (touchStart === null) return;
@@ -500,17 +589,17 @@ const SwipeableImage = ({ images, alt }: { images: string[]; alt: string }) => {
 
   return (
     <div
-      className="relative overflow-hidden"
+      className="luxury-image-wrap"
       onTouchStart={handleTouchStart}
       onTouchEnd={handleTouchEnd}
     >
       <img
         src={images[current]}
         alt={`${alt} - view ${current + 1}`}
-        className="w-full aspect-square object-cover transition-transform duration-700"
+        loading="lazy"
+        className="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105"
       />
-
-      <span className="pointer-events-none absolute inset-0 shimmer-gold" />
+      <span className="luxe-light-sweep" />
 
       <div className="absolute bottom-2 left-1/2 -translate-x-1/2 flex gap-1.5">
         {images.map((_, i) => (
@@ -520,46 +609,12 @@ const SwipeableImage = ({ images, alt }: { images: string[]; alt: string }) => {
             className={`w-2 h-2 rounded-full transition-colors ${
               i === current ? "bg-black" : "bg-black/30"
             }`}
+            aria-label={`Show ${alt} image ${i + 1}`}
           />
         ))}
       </div>
     </div>
   );
-};
-const luxeEase = [0.22, 1, 0.36, 1] as const;
-
-const sectionVariant: Variants = {
-  hidden: { opacity: 0, y: 24 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.7,
-      ease: luxeEase,
-    },
-  },
-};
-
-const container: Variants = {
-  hidden: {},
-  visible: {
-    transition: {
-      staggerChildren: 0.06,
-    },
-  },
-};
-
-const item: Variants = {
-  hidden: { opacity: 0, y: 24, scale: 0.98 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    scale: 1,
-    transition: {
-      duration: 0.55,
-      ease: luxeEase,
-    },
-  },
 };
 
 const JewellerySection = () => {
@@ -576,7 +631,15 @@ const JewellerySection = () => {
           <h2 className="font-display text-3xl md:text-5xl text-gray-900 tracking-wide">
             Fine Jewellery
           </h2>
-          <div className="divider-gold w-24 mx-auto mt-4 md:mt-6" />
+
+          <motion.div
+            className="divider-gold w-24 mx-auto mt-4 md:mt-6"
+            initial={{ scaleX: 0, opacity: 0 }}
+            whileInView={{ scaleX: 1, opacity: 1 }}
+            viewport={{ once: true, amount: 0.08 }}
+            transition={{ duration: 0.8, ease: luxeEase }}
+            style={{ transformOrigin: "center" }}
+          />
         </motion.div>
 
         <div className="space-y-16 md:space-y-20">
@@ -620,18 +683,23 @@ const JewellerySection = () => {
                           <motion.div
                             key={`${piece.name}-${index}`}
                             variants={item}
-                            className="group relative overflow-hidden bg-white rounded-sm shadow-sm border border-gray-100"
+                            whileHover={{ y: -6 }}
+                            transition={{ duration: 0.45, ease: "easeOut" }}
+                            className={`group luxury-card relative overflow-hidden bg-white rounded-sm shadow-sm border border-gray-100 ${getGemGlowClass(
+                              `${piece.name} ${piece.desc}`
+                            )}`}
                           >
                             {Array.isArray(piece.src) ? (
                               <SwipeableImage images={piece.src} alt={piece.name} />
                             ) : (
-                              <div className="relative overflow-hidden">
+                              <div className="luxury-image-wrap">
                                 <img
                                   src={piece.src}
                                   alt={piece.name}
+                                  loading="lazy"
                                   className="w-full aspect-square object-cover group-hover:scale-105 transition-transform duration-700"
                                 />
-                                <span className="pointer-events-none absolute inset-0 shimmer-gold" />
+                                <span className="luxe-light-sweep" />
                               </div>
                             )}
 

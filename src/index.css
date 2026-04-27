@@ -199,3 +199,126 @@ html {
     transform: translateX(120%);
   }
 }
+
+
+
+.luxury-card {
+  position: relative;
+  isolation: isolate;
+  transition:
+    box-shadow 700ms cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 700ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.luxury-card::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  z-index: -1;
+  background: radial-gradient(
+    circle at 50% 8%,
+    var(--gem-glow, rgba(212, 175, 55, 0.22)) 0%,
+    transparent 58%
+  );
+  opacity: 0;
+  filter: blur(20px);
+  transform: scale(0.96);
+  transition:
+    opacity 700ms cubic-bezier(0.22, 1, 0.36, 1),
+    transform 700ms cubic-bezier(0.22, 1, 0.36, 1);
+  pointer-events: none;
+}
+
+.luxury-card:hover {
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.16);
+  border-color: rgba(212, 175, 55, 0.35);
+}
+
+.luxury-card:hover::before {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.luxury-image-wrap {
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+}
+
+.luxe-light-sweep {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    110deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0) 35%,
+    rgba(255, 236, 170, 0.45) 50%,
+    rgba(255, 255, 255, 0) 65%,
+    transparent 100%
+  );
+  transform: translateX(-145%) skewX(-12deg);
+  opacity: 0;
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
+
+.luxury-card:hover .luxe-light-sweep {
+  animation: luxeSweep 1.35s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  opacity: 1;
+}
+
+.gem-glow-blue {
+  --gem-glow: rgba(45, 105, 255, 0.3);
+}
+
+.gem-glow-green {
+  --gem-glow: rgba(45, 160, 95, 0.28);
+}
+
+.gem-glow-red {
+  --gem-glow: rgba(190, 35, 55, 0.28);
+}
+
+.gem-glow-purple {
+  --gem-glow: rgba(135, 75, 210, 0.28);
+}
+
+.gem-glow-gold {
+  --gem-glow: rgba(212, 175, 55, 0.3);
+}
+
+.gem-glow-neutral {
+  --gem-glow: rgba(212, 175, 55, 0.18);
+}
+
+.bespoke-float {
+  animation: bespokeFloat 7s ease-in-out infinite;
+}
+
+@keyframes luxeSweep {
+  0% {
+    transform: translateX(-145%) skewX(-12deg);
+  }
+
+  100% {
+    transform: translateX(145%) skewX(-12deg);
+  }
+}
+
+@keyframes bespokeFloat {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+
+  50% {
+    transform: translateY(-8px) scale(1.015);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bespoke-float,
+  .luxury-card:hover .luxe-light-sweep {
+    animation: none;
+  }
+}

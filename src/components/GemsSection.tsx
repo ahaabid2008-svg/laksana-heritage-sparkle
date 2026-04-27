@@ -82,6 +82,41 @@ const gemCategories: GemCategory[] = [
 
 const luxeEase = [0.22, 1, 0.36, 1] as const;
 
+const getGemGlowClass = (text: string) => {
+  const value = text.toLowerCase();
+
+  if (
+    value.includes("blue") ||
+    value.includes("sapphire") ||
+    value.includes("aquamarine")
+  ) {
+    return "gem-glow-blue";
+  }
+
+  if (
+    value.includes("green") ||
+    value.includes("emerald") ||
+    value.includes("peridot") ||
+    value.includes("tourmaline")
+  ) {
+    return "gem-glow-green";
+  }
+
+  if (value.includes("garnet") || value.includes("ruby")) {
+    return "gem-glow-red";
+  }
+
+  if (value.includes("purple") || value.includes("amethyst")) {
+    return "gem-glow-purple";
+  }
+
+  if (value.includes("yellow") || value.includes("gold")) {
+    return "gem-glow-gold";
+  }
+
+  return "gem-glow-neutral";
+};
+
 const sectionVariant: Variants = {
   hidden: { opacity: 0, y: 24 },
   visible: {
@@ -99,18 +134,19 @@ const container: Variants = {
   visible: {
     transition: {
       staggerChildren: 0.06,
+      delayChildren: 0.04,
     },
   },
 };
 
 const item: Variants = {
-  hidden: { opacity: 0, y: 24, scale: 0.98 },
+  hidden: { opacity: 0, y: 26, scale: 0.985 },
   visible: {
     opacity: 1,
     y: 0,
     scale: 1,
     transition: {
-      duration: 0.55,
+      duration: 0.6,
       ease: luxeEase,
     },
   },
@@ -133,7 +169,15 @@ const GemsSection = () => {
           <h2 className="font-display text-4xl md:text-5xl text-cream tracking-wide">
             GEMSTONES
           </h2>
-          <div className="divider-gold w-24 mx-auto mt-6" />
+
+          <motion.div
+            className="divider-gold w-24 mx-auto mt-6"
+            initial={{ scaleX: 0, opacity: 0 }}
+            whileInView={{ scaleX: 1, opacity: 1 }}
+            viewport={{ once: true, amount: 0.08 }}
+            transition={{ duration: 0.8, ease: luxeEase }}
+            style={{ transformOrigin: "center" }}
+          />
         </motion.div>
 
         <div className="space-y-16">
@@ -165,15 +209,20 @@ const GemsSection = () => {
                     <motion.div
                       key={`${gem.name}-${index}`}
                       variants={item}
-                      className="group relative overflow-hidden"
+                      whileHover={{ y: -6 }}
+                      transition={{ duration: 0.45, ease: "easeOut" }}
+                      className={`group luxury-card relative overflow-hidden ${getGemGlowClass(
+                        `${gem.name} ${gem.desc}`
+                      )}`}
                     >
-                      <div className="relative overflow-hidden">
+                      <div className="luxury-image-wrap">
                         <img
                           src={gem.src}
                           alt={gem.name}
+                          loading="lazy"
                           className="w-full aspect-square object-cover group-hover:scale-110 transition-transform duration-700"
                         />
-                        <span className="pointer-events-none absolute inset-0 shimmer-gold" />
+                        <span className="luxe-light-sweep" />
                       </div>
 
                       <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-4">
