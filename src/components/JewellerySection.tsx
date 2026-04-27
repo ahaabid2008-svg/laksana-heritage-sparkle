@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { motion, type Variants } from "framer-motion";
 import greenRing from "@/assets/green-ring.jpeg";
 import alexandriteRingGreen from "@/assets/alexandrite-ring-green.jpeg";
 import alexandriteRingPink from "@/assets/alexandrite-ring-pink.jpeg";
@@ -509,6 +510,8 @@ const SwipeableImage = ({ images, alt }: { images: string[]; alt: string }) => {
         className="w-full aspect-square object-cover transition-transform duration-700"
       />
 
+      <span className="pointer-events-none absolute inset-0 shimmer-gold" />
+
       <div className="absolute bottom-2 left-1/2 -translate-x-1/2 flex gap-1.5">
         {images.map((_, i) => (
           <button
@@ -524,23 +527,71 @@ const SwipeableImage = ({ images, alt }: { images: string[]; alt: string }) => {
   );
 };
 
+const luxeEase = [0.22, 1, 0.36, 1] as const;
+
+const sectionVariant: Variants = {
+  hidden: { opacity: 0, y: 40 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.9,
+      ease: luxeEase,
+    },
+  },
+};
+
+const container: Variants = {
+  hidden: {},
+  visible: {
+    transition: {
+      staggerChildren: 0.12,
+    },
+  },
+};
+
+const item: Variants = {
+  hidden: { opacity: 0, y: 30, scale: 0.97 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    scale: 1,
+    transition: {
+      duration: 0.7,
+      ease: luxeEase,
+    },
+  },
+};
+
 const JewellerySection = () => {
   return (
     <section id="jewellery" className="py-16 md:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 md:px-6">
-        <div className="text-center mb-12 md:mb-16">
+        <motion.div
+          className="text-center mb-12 md:mb-16"
+          variants={sectionVariant}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+        >
           <h2 className="font-display text-3xl md:text-5xl text-gray-900 tracking-wide">
             Fine Jewellery
           </h2>
           <div className="divider-gold w-24 mx-auto mt-4 md:mt-6" />
-        </div>
+        </motion.div>
 
         <div className="space-y-16 md:space-y-20">
           {jewelleryByMetal.map((metalGroup) => (
             <div key={metalGroup.metal} id={metalGroup.id}>
-              <h3 className="font-display text-2xl md:text-4xl text-gray-900 tracking-wide mb-8 md:mb-10 text-center">
+              <motion.h3
+                className="font-display text-2xl md:text-4xl text-gray-900 tracking-wide mb-8 md:mb-10 text-center"
+                variants={sectionVariant}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.2 }}
+              >
                 {metalGroup.metal}
-              </h3>
+              </motion.h3>
 
               <div className="space-y-12 md:space-y-16">
                 {metalGroup.categories.map((category) => (
@@ -548,25 +599,41 @@ const JewellerySection = () => {
                     key={category.category}
                     id={`${metalGroup.id}-${category.category.toLowerCase()}`}
                   >
-                    <h4 className="font-display text-xl md:text-3xl text-gray-900 tracking-wide mb-5 md:mb-6 text-center">
+                    <motion.h4
+                      className="font-display text-xl md:text-3xl text-gray-900 tracking-wide mb-5 md:mb-6 text-center"
+                      variants={sectionVariant}
+                      initial="hidden"
+                      whileInView="visible"
+                      viewport={{ once: true, amount: 0.2 }}
+                    >
                       {category.category}
-                    </h4>
+                    </motion.h4>
 
                     {category.pieces.length > 0 ? (
-                      <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+                      <motion.div
+                        variants={container}
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true, amount: 0.15 }}
+                        className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6"
+                      >
                         {category.pieces.map((piece, index) => (
-                          <div
+                          <motion.div
                             key={`${piece.name}-${index}`}
+                            variants={item}
                             className="group relative overflow-hidden bg-white rounded-sm shadow-sm border border-gray-100"
                           >
                             {Array.isArray(piece.src) ? (
                               <SwipeableImage images={piece.src} alt={piece.name} />
                             ) : (
-                              <img
-                                src={piece.src}
-                                alt={piece.name}
-                                className="w-full aspect-square object-cover group-hover:scale-105 transition-transform duration-700"
-                              />
+                              <div className="relative overflow-hidden">
+                                <img
+                                  src={piece.src}
+                                  alt={piece.name}
+                                  className="w-full aspect-square object-cover group-hover:scale-105 transition-transform duration-700"
+                                />
+                                <span className="pointer-events-none absolute inset-0 shimmer-gold" />
+                              </div>
                             )}
 
                             <div className="p-3 md:p-5 border-t border-gray-100">
@@ -589,9 +656,9 @@ const JewellerySection = () => {
                                 </p>
                               )}
                             </div>
-                          </div>
+                          </motion.div>
                         ))}
-                      </div>
+                      </motion.div>
                     ) : (
                       <p className="text-center font-accent text-sm text-gray-400 tracking-wide py-8">
                         Coming Soon

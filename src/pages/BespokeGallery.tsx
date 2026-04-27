@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import { motion, type Variants } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import bespokeYellowGoldTourmalineBangle from "@/assets/bespoke-yellow-gold-tourmaline-bangle.jpeg";
@@ -17,14 +18,44 @@ const bespokeItems: BespokeItem[] = [
   },
 ];
 
-const BespokeGallery = () => {
-  const [visible, setVisible] = useState(false);
-  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+const luxeEase = [0.22, 1, 0.36, 1] as const;
 
-  useEffect(() => {
-    const timer = setTimeout(() => setVisible(true), 150);
-    return () => clearTimeout(timer);
-  }, []);
+const sectionVariant: Variants = {
+  hidden: { opacity: 0, y: 40 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 1,
+      ease: luxeEase,
+    },
+  },
+};
+
+const cardContainer: Variants = {
+  hidden: {},
+  visible: {
+    transition: {
+      staggerChildren: 0.16,
+    },
+  },
+};
+
+const cardVariant: Variants = {
+  hidden: { opacity: 0, y: 30, scale: 0.98 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    scale: 1,
+    transition: {
+      duration: 0.9,
+      ease: luxeEase,
+    },
+  },
+};
+
+const BespokeGallery = () => {
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   return (
     <>
@@ -32,7 +63,13 @@ const BespokeGallery = () => {
 
       <section className="pt-32 pb-16 md:pt-40 md:pb-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 md:px-6">
-          <div className="text-center max-w-3xl mx-auto mb-14 md:mb-20">
+          <motion.div
+            className="text-center max-w-3xl mx-auto mb-14 md:mb-20"
+            variants={sectionVariant}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
+          >
             <h1 className="font-display text-4xl md:text-6xl text-gray-900 tracking-wide">
               Bespoke Gallery
             </h1>
@@ -46,30 +83,35 @@ const BespokeGallery = () => {
               personal style, fine materials, and timeless elegance. This gallery
               highlights unique commissions and special creations from Laksana.
             </p>
-          </div>
+          </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
+          <motion.div
+            className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10"
+            variants={cardContainer}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.15 }}
+          >
             {bespokeItems.map((item, index) => (
-              <div
+              <motion.div
                 key={`${item.name}-${index}`}
-                className={`group bg-white border border-gray-100 shadow-sm overflow-hidden transition-all duration-700 ${
-                  visible
-                    ? "opacity-100 translate-y-0"
-                    : "opacity-0 translate-y-8"
-                }`}
-                style={{ transitionDelay: `${index * 120}ms` }}
+                variants={cardVariant}
+                className="group bg-white border border-gray-100 shadow-sm overflow-hidden"
               >
                 <button
                   type="button"
                   onClick={() => setSelectedImage(item.src)}
                   className="block w-full text-left"
                 >
-                  <div className="overflow-hidden">
-                    <img
+                  <div className="relative overflow-hidden">
+                    <motion.img
                       src={item.src}
                       alt={item.name}
-                      className="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105"
+                      className="w-full aspect-square object-cover"
+                      whileHover={{ scale: 1.04 }}
+                      transition={{ duration: 0.6, ease: "easeOut" }}
                     />
+                    <span className="pointer-events-none absolute inset-0 shimmer-gold" />
                   </div>
                 </button>
 
@@ -81,9 +123,9 @@ const BespokeGallery = () => {
                     {item.desc}
                   </p>
                 </div>
-              </div>
+              </motion.div>
             ))}
-          </div>
+          </motion.div>
         </div>
       </section>
 
