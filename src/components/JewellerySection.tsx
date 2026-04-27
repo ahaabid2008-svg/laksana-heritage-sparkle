@@ -197,6 +197,10 @@ import tourmalineSilverEarring5 from "@/assets/tourmaline-silver-earring-5.jpeg"
 import tourmalineSilverEarring6 from "@/assets/tourmaline-silver-earring-6.jpeg";
 import sapphireSilverEarring from "@/assets/sapphire-silver-earring.jpeg";
 
+import rubyWithDiamondEarring from "@/assets/ruby-with-diamond-earring.jpeg";
+import blueSapphireWithDiamondEarring1 from "@/assets/blue-sapphire-with-diamond-earring-1.jpeg";
+import blueSapphireWithDiamondEarring2 from "@/assets/blue-sapphire-with-diamond-earring-2.jpeg";
+
 type PieceItem = {
   src: string | string[];
   name: string;
@@ -303,6 +307,21 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: pinkTourmalinePinkSapphireEarrings, name: "Pink Tourmaline & Pink Sapphire", desc: "Gold · Calibrated Stones" },
           { src: multiColourSapphireEarrings, name: "Multi-Colour Sapphires", desc: "Gold · Chain Drop" },
           { src: yellowSapphireDiamondEarrings, name: "Pale Yellow Sapphire & Diamonds", desc: "Gold" },
+           { 
+      src: rubyWithDiamondEarring, 
+      name: "Ruby with diamond earring", 
+      desc: "Yellow Gold • Ruby & Diamond Drop Earring" 
+    },
+    { 
+      src: blueSapphireWithDiamondEarring1, 
+      name: "Blue sapphire with diamond earring", 
+      desc: "Yellow Gold • Blue Sapphire & Diamond Drop Earring" 
+    },
+    { 
+      src: blueSapphireWithDiamondEarring2, 
+      name: "Blue sapphire with diamond earring", 
+      desc: "Yellow Gold • Blue Sapphire & Diamond Drop Earring" 
+    },
         ],
       },
       {
