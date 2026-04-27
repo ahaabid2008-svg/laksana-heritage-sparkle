@@ -551,13 +551,13 @@ const container: Variants = {
 };
 
 const item: Variants = {
-  hidden: { opacity: 0, y: 30, scale: 0.97 },
+  hidden: { opacity: 0, y: 60, scale: 0.92 },
   visible: {
     opacity: 1,
     y: 0,
     scale: 1,
     transition: {
-      duration: 0.7,
+      duration: 1,
       ease: luxeEase,
     },
   },
@@ -572,7 +572,7 @@ const JewellerySection = () => {
           variants={sectionVariant}
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }}
+          viewport={{ once: false, amount: 0.2 }}
         >
           <h2 className="font-display text-3xl md:text-5xl text-gray-900 tracking-wide">
             Fine Jewellery
@@ -588,7 +588,7 @@ const JewellerySection = () => {
                 variants={sectionVariant}
                 initial="hidden"
                 whileInView="visible"
-                viewport={{ once: true, amount: 0.2 }}
+                viewport={{ once: false, amount: 0.2 }}
               >
                 {metalGroup.metal}
               </motion.h3>
@@ -604,7 +604,7 @@ const JewellerySection = () => {
                       variants={sectionVariant}
                       initial="hidden"
                       whileInView="visible"
-                      viewport={{ once: true, amount: 0.2 }}
+                      viewport={{ once: false, amount: 0.2 }}
                     >
                       {category.category}
                     </motion.h4>
@@ -614,7 +614,7 @@ const JewellerySection = () => {
                         variants={container}
                         initial="hidden"
                         whileInView="visible"
-                        viewport={{ once: true, amount: 0.15 }}
+                        viewport={{ once: false, amount: 0.15 }}
                         className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6"
                       >
                         {category.pieces.map((piece, index) => (

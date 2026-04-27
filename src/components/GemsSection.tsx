@@ -104,13 +104,13 @@ const container: Variants = {
 };
 
 const item: Variants = {
-  hidden: { opacity: 0, y: 30, scale: 0.97 },
+  hidden: { opacity: 0, y: 60, scale: 0.92 },
   visible: {
     opacity: 1,
     y: 0,
     scale: 1,
     transition: {
-      duration: 0.7,
+      duration: 1,
       ease: luxeEase,
     },
   },
@@ -125,7 +125,7 @@ const GemsSection = () => {
           variants={sectionVariant}
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }}
+          viewport={{ once: false, amount: 0.2 }}
         >
           <p className="font-accent text-sm tracking-[0.4em] uppercase text-cream/60 mb-4">
             Nature&apos;s Masterpieces
@@ -144,7 +144,7 @@ const GemsSection = () => {
                 variants={sectionVariant}
                 initial="hidden"
                 whileInView="visible"
-                viewport={{ once: true, amount: 0.2 }}
+                viewport={{ once: false, amount: 0.2 }}
               >
                 {category.category}
               </motion.h3>
@@ -158,7 +158,7 @@ const GemsSection = () => {
                   variants={container}
                   initial="hidden"
                   whileInView="visible"
-                  viewport={{ once: true, amount: 0.15 }}
+                  viewport={{ once: false, amount: 0.15 }}
                   className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6"
                 >
                   {category.gems.map((gem, index) => (

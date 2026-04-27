@@ -68,7 +68,7 @@ const BespokeGallery = () => {
             variants={sectionVariant}
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, amount: 0.2 }}
+            viewport={{ once: false, amount: 0.2 }}
           >
             <h1 className="font-display text-4xl md:text-6xl text-gray-900 tracking-wide">
               Bespoke Gallery
@@ -90,7 +90,7 @@ const BespokeGallery = () => {
             variants={cardContainer}
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, amount: 0.15 }}
+            viewport={{ once: false, amount: 0.15 }}
           >
             {bespokeItems.map((item, index) => (
               <motion.div
