@@ -526,16 +526,15 @@ const SwipeableImage = ({ images, alt }: { images: string[]; alt: string }) => {
     </div>
   );
 };
-
 const luxeEase = [0.22, 1, 0.36, 1] as const;
 
 const sectionVariant: Variants = {
-  hidden: { opacity: 0, y: 40 },
+  hidden: { opacity: 0, y: 24 },
   visible: {
     opacity: 1,
     y: 0,
     transition: {
-      duration: 0.9,
+      duration: 0.7,
       ease: luxeEase,
     },
   },
@@ -545,19 +544,19 @@ const container: Variants = {
   hidden: {},
   visible: {
     transition: {
-      staggerChildren: 0.12,
+      staggerChildren: 0.06,
     },
   },
 };
 
 const item: Variants = {
-  hidden: { opacity: 0, y: 60, scale: 0.92 },
+  hidden: { opacity: 0, y: 24, scale: 0.98 },
   visible: {
     opacity: 1,
     y: 0,
     scale: 1,
     transition: {
-      duration: 1,
+      duration: 0.55,
       ease: luxeEase,
     },
   },
@@ -572,7 +571,7 @@ const JewellerySection = () => {
           variants={sectionVariant}
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: false, amount: 0.2 }}
+          viewport={{ once: true, amount: 0.08 }}
         >
           <h2 className="font-display text-3xl md:text-5xl text-gray-900 tracking-wide">
             Fine Jewellery
@@ -588,7 +587,7 @@ const JewellerySection = () => {
                 variants={sectionVariant}
                 initial="hidden"
                 whileInView="visible"
-                viewport={{ once: false, amount: 0.2 }}
+                viewport={{ once: true, amount: 0.08 }}
               >
                 {metalGroup.metal}
               </motion.h3>
@@ -604,7 +603,7 @@ const JewellerySection = () => {
                       variants={sectionVariant}
                       initial="hidden"
                       whileInView="visible"
-                      viewport={{ once: false, amount: 0.2 }}
+                      viewport={{ once: true, amount: 0.08 }}
                     >
                       {category.category}
                     </motion.h4>
@@ -614,7 +613,7 @@ const JewellerySection = () => {
                         variants={container}
                         initial="hidden"
                         whileInView="visible"
-                        viewport={{ once: false, amount: 0.15 }}
+                        viewport={{ once: true, amount: 0.08 }}
                         className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6"
                       >
                         {category.pieces.map((piece, index) => (

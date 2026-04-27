@@ -83,12 +83,12 @@ const gemCategories: GemCategory[] = [
 const luxeEase = [0.22, 1, 0.36, 1] as const;
 
 const sectionVariant: Variants = {
-  hidden: { opacity: 0, y: 40 },
+  hidden: { opacity: 0, y: 24 },
   visible: {
     opacity: 1,
     y: 0,
     transition: {
-      duration: 0.9,
+      duration: 0.7,
       ease: luxeEase,
     },
   },
@@ -98,19 +98,19 @@ const container: Variants = {
   hidden: {},
   visible: {
     transition: {
-      staggerChildren: 0.1,
+      staggerChildren: 0.06,
     },
   },
 };
 
 const item: Variants = {
-  hidden: { opacity: 0, y: 60, scale: 0.92 },
+  hidden: { opacity: 0, y: 24, scale: 0.98 },
   visible: {
     opacity: 1,
     y: 0,
     scale: 1,
     transition: {
-      duration: 1,
+      duration: 0.55,
       ease: luxeEase,
     },
   },
@@ -125,7 +125,7 @@ const GemsSection = () => {
           variants={sectionVariant}
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: false, amount: 0.2 }}
+          viewport={{ once: true, amount: 0.08 }}
         >
           <p className="font-accent text-sm tracking-[0.4em] uppercase text-cream/60 mb-4">
             Nature&apos;s Masterpieces
@@ -144,7 +144,7 @@ const GemsSection = () => {
                 variants={sectionVariant}
                 initial="hidden"
                 whileInView="visible"
-                viewport={{ once: false, amount: 0.2 }}
+                viewport={{ once: true, amount: 0.08 }}
               >
                 {category.category}
               </motion.h3>
@@ -158,7 +158,7 @@ const GemsSection = () => {
                   variants={container}
                   initial="hidden"
                   whileInView="visible"
-                  viewport={{ once: false, amount: 0.15 }}
+                  viewport={{ once: true, amount: 0.08 }}
                   className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6"
                 >
                   {category.gems.map((gem, index) => (

@@ -21,12 +21,12 @@ const bespokeItems: BespokeItem[] = [
 const luxeEase = [0.22, 1, 0.36, 1] as const;
 
 const sectionVariant: Variants = {
-  hidden: { opacity: 0, y: 40 },
+  hidden: { opacity: 0, y: 24 },
   visible: {
     opacity: 1,
     y: 0,
     transition: {
-      duration: 1,
+      duration: 0.75,
       ease: luxeEase,
     },
   },
@@ -36,19 +36,19 @@ const cardContainer: Variants = {
   hidden: {},
   visible: {
     transition: {
-      staggerChildren: 0.16,
+      staggerChildren: 0.08,
     },
   },
 };
 
 const cardVariant: Variants = {
-  hidden: { opacity: 0, y: 30, scale: 0.98 },
+  hidden: { opacity: 0, y: 24, scale: 0.98 },
   visible: {
     opacity: 1,
     y: 0,
     scale: 1,
     transition: {
-      duration: 0.9,
+      duration: 0.65,
       ease: luxeEase,
     },
   },
@@ -68,7 +68,7 @@ const BespokeGallery = () => {
             variants={sectionVariant}
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: false, amount: 0.2 }}
+            viewport={{ once: true, amount: 0.08 }}
           >
             <h1 className="font-display text-4xl md:text-6xl text-gray-900 tracking-wide">
               Bespoke Gallery
@@ -90,7 +90,7 @@ const BespokeGallery = () => {
             variants={cardContainer}
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: false, amount: 0.15 }}
+            viewport={{ once: true, amount: 0.08 }}
           >
             {bespokeItems.map((item, index) => (
               <motion.div
