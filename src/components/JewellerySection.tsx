@@ -284,13 +284,14 @@ const jewelleryByMetal: JewelleryMetal[] = [
 
           {
   src: tsavoriteWithDiamondRing,
-  name: "TSAVORITE with diamond ring",
-  desc: "Gold • Tsavorite & Diamonds Ring",
+  name:"Emerald With Diamond ring",
+  desc:  "Gold • Emerald & Diamonds Ring",
 },
 {
   src: emeraldWithDiamondRing,
-  name: "Emerald With Diamond ring",
-  desc: "Gold • Emerald & Diamonds Ring",
+  name:  "TSAVORITE with diamond ring",
+  desc:  "Gold • Tsavorite & Diamonds Ring"
+   ,
 },
 {
   src: yellowSapphireWithDiamondRing,
