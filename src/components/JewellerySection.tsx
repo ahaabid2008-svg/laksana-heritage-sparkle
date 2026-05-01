@@ -202,6 +202,16 @@ import rubyWithDiamondEarring from "@/assets/ruby-with-diamond-earring.jpeg";
 import blueSapphireWithDiamondEarring1 from "@/assets/blue-sapphire-with-diamond-earring-1.jpeg";
 import blueSapphireWithDiamondEarring2 from "@/assets/blue-sapphire-with-diamond-earring-2.jpeg";
 
+import tsavoriteWithDiamondRing from "@/assets/tsavorite-with-diamond-ring.jpeg";
+import emeraldWithDiamondRing from "@/assets/emerald-with-diamond-ring.jpeg";
+import yellowSapphireWithDiamondRing from "@/assets/yellow-sapphire-with-diamond-ring.jpeg";
+import blueSapphireWithDiamondRing from "@/assets/blue-sapphire-with-diamond-ring.jpeg";
+import pinkSapphireWithDiamondBangle from "@/assets/pink-sapphire-with-diamond-bangle.jpeg";
+import zirconWithTourmalineBangle from "@/assets/zircon-with-tourmaline-bangle.jpeg";
+import multiColourSapphireBangle from "@/assets/multi-colour-sapphire-bangle.jpeg";
+import tourmalineBangleOne from "@/assets/tourmaline-bangle-1.jpeg";
+import tourmalineBangleTwo from "@/assets/tourmaline-bangle-2.jpeg";
+
 type PieceItem = {
   src: string | string[];
   name: string;
@@ -270,6 +280,30 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: goldenYellowSapphireRing, name: "Golden Yellow Sapphire - 8 Carat", desc: "CUSTOM MADE · Yellow Gold · Dazzling Diamonds" },
           { src: tanzaniteDiamondRing, name: "Tanzanite", desc: "CUSTOM MADE · Yellow Gold · Dazzling Diamonds" },
           { src: blueSapphireDiamondRing, name: "Blue Sapphire - 3 Carat", desc: "CUSTOM MADE · White Gold · Dazzling Diamonds" },
+
+
+          {
+  src: tsavoriteWithDiamondRing,
+  name: "TSAVORITE with diamond ring",
+  desc: "Gold • Tsavorite & Diamonds Ring",
+},
+{
+  src: emeraldWithDiamondRing,
+  name: "Emerald With Diamond ring",
+  desc: "Gold • Emerald & Diamonds Ring",
+},
+{
+  src: yellowSapphireWithDiamondRing,
+  name: "Yellow sapphire with diamond ring",
+  desc: "Gold • Yellow Sapphire & Diamonds Ring",
+},
+{
+  src: blueSapphireWithDiamondRing,
+  name: "Blue sapphire with diamond ring",
+  desc: "Gold • Blue Sapphire & Diamonds Ring",
+},
+
+
         ],
       },
       {
@@ -352,6 +386,33 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: tourmalineBangle, name: "Watermelon Tourmaline", desc: "Yellow Gold · Diamond" },
           { src: pinkBlueSapphireCuff, name: "Pink & Blue Sapphire", desc: "CUSTOM MADE · Yellow Gold · Bezel Set" },
           { src: tourmalineTsavoriteCuff, name: "Green Tourmaline & Tsavorite", desc: "CUSTOM MADE · Yellow Gold · Bezel Set" },
+
+
+             {
+  src: pinkSapphireWithDiamondBangle,
+  name: "Pink sapphire with diamond bangle",
+  desc: "Gold • Pink Sapphire & Diamonds Bangle",
+},
+{
+  src: zirconWithTourmalineBangle,
+  name: "Zircon with tourmaline bangle",
+  desc: "Gold • Zircon & Tourmaline Bangle",
+},
+{
+  src: multiColourSapphireBangle,
+  name: "Multi colour sapphire bangle",
+  desc: "Gold • Multi Colour Sapphire Bangle",
+},
+{
+  src: tourmalineBangleOne,
+  name: "Tourmaline Bangle",
+  desc: "Gold • Tourmaline Bangle",
+},
+{
+  src: tourmalineBangleTwo,
+  name: "Tourmaline Bangle",
+  desc: "Gold • Tourmaline Bangle",
+},
         ],
       },
       {
