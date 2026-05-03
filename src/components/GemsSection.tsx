@@ -23,6 +23,11 @@ import tourmalineOvalPink from "@/assets/tourmaline-oval-pink.jpeg";
 import tourmalineBicolourEmerald from "@/assets/tourmaline-bicolour-emerald.jpeg";
 import tourmalineGreenEmerald from "@/assets/tourmaline-green-emerald.jpeg";
 
+import pinkSapphireOvalGem1 from "@/assets/pink-sapphire-oval-gem-1.jpeg";
+import pinkSapphireCushionGem from "@/assets/pink-sapphire-cushion-gem.jpeg";
+import pinkSapphireOvalGem2 from "@/assets/pink-sapphire-oval-gem-2.jpeg";
+import pinkSapphireOvalGem3 from "@/assets/pink-sapphire-oval-gem-3.jpeg";
+
 type GemItem = {
   src: string;
   name: string;
@@ -47,6 +52,10 @@ const gemCategories: GemCategory[] = [
       { src: pinkSapphirePear, name: "Pink Sapphire Pear", desc: "Vivid hot pink, pear-cut Ceylon" },
       { src: pinkSapphireCushion, name: "Pink Sapphire Cushion", desc: "Soft pastel pink, cushion-cut Ceylon" },
       { src: tealSapphireHeart, name: "Teal Sapphire Heart", desc: "Bi-colour teal green, heart-cut Ceylon" },
+      { src: pinkSapphireOvalGem1, name: "Pink Sapphire Oval", desc: "Fine Gemstone" },
+    { src: pinkSapphireCushionGem, name: "Pink Sapphire Cushion", desc: "Fine Gemstone" },
+    { src: pinkSapphireOvalGem2, name: "Pink Sapphire Oval", desc: "Fine Gemstone" },
+    { src: pinkSapphireOvalGem3, name: "Pink Sapphire Oval", desc: "Fine Gemstone" },
     ],
   },
   {

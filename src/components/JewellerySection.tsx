@@ -212,6 +212,24 @@ import multiColourSapphireBangle from "@/assets/multi-colour-sapphire-bangle.jpe
 import tourmalineBangleOne from "@/assets/tourmaline-bangle-1.jpeg";
 import tourmalineBangleTwo from "@/assets/tourmaline-bangle-2.jpeg";
 
+import alexandriteWithDiamondRing from "@/assets/alexandrite-with-diamond-ring.jpeg";
+import diamondRing from "@/assets/diamond-ring.jpeg";
+import yellowSapphireWithDiamondRing1 from "@/assets/yellow-sapphire-with-diamond-ring-1.jpeg";
+import tsavoriteWithDiamondRing1 from "@/assets/tsavorite-with-diamond-ring-1.jpeg";
+import orangeSapphireWithDiamondRing from "@/assets/orange-sapphire-with-diamond-ring.jpeg";
+import pinkSapphireWithDiamondRing1 from "@/assets/pink-sapphire-with-diamond-ring-1.jpeg";
+import tourmalineWithDiamondRing from "@/assets/tourmaline-with-diamond-ring.jpeg";
+import tsavoriteWithDiamondRing2 from "@/assets/tsavorite-with-diamond-ring-2.jpeg";
+import yellowSapphireWithDiamondRing2 from "@/assets/yellow-sapphire-with-diamond-ring-2.jpeg";
+import yellowSapphireWithDiamondRing3 from "@/assets/yellow-sapphire-with-diamond-ring-3.jpeg";
+import yellowSapphireWithDiamondRing4 from "@/assets/yellow-sapphire-with-diamond-ring-4.jpeg";
+import pinkSapphireWithDiamondRing2 from "@/assets/pink-sapphire-with-diamond-ring-2.jpeg";
+import pinkSapphireWithDiamondRing3 from "@/assets/pink-sapphire-with-diamond-ring-3.jpeg";
+import pinkSapphireWithDiamondRing4 from "@/assets/pink-sapphire-with-diamond-ring-4.jpeg";
+import pinkSapphireWithDiamondRing5 from "@/assets/pink-sapphire-with-diamond-ring-5.jpeg";
+
+import diamondEarrings from "@/assets/diamond-earrings.jpeg";
+
 type PieceItem = {
   src: string | string[];
   name: string;
@@ -304,6 +322,23 @@ const jewelleryByMetal: JewelleryMetal[] = [
 },
 
 
+{ src: alexandriteWithDiamondRing, name: "Alexandrite With Diamond Ring", desc: "Gold · Diamonds" },
+    { src: diamondRing, name: "Diamond Ring", desc: "Gold · Diamonds" },
+    { src: yellowSapphireWithDiamondRing1, name: "Yellow Sapphire With Diamond Ring", desc: "Gold · Diamonds" },
+    { src: tsavoriteWithDiamondRing1, name: "TSAVORITE With Diamond Ring", desc: "Gold · Diamonds" },
+    { src: orangeSapphireWithDiamondRing, name: "Orange Sapphire With Diamond Ring", desc: "Gold · Diamonds" },
+    { src: pinkSapphireWithDiamondRing1, name: "Pink Sapphire With Diamond Ring", desc: "Gold · Diamonds" },
+    { src: tourmalineWithDiamondRing, name: "Tourmaline With Diamond Ring", desc: "Gold · Diamonds" },
+    { src: tsavoriteWithDiamondRing2, name: "TSAVORITE With Diamond Ring", desc: "Gold · Diamonds" },
+    { src: yellowSapphireWithDiamondRing2, name: "Yellow Sapphire With Diamond Ring", desc: "Gold · Diamonds" },
+    { src: yellowSapphireWithDiamondRing3, name: "Yellow Sapphire With Diamond Ring", desc: "Gold · Diamonds" },
+    { src: yellowSapphireWithDiamondRing4, name: "Yellow Sapphire With Diamond Ring", desc: "Gold · Diamonds" },
+    { src: pinkSapphireWithDiamondRing2, name: "Pink Sapphire With Diamond Ring", desc: "Gold · Diamonds" },
+    { src: pinkSapphireWithDiamondRing3, name: "Pink Sapphire With Diamond Ring", desc: "Gold · Diamonds" },
+    { src: pinkSapphireWithDiamondRing4, name: "Pink Sapphire With Diamond Ring", desc: "Gold · Diamonds" },
+    { src: pinkSapphireWithDiamondRing5, name: "Pink Sapphire With Diamond Ring", desc: "Gold · Diamonds" },
+
+
         ],
       },
       {
@@ -357,6 +392,8 @@ const jewelleryByMetal: JewelleryMetal[] = [
       name: "Blue sapphire with diamond earring", 
       desc: "Yellow Gold • Blue Sapphire & Diamond Drop Earring" 
     },
+
+    { src: diamondEarrings, name: "Diamond Earrings", desc: "Gold · Diamonds" },
         ],
       },
       {
