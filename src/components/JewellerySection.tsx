@@ -345,13 +345,12 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: blueSapphireDiamondRing, name: "Blue Sapphire - 3 Carat", desc: "CUSTOM MADE · White Gold · Dazzling Diamonds" },
 
 
-          {
-  src: tsavoriteWithDiamondRing,
-  name:"Emerald With Diamond ring",
-  desc:  "Gold • Emerald & Diamonds Ring",
-},
+          { src:tsavoriteWithDiamondRing, 
+            name:"Emerald With Diamond ring",
+            desc:  "Gold • Emerald & Diamonds Ring",
+          },
 {
-  src: emeraldWithDiamondRing,
+  src: tsavoriteWithDiamondRing,
   name:  "TSAVORITE with diamond ring",
   desc:  "Gold • Tsavorite & Diamonds Ring"
    ,
