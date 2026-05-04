@@ -824,65 +824,60 @@ const JewellerySection = () => {
                     </motion.h4>
 
                     {category.pieces.length > 0 ? (
-                      <motion.div
-                        variants={container}
-                        initial="hidden"
-                        whileInView="visible"
-                        viewport={{ once: true, amount: 0.08 }}
-                        className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6"
-                      >
-                        {category.pieces.map((piece, index) => (
-                          <motion.div
-                            key={`${piece.name}-${index}`}
-                            variants={item}
-                            whileHover={{ y: -6 }}
-                            transition={{ duration: 0.45, ease: "easeOut" }}
-                            className={`group luxury-card relative overflow-hidden bg-white rounded-sm shadow-sm border border-gray-100 ${getGemGlowClass(
-                              `${piece.name} ${piece.desc}`
-                            )}`}
-                          >
-                            {Array.isArray(piece.src) ? (
-                              <SwipeableImage images={piece.src} alt={piece.name} />
-                            ) : (
-                              <div className="luxury-image-wrap">
-                                <img
-                                  src={piece.src}
-                                  alt={piece.name}
-                                  loading="lazy"
-                                  className="w-full aspect-square object-cover group-hover:scale-105 transition-transform duration-700"
-                                />
-                                <span className="luxe-light-sweep" />
-                              </div>
-                            )}
+  <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+    {category.pieces.map((piece, index) => (
+      <motion.div
+        key={`${piece.name}-${index}`}
+        initial={{ opacity: 1, y: 0, scale: 1 }}
+        animate={{ opacity: 1, y: 0, scale: 1 }}
+        whileHover={{ y: -6 }}
+        transition={{ duration: 0.35, ease: "easeOut" }}
+        className={`group luxury-card relative overflow-hidden bg-white rounded-sm shadow-sm border border-gray-100 ${getGemGlowClass(
+          `${piece.name} ${piece.desc}`
+        )}`}
+      >
+        {Array.isArray(piece.src) ? (
+          <SwipeableImage images={piece.src} alt={piece.name} />
+        ) : (
+          <div className="luxury-image-wrap">
+            <img
+              src={piece.src}
+              alt={piece.name}
+              loading="lazy"
+              className="w-full aspect-square object-cover group-hover:scale-105 transition-transform duration-700"
+            />
+            <span className="luxe-light-sweep" />
+          </div>
+        )}
 
-                            <div className="p-3 md:p-5 border-t border-gray-100">
-                              <h3 className="font-display text-sm md:text-lg leading-snug text-gray-900 mb-1 md:mb-2">
-                                {piece.name}
-                              </h3>
+        <div className="p-3 md:p-5 border-t border-gray-100">
+          <h3 className="font-display text-sm md:text-lg leading-snug text-gray-900 mb-1 md:mb-2">
+            {piece.name}
+          </h3>
 
-                              {piece.desc.startsWith("CUSTOM MADE") ? (
-                                <>
-                                  <p className="font-accent text-[10px] md:text-sm text-gray-500 tracking-wide font-semibold">
-                                    CUSTOM MADE
-                                  </p>
-                                  <p className="font-accent text-[10px] md:text-sm text-gray-500 tracking-wide leading-snug">
-                                    {piece.desc.replace("CUSTOM MADE · ", "")}
-                                  </p>
-                                </>
-                              ) : (
-                                <p className="font-accent text-[10px] md:text-sm text-gray-500 tracking-wide leading-snug">
-                                  {piece.desc}
-                                </p>
-                              )}
-                            </div>
-                          </motion.div>
-                        ))}
-                      </motion.div>
-                    ) : (
-                      <p className="text-center font-accent text-sm text-gray-400 tracking-wide py-8">
-                        Coming Soon
-                      </p>
-                    )}
+          {piece.desc.startsWith("CUSTOM MADE") ? (
+            <>
+              <p className="font-accent text-[10px] md:text-sm text-gray-500 tracking-wide font-semibold">
+                CUSTOM MADE
+              </p>
+              <p className="font-accent text-[10px] md:text-sm text-gray-500 tracking-wide leading-snug">
+                {piece.desc.replace("CUSTOM MADE · ", "")}
+              </p>
+            </>
+          ) : (
+            <p className="font-accent text-[10px] md:text-sm text-gray-500 tracking-wide leading-snug">
+              {piece.desc}
+            </p>
+          )}
+        </div>
+      </motion.div>
+    ))}
+  </div>
+) : (
+  <p className="text-center font-accent text-sm text-gray-400 tracking-wide py-8">
+    Coming Soon
+  </p>
+)}
                   </div>
                 ))}
               </div>
