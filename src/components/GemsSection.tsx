@@ -28,6 +28,20 @@ import pinkSapphireCushionGem from "@/assets/pink-sapphire-cushion-gem.jpeg";
 import pinkSapphireOvalGem2 from "@/assets/pink-sapphire-oval-gem-2.jpeg";
 import pinkSapphireOvalGem3 from "@/assets/pink-sapphire-oval-gem-3.jpeg";
 
+
+import aquamarineOval2 from "@/assets/aquamarine-oval-2.jpeg";
+import aquamarineCushion from "@/assets/aquamarine-cushion.jpeg";
+import aquamarineOctagon1 from "@/assets/aquamarine-octagon-1.jpeg";
+import aquamarinePear2 from "@/assets/aquamarine-pear-2.jpeg";
+import aquamarineOctagon2 from "@/assets/aquamarine-octagon-2.jpeg";
+
+
+import aquamarine from "@/assets/aquamarine.jpeg";
+import tourmalineOctagonOne from "@/assets/tourmaline-octagon-1.jpeg";
+import tourmalineOctagonTwo from "@/assets/tourmaline-octagon-2.jpeg";
+import tourmalinePear from "@/assets/tourmaline-pear.jpeg";
+import tourmalineOval from "@/assets/tourmaline-oval.jpeg";
+
 type GemItem = {
   src: string;
   name: string;
@@ -61,15 +75,30 @@ const gemCategories: GemCategory[] = [
   {
     category: "Aquamarine",
     gems: [
+      
+      { src: aquamarineOval2, name: "Aquamarine Oval", desc: "Loose Gemstone · Oval Cut Aquamarine" },
+{ src: aquamarineCushion, name: "Aquamarine Cushion", desc: "Loose Gemstone · Cushion Cut Aquamarine" },
+{ src: aquamarineOctagon1, name: "Aquamarine Octagon", desc: "Loose Gemstone · Octagon Cut Aquamarine" },
+{ src: aquamarinePear2, name: "Aquamarine Pear", desc: "Loose Gemstone · Pear Cut Aquamarine" },
+{ src: aquamarineOctagon2, name: "Aquamarine Octagon", desc: "Loose Gemstone · Octagon Cut Aquamarine" },
+{ src: aquamarine, name: "Aquamarine", desc: "Loose Gemstone · Aquamarine" },
+
+
       { src: aquamarineEmeraldDeep, name: "Aquamarine Emerald-Cut", desc: "Deep ocean blue, precision emerald-cut" },
       { src: aquamarineEmeraldLight, name: "Aquamarine Emerald-Cut", desc: "Sky blue, classic emerald-cut" },
       { src: aquamarineCoffin, name: "Aquamarine Coffin-Cut", desc: "Icy blue, unique coffin-cut" },
       { src: aquamarinePear, name: "Aquamarine Pear", desc: "Vivid Swiss blue, pear brilliant-cut" },
+
+
     ],
   },
   {
     category: "Tourmaline",
     gems: [
+      { src: tourmalineOctagonOne, name: "Tourmaline Octagon", desc: "Loose Gemstone · Octagon Cut Tourmaline" },
+{ src: tourmalineOctagonTwo, name: "Tourmaline Octagon", desc: "Loose Gemstone · Octagon Cut Tourmaline" },
+{ src: tourmalinePear, name: "Tourmaline Pear", desc: "Loose Gemstone · Pear Cut Tourmaline" },
+{ src: tourmalineOval, name: "Tourmaline Oval", desc: "Loose Gemstone · Oval Cut Tourmaline" },
       { src: tourmalineRadiantPurple, name: "Tourmaline Radiant", desc: "Tourmaline, vivid purple radiant-cut" },
       { src: tourmalineOvalPink, name: "Tourmaline Oval", desc: "Tourmaline, deep pink oval-cut" },
       { src: tourmalineBicolourEmerald, name: "Tourmaline Bi-Colour", desc: "Tourmaline, bi-colour emerald-cut" },

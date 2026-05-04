@@ -230,6 +230,34 @@ import pinkSapphireWithDiamondRing5 from "@/assets/pink-sapphire-with-diamond-ri
 
 import diamondEarrings from "@/assets/diamond-earrings.jpeg";
 
+
+
+
+import yellowSapphireWithDiamondRing5 from "@/assets/yellow-sapphire-with-diamond-ring-5.jpeg";
+import blueMoonstoneRing from "@/assets/blue-moonstone-ring.jpeg";
+import tsavoriteWithDiamondRing3 from "@/assets/tsavorite-with-diamond-ring-3.jpeg";
+import yellowSapphireWithDiamondRing6 from "@/assets/yellow-sapphire-with-diamond-ring-6.jpeg";
+import garnetRing2 from "@/assets/garnet-ring-2.jpeg";
+import yellowSapphireWithDiamondRing7 from "@/assets/yellow-sapphire-with-diamond-ring-7.jpeg";
+import tsavoriteWithDiamondRing4 from "@/assets/tsavorite-with-diamond-ring-4.jpeg";
+import amethystRing from "@/assets/amethyst-ring.jpeg";
+import yellowSapphireWithDiamondRing8 from "@/assets/yellow-sapphire-with-diamond-ring-8.jpeg";
+import tsavoriteWithDiamondRing5 from "@/assets/tsavorite-with-diamond-ring-5.jpeg";
+import yellowSapphireWithDiamondRing9 from "@/assets/yellow-sapphire-with-diamond-ring-9.jpeg";
+import tsavoriteRing from "@/assets/tsavorite-ring.jpeg";
+import tsavoriteWithDiamondRing6 from "@/assets/tsavorite-with-diamond-ring-6.jpeg";
+
+
+import tsavoriteWithDiamondEarring3 from "@/assets/tsavorite-with-diamond-earring.jpeg";
+import rubyWithDiamondEarringOne from "@/assets/ruby-with-diamond-earring-1.jpeg";
+import blueSapphireWithDiamondEarringOne from "@/assets/blue-sapphire-with-diamond-earring-3.jpeg";
+import diamondEarringOne from "@/assets/diamond-earring-1.jpeg";
+import rubyWithDiamondEarringTwo from "@/assets/ruby-with-diamond-earring-2.jpeg";
+import diamondEarringTwo from "@/assets/diamond-earring-2.jpeg";
+import greenSapphireWithDiamondEarring from "@/assets/green-sapphire-with-diamond-earring.jpeg";
+import blueSapphireWithDiamondEarringTwo from "@/assets/blue-sapphire-with-diamond-earring-4.jpeg";
+import blueSapphireWithDiamondEarringThree from "@/assets/blue-sapphire-with-diamond-earring-5.jpeg";
+
 type PieceItem = {
   src: string | string[];
   name: string;
@@ -255,6 +283,23 @@ const jewelleryByMetal: JewelleryMetal[] = [
       {
         category: "Rings",
         pieces: [
+          { src: tsavoriteWithDiamondEarring3, name: "TSAVORITE With Diamond Earring", desc: "Gold · Tsavorite & Diamonds" },
+
+          { src: yellowSapphireWithDiamondRing5, name: "Yellow Sapphire With Diamond Ring", desc: "Gold · Yellow Sapphire & Diamonds" },
+{ src: blueMoonstoneRing, name: "Blue Moonstone Ring", desc: "Gold · Blue Moonstone" },
+{ src: tsavoriteWithDiamondRing3, name: "TSAVORITE With Diamond Ring", desc: "Gold · Tsavorite & Diamonds" },
+{ src: yellowSapphireWithDiamondRing6, name: "Yellow Sapphire With Diamond Ring", desc: "Gold · Yellow Sapphire & Diamonds" },
+{ src: garnetRing2, name: "Garnet Ring", desc: "Gold · Garnet" },
+{ src: yellowSapphireWithDiamondRing7, name: "Yellow Sapphire With Diamond Ring", desc: "Gold · Yellow Sapphire & Diamonds" },
+{ src: tsavoriteWithDiamondRing4, name: "TSAVORITE With Diamond Ring", desc: "Gold · Tsavorite & Diamonds" },
+{ src: amethystRing, name: "Amethyst Ring", desc: "Gold · Amethyst" },
+{ src: yellowSapphireWithDiamondRing8, name: "Yellow Sapphire With Diamond Ring", desc: "Gold · Yellow Sapphire & Diamonds" },
+{ src: tsavoriteWithDiamondRing5, name: "TSAVORITE With Diamond Ring", desc: "Gold · Tsavorite & Diamonds" },
+{ src: yellowSapphireWithDiamondRing9, name: "Yellow Sapphire with Diamond Ring", desc: "Gold · Yellow Sapphire & Diamonds" },
+{ src: tsavoriteRing, name: "TSAVORITE Ring", desc: "Gold · Tsavorite" },
+{ src: tsavoriteWithDiamondRing6, name: "TSAVORITE With Diamond Ring", desc: "Gold · Tsavorite & Diamonds" },
+
+
           { src: sapphireRing, name: "Royal Blue Sapphire - 6 Carat", desc: "White Gold · Diamonds" },
           { src: emeraldRing, name: "Tsavorite - 4 Carat", desc: "CUSTOM MADE · Yellow Gold · Diamond Halo" },
           { src: blueSapphireRing, name: "Blue Sapphire - 3 Carat", desc: "Rose Gold · Round & Marquise Diamonds" },
@@ -345,6 +390,14 @@ const jewelleryByMetal: JewelleryMetal[] = [
       {
         category: "Earrings",
         pieces: [
+          { src: rubyWithDiamondEarringOne, name: "Ruby With Diamond Earring", desc: "Gold · Ruby & Diamonds" },
+{ src: blueSapphireWithDiamondEarringOne, name: "Blue Sapphire With Diamond Earring", desc: "Gold · Blue Sapphire & Diamonds" },
+{ src: diamondEarringOne, name: "Diamond Earring", desc: "Gold · Diamonds" },
+{ src: rubyWithDiamondEarringTwo, name: "Ruby With Diamond Earring", desc: "Gold · Ruby & Diamonds" },
+{ src: diamondEarringTwo, name: "Diamond Earring", desc: "Gold · Diamonds" },
+{ src: greenSapphireWithDiamondEarring, name: "Green Sapphire With Diamond Earring", desc: "Gold · Green Sapphire & Diamonds" },
+{ src: blueSapphireWithDiamondEarringTwo, name: "Blue Sapphire With Diamond Earring", desc: "Gold · Blue Sapphire & Diamonds" },
+{ src: blueSapphireWithDiamondEarringThree, name: "Blue Sapphire With Diamond Earring", desc: "Gold · Blue Sapphire & Diamonds" },
           { src: rubyDiamondStuds, name: "Rubies & Diamonds", desc: "CUSTOM MADE · White Gold · Openwork Lattice" },
           { src: pinkTourmalineDropEarrings, name: "Pink Tourmaline", desc: "White Gold · Diamond Halo & Pavé" },
           { src: tsavoriteDropEarrings, name: "Tsavorite", desc: "Yellow Gold · Diamond Sunburst Halo" },
