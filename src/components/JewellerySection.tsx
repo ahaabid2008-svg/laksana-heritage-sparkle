@@ -283,7 +283,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
       {
         category: "Rings",
         pieces: [
-          { src: tsavoriteWithDiamondEarring3, name: "TSAVORITE With Diamond Earring", desc: "Gold · Tsavorite & Diamonds" },
+          
 
           { src: yellowSapphireWithDiamondRing5, name: "Yellow Sapphire With Diamond Ring", desc: "Gold · Yellow Sapphire & Diamonds" },
 { src: blueMoonstoneRing, name: "Blue Moonstone Ring", desc: "Gold · Blue Moonstone" },
@@ -390,6 +390,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
       {
         category: "Earrings",
         pieces: [
+          { src: tsavoriteWithDiamondEarring3, name: "TSAVORITE With Diamond Earring", desc: "Gold · Tsavorite & Diamonds" },
           { src: rubyWithDiamondEarringOne, name: "Ruby With Diamond Earring", desc: "Gold · Ruby & Diamonds" },
 { src: blueSapphireWithDiamondEarringOne, name: "Blue Sapphire With Diamond Earring", desc: "Gold · Blue Sapphire & Diamonds" },
 { src: diamondEarringOne, name: "Diamond Earring", desc: "Gold · Diamonds" },
