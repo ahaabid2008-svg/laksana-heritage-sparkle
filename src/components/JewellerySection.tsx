@@ -213,7 +213,7 @@ import tourmalineBangleOne from "@/assets/tourmaline-bangle-1.jpeg";
 import tourmalineBangleTwo from "@/assets/tourmaline-bangle-2.jpeg";
 
 import alexandriteWithDiamondRing from "@/assets/alexandrite-with-diamond-ring.jpeg";
-import diamondRing from "@/assets/diamond-ring.jpeg";
+
 import yellowSapphireWithDiamondRing1 from "@/assets/yellow-sapphire-with-diamond-ring-1.jpeg";
 import tsavoriteWithDiamondRing1 from "@/assets/tsavorite-with-diamond-ring-1.jpeg";
 import orangeSapphireWithDiamondRing from "@/assets/orange-sapphire-with-diamond-ring.jpeg";
@@ -228,7 +228,6 @@ import pinkSapphireWithDiamondRing3 from "@/assets/pink-sapphire-with-diamond-ri
 import pinkSapphireWithDiamondRing4 from "@/assets/pink-sapphire-with-diamond-ring-4.jpeg";
 import pinkSapphireWithDiamondRing5 from "@/assets/pink-sapphire-with-diamond-ring-5.jpeg";
 
-import diamondEarrings from "@/assets/diamond-earrings.jpeg";
 
 
 
@@ -349,12 +348,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
             name:"Emerald With Diamond ring",
             desc:  "Gold • Emerald & Diamonds Ring",
           },
-{
-  src: tsavoriteWithDiamondRing,
-  name:  "TSAVORITE with diamond ring",
-  desc:  "Gold • Tsavorite & Diamonds Ring"
-   ,
-},
+
 {
   src: yellowSapphireWithDiamondRing,
   name: "Yellow sapphire with diamond ring",
@@ -368,7 +362,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
 
 
 { src: alexandriteWithDiamondRing, name: "Alexandrite With Diamond Ring", desc: "Gold · Diamonds" },
-    { src: diamondRing, name: "Diamond Ring", desc: "Gold · Diamonds" },
+    
     { src: yellowSapphireWithDiamondRing1, name: "Yellow Sapphire With Diamond Ring", desc: "Gold · Diamonds" },
     { src: tsavoriteWithDiamondRing1, name: "TSAVORITE With Diamond Ring", desc: "Gold · Diamonds" },
     { src: orangeSapphireWithDiamondRing, name: "Orange Sapphire With Diamond Ring", desc: "Gold · Diamonds" },
@@ -447,7 +441,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
       desc: "Yellow Gold • Blue Sapphire & Diamond Drop Earring" 
     },
 
-    { src: diamondEarrings, name: "Diamond Earrings", desc: "Gold · Diamonds" },
+    
         ],
       },
       {
