@@ -5,6 +5,9 @@ import Footer from "@/components/Footer";
 import bespokeYellowGoldTourmalineBangle from "@/assets/bespoke-yellow-gold-tourmaline-bangle.jpeg";
 import diamondEarrings from "@/assets/diamond-earrings.jpeg";
 import diamondRing from "@/assets/diamond-ring.jpeg";
+import kunzitePinkSapphireRing from "@/assets/kunzite-pink-sapphire-ring.jpeg";
+import greenSapphireByzantineRing from "@/assets/green-sapphire-byzantine-ring.jpeg";
+import greenSapphireWhiteSapphireRing from "@/assets/green-sapphire-white-sapphire-ring.jpeg";
 
 
 type BespokeItem = {
@@ -28,6 +31,21 @@ const bespokeItems: BespokeItem[] = [
     src: diamondRing,
     name: "Diamond Ring",
     desc: "A stunning diamond ring crafted with precision and care, showcasing the brilliance of each stone.",
+  },
+  {
+    src: kunzitePinkSapphireRing,
+    name: "Kunzite and Pink Sapphire Ring",
+    desc: "A unique ring featuring the vibrant hues of kunzite and pink sapphire, designed as a bespoke piece of art.",
+  },
+  {
+    src: greenSapphireByzantineRing,
+    name: "Green Sapphire Byzantine Ring",
+    desc: "A stunning ring featuring a vibrant green sapphire, designed with intricate Byzantine-inspired details.",
+  },
+  {
+    src: greenSapphireWhiteSapphireRing,
+    name: "Green Sapphire and White Sapphire Ring",
+    desc: "A beautiful ring showcasing the contrast between a vibrant green sapphire and a pristine white sapphire.",
   }
 ];
 

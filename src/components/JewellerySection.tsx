@@ -12,8 +12,8 @@ import tourmalineTsavoriteCuff from "@/assets/tourmaline-tsavorite-cuff.jpeg";
 import spessartineGarnetRing from "@/assets/spessartine-garnet-ring.jpeg";
 import starSapphireRing from "@/assets/star-sapphire-ring.jpeg";
 import greenSapphireArtDecoRing from "@/assets/green-sapphire-art-deco-ring.jpeg";
-import kunzitePinkSapphireRing from "@/assets/kunzite-pink-sapphire-ring.jpeg";
-import greenSapphireByzantineRing from "@/assets/green-sapphire-byzantine-ring.jpeg";
+
+
 import sapphireCircleDropEarrings from "@/assets/sapphire-circle-drop-earrings.jpeg";
 import aquamarineEarrings from "@/assets/aquamarine-earrings.jpeg";
 import aquamarineRing from "@/assets/aquamarine-ring.jpeg";
@@ -72,7 +72,7 @@ import tourmalinePearDropEarrings from "@/assets/tourmaline-pear-drop-earrings.j
 import sapphireFloralClusterNecklace from "@/assets/sapphire-floral-cluster-necklace.jpeg";
 import tourmalineSignetRing from "@/assets/tourmaline-signet-ring.jpeg";
 
-import greenSapphireWhiteSapphireRing from "@/assets/green-sapphire-white-sapphire-ring.jpeg";
+
 import tealSapphireLoveRing from "@/assets/teal-sapphire-love-ring.jpeg";
 import blueSapphireDomeRing from "@/assets/blue-sapphire-dome-ring.jpeg";
 import blueSapphireDomeRing2 from "@/assets/blue-sapphire-dome-ring-2.jpeg";
@@ -329,9 +329,6 @@ const jewelleryByMetal: JewelleryMetal[] = [
           { src: spessartineGarnetRing, name: "Spessartine Garnet - 9 Carat", desc: "CUSTOM MADE · White Gold · Double Diamond Halo" },
           { src: starSapphireRing, name: "Star Sapphire - 10 Carat", desc: "CUSTOM MADE · Yellow Gold · Beaded Bezel Setting" },
           { src: greenSapphireArtDecoRing, name: "Green Sapphire", desc: "CUSTOM MADE · Yellow Gold · Baguette & Round Diamonds" },
-          { src: kunzitePinkSapphireRing, name: "Kunzite & Pink Sapphire", desc: "CUSTOM MADE · White Gold" },
-          { src: greenSapphireByzantineRing, name: "Green Sapphire - 2 Carat", desc: "CUSTOM MADE · Yellow Gold · Hot Pink Sapphires · Rope Detail" },
-          { src: greenSapphireWhiteSapphireRing, name: "Green Sapphire - 3 Carat", desc: "CUSTOM MADE · White Gold · Two White Sapphires · Rope Detail" },
           { src: tealSapphireLoveRing, name: "Teal & Green Sapphire", desc: "CUSTOM MADE · Yellow Gold · Script Band" },
           { src: [blueSapphireDomeRing, blueSapphireDomeRing2], name: "Blue Sapphire - 7 Carat", desc: "CUSTOM MADE · White Gold · Diamond Filigree Setting" },
           { src: diamondClusterGoldRing, name: "Diamonds", desc: "CUSTOM MADE · Yellow Gold · Floral Cluster · Pavé Band" },
