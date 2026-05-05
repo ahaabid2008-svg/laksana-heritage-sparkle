@@ -3,6 +3,9 @@ import { AnimatePresence, motion, type Variants } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import bespokeYellowGoldTourmalineBangle from "@/assets/bespoke-yellow-gold-tourmaline-bangle.jpeg";
+import diamondEarrings from "@/assets/diamond-earrings.jpeg";
+import diamondRing from "@/assets/diamond-ring.jpeg";
+
 
 type BespokeItem = {
   src: string;
@@ -16,6 +19,16 @@ const bespokeItems: BespokeItem[] = [
     name: "Yellow Gold bangle with Tourmalines",
     desc: "A bespoke yellow gold bangle featuring vivid tourmalines, designed as a refined one-of-a-kind statement piece.",
   },
+  {
+    src: diamondEarrings,
+    name: "Diamond Earrings",
+    desc: "Elegant diamond earrings crafted with precision and care, showcasing the brilliance of each stone.",
+  },
+  {
+    src: diamondRing,
+    name: "Diamond Ring",
+    desc: "A stunning diamond ring crafted with precision and care, showcasing the brilliance of each stone.",
+  }
 ];
 
 const luxeEase = [0.22, 1, 0.36, 1] as const;
