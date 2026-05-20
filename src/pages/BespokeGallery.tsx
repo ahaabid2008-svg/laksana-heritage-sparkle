@@ -132,7 +132,7 @@ const BespokeGallery = () => {
           </motion.div>
 
           <motion.div
-            className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10"
+            className="grid grid-cols-2 md:grid-cols-2 gap-4 md:gap-10"
             variants={cardContainer}
             initial="hidden"
             whileInView="visible"
@@ -162,11 +162,11 @@ const BespokeGallery = () => {
                   </div>
                 </button>
 
-                <div className="p-5 md:p-6 border-t border-gray-100">
-                  <h2 className="font-display text-xl md:text-2xl text-gray-900 mb-2">
+                <div className="p-3 md:p-6 border-t border-gray-100">
+                  <h2 className="font-display text-sm md:text-2xl text-gray-900 mb-1 md:mb-2 line-clamp-2">
                     {item.name}
                   </h2>
-                  <p className="font-accent text-sm md:text-base text-gray-600 tracking-wide leading-relaxed">
+                  <p className="font-accent text-xs md:text-base text-gray-600 tracking-wide leading-relaxed line-clamp-3 md:line-clamp-none">
                     {item.desc}
                   </p>
                 </div>
