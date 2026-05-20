@@ -325,7 +325,7 @@ const jewelleryByMetal: JewelleryMetal[] = [
         pieces: [
 
           { src: blackDiamondRing, name: "Black Diamond Ring", desc: "White Gold · Black Diamond Pavé Wide Band" },
-{ src: blueSapphireHaloDiamondRing, name: "Blue Sapphire With Diamond Ring", desc: "Gold · Blue Sapphire & Diamond Halo · Pavé Band" },
+{ src: blueSapphireHaloDiamondRing, name: "Tazanite with Diamond Ring", desc: "White Gold · Tazanite · Diamond Halo · Pavé Band" },
 { src: blueSapphireWithDiamondRingNew, name: "Blue Sapphire With Diamond Ring", desc: "White Gold · Blue Sapphire · Split Double Band · Diamonds" },
 { src: pinkSapphireWithDiamondRingNew, name: "Pink Sapphire With Diamond Ring", desc: "White Gold · Pink Sapphire · Split Double Band · Diamonds" },
 { src: garnetWithDiamondRingNew, name: "Garnet With Diamond Ring", desc: "Gold · Garnet · Diamond Halo · Pavé Band" },
