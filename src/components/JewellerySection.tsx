@@ -298,6 +298,38 @@ import tourmalineRingNew from "@/assets/tourmaline-ring-new.jpeg";
 
 
 
+
+import blueSapphireWithDiamondsRing from "@/assets/Blue_Sapphire_With_Diamonds_Ring.jpeg";
+import blueSapphireWithDiamondsRing2 from "@/assets/Blue_Sapphire_With_Diamonds_Ring_2.jpeg";
+import blueSapphireWithDiamondsRing3 from "@/assets/Blue_Sapphire_With_Diamonds_Ring_3.jpeg";
+import blueSapphireWithDiamondsRing4 from "@/assets/Blue_Sapphire_With_Diamonds_Ring_4.jpeg";
+import blueSapphireWithDiamondsRing5 from "@/assets/Blue_Sapphire_With_Diamonds_Ring_5.jpeg";
+import blueSapphireWithDiamondsRing6 from "@/assets/Blue_Sapphire_With_Diamonds_Ring_6.jpeg";
+import blueSapphireWithDiamondsRing7 from "@/assets/Blue_Sapphire_With_Diamonds_Ring_7.jpeg";
+import blueSapphireWithDiamondsRing8 from "@/assets/Blue_Sapphire_With_Diamonds_Ring_8.jpeg";
+import aquamarineWithDiamondsRing from "@/assets/Aquamarine_With_Diamonds_Ring.jpeg";
+import morganiteWithDiamondsRing from "@/assets/Morganite_With_Diamonds_Ring.jpeg";
+import tourmalineWithDiamondsRingNew from "@/assets/Tourmaline_With_Diamonds_Ring.jpeg";
+import tourmalineWithDiamondsRing3 from "@/assets/Tourmaline_With_Diamonds_Ring_3.jpeg";
+import tourmalineRingImg from "@/assets/Tourmaline_Ring.jpeg";
+import tourmalineRingTwo from "@/assets/Tourmaline_Ring_2.jpeg";
+import sapphireWithDiamondRingImg from "@/assets/Sapphire_With_Diamond_Ring.jpeg";
+import tsavoriteWithDiamondsRing from "@/assets/TSAVORITE_With_Diamonds_Ring.jpeg";
+import pinkTourmalineWithBlackDiamondsRing from "@/assets/Pink_Tourmaline_With_Black_Diamonds_Ring.jpeg";
+import blueSapphireYellowSapphireWithDiamondsRing from "@/assets/Blue_Sapphire___Yellow_Sapphire_with_Diamonds_Ring.jpeg";
+import multiColourSapphireRingNew from "@/assets/Multi_Colour_Sapphire_Ring.jpeg";
+import tourmalineWithDiamondsRing2 from "@/assets/Tourmaline_With_Diamonds_Ring_2.jpeg";
+
+
+import pinkSapphireAndGreenSapphireBangle from "@/assets/Pink_Sapphire_and_Green_Sapphire_Bangle_.jpeg";
+import pinkSapphireAndBlueSapphireBangle from "@/assets/Pink_Sapphire_and_Blue_Sapphire_Bangle.jpeg";
+import blueSapphireBangleDuo from "@/assets/Blue_Sapphire_Bangle.jpeg";
+import pinkSapphireAndBlueSapphireBangle2 from "@/assets/Pink_Sapphire_and_Blue_Sapphire_Bangle_2.jpeg";
+import yellowSapphireAndGreenSapphireBangle from "@/assets/Yellow_Sapphire_and_Green_Sapphire_Bangle.jpeg";
+import pinkSapphireAndYellowSapphireBangle from "@/assets/Pink_Sapphire_and_Yellow_Sapphire_Bangle.jpeg";
+
+
+
 type PieceItem = {
   src: string | string[];
   name: string;
@@ -323,6 +355,41 @@ const jewelleryByMetal: JewelleryMetal[] = [
       {
         category: "Rings",
         pieces: [
+
+
+
+          { src: blueSapphireWithDiamondsRing, name: "Blue Sapphire with Diamonds Ring", desc: "White Gold · Blue Sapphire · Pavé Diamond Band" },
+{ src: blueSapphireWithDiamondsRing2, name: "Blue Sapphire with Diamonds Ring", desc: "White Gold · Blue Sapphire · Diamond Halo · Openwork Shank" },
+{ src: blueSapphireWithDiamondsRing3, name: "Blue Sapphire with Diamonds Ring", desc: "White Gold · Blue Sapphire · Diamond Halo · Pavé Band" },
+{ src: blueSapphireWithDiamondsRing4, name: "Blue Sapphire with Diamonds Ring", desc: "White Gold · Blue Sapphire · Three-Stone Diamond Halo" },
+{ src: blueSapphireWithDiamondsRing5, name: "Blue Sapphire with Diamonds Ring", desc: "White Gold · Blue Sapphire · Vintage Diamond Halo" },
+{ src: blueSapphireWithDiamondsRing6, name: "Blue Sapphire with Diamonds Ring", desc: "White Gold · Blue Sapphire · Three-Stone Halo Setting" },
+{ src: blueSapphireWithDiamondsRing7, name: "Blue Sapphire with Diamonds Ring", desc: "White Gold · Blue Sapphire · Wave Diamond Halo" },
+{ src: blueSapphireWithDiamondsRing8, name: "Blue Sapphire with Diamonds Ring", desc: "White Gold · Blue Sapphire · Double Diamond Cluster Halo" },
+{ src: aquamarineWithDiamondsRing, name: "Aquamarine with Diamonds Ring", desc: "Yellow Gold · Aquamarine · Diamond Side Stones" },
+{ src: morganiteWithDiamondsRing, name: "Morganite with Diamonds Ring", desc: "White Gold · Morganite · Diamond Micro Pavé Band" },
+{ src: tourmalineWithDiamondsRingNew, name: "Tourmaline with Diamonds Ring", desc: "Yellow Gold · Tourmaline · Double Diamond Halo" },
+{ src: tourmalineWithDiamondsRing3, name: "Tourmaline with Diamonds Ring", desc: "Yellow Gold · Tourmaline · Double Diamond Halo Setting" },
+{ src: tourmalineRingImg, name: "Tourmaline Ring", desc: "Yellow Gold · Tourmaline · Solitaire Setting" },
+{ src: tourmalineRingTwo, name: "Tourmaline Ring", desc: "Yellow Gold · Tourmaline · Bezel Setting" },
+{ src: sapphireWithDiamondRingImg, name: "Sapphire with Diamond Ring", desc: "Yellow Gold · Sapphire · Diamond Cluster Side Stones" },
+{ src: tsavoriteWithDiamondsRing, name: "Tsavorite with Diamonds Ring", desc: "Yellow Gold · Tsavorite · Diamond Halo" },
+{ src: pinkTourmalineWithBlackDiamondsRing, name: "Pink Tourmaline with Black Diamonds Ring", desc: "White Gold · Pink Tourmaline · Black Diamond Pavé Band" },
+{ src: blueSapphireYellowSapphireWithDiamondsRing, name: "Blue & Yellow Sapphire with Diamonds Ring", desc: "White Gold · Blue & Yellow Sapphire · Three-Stone Diamond Halo" },
+{ src: multiColourSapphireRingNew, name: "Multi Colour Sapphire Ring", desc: "Yellow Gold · Multi-Colour Sapphires · Eternity Band" },
+{ src: tourmalineWithDiamondsRing2, name: "Tourmaline with Diamonds Ring", desc: "Yellow Gold · Tourmaline · Diamond Halo" },
+
+
+
+
+
+
+
+
+
+
+
+
 
           { src: blackDiamondRing, name: "Black Diamond Ring", desc: "White Gold · Black Diamond Pavé Wide Band" },
 { src: blueSapphireHaloDiamondRing, name: "Tazanite with Diamond Ring", desc: "White Gold · Tazanite · Diamond Halo · Pavé Band" },
@@ -533,6 +600,14 @@ const jewelleryByMetal: JewelleryMetal[] = [
       {
         category: "Bangles",
         pieces: [
+
+
+          { src: pinkSapphireAndGreenSapphireBangle, name: "Pink Sapphire & Green Sapphire Bangle", desc: "Gold · Pink & Green Sapphire · Emerald Cut · Open Bangle" },
+{ src: pinkSapphireAndBlueSapphireBangle, name: "Pink Sapphire & Blue Sapphire Bangle", desc: "Gold · Pink & Blue Sapphire · Pear Cut · Open Bangle" },
+{ src: blueSapphireBangleDuo, name: "Blue Sapphire Bangle", desc: "Gold · Blue Sapphire · Round & Emerald Cut · Open Bangle" },
+{ src: pinkSapphireAndBlueSapphireBangle2, name: "Pink Sapphire & Blue Sapphire Bangle", desc: "Gold · Pink & Blue Sapphire · Pear Cut · Open Bangle" },
+{ src: yellowSapphireAndGreenSapphireBangle, name: "Yellow Sapphire & Green Sapphire Bangle", desc: "Gold · Yellow & Green Sapphire · Cushion Cut · Open Bangle" },
+{ src: pinkSapphireAndYellowSapphireBangle, name: "Pink Sapphire & Yellow Sapphire Bangle", desc: "Gold · Pink & Yellow Sapphire · Pear & Emerald Cut · Open Bangle" },
 
 
           { src: blueSapphireAndPinkSapphireBangle, name: "Blue Sapphire & Pink Sapphire Bangle", desc: "Gold · Blue & Pink Sapphire · Heart Cut · Open Bangle" },
