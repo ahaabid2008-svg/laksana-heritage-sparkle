@@ -328,6 +328,21 @@ import pinkSapphireAndBlueSapphireBangle2 from "@/assets/Pink_Sapphire_and_Blue_
 import yellowSapphireAndGreenSapphireBangle from "@/assets/Yellow_Sapphire_and_Green_Sapphire_Bangle.jpeg";
 import pinkSapphireAndYellowSapphireBangle from "@/assets/Pink_Sapphire_and_Yellow_Sapphire_Bangle.jpeg";
 
+import bluespphire2ct from "@/assets/Blue Sapphire 2CT, Diamonds, Gold.jpeg";
+import bluesapphire2ct2 from "@/assets/Blue Sapphire 2CT, Diamonds, Gold 2.jpeg";
+import bluesapphire2ct3 from "@/assets/Blue Sapphire 2CT, Diamonds, Gold 3.jpeg";
+import bluesapphire2ct4 from "@/assets/Blue Sapphire 2CT, Diamonds, Gold 4.jpeg";
+import bluesapphire3ct from "@/assets/Blue Sapphire 3CT, Diamonds, Gold.jpeg";
+import bluesapphire4ct from "@/assets/Blue Sapphire 4CT, Diamonds, Gold.jpeg";
+import bluesapphire4ct2 from "@/assets/Blue Sapphire 4CT, Diamonds, Gold 2.jpeg";
+import padparadschassaphirering from "@/assets/Padparadscha Sapphire, Diamonds, Gold.jpeg";
+import pinksapphire3ctring from "@/assets/Pink Sapphire 3CT, Diamonds, Gold.jpeg";
+import pinksapphire3ctring2 from "@/assets/Pink Sapphire 3CT, Diamonds, Gold 2.jpeg";
+import pinksapphirenormal from "@/assets/Pink Sapphire, Diamonds, Gold.jpeg";
+import tealsapphirering from "@/assets/Teal Sapphire, Diamonds, Gold.jpeg";
+import yellosappire3ctring from "@/assets/Yellow Sapphire 3CT, Diamonds, Gold.jpeg";
+
+
 
 
 type PieceItem = {
@@ -355,6 +370,21 @@ const jewelleryByMetal: JewelleryMetal[] = [
       {
         category: "Rings",
         pieces: [
+
+
+          {src: bluespphire2ct, name: "Blue Sapphire 2CT, Diamonds, Gold", desc: "Yellow Gold · Blue Sapphire · Diamond Halo" },
+          {src: bluesapphire2ct2, name: "Blue Sapphire 2CT, Diamonds, Gold", desc: "Yellow Gold · Blue Sapphire · Diamond Halo" },
+          {src: bluesapphire2ct3, name: "Blue Sapphire 2CT, Diamonds, Gold", desc: "Yellow Gold · Blue Sapphire · Diamond Halo" },
+          {src: bluesapphire2ct4, name: "Blue Sapphire 2CT, Diamonds, Gold", desc: "Yellow Gold · Blue Sapphire · Diamond Halo" },
+          {src: bluesapphire3ct, name: "Blue Sapphire 3CT, Diamonds, Gold", desc: "Yellow Gold · Blue Sapphire · Diamond Halo" },
+          {src: bluesapphire4ct, name: "Blue Sapphire 4CT, Diamonds, Gold", desc: "Yellow Gold · Blue Sapphire · Diamond Halo" },
+          {src: bluesapphire4ct2, name: "Blue Sapphire 4CT, Diamonds, Gold", desc: "Yellow Gold · Blue Sapphire · Diamond Halo" },
+          {src: padparadschassaphirering, name: "Padparadscha Sapphire, Diamonds, Gold", desc: "Yellow Gold · Padparadscha Sapphire · Diamond Halo" },
+          {src: pinksapphire3ctring, name: "Pink Sapphire 3CT, Diamonds, Gold", desc: "Yellow Gold · Pink Sapphire · Diamond Halo" },
+          {src: pinksapphire3ctring2, name: "Pink Sapphire 3CT, Diamonds, Gold", desc: "Yellow Gold · Pink Sapphire · Diamond Halo" },
+          {src: pinksapphirenormal, name: "Pink Sapphire Normal, Diamonds, Gold", desc: "Yellow Gold · Pink Sapphire · Diamond Halo" },
+          {src: tealsapphirering, name: "Teal Sapphire, Diamonds, Gold", desc: "Yellow Gold · Teal Sapphire · Diamond Halo" },
+          {src: yellosappire3ctring, name: "Yellow Sapphire 3CT, Diamonds, Gold", desc: "Yellow Gold · Yellow Sapphire · Diamond Halo" },
 
 
 
