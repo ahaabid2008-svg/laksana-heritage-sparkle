@@ -141,6 +141,7 @@ const mobileItemVariant: Variants = {
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [hidden, setHidden] = useState(false);
   const [collectionHover, setCollectionHover] = useState(false);
   const [collectionOpen, setCollectionOpen] = useState(false);
   const [expandedSub, setExpandedSub] = useState<string | null>(null);
@@ -152,10 +153,18 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    const onScroll = () => setIsScrolled(window.scrollY > 20);
+    let lastY = window.scrollY;
+    const onScroll = () => {
+      const y = window.scrollY;
+      setIsScrolled(y > 20);
+      if (Math.abs(y - lastY) > 6) {
+        setHidden(y > lastY && y > 160);
+        lastY = y;
+      }
+    };
     onScroll();
 
-    window.addEventListener("scroll", onScroll);
+    window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
@@ -200,7 +209,7 @@ const Navbar = () => {
   return (
     <motion.nav
       initial={{ y: -24, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
+      animate={{ y: hidden && !open && !collectionHover ? "-110%" : 0, opacity: 1 }}
       transition={{ duration: 0.65, ease: luxeEase }}
       className={`fixed top-0 left-0 right-0 z-50 luxury-navbar ${
         isScrolled ? "luxury-navbar-scrolled" : ""
