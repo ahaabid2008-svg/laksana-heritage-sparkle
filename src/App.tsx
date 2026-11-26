@@ -5,6 +5,10 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "./pages/NotFound.tsx";
 import { lazy, Suspense } from "react";
+import Preloader from "@/components/motion/Preloader";
+import SmoothScroll from "@/components/motion/SmoothScroll";
+import Cursor from "@/components/motion/Cursor";
+import { Grain, RouteTransition, ScrollProgress } from "@/components/motion/Chrome";
 
 const Index = lazy(() => import("./pages/Index"));
 const Collection = lazy(() => import("./pages/Collection"));
@@ -18,7 +22,13 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-      <Suspense fallback={<div className="fmin-h-screen bg-background text-cream flex items-center justify-center">Loading...</div>}>
+      <Preloader />
+      <SmoothScroll />
+      <RouteTransition />
+      <ScrollProgress />
+      <Cursor />
+      <Grain />
+      <Suspense fallback={<div className="min-h-screen bg-background" />}>
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/collection" element={<Collection />} />
